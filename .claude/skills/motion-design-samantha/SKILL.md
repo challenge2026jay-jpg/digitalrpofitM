@@ -33,6 +33,15 @@ Chaîne de production complète, éprouvée sur la vidéo « Dropshipping en RDC
    ```
    Noter : rythme, sous-titres mot par mot, mots-clés surlignés, cartes et icônes, coches, tampons, transitions, appel final.
 
+3. **Dossier Drive « Identité Claude »** (`1KMWBxS078lwEnvu_HktsQeb66NsVK7NU`) :
+   - Lister avec `search_files` (`parentId = '…'`, avec pagination).
+   - Le connecteur Drive ne transmet les fichiers qu'en base64 dans la conversation, ce qui est inutilisable pour des images ou des vidéos.
+   - Si les fichiers sont partagés par lien, les télécharger directement : `curl -sSfL "https://drive.usercontent.google.com/download?id=<ID>&export=download"`.
+   - Le même blocage empêche de **déposer** une vidéo sur Drive : le dire à Samantha au lieu de le prétendre fait.
+4. **Storyboard en images numérotées** (`01_…png` à `12_…png`) : une image par scène, à placer dans un cadre photo (composition `DropshippingRDC12`, `src/scenes12.tsx`). Relever les coordonnées des zones à surligner sur une copie quadrillée (`drawgrid`), puis les convertir avec `P(x, y, focusY)`.
+
+Si le script est identique à une vidéo précédente, **réutiliser** la voix, l'alignement et les pauses déjà produits (environ 1 900 crédits économisés) et le signaler.
+
 ## 2. Voix off (ElevenLabs, connecteur complet `Eleven_labs`)
 
 1. `creative_create_flow` pour regrouper toutes les générations du projet.
@@ -67,6 +76,8 @@ Les fins de mot données par Scribe débordent légèrement sur le silence : se 
   - Le nœud n'impose pas l'instrumental. **Vérifier l'absence de chant** en transcrivant la musique : une transcription vide signifie pas de paroles.
   - Par défaut, 4 variations sont générées, d'environ 900 crédits chacune.
   - Mesurer la fin du morceau (`volumedetect` seconde par seconde). Si elle s'éteint trop tôt, décaler la musique (`MUSIC_DELAY`) pour que sa fin naturelle tombe sur le dernier plan.
+  - Si le morceau est trop court, mesurer le tempo (`data/tempo.py`) et l'allonger d'un nombre entier de mesures, sans nouvelle génération. Exemple : `atrim=0:36.70` + `atrim=30` avec `acrossfade=d=1.5:c1=qsin:c2=qsin`. Le point de jonction doit être décalé d'un multiple de la mesure, et les courbes `qsin` évitent le creux de volume.
+- **Fin d'un élément ou d'un tampon :** caler l'apparition sur le **début** du mot (`at`) plutôt que sur sa fin (`endOf`) quand la scène se termine juste après le mot. Sinon l'élément n'apparaît qu'en sortie de scène.
 - **Effets sonores :** synthétisés avec ffmpeg (aucun droit tiers), déjà présents dans `public/sfx/` (pop, whoosh, ding, thud, click).
 - **Police :** Poppins TTF (OFL) dans `public/fonts/`, chargée en local avec `FontFace`. Google Fonts échoue derrière le proxy (`ERR_CERT_AUTHORITY_INVALID`).
 - **Droits :** rien venant de Pinterest ou d'ailleurs sans source et licence vérifiées. Tout tracer dans `video/README.md`.

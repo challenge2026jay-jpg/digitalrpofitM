@@ -31,7 +31,8 @@ const buildChunks = (): Chunk[] => {
 
 const CHUNKS = buildChunks();
 
-export const Captions: React.FC = () => {
+// `hide(t)` masque les sous-titres quand un autre élément porte déjà la phrase.
+export const Captions: React.FC<{ hide?: (t: number) => boolean }> = ({ hide }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -39,7 +40,7 @@ export const Captions: React.FC = () => {
   // Ligne active : la dernière dont le premier mot a commencé (légère anticipation).
   let idx = -1;
   for (let i = 0; i < CHUNKS.length; i++) if (t >= CHUNKS[i].start - 0.08) idx = i;
-  if (idx < 0) return null;
+  if (idx < 0 || hide?.(t)) return null;
   const chunk = CHUNKS[idx];
   const enter = spring({ frame: frame - Math.round((chunk.start - 0.08) * fps), fps, config: { damping: 16, stiffness: 180 } });
 

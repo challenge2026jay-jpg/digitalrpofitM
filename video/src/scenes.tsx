@@ -5,9 +5,9 @@ import { C, Card, Check, Icon, Pill, Pop, fontFamily, usePop } from "./ui";
 
 type SceneProps = { start: number; dur: number };
 
-// Convertit un instant absolu de la narration en frame locale de la séquence.
 export const OVERLAP = 7;
 
+// Convertit un instant absolu de la narration en frame locale de la séquence.
 const useLocal = (start: number) => (abs: number) => f(abs - start);
 
 // Conteneur de scène : entrée, sortie propre et léger mouvement de caméra simulé.

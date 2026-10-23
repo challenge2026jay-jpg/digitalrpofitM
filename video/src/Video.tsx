@@ -56,11 +56,11 @@ const Background: React.FC = () => {
 };
 
 // Bulle photo en haut à droite, nom au-dessus ; elle s'efface quand la grande photo de fin apparaît.
-const Avatar: React.FC = () => {
+export const Avatar: React.FC<{ hideAt?: number }> = ({ hideAt = at("clique") }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const enter = spring({ frame: frame - 6, fps, config: { damping: 13 } });
-  const hide = interpolate(frame, [f(at("clique")) - 8, f(at("clique")) + 4], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const hide = interpolate(frame, [f(hideAt) - 8, f(hideAt) + 4], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const breathe = 1 + 0.015 * Math.sin(frame / 18);
   return (
     <div style={{ position: "absolute", top: 50, right: 46, display: "flex", flexDirection: "column", alignItems: "center", opacity: enter * hide, transform: `scale(${(0.6 + 0.4 * enter) * breathe})`, transformOrigin: "top right", fontFamily }}>
@@ -74,7 +74,7 @@ const Avatar: React.FC = () => {
   );
 };
 
-const Chrome: React.FC = () => (
+export const Chrome: React.FC = () => (
   <>
     <div style={{ position: "absolute", top: 92, left: 56, fontFamily, display: "flex", flexDirection: "column", gap: 10 }}>
       <div style={{ background: C.white, color: C.navy, fontWeight: 900, fontSize: 34, padding: "12px 26px", borderRadius: 999, boxShadow: "0 8px 20px rgba(11,37,69,0.12)" }}>
