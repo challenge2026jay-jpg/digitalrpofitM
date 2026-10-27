@@ -228,7 +228,7 @@ export const SceneSamantha: React.FC<SceneProps> = ({ start, dur }) => {
         <div style={{ position: "absolute", left: 660, top: 700, opacity: burst, transform: `scale(${0.6 + 0.4 * burst}) rotate(${frame * 0.15}deg)` }}>
           <Burst size={480} />
         </div>
-        <PhotoCard src="img/samantha_presentation.jpg" cue={0} x={190} y={190} w={700} h={980} pos="50% 22%" />
+        <PhotoCard src="img/samantha_presentation.jpg" cue={0} x={190} y={190} w={700} h={980} pos="50% 30%" />
         <Reveal cue={c("Je suis")} style={{ left: PAD, top: 1230 }}>
           <Kicker size={54}>Je suis</Kicker>
         </Reveal>
@@ -246,7 +246,7 @@ export const SceneSamantha: React.FC<SceneProps> = ({ start, dur }) => {
       <Reveal cue={out + 6} style={{ left: PAD, top: 210 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 26 }}>
           <div style={{ width: 150, height: 150, borderRadius: 999, overflow: "hidden", border: `5px solid ${C.white}`, boxShadow: "0 14px 30px rgba(60,35,20,0.18)" }}>
-            <Img src={staticFile("img/samantha_presentation.jpg")} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 12%", transform: "scale(2.2)", transformOrigin: "50% 10%" }} />
+            <Img src={staticFile("img/samantha_presentation.jpg")} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 20%", transform: "scale(1.7)", transformOrigin: "50% 26%" }} />
           </div>
           <div>
             <div style={{ ...big(46, C.ink), fontWeight: 600 }}>Samantha Mwange</div>

@@ -20,7 +20,7 @@ Le projet `woman-business/` est le **gabarit** de référence : on le duplique (
 ## 1. Inventaire des ressources
 
 1. **Dépôt :** `git fetch --all`, puis chercher les ressources nommées dans le brief dans toutes les branches (`git ls-tree -r --name-only <branche>`, `git grep -i`). « Kalosanga » n'existe dans aucune branche au 27/10/2026 ; si on le redemande, revérifier, puis le dire précisément.
-2. **Drive :** lister le dossier avec `search_files` (`parentId = '…'`, pagination). Télécharger les fichiers directement : `curl -sSfL "https://drive.usercontent.google.com/download?id=<ID>&export=download"`. Faire une planche (`ffmpeg … hstack`) et la regarder avant de choisir. Photos validées : `fierte_debout_endroit_chic.png` (tailleur ivoire, présentation), `samantha_assise_jambes_croisees_telephone_en_main.png` (scène WhatsApp), `sourire_portrait_face.png` (appel à l'action).
+2. **Drive :** lister le dossier avec `search_files` (`parentId = '…'`, pagination). Télécharger les fichiers directement : `curl -sSfL "https://drive.usercontent.google.com/download?id=<ID>&export=download"`. Faire une planche (`ffmpeg … hstack`) et la regarder avant de choisir. Photos validées : pour la présentation, le portrait en blazer marine, main au menton, fond brun (fourni par Samantha ; copie dans `woman-business/public/img/samantha_presentation.jpg`), préféré par elle à `fierte_debout_endroit_chic.png` ; `samantha_assise_jambes_croisees_telephone_en_main.png` (scène WhatsApp), `sourire_portrait_face.png` (appel à l'action).
 3. **Pinterest / « My Browser » :** non disponible dans les sessions cloud ; le signaler.
 
 ## 2. Analyser la vidéo de référence
