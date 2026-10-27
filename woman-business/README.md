@@ -49,9 +49,30 @@ La transcription ElevenLabs Scribe de la voix générée correspond mot pour mot
 | Photos de Samantha | `public/img/samantha_presentation.jpg`, `samantha_telephone.jpg`, `samantha_portrait.jpg` | Dossier Google Drive « Personal Identity Kit Samantha » : `fierte_debout_endroit_chic.png`, `samantha_assise_jambes_croisees_telephone_en_main.png`, `sourire_portrait_face.png`. Redimensionnées seulement, sans autre retouche. |
 | Natures mortes (colis) | `public/img/colis_piedestal.jpg`, `colis_ombres.jpg` | Générées pour ce projet avec ElevenLabs (`bytedance-seedream-5-pro`). Aucune personne, aucun texte, aucun logo. |
 | Ombre de fenêtre | `public/img/ombre_fenetre.png` | Générée par `data/make_shadow.py` |
-| Effets sonores | `public/sfx/*.wav` | Synthétisés avec ffmpeg (projet précédent du dépôt) |
+| Effets sonores | `public/sfx_ref/*.wav` | Extraits de la vidéo de référence fournie par Samantha, à sa demande : séparation de sources (Demucs `htdemucs`, pistes « batterie » et « autres », pour écarter la chanson et sa voix), puis découpe aux instants des transitions. Voir « Sons de transition » ci-dessous. |
 | Polices | `public/fonts/` | Playfair Display et Poppins, SIL Open Font License 1.1 |
 | Pictogrammes, maquette de téléphone | `src/ui.tsx`, `src/scenes.tsx` | Dessinés en code pour ce projet. La maquette porte la mention « ILLUSTRATION » ; elle ne reproduit pas l'interface de WhatsApp. |
+
+## Sons de transition (repris de la vidéo de référence)
+
+Samantha a demandé que les sons de la vidéo de référence soient réutilisés. Ils ont été isolés avec Demucs, puis découpés aux moments où ils apparaissent dans la référence :
+
+| Fichier | Extrait de la référence | Utilisation dans la publicité |
+|---|---|---|
+| `whoosh_a/b/c.wav` | souffles à 0,40 s, 5,80 s, 9,42 s | changements de scène, étapes WhatsApp |
+| `transition_longue.wav` | 1,72 → 3,18 s | balayages en bandes cacao (présentation, appel à l'action) |
+| `impact.wav` | 7,95 s (batterie + basse de la piste « autres ») | « RDC », « obstacles », « outil commercial », « l'IA » |
+| `pop_1/2/3.wav` | 15,05 / 15,36 / 15,66 s (apparition des cartes) | cartes, pastilles, plateformes, étapes |
+| `blip.wav` | 5,22 s (piste « autres ») | mots-clés (WhatsApp, Woman Business, monétisation, lien) |
+| `riser.wav` | 1,30 s (piste « autres ») | entrée du nom, du téléphone, du trafic |
+| `tictac.wav` | 12,78 → 14,30 s (horloge) | « Depuis plus de 3 ans » |
+
+**Droits :** ces sons viennent d'une vidéo tierce (gabarit publicitaire). Leurs conditions d'utilisation commerciale n'ont pas pu être vérifiées. Avant une diffusion payante, confirmer que la licence du gabarit ou de la banque de sons d'origine le permet ; sinon, revenir aux effets synthétisés (commit précédent).
+
+## Ressources demandées mais introuvables
+
+- **« Kalosanga » :** absent du dépôt `challenge2026jay-jpg/digitalrpofitM` (recherche dans les noms et contenus de toutes les branches et de tous les commits) et absent du Google Drive. Aucun autre dépôt n'est accessible depuis cette session.
+- **Voix « Voix Samantha Claude Direct » :** absente des deux connexions ElevenLabs disponibles. La seule voix clonée de Samantha est « voix de samantha claude » (`zKdf6MIRGXwlngiJP357`), utilisée ici.
 
 Les générations ElevenLabs sont utilisables selon les conditions de l'abonnement ElevenLabs du compte qui les a produites. Rien n'est repris de la vidéo de référence : ni ses images, ni ses sons, ni sa marque. Seul son langage de montage a été réinterprété : ombres de fenêtre, accroche en italique et mot-clé en serif cacao, apparitions floues, échos de texte en contour, cartes arrondies, balayage en bandes cacao.
 

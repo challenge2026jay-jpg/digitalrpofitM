@@ -61,23 +61,55 @@ const Signature: React.FC = () => {
   );
 };
 
-// Effets sonores discrets, chacun calé sur un mot de la narration.
+// Effets sonores extraits de la vidéo de référence (public/sfx_ref, voir README),
+// chacun calé sur une transition ou une animation, elle-même calée sur un mot de la narration.
+const WHOOSHES = ["whoosh_a", "whoosh_b", "whoosh_c"];
+const POPS = ["pop_1", "pop_2", "pop_3"];
+const pop = (t: number, i: number, vol = 0.32) => ({ file: POPS[i % POPS.length], t, vol });
+
 const SFX: { file: string; t: number; vol: number }[] = [
-  ...(["obstacles", "whatsapp", "ia", "commandes", "trafic"] as SceneName[]).map((s) => ({ file: "whoosh", t: SCENES[s][0] - 0.05, vol: 0.14 })),
-  ...STRIPES_AT.map((t) => ({ file: "whoosh", t: t - 0.15, vol: 0.22 })),
-  { file: "thud", t: at("RDC"), vol: 0.22 },
-  ...["fournisseur", "paiements", "transport", "frais"].map((w) => ({ file: "pop", t: at(w), vol: 0.16 })),
-  { file: "click", t: at("Samantha"), vol: 0.16 },
-  ...["dropshipping", "l'intelligence"].map((w) => ({ file: "pop", t: at(w), vol: 0.15 })),
-  { file: "pop", t: at("commerce", "faciliter"), vol: 0.15 },
-  ...["apprends", "présenter", "transformer"].map((w) => ({ file: "click", t: at(w), vol: 0.14 })),
-  { file: "ding", t: at("achats"), vol: 0.16 },
-  ...["rechercher", "créer"].map((w) => ({ file: "pop", t: at(w), vol: 0.15 })),
-  { file: "pop", t: at("outils", "découvrir"), vol: 0.15 },
-  { file: "pop", t: at("développer", "vidéo"), vol: 0.15 },
-  ...["TikTok", "YouTube", "Instagram"].map((w) => ({ file: "pop", t: at(w), vol: 0.15 })),
-  { file: "click", t: at("cliquant"), vol: 0.18 },
-  { file: "ding", t: at("lien"), vol: 0.2 },
+  // Transitions entre scènes : souffle de la référence, juste avant le fondu.
+  ...(["obstacles", "whatsapp", "ia", "commandes", "trafic"] as SceneName[]).map((s, i) => ({ file: WHOOSHES[i % WHOOSHES.length], t: SCENES[s][0] - 0.12, vol: 0.4 })),
+  // Balayages en bandes cacao : longue transition de la référence.
+  ...STRIPES_AT.map((t) => ({ file: "transition_longue", t: t - 0.45, vol: 0.38 })),
+  // Accroche : « RDC » arrive en gros plan.
+  { file: "impact", t: at("RDC") - 0.03, vol: 0.4 },
+  { file: "whoosh_b", t: at("commerce") - 0.15, vol: 0.3 },
+  { file: "blip", t: at("l'étranger"), vol: 0.22 },
+  // Cartes des obstacles.
+  ...["fournisseur", "paiements", "transport", "frais"].map((w, i) => pop(at(w), i)),
+  { file: "impact", t: at("obstacles"), vol: 0.3 },
+  // Présentation de Samantha.
+  { file: "riser", t: at("Samantha") - 0.1, vol: 0.22 },
+  { file: "blip", t: at("Woman"), vol: 0.22 },
+  { file: "tictac", t: at("Depuis"), vol: 0.22 },
+  ...["dropshipping", "l'intelligence"].map((w, i) => pop(at(w), i)),
+  pop(at("commerce", "faciliter"), 2),
+  // WhatsApp, étape par étape.
+  { file: "blip", t: at("WhatsApp"), vol: 0.22 },
+  { file: "riser", t: at("Au lieu") - 0.2, vol: 0.2 },
+  ...["apprends", "présenter", "transformer"].map((w, i) => ({ file: WHOOSHES[(i + 1) % 3], t: at(w) - 0.1, vol: 0.26 })),
+  pop(at("achats"), 0, 0.34),
+  { file: "impact", t: at("outil"), vol: 0.26 },
+  // Usages de l'IA : une carte par usage.
+  { file: "blip", t: at("démonstrations"), vol: 0.2 },
+  pop(at("outils", "découvrir"), 0),
+  pop(at("rechercher"), 1),
+  pop(at("créer"), 2),
+  pop(at("développer", "vidéo"), 0),
+  // Étapes d'une commande internationale.
+  ...[0, 1, 2, 3].map((i) => pop(at("étapes") + (i * 8) / 30, i + 1, 0.26)),
+  // Trafic et plateformes.
+  { file: "riser", t: at("trafic") - 0.15, vol: 0.22 },
+  { file: "blip", t: at("monétisation"), vol: 0.2 },
+  ...["TikTok", "YouTube", "Instagram"].map((w, i) => pop(at(w), i)),
+  // Appel à l'action.
+  { file: "impact", t: at("l'IA", "Tu veux apprendre"), vol: 0.3 },
+  { file: "blip", t: at("gratuitement"), vol: 0.22 },
+  { file: "riser", t: at("Woman", "Rejoins") - 0.1, vol: 0.22 },
+  pop(at("cliquant"), 1, 0.36),
+  { file: "blip", t: at("lien"), vol: 0.24 },
+  ...["outils", "démonstrations", "opportunités"].map((w, i) => pop(at(w, "ci-dessous"), i, 0.24)),
 ];
 
 export const WomanBusiness: React.FC = () => {
@@ -118,8 +150,8 @@ export const WomanBusiness: React.FC = () => {
         }}
       />
       {SFX.map((s, i) => (
-        <Sequence key={i} from={Math.max(0, f(s.t))} durationInFrames={20} layout="none">
-          <Audio src={staticFile(`sfx/${s.file}.wav`)} volume={s.vol} />
+        <Sequence key={i} from={Math.max(0, f(s.t))} durationInFrames={50} layout="none">
+          <Audio src={staticFile(`sfx_ref/${s.file}.wav`)} volume={s.vol} />
         </Sequence>
       ))}
     </AbsoluteFill>
