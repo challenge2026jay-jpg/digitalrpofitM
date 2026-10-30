@@ -88,6 +88,10 @@ Aucun timecode n'est écrit à la main. `src/timing.ts` charge l'alignement mot 
 
 `out/couverture-tiktok.jpg` (et `.png`) : 1080 × 1920, composition `CouvertureTikTok` (`src/Cover.tsx`). Le texte et la photo restent dans le cadre central 3:4 (y 240 → 1680) que TikTok garde sur la grille du profil, hors de la colonne d'icônes à droite et de la zone de légende en bas. Rendu : `npx remotion still CouvertureTikTok out/couverture-tiktok.png`.
 
+### Version Canva (retenue)
+
+`out/couverture-tiktok-canva.png` / `.jpg` : 1080 × 1920, export Canva qualité « pro ». Design Canva « Couverture TikTok Woman Business » (`DAHZeksubsw`), généré puis retouché : vraie photo de Samantha (la personne générée par Canva a été remplacée), textes « Dropshipping / DEPUIS LA RDC / E-commerce grâce à l'IA / Chaîne WhatsApp gratuite / avec Samantha Mwange », contenu dans la zone visible du profil TikTok.
+
 ## Commandes
 
 ```bash
