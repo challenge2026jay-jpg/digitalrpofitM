@@ -84,6 +84,10 @@ Aucun lien n'a été inventé. L'écran final affiche « Lien ci-dessous » dans
 
 Aucun timecode n'est écrit à la main. `src/timing.ts` charge l'alignement mot par mot, et chaque scène, texte, carte et effet sonore se déclenche sur un mot de la narration, par exemple `at("Instagram")`.
 
+## Couverture TikTok
+
+`out/couverture-tiktok.jpg` (et `.png`) : 1080 × 1920, composition `CouvertureTikTok` (`src/Cover.tsx`). Le texte et la photo restent dans le cadre central 3:4 (y 240 → 1680) que TikTok garde sur la grille du profil, hors de la colonne d'icônes à droite et de la zone de légende en bas. Rendu : `npx remotion still CouvertureTikTok out/couverture-tiktok.png`.
+
 ## Commandes
 
 ```bash

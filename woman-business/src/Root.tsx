@@ -1,7 +1,12 @@
-import { Composition } from "remotion";
+import { Composition, Still } from "remotion";
+import { Cover } from "./Cover";
 import { FPS, TOTAL_FRAMES } from "./timing";
 import { WomanBusiness } from "./Video";
 
 export const RemotionRoot: React.FC = () => (
-  <Composition id="WomanBusiness" component={WomanBusiness} durationInFrames={TOTAL_FRAMES} fps={FPS} width={1080} height={1920} />
+  <>
+    <Composition id="WomanBusiness" component={WomanBusiness} durationInFrames={TOTAL_FRAMES} fps={FPS} width={1080} height={1920} />
+    {/* Couverture TikTok (image fixe) */}
+    <Still id="CouvertureTikTok" component={Cover} width={1080} height={1920} />
+  </>
 );
