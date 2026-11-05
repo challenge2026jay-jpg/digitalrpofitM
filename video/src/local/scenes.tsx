@@ -326,7 +326,7 @@ export const SCalcul: React.FC<SP> = ({ start, dur }) => {
   const res = usePop(cRes, 10);
   return (
     <Panel start={start} dur={dur} enter="zoom">
-      <Pop cue={L(at("mini-ventilateur"))} from="scale" style={{ position: "absolute", left: 0, right: 0, top: 36, display: "flex", justifyContent: "center" }}>
+      <Pop cue={2} from="scale" style={{ position: "absolute", left: 0, right: 0, top: 36, display: "flex", justifyContent: "center" }}>
         <Pill bg={C.white} color={INK} style={{ fontSize: 42, padding: "14px 34px" }}>{Pic.fan(INK, 52)} Exemple : mini-ventilateur</Pill>
       </Pop>
       <div style={{ position: "absolute", left: 60, right: 60, top: 160, display: "flex", flexDirection: "column", gap: 8, opacity: 1 - 0.4 * res }}>
