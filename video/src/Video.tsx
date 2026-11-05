@@ -56,7 +56,7 @@ const Background: React.FC = () => {
 };
 
 // Bulle photo en haut à droite, nom au-dessus ; elle s'efface quand la grande photo de fin apparaît.
-export const Avatar: React.FC<{ hideAt?: number; showAt?: number }> = ({ hideAt = at("clique"), showAt = 0.2 }) => {
+export const Avatar: React.FC<{ hideAt?: number; showAt?: number; pill?: string; pillText?: string }> = ({ hideAt = at("clique"), showAt = 0.2, pill = C.navy, pillText = C.white }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const enter = spring({ frame: frame - f(showAt), fps, config: { damping: 13 } });
@@ -64,7 +64,7 @@ export const Avatar: React.FC<{ hideAt?: number; showAt?: number }> = ({ hideAt 
   const breathe = 1 + 0.015 * Math.sin(frame / 18);
   return (
     <div style={{ position: "absolute", top: 50, right: 46, display: "flex", flexDirection: "column", alignItems: "center", opacity: enter * hide, transform: `scale(${(0.6 + 0.4 * enter) * breathe})`, transformOrigin: "top right", fontFamily }}>
-      <div style={{ background: C.navy, color: C.white, fontWeight: 800, fontSize: 28, padding: "8px 20px", borderRadius: 999, marginBottom: 12, whiteSpace: "nowrap" }}>
+      <div style={{ background: pill, color: pillText, fontWeight: 800, fontSize: 28, padding: "8px 20px", borderRadius: 999, marginBottom: 12, whiteSpace: "nowrap" }}>
         Samantha Mwange
       </div>
       <div style={{ width: 196, height: 196, borderRadius: 999, padding: 7, background: `conic-gradient(${C.orange}, ${C.yellow}, ${C.orange})`, boxShadow: "0 12px 28px rgba(11,37,69,0.25)" }}>

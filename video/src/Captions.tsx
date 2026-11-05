@@ -35,11 +35,15 @@ const chunksOf = (words: Word[]) => {
   return chunkCache.get(words)!;
 };
 
+export type CaptionTheme = { text: string; mute: string; hlBg: string; hlText: string; hlShadow: string; riskBg: string };
+const LIGHT: CaptionTheme = { text: C.navy, mute: C.mute, hlBg: C.yellow, hlText: C.navy, hlShadow: C.orange, riskBg: "#E5484D" };
+
 // `words` / `keywords` : narration et mots surlignés (par défaut, la vidéo « Dropshipping en RDC »).
+// `risks` : mots surlignés en rouge (risques, erreurs). `theme` : couleurs (par défaut, fond clair).
 // `hide(t)` masque les sous-titres quand un autre élément porte déjà la phrase.
-export const Captions: React.FC<{ hide?: (t: number) => boolean; words?: Word[]; keywords?: Set<string> }> = ({
-  hide, words = WORDS, keywords = DEFAULT_KEYWORDS,
-}) => {
+export const Captions: React.FC<{
+  hide?: (t: number) => boolean; words?: Word[]; keywords?: Set<string>; risks?: Set<string>; theme?: CaptionTheme;
+}> = ({ hide, words = WORDS, keywords = DEFAULT_KEYWORDS, risks, theme = LIGHT }) => {
   const CHUNKS = chunksOf(words);
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -65,19 +69,20 @@ export const Captions: React.FC<{ hide?: (t: number) => boolean; words?: Word[];
       {chunk.words.map((w, i) => {
         const spoken = t >= w.start - 0.03;
         const p = spring({ frame: frame - Math.round((w.start - 0.03) * fps), fps, config: { damping: 12, stiffness: 220 } });
-        const key = keywords.has(norm(w.text));
+        const risk = risks?.has(norm(w.text)) ?? false;
+        const key = risk || keywords.has(norm(w.text));
         const scale = spoken ? 1 + 0.08 * Math.sin(Math.min(1, p) * Math.PI) : 1;
         return (
           <span
             key={i}
             style={{
               display: "inline-block",
-              color: spoken ? (key ? C.navy : C.navy) : C.mute,
-              background: spoken && key ? C.yellow : "transparent",
+              color: spoken ? (risk ? C.white : key ? theme.hlText : theme.text) : theme.mute,
+              background: spoken && key ? (risk ? theme.riskBg : theme.hlBg) : "transparent",
               borderRadius: 14,
               padding: key ? "0 12px" : 0,
               transform: `scale(${scale})`,
-              boxShadow: spoken && key ? `0 6px 0 ${C.orange}` : "none",
+              boxShadow: spoken && key && !risk ? `0 6px 0 ${theme.hlShadow}` : "none",
               transition: "none",
               opacity: interpolate(p, [0, 1], [0.85, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
             }}

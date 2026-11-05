@@ -49,6 +49,19 @@ Les sorties ElevenLabs sont utilisables selon les conditions de l'abonnement Ele
 - **Interfaces affichées :** les notifications de messages et la notification « Nouvelle commande » sont génériques, sans logo ni interface d'une application réelle.
 - **Calcul :** 25 − 9 − 4 − 4 − 1 − 2 = 5 $.
 
+## « Choisir un produit et vendre sans stock avec le dropshipping local en RDC » (`DropshippingLocal`)
+
+- **Fichier final :** `out/dropshipping-local-rdc.mp4` (1080 × 1920, 30 i/s, 2 min 33).
+- **Plan de production complet** (concept, texte, timeline seconde par seconde, plans à tourner, animations, transitions, sons Mixkit avec liens et licences, réglages audio, textes, instructions CapCut, écran final) : `docs/plan-dropshipping-local-rdc.md`.
+
+| Élément | Fichier | Origine |
+|---|---|---|
+| Voix off | `public/audio/local/voix_elevenlabs_originale.mp3` → `voix_off_finale.wav` | ElevenLabs, voix clonée « voix de samantha claude », texte exact ; pauses via `data/local_voice.json` |
+| Alignement | `data/local_words_raw.json` → `src/local/words.json` | ElevenLabs Scribe |
+| Musique et effets sonores | `public/mixkit/` (**non versionné**) | Mixkit : « Focus on Yourself » (Eugenio Mininni, Mixkit Stock Music Free License) et 12 effets sous Mixkit Sound Effects Free License. À télécharger avec `bash data/mixkit_fetch.sh` avant le rendu : les licences interdisent de redistribuer les fichiers seuls ou avec des fichiers sources. |
+| Photos d'illustration | `public/img/scenes/06.jpg`, `07.jpg`, `10.jpg` | Dossier Drive « Identité Claude » |
+| Photo | `public/img/samantha.jpg` | Fournie par Samantha Mwange |
+
 ## Synchronisation
 
 Aucun timecode n'est écrit à la main. `src/timing.ts` charge l'alignement mot par mot. Les séquences, textes, icônes et effets sonores sont déclenchés en cherchant un mot ou une expression de la narration, par exemple `at("bloque")` ou `endOf("officielle")`. Si la voix est régénérée, il suffit de :

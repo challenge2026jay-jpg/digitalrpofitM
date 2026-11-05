@@ -85,6 +85,14 @@ Les fins de mot données par Scribe débordent légèrement sur le silence : se 
   - Si le morceau est trop court, mesurer le tempo (`data/tempo.py`) et l'allonger d'un nombre entier de mesures, sans nouvelle génération. Exemple : `atrim=0:36.70` + `atrim=30` avec `acrossfade=d=1.5:c1=qsin:c2=qsin`. Le point de jonction doit être décalé d'un multiple de la mesure, et les courbes `qsin` évitent le creux de volume.
 - **Fin d'un élément ou d'un tampon :** caler l'apparition sur le **début** du mot (`at`) plutôt que sur sa fin (`endOf`) quand la scène se termine juste après le mot. Sinon l'élément n'apparaît qu'en sortie de scène.
 - **Effets sonores :** synthétisés avec ffmpeg (aucun droit tiers), déjà présents dans `public/sfx/` (pop, whoosh, ding, thud, click).
+- **Mixkit (si la demande l'impose) :**
+  - **Licences :** lire leur texte exact dans Chromium headless, en cliquant `[data-license="sfxFree"]` et `[data-license="musicFree"]` sur https://mixkit.co/license/ (script `data/mixkit_license.cjs`).
+    - Effets : usage libre, mais **pas de redistribution seule ou avec des fichiers sources**.
+    - Musique : réseaux sociaux et YouTube autorisés ; **pas de remix ni de boucle en piste musicale**. Choisir un morceau plus long que la vidéo.
+  - **Trouver les sons :** pages de catégorie `https://mixkit.co/free-sound-effects/<mot>/` (la recherche `?q=` ne renvoie rien). Pour la musique, `https://mixkit.co/free-stock-music/tag/<mot>/`, dont le JSON-LD donne nom, artiste, durée, fichier et licence.
+  - **Télécharger :** l'URL réelle d'un son (WAV ou MP3 selon le son) est dans `https://mixkit.co/free-sound-effects/download/<id>/?context=item+grid`. Mixkit renvoie des 403 quand les requêtes sont trop rapprochées : faire des pauses et de nouvelles tentatives (`data/mixkit_fetch.sh`).
+  - **Ne pas versionner** `public/mixkit/` (`.gitignore`) : le script le recrée.
+  - **Coût de la vérification des paroles :** transcrire un morceau de 4 à 5 min avec Scribe coûte environ 1 500 crédits. Le signaler.
 - **Police :** Poppins TTF (OFL) dans `public/fonts/`, chargée en local avec `FontFace`. Google Fonts échoue derrière le proxy (`ERR_CERT_AUTHORITY_INVALID`).
 - **Droits :** rien venant de Pinterest ou d'ailleurs sans source et licence vérifiées. Tout tracer dans `video/README.md`.
 
