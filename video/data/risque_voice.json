@@ -1,0 +1,28 @@
+{
+  "src": "public/audio/risque/voix_elevenlabs_originale.mp3",
+  "out": "public/audio/risque/voix_off_finale.wav",
+  "words_raw": "data/risque_words_raw.json",
+  "words_out": "src/risque/words.json",
+  "pauses": [
+    [
+      3.55,
+      0.7
+    ],
+    [
+      7.07,
+      0.2
+    ],
+    [
+      24.03,
+      0.3
+    ],
+    [
+      40.35,
+      0.9
+    ],
+    [
+      51.01,
+      0.6
+    ]
+  ]
+}

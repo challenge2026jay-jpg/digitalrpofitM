@@ -1,0 +1,5 @@
+node_modules/
+out/*.png
+data/drive_scenes/
+# Ressources Mixkit : non redistribuées (licence), à récupérer avec data/mixkit_fetch.sh
+public/mixkit/
