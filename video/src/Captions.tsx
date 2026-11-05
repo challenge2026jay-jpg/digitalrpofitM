@@ -4,7 +4,7 @@ import { WORDS, Word, norm } from "./timing";
 import { C, fontFamily } from "./ui";
 
 // Mots mis en avant (surlignage), repris tels quels de la narration.
-const KEYWORDS = new Set(
+const DEFAULT_KEYWORDS = new Set(
   ["grâce", "dropshipping", "bloque", "nulle", "doute", "pays", "rdc", "vérifier", "note",
    "documentation", "officielle", "compte", "confirmation", "payer", "capable", "whatsapp", "bio"].map(norm),
 );
@@ -12,16 +12,16 @@ const KEYWORDS = new Set(
 type Chunk = { words: Word[]; start: number; end: number };
 
 // Découpe la narration en lignes courtes, lisibles sur téléphone.
-const buildChunks = (): Chunk[] => {
+const buildChunks = (words: Word[]): Chunk[] => {
   const chunks: Chunk[] = [];
   let cur: Word[] = [];
   const push = () => {
     if (cur.length) chunks.push({ words: cur, start: cur[0].start, end: cur[cur.length - 1].end });
     cur = [];
   };
-  for (const w of WORDS) {
+  for (const w of words) {
     cur.push(w);
-    const endsSentence = /[.!?]$/.test(w.text);
+    const endsSentence = /[.!?…]$/.test(w.text);
     const comma = /,$/.test(w.text);
     if (endsSentence || cur.length >= 6 || (comma && cur.length >= 3)) push();
   }
@@ -29,10 +29,18 @@ const buildChunks = (): Chunk[] => {
   return chunks;
 };
 
-const CHUNKS = buildChunks();
+const chunkCache = new WeakMap<Word[], Chunk[]>();
+const chunksOf = (words: Word[]) => {
+  if (!chunkCache.has(words)) chunkCache.set(words, buildChunks(words));
+  return chunkCache.get(words)!;
+};
 
+// `words` / `keywords` : narration et mots surlignés (par défaut, la vidéo « Dropshipping en RDC »).
 // `hide(t)` masque les sous-titres quand un autre élément porte déjà la phrase.
-export const Captions: React.FC<{ hide?: (t: number) => boolean }> = ({ hide }) => {
+export const Captions: React.FC<{ hide?: (t: number) => boolean; words?: Word[]; keywords?: Set<string> }> = ({
+  hide, words = WORDS, keywords = DEFAULT_KEYWORDS,
+}) => {
+  const CHUNKS = chunksOf(words);
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -57,7 +65,7 @@ export const Captions: React.FC<{ hide?: (t: number) => boolean }> = ({ hide }) 
       {chunk.words.map((w, i) => {
         const spoken = t >= w.start - 0.03;
         const p = spring({ frame: frame - Math.round((w.start - 0.03) * fps), fps, config: { damping: 12, stiffness: 220 } });
-        const key = KEYWORDS.has(norm(w.text));
+        const key = keywords.has(norm(w.text));
         const scale = spoken ? 1 + 0.08 * Math.sin(Math.min(1, p) * Math.PI) : 1;
         return (
           <span

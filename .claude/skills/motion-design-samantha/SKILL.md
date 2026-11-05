@@ -63,7 +63,13 @@ ElevenLabs enchaîne les phrases presque sans pause. On insère les pauses deman
 ffmpeg -i public/audio/voix_elevenlabs_originale.mp3 -af silencedetect=noise=-38dB:d=0.12 -f null - 2>&1 | grep silence_
 ```
 
-Reporter les milieux de silence dans `PAUSES` de `data/build_voice.py` (point de coupe, durée ajoutée), puis lancer `python3 data/build_voice.py`. Le script produit `public/audio/voix_off_finale.wav` et `src/words.json`. Repères utilisés :
+Pour une nouvelle vidéo, créer un fichier de configuration JSON (exemple : `data/risque_voice.json`, avec `src`, `out`, `words_raw`, `words_out` et `pauses`), y reporter les milieux de silence, puis lancer `python3 data/build_voice.py data/<video>_voice.json`. Sans argument, le script reproduit la vidéo « Dropshipping en RDC » (`public/audio/voix_off_finale.wav`, `src/words.json`). Il écarte la ponctuation isolée que Scribe renvoie comme des mots (« : », « ? »).
+
+Chaque nouvelle vidéo a son dossier `src/<video>/` :
+- `timing.ts` : `withLead(raw)` puis `makeAligner(WORDS)`, qui fournit `at` et `endOf` pour cette narration.
+- `scenes.tsx` et `Video.tsx` : ils réutilisent `PhotoScene` (cadre photo ; sans image, il sert de panneau graphique avec `panel`), `Flat`, `WordReveal`, `Captions` (props `words` et `keywords`), `Avatar` (`showAt`, `hideAt`) et `Chrome`.
+
+Exemple complet : `src/risque/` (composition `SansStockRisque`). Repères utilisés :
 - 0,15 à 0,5 s entre les phrases ordinaires ;
 - environ 0,9 s après une phrase émotionnelle (« se sent nulle ») et après la phrase clé (« tu n'es pas capable »).
 

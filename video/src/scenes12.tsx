@@ -34,7 +34,7 @@ export const OV = 9; // chevauchement entre scènes (fondu enchaîné)
 
 // ---------- Cadre photo ----------
 
-const CARD = { left: 40, top: 590, w: 1000, h: 1180 };
+export const CARD = { left: 40, top: 590, w: 1000, h: 1180 };
 const IMG = { w: 1224, h: 1632 };
 const S = CARD.w / IMG.w; // échelle image → cadre
 const OVERFLOW = IMG.h * S - CARD.h;
@@ -46,7 +46,11 @@ type Enter = "zoom" | "slideLeft" | "slideUp" | "dissolve";
 type Punch = { at: number; scale: number; ox: number; oy: number };
 
 type PhotoProps = {
-  src: string;
+  // Image dans public/img/scenes/ ; ou chemin complet via `path`. Sans image, le cadre sert de panneau graphique.
+  src?: string;
+  path?: string;
+  img?: { w: number; h: number };
+  panel?: string;
   dur: number;
   enter: Enter;
   focusY?: number;
@@ -56,7 +60,7 @@ type PhotoProps = {
   children?: React.ReactNode;
 };
 
-export const PhotoScene: React.FC<PhotoProps> = ({ src, dur, enter, focusY = 0.5, kb = { from: 1, to: 1.06 }, punch, filter, children }) => {
+export const PhotoScene: React.FC<PhotoProps> = ({ src, path, img = IMG, panel, dur, enter, focusY = 0.5, kb = { from: 1, to: 1.06 }, punch, filter, children }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const total = f(dur);
@@ -81,15 +85,21 @@ export const PhotoScene: React.FC<PhotoProps> = ({ src, dur, enter, focusY = 0.5
   return (
     <div style={{
       position: "absolute", left: CARD.left, top: CARD.top, width: CARD.w, height: CARD.h,
-      borderRadius: 44, overflow: "hidden", background: C.navy,
+      borderRadius: 44, overflow: "hidden", background: panel ?? C.navy,
       boxShadow: "0 24px 60px rgba(11,37,69,0.30)", border: "6px solid rgba(255,255,255,0.95)",
       opacity: Math.min(fadeIn, exit), transform: enterTr, fontFamily, color: C.navy,
     }}>
       <div style={{ position: "absolute", inset: 0, transform: `translateX(${panX}px) scale(${scale})`, transformOrigin: `${ox}% ${oy}%` }}>
-        <Img
-          src={staticFile(`img/scenes/${src}`)}
-          style={{ position: "absolute", left: 0, top: -OVERFLOW * focusY, width: IMG.w * S, height: IMG.h * S, filter: filter?.(frame) }}
-        />
+        {(src || path) && (() => {
+          // Remplissage du cadre (cover) : débord vertical réglé par focusY, débord horizontal centré.
+          const k = Math.max(CARD.w / img.w, CARD.h / img.h);
+          return (
+            <Img
+              src={staticFile(path ?? `img/scenes/${src}`)}
+              style={{ position: "absolute", left: (CARD.w - img.w * k) / 2, top: -(img.h * k - CARD.h) * focusY, width: img.w * k, height: img.h * k, filter: filter?.(frame) }}
+            />
+          );
+        })()}
         {children}
       </div>
     </div>
@@ -97,7 +107,7 @@ export const PhotoScene: React.FC<PhotoProps> = ({ src, dur, enter, focusY = 0.5
 };
 
 // Les incrustations « à plat » (hors zoom) se posent dans ce calque, aux coordonnées du cadre.
-const Flat: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+export const Flat: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <div style={{ position: "absolute", left: CARD.left, top: CARD.top, width: CARD.w, height: CARD.h, fontFamily, color: C.navy, pointerEvents: "none" }}>
     {children}
   </div>
@@ -107,7 +117,7 @@ const useLocal = (start: number) => (abs: number) => f(abs - start);
 type SP = { start: number; dur: number };
 
 // Surligneur animé : un cadre arrondi qui se trace autour d'une zone de l'image.
-const Ring: React.FC<{ cue: number; x: number; y: number; w: number; h: number; color?: string }> = ({ cue, x, y, w, h, color = C.orange }) => {
+export const Ring: React.FC<{ cue: number; x: number; y: number; w: number; h: number; color?: string }> = ({ cue, x, y, w, h, color = C.orange }) => {
   const p = usePop(cue, 16);
   const per = 2 * (w + h);
   return (
@@ -118,7 +128,7 @@ const Ring: React.FC<{ cue: number; x: number; y: number; w: number; h: number; 
   );
 };
 
-const Bottom: React.FC<{ children: React.ReactNode; h?: number }> = ({ children, h = 420 }) => (
+export const Bottom: React.FC<{ children: React.ReactNode; h?: number }> = ({ children, h = 420 }) => (
   <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: h, background: "linear-gradient(180deg, rgba(11,37,69,0) 0%, rgba(11,37,69,0.78) 60%)" }}>
     <div style={{ position: "absolute", left: 36, right: 36, bottom: 40, display: "flex", flexDirection: "column", alignItems: "center", gap: 18 }}>
       {children}
@@ -127,7 +137,7 @@ const Bottom: React.FC<{ children: React.ReactNode; h?: number }> = ({ children,
 );
 
 // Texte animé mot par mot, chaque mot apparaissant sur son propre instant.
-const WordReveal: React.FC<{ words: { t: string; cue: number; hl?: boolean }[]; size?: number; color?: string }> = ({ words, size = 72, color = C.white }) => (
+export const WordReveal: React.FC<{ words: { t: string; cue: number; hl?: boolean }[]; size?: number; color?: string }> = ({ words, size = 72, color = C.white }) => (
   <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "4px 18px" }}>
     {words.map((w, i) => (
       <Pop key={i} cue={w.cue} from="up" damping={12}>

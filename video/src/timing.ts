@@ -19,25 +19,30 @@ export const TOTAL_SECONDS = VOICE_END + 1.2;
 export const TOTAL_FRAMES = Math.ceil(TOTAL_SECONDS * FPS);
 
 export const norm = (s: string) =>
-  s.toLowerCase().replace(/[.,!?;:«»"]/g, "").replace(/’/g, "'");
+  s.toLowerCase().replace(/[.,!?;:«»"…]/g, "").replace(/’/g, "'");
 
-// Index du premier mot de `phrase` à partir de l'index `from`.
-export const find = (phrase: string, from = 0): number => {
-  const p = phrase.split(" ").map(norm);
-  for (let i = from; i <= WORDS.length - p.length; i++) {
-    if (p.every((x, j) => norm(WORDS[i + j].text) === x)) return i;
-  }
-  throw new Error(`Expression introuvable dans la narration : « ${phrase} »`);
+// Recherche d'expressions dans une narration alignée : `at` donne le début (s) de `phrase`,
+// cherchée après l'expression `after` si fournie ; `endOf` donne sa fin.
+export const makeAligner = (words: Word[]) => {
+  const find = (phrase: string, from = 0): number => {
+    const p = phrase.split(" ").map(norm);
+    for (let i = from; i <= words.length - p.length; i++) {
+      if (p.every((x, j) => norm(words[i + j].text) === x)) return i;
+    }
+    throw new Error(`Expression introuvable dans la narration : « ${phrase} »`);
+  };
+  const at = (phrase: string, after?: string): number => words[find(phrase, after ? find(after) : 0)].start;
+  const endOf = (phrase: string, after?: string): number => {
+    const i = find(phrase, after ? find(after) : 0);
+    return words[i + phrase.split(" ").length - 1].end;
+  };
+  return { find, at, endOf };
 };
 
-// Début (s) de `phrase`, cherchée après l'expression `after` si fournie.
-export const at = (phrase: string, after?: string): number =>
-  WORDS[find(phrase, after ? find(after) : 0)].start;
+// Narration à partir d'un alignement brut, décalée de LEAD.
+export const withLead = (raw: Word[]): Word[] => raw.map((w) => ({ text: w.text, start: w.start + LEAD, end: w.end + LEAD }));
 
-export const endOf = (phrase: string, after?: string): number => {
-  const i = find(phrase, after ? find(after) : 0);
-  return WORDS[i + phrase.split(" ").length - 1].end;
-};
+export const { find, at, endOf } = makeAligner(WORDS);
 
 export const f = (seconds: number) => Math.round(seconds * FPS);
 

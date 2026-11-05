@@ -56,10 +56,10 @@ const Background: React.FC = () => {
 };
 
 // Bulle photo en haut à droite, nom au-dessus ; elle s'efface quand la grande photo de fin apparaît.
-export const Avatar: React.FC<{ hideAt?: number }> = ({ hideAt = at("clique") }) => {
+export const Avatar: React.FC<{ hideAt?: number; showAt?: number }> = ({ hideAt = at("clique"), showAt = 0.2 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const enter = spring({ frame: frame - 6, fps, config: { damping: 13 } });
+  const enter = spring({ frame: frame - f(showAt), fps, config: { damping: 13 } });
   const hide = interpolate(frame, [f(hideAt) - 8, f(hideAt) + 4], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const breathe = 1 + 0.015 * Math.sin(frame / 18);
   return (

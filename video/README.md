@@ -34,6 +34,21 @@ Les sorties ElevenLabs sont utilisables selon les conditions de l'abonnement Ele
 - **Scène 6 :** le message est présenté comme un exemple.
 - **Scène 9 :** aucune ville n'est nommée.
 
+## « Sans stock ≠ sans risque » (`SansStockRisque`)
+
+**Fichier final :** `out/sans-stock-sans-risque.mp4` (1080 × 1920, 30 i/s, 60,8 s). Elle suit le plan sonore et d'animation en 8 séquences : hook, risque déplacé, parcours de commande, problèmes réels, retour vers toi, calcul de marge, critères, appel WhatsApp.
+
+| Élément | Fichier | Origine |
+|---|---|---|
+| Voix off | `public/audio/risque/voix_elevenlabs_originale.mp3` → `voix_off_finale.wav` | ElevenLabs, voix clonée « voix de samantha claude », `eleven_v4`. Pauses ajoutées via `data/risque_voice.json` : arrêt après le hook, silence avant « 5 $ de marge réelle » |
+| Alignement | `data/risque_words_raw.json` → `src/risque/words.json` | ElevenLabs Scribe |
+| Musique | `public/audio/risque/musique.mp3` | Composition originale ElevenLabs Music (minimal tech, légèrement tendue), sans paroles (vérifié par transcription). Lue à partir de 1 s pour que sa fin tombe sur le dernier plan |
+| Effets sonores | `public/sfx/` (impact, bassdrop, whoosh_rev, tick, notif, cash, calc, error, glitch, clock, vibration, negative, chime) | Synthétisés avec ffmpeg |
+| Photo | `public/img/samantha.jpg` | Fournie par Samantha Mwange (utilisée à la place d'un plan face caméra, non fourni) |
+
+- **Interfaces affichées :** les notifications de messages et la notification « Nouvelle commande » sont génériques, sans logo ni interface d'une application réelle.
+- **Calcul :** 25 − 9 − 4 − 4 − 1 − 2 = 5 $.
+
 ## Synchronisation
 
 Aucun timecode n'est écrit à la main. `src/timing.ts` charge l'alignement mot par mot. Les séquences, textes, icônes et effets sonores sont déclenchés en cherchant un mot ou une expression de la narration, par exemple `at("bloque")` ou `endOf("officielle")`. Si la voix est régénérée, il suffit de :
