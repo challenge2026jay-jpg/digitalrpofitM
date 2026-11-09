@@ -523,7 +523,7 @@ def build_audio(out="cache/mix.wav"):
                 chain += f",afade=t=out:st={max(0, dur - fade)}:d={fade}"
         chain += f",volume={gain}dB,adelay={int(t * 1000)}|{int(t * 1000)}[s{i}]"
         fc.append(chain); labels.append(f"[s{i}]")
-    fc.append("".join(labels) + f"amix=inputs={len(labels)}:normalize=0:duration=first,alimiter=limit=0.95[out]")
+    fc.append("".join(labels) + f"amix=inputs={len(labels)}:normalize=0:duration=first,alimiter=limit=0.85[out]")
     subprocess.check_call(["ffmpeg", "-v", "error", "-y"] + inputs + ["-filter_complex", ";".join(fc),
                            "-map", "[out]", "-t", str(plan.TOTAL), "-ac", "2", out])
     return out
