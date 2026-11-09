@@ -23,7 +23,7 @@ GREEN = (7, 193, 96)
 # ------------------------------------------------------------------ ce que dit Samantha (= script de la voix)
 M.LINES = [
     (0.15, 3.2, "Un polo à moins de 20 yuans sur Pinduoduo… mais l'appli est en chinois ?", "pense"),
-    (3.2, 5.6, "Je te la mets en français avec WeChat. Suis-moi !", "sourire"),
+    (3.2, 5.6, "Je te la passe en français avec WeChat. Suis-moi !", "sourire"),
     (5.6, 8.0, "Dans WeChat, appuie sur « Moi »,", "neutre"),
     (8.0, 10.2, "puis « Paramètres »,", "neutre"),
     (10.2, 12.4, "« Généralités »,", "sourire"),
@@ -33,7 +33,7 @@ M.LINES = [
     (20.0, 22.4, "Retourne dans « Découvrir », « Mini-programmes »,", "neutre"),
     (22.4, 24.6, "et ouvre Pinduoduo.", "sourire"),
     (24.6, 27.0, "Appuie sur les trois petits points…", "neutre"),
-    (27.0, 29.4, "puis « Traduction »… et voilà : en français !", "rire"),
+    (27.0, 29.4, "puis « Traduction »… et voilà : tout passe en français !", "rire"),
     (29.4, 32.4, "Tu choisis ta taille, tu paies… commande passée !", "sourire"),
     (32.4, 35.6, "Tu es en RDC ? J'ai réuni la liste des transitaires et des fournisseurs dans mon groupe WhatsApp.", "sourire"),
     (35.6, 38.4, "Le lien est dans ma bio. Si tu bloques, écris-moi « PDD ».", "rire"),
@@ -60,7 +60,7 @@ STEPS = [
     (22.4, "wx_miniprog.png",   (0.165, 0.424, 0.2, 0.1), 1.1, "8", "Ouvre Pinduoduo", "pdd"),
     (24.6, "pdd_chinois.png",   (0.80, 0.062, 0.13, 0.045), 1.2, "9", "Appuie sur « ••• »", "pdd"),
     (27.0, "pdd_menu.png",      (0.925, 0.83, 0.13, 0.085), 0.75, "10", "« Traduction »", "pdd"),
-    (28.0, "pdd_francais.png",  (0.5, 0.06, 0.98, 0.05), None, "", "En français !", "pdd"),
+    (28.0, "pdd_francais.png",  None, None, "", "En français !", "pdd"),
     (29.4, "cc_taille.png",     (0.25, 0.735, 0.1, 0.06), 0.9, "", "Choisis ta taille", "pdd"),
     (30.9, "cc_paye.png",       (0.5, 0.12, 0.6, 0.1), None, "", "Payé : ¥19,80", "pdd"),
 ]
@@ -128,8 +128,15 @@ def s_steps(t):
     inner_full = phone_screen(sc)
     zr = zoomed(inner_full, box, z)
     inner, view = (zr if isinstance(zr, tuple) else (zr, (0, 0, inner_full.width, inner_full.height)))
+    # traduction : l'écran chinois se transforme en français (balayage de haut en bas)
+    scan = None
+    if name == "pdd_francais.png" and t - t0 < 0.8:
+        zh = phone_screen(screen("pdd_chinois.png"))
+        if zh.size != inner.size: zh = zh.resize(inner.size)
+        k = ease_io((t - t0) / 0.8); y = int(inner.height * k)
+        comp = zh.copy(); comp.paste(inner.crop((0, 0, inner.width, max(1, y))), (0, 0)); inner = comp; scan = y
     # glissement depuis l'écran précédent (navigation dans l'appli)
-    if i > 0 and t - t0 < 0.28:
+    elif i > 0 and t - t0 < 0.28:
         prev = phone_screen(screen(STEPS[i - 1][1]))
         if prev.size != inner.size: prev = prev.resize(inner.size)
         k = ease_out((t - t0) / 0.28); comp = prev.copy()
@@ -137,6 +144,12 @@ def s_steps(t):
     ph = phone_frame(inner)
     paste_c(base, ph, PH_CX, PH_CY, 1.0)
     ox = PH_CX - inner.width / 2; oy = PH_CY - inner.height / 2
+    if scan is not None and 0 < scan < inner.height:
+        ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(ov)
+        for g in range(18):
+            d.line((ox, oy + scan - g, ox + inner.width, oy + scan - g), fill=YELLOW + (int(200 * (1 - g / 18) ** 2),), width=1)
+        d.line((ox, oy + scan, ox + inner.width, oy + scan), fill=YELLOW + (255,), width=6)
+        base.alpha_composite(ov)
     if box:
         l, tp, vw, vh = view; sx = inner.width / vw; sy = inner.height / vh
         cx = ox + (box[0] * inner_full.width - l) * sx; cy = oy + (box[1] * inner_full.height - tp) * sy
@@ -191,16 +204,20 @@ def s_hook(t):                        # 0 – 5.6
             paste_c(base, shadowed(pdd(130)), 150, 300, 1.0, max(0.01, kp), -8)
             kin(base, "…mais tout est en chinois", t, 1.8, W // 2 + 70, 300, "SemiBold", 56, WHITE)
     else:
-        # avant / après : chinois → français
-        for j, (nm, lab, cx) in enumerate((("pdd_chinois.png", "AVANT", 290), ("pdd_francais.png", "APRÈS", W - 290))):
-            k = ease_out((t - 3.2 - 0.25 * j) / 0.4)
-            if k <= 0: continue
-            sc = phone_screen(screen(nm), 860)
-            paste_c(base, phone_frame(sc), cx, 900 + (1 - k) * 100, k, 1.0, -4 if j == 0 else 4)
-            paste_c(base, chip(lab, (90, 90, 100) if j == 0 else GREEN, WHITE, 52), cx, 420, k)
-        kw = pop(t, 3.5)
-        if kw > 0: paste_c(base, shadowed(wechat(170)), W // 2, 900, 1.0, max(0.01, kw))
-        kin(base, "En FRANÇAIS avec WeChat", t, 3.3, W // 2, 190, "anton", 104, YELLOW)
+        # l'appli en chinois (le problème) + la promesse — le français n'apparaît qu'à la fin
+        k = ease_out((t - 3.2) / 0.4)
+        sc = phone_screen(screen("pdd_chinois.png"), 980)
+        shake = 6 * math.sin(t * 20) * clamp(1 - (t - 3.2) / 0.6)
+        paste_c(base, phone_frame(sc), W // 2 + shake, 960 + (1 - k) * 100, k, 1.0, -2)
+        for j, ch in enumerate("拼多多购物"):
+            kk = pop(t, 3.35 + 0.08 * j)
+            if kk > 0:
+                paste_c(base, shadowed(text_img(ch, "cjk", 110, WHITE), 10, 6, 140), [150, 930, 120, 960, 140][j],
+                        [560, 640, 1000, 1150, 1330][j], 0.9, max(0.01, kk), [-12, 10, 8, -8, 14][j])
+        kw = pop(t, 3.9)
+        if kw > 0: paste_c(base, shadowed(wechat(200)), W // 2 + 300, 1330, 1.0, max(0.01, kw), 6)
+        kin(base, "Je le passe en FRANÇAIS", t, 3.3, W // 2, 175, "anton", 104, YELLOW)
+        kin(base, "avec WeChat, étape par étape", t, 3.7, W // 2, 300, "SemiBold", 56, WHITE)
     return base
 
 def s_rdc(t): return M.s_rdc(t - 32.4 + 19.4)

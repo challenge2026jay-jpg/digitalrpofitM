@@ -31,7 +31,7 @@ Notre motion par-dessus : écran dans un téléphone, léger zoom vers le bouton
 Consigne de voix : femme, français d'Afrique centrale, ton naturel et complice, rythme vif. Petite pause à chaque « … ».
 
 > Un polo à moins de 20 yuans sur Pinduoduo… mais l'appli est en chinois ?
-> Je te la mets en français avec WeChat. Suis-moi !
+> Je te la passe en français avec WeChat. Suis-moi !
 > Dans WeChat, appuie sur « Moi »,
 > puis « Paramètres »,
 > « Généralités »,
@@ -41,7 +41,7 @@ Consigne de voix : femme, français d'Afrique centrale, ton naturel et complice,
 > Retourne dans « Découvrir », « Mini-programmes »,
 > et ouvre Pinduoduo.
 > Appuie sur les trois petits points…
-> puis « Traduction »… et voilà : en français !
+> puis « Traduction »… et voilà : tout passe en français !
 > Tu choisis ta taille, tu paies… commande passée !
 > Tu es en RDC ? J'ai réuni la liste des transitaires et des fournisseurs dans mon groupe WhatsApp.
 > Le lien est dans ma bio. Si tu bloques, écris-moi « PDD ».
@@ -52,7 +52,7 @@ Consigne de voix : femme, français d'Afrique centrale, ton naturel et complice,
 | Temps | Phrase | À l'écran |
 |---|---|---|
 | 0,0 – 3,2 s | Un polo à moins de 20 yuans sur Pinduoduo… mais l'appli est en chinois ? | Fiche produit, prix ¥19,8 qui clignote |
-| 3,2 – 5,6 s | Je te la mets en français avec WeChat. Suis-moi ! | Avant / après (chinois → français) + logo WeChat |
+| 3,2 – 5,6 s | Je te la passe en français avec WeChat. Suis-moi ! | Pinduoduo encore en chinois + logo WeChat (le français n'est montré qu'à la fin) |
 | 5,6 – 8,0 s | Dans WeChat, appuie sur « Moi », | Étape 1 |
 | 8,0 – 10,2 s | puis « Paramètres », | Étape 2 |
 | 10,2 – 12,4 s | « Généralités », | Étape 3 |
@@ -62,7 +62,7 @@ Consigne de voix : femme, français d'Afrique centrale, ton naturel et complice,
 | 20,0 – 22,4 s | Retourne dans « Découvrir », « Mini-programmes », | Étape 7 |
 | 22,4 – 24,6 s | et ouvre Pinduoduo. | Étape 8 |
 | 24,6 – 27,0 s | Appuie sur les trois petits points… | Étape 9 |
-| 27,0 – 29,4 s | puis « Traduction »… et voilà : en français ! | Étape 10 + badge FR |
+| 27,0 – 29,4 s | puis « Traduction »… et voilà : tout passe en français ! | Étape 10 : l'écran chinois se transforme en français (balayage) + badge FR |
 | 29,4 – 32,4 s | Tu choisis ta taille, tu paies… commande passée ! | Taille L, paiement ¥19,80 |
 | 32,4 – 35,6 s | Tu es en RDC ? J'ai réuni la liste des transitaires et des fournisseurs dans mon groupe WhatsApp. | Drapeau RDC, TRANSITAIRES / FOURNISSEURS |
 | 35,6 – 38,4 s | Le lien est dans ma bio. Si tu bloques, écris-moi « PDD ». | Capture WhatsApp |
