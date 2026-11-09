@@ -24,3 +24,15 @@ Pas de visage, d'avatar ni d'éléments de démonstration (« original », « Fi
 - **Voix** : ElevenLabs, voix clonée « voix de samantha claude » (seule voix clonée du compte correspondant à « Samantha Claude »), modèle `eleven_multilingual_v2`.
 - **Musique** : Mixkit « Motivating Mornings » (#33), licence *Mixkit Stock Music Free License*.
 - **Effets** : Mixkit (licence *Sound Effects Free License* : usage libre, commercial ou non, dans des vidéos sur les réseaux sociaux) — détails dans `export_projet.py` (`SFX_LABEL`).
+
+## Photo de couverture
+
+- `export/couverture_tiktok.png` (version A, camion rouge devant l'entrepôt) et `export/couverture_tiktok_b.png` (version B, chargement du conteneur), 1080×1920, générées par `python3 cover.py`.
+- Texte dans la zone centrale 3:4 (visible sur la grille du profil TikTok). Pas de logo Alibaba : le nom est écrit en texte neutre pour ne pas suggérer de partenariat.
+- Police : Anton (`fonts/Anton.woff2`, SIL Open Font License 1.1, Google Fonts) + Inter Display (OFL).
+- Fond : photos du Drive (`896708975821689274.jpg`, `Custom Canvas Totes – Ready for Your Brand.jpg`).
+- Références Pinterest, utilisées uniquement pour l'inspiration (REFERENCE_ONLY, aucune image intégrée) : principes retenus = titre très gras condensé, contraste jaune/noir, hiérarchie empilée, mot clé dans un bloc de couleur.
+  - https://www.pinterest.com/ideas/black-and-yellow-text-design/947134288399/
+  - https://www.pinterest.com/quotes-pin/digital-products-poster-design--13792342604789441/
+  - https://za.pinterest.com/ideas/bold-yellow-text-design/921386179117/
+  - https://www.pinterest.com/ideas/bold-red-and-yellow-text/952960177119/
