@@ -413,20 +413,20 @@ def render_shot(s, t0, t1):
 WORDS = json.load(open("audio/voix_off_words.json"))["words"]
 
 def all_frames(t_from=0.0, t_to=None):
-    t_to = t_to or plan.TOTAL
-    for s, t0, t1 in shot_bounds():
+    """Images de la v3 (temps de la v3). Les habillages sont calculés en temps d'origine."""
+    t_to = t_to or plan.NEW_TOTAL
+    for s, t0, t1, off in plan.timeline():
         if t1 <= t_from or t0 >= t_to:
             continue
-        if all(plan.in_cut(x / FPS) for x in range(round(t0 * FPS), round(t1 * FPS))):
-            continue  # plan entièrement coupé
         f0 = round(t0 * FPS)
         for j, fr in enumerate(render_shot(s, t0, t1)):
             t = (f0 + j) / FPS
-            if t < t_from or t >= t_to or plan.in_cut(t + 1e-6):
+            if t < t_from or t >= t_to:
                 continue
-            ovs = overlays(t)
-            if 121.10 <= t < 121.30:  # flash appareil photo
-                a = 1 - (t - 121.10) / 0.2
+            to = t - off if off else -1.0     # temps d'origine (intro réenregistrée : pas d'habillage)
+            ovs = overlays(to)
+            if 121.10 <= to < 121.30:  # flash appareil photo
+                a = 1 - (to - 121.10) / 0.2
                 fr = Image.blend(fr, Image.new("RGB", (W, H), (255, 255, 255)), 0.85 * a)
             yield t, composite(fr, ovs)
 
@@ -443,13 +443,14 @@ DISPLAY_FIX = {"trade": "Trade", "assurance.": "Assurance.", "assurance": "Assur
 
 def build_subs():
     ws = []
-    for w in WORDS:
+    intro = json.load(open(plan.INTRO_WORDS))["words"]
+    src = [(w, w["start"], w["end"]) for w in intro] + \
+          [(w, w["start"] + plan.DELTA, w["end"] + plan.DELTA) for w in WORDS if w["start"] >= plan.ORIG_RESUME]
+    for w, st, en in src:
         tx = w["text"]
         if tx in ("«", "»", "»."):
             continue
-        if plan.in_cut(w["start"]):
-            continue
-        ws.append(dict(text=DISPLAY_FIX.get(tx, tx), start=plan.to_new(w["start"]), end=plan.to_new(w["end"])))
+        ws.append(dict(text=DISPLAY_FIX.get(tx, tx), start=st, end=en))
     hide = [(plan.to_new(a), plan.to_new(b)) for a, b in plan.SUB_HIDE]
     def hidden(t):
         return any(a - 0.01 <= t < b for a, b in hide)
@@ -512,33 +513,23 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 # ---------------------------------------------------------------- audio
 def build_audio(out="cache/mix.wav"):
-    inputs = ["-i", "audio/voix_off_samantha_claude.mp3", "-stream_loop", "1", "-i", "audio/music/music_motivating_mornings.mp3"]
+    inputs = ["-i", "audio/voix_off_samantha_claude.mp3", "-stream_loop", "2", "-i", "audio/music/music_motivating_mornings.mp3"]
     T = plan.NEW_TOTAL
-    # voix : segments conservés, micro-fondus de 8 ms à chaque raccord
-    keep, s0 = [], 0.0
-    for a, b in plan.CUTS:
-        keep.append((s0, a)); s0 = b
-    keep.append((s0, 999.0))
-    fc = [f"[0:a]aresample=48000,asplit={len(keep)}" + "".join(f"[k{i}]" for i in range(len(keep)))]
-    for i, (a, b) in enumerate(keep):
-        ch = f"[k{i}]atrim={a:.4f}:{b:.4f},asetpts=PTS-STARTPTS"
-        if i > 0:
-            ch += ",afade=t=in:d=0.008"
-        if i < len(keep) - 1:
-            ch += f",afade=t=out:st={b - a - 0.008:.4f}:d=0.008"
-        fc.append(ch + f"[c{i}]")
-    fc.append("".join(f"[c{i}]" for i in range(len(keep))) + f"concat=n={len(keep)}:v=0:a=1,volume=-1.5dB,asplit=2[v][vo]")
+    # voix : intro réenregistrée (v3) + voix d'origine à partir de « La première chose… »
+    inputs.insert(0, plan.INTRO_VOICE); inputs.insert(0, "-i")      # devient l'entrée 0
+    fc = [f"[0:a]aresample=48000,aformat=channel_layouts=mono,volume=2.5dB,atrim=0:{plan.INTRO_DUR:.4f},apad=whole_dur={plan.INTRO_DUR:.4f},"
+          f"afade=t=out:st={plan.INTRO_DUR - 0.01:.4f}:d=0.01[k0]",
+          f"[1:a]aresample=48000,aformat=channel_layouts=mono,atrim=start={plan.ORIG_RESUME:.4f},asetpts=PTS-STARTPTS,afade=t=in:d=0.01[k1]",
+          "[k0][k1]concat=n=2:v=0:a=1,volume=-1.5dB,asplit=2[v][vo]"]
     a, b, g = plan.MUSIC_DUCK
     a, b = plan.to_new(a), plan.to_new(b)
-    fc.append(f"[1:a]aresample=48000,atrim=0:{T},volume={plan.MUSIC_GAIN_DB}dB,"
+    fc.append(f"[2:a]aresample=48000,atrim=0:{T},volume={plan.MUSIC_GAIN_DB}dB,"
               f"volume='if(between(t,{a},{b}),{g},1)':eval=frame,afade=t=in:d=0.6,afade=t=out:st={T - 2.2}:d=2.2[m]")
     labels = ["[v]", "[m]"]
     for i, (t, name, gain, dur, fade) in enumerate(plan.SFX):
-        if plan.in_cut(t):
-            continue
-        t = plan.to_new(t)
+        t = plan.sfx_new(t)
         inputs += ["-i", f"audio/sfx/{name}.mp3"]
-        idx = len(labels)
+        idx = len(labels) + 1
         chain = f"[{idx}:a]aresample=48000,aformat=channel_layouts=stereo"
         if dur:
             chain += f",atrim=0:{dur}"
@@ -549,11 +540,11 @@ def build_audio(out="cache/mix.wav"):
     fc.append("".join(labels) + f"amix=inputs={len(labels)}:normalize=0:duration=longest,alimiter=limit=0.85[out]")
     subprocess.check_call(["ffmpeg", "-v", "error", "-y"] + inputs + ["-filter_complex", ";".join(fc),
                            "-map", "[out]", "-t", f"{T:.3f}", "-ac", "2", out,
-                           "-map", "[vo]", "audio/voix_off_montee.mp3"])
+                           "-map", "[vo]", "audio/voix_off_v3.mp3"])
     return out
 
 # ---------------------------------------------------------------- main
-def render(out="export/alibaba_tiktok_v2.mp4"):
+def render(out="export/alibaba_tiktok_v3.mp4"):
     n = build_subs()
     print("sous-titres :", n, "blocs")
     mix = build_audio()
@@ -567,7 +558,7 @@ def render(out="export/alibaba_tiktok_v2.mp4"):
     for i, (t, fr) in enumerate(all_frames()):
         p.stdin.write(fr.tobytes())
         if i % 300 == 0:
-            print(f"  {plan.to_new(t):6.1f}s / {plan.NEW_TOTAL:.1f}s", flush=True)
+            print(f"  {t:6.1f}s / {plan.NEW_TOTAL:.1f}s", flush=True)
     p.stdin.close(); p.wait()
     print("OK ->", out)
 

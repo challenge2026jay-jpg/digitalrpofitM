@@ -186,31 +186,51 @@ SFX = [
 MUSIC_GAIN_DB = -23
 MUSIC_DUCK = (48.80, 50.15, 0.12)   # baisse de la musique sur « non négociable »
 
-# ------------------------------------------------------------------ coupes (v2)
-# Passages retirés de la voix, des plans, des sous-titres et des sons
-# (bornes alignées sur les images à 30 fps, prises dans les silences) :
-#  1. « Si tu payes encore des formations pour apprendre ça, je suis désolée pour toi. »
-#  2. « gratuitement » dans « commander sur Alibaba gratuitement en moins de deux minutes »
-CUTS = [(127 / 30, 264 / 30), (394 / 30, 420 / 30)]
+# ------------------------------------------------------------------ version 3
+# L'intro est réenregistrée avec une formulation sans promesse (même voix clonée) :
+#   « Commander sur Alibaba n'a jamais été aussi simple qu'en 2026. Pas besoin de te
+#     compliquer la vie avec ça. Aujourd'hui, je t'explique de A à Z comment tu peux
+#     commander sur Alibaba, étape par étape. Parce que franchement, il n'y a rien de
+#     plus simple que ça. »
+# Elle remplace la voix d'origine de 0 à ORIG_RESUME (« La première chose… »), le reste
+# de la voix d'origine est conservé tel quel et décalé de DELTA.
+INTRO_VOICE = "audio/intro_v3.mp3"
+INTRO_WORDS = "audio/intro_v3_words.json"
+INTRO_DUR = 443 / 30          # fin de l'intro réenregistrée (+ respiration)
+ORIG_RESUME = 561 / 30        # reprise de la voix d'origine (18,70 s, dans le silence)
+DELTA = INTRO_DUR - ORIG_RESUME
+FIRST_KEPT = 7                # index dans SHOTS du premier plan d'origine conservé (18,65 s)
 
-def in_cut(t):
-    return any(a <= t < b for a, b in CUTS)
+INTRO_SHOTS = [
+    dict(t=0.00, src=ALILOGO, mode="logo", z0=1.18, z1=1.0,
+         phrase="Commander sur Alibaba n'a jamais été aussi simple"),
+    dict(t=2.90, src=ALI, ss=0.0, mode="fit", box0=(0.0, 0.07, 0.44, 0.86), box1=(0.03, 0.10, 0.40, 0.70),
+         phrase="qu'en 2026."),
+    dict(t=4.35, src=LAPTOP, ss=0.0, speed=0.85, mode="fill", c0=(0.5, 0.40), c1=(0.5, 0.36), z0=1.0, z1=1.12,
+         phrase="Pas besoin de te compliquer la vie avec ça."),
+    dict(t=6.70, src=ALI, ss=2.6, mode="fit", box0=(0.0, 0.07, 0.44, 0.86), box1=(0.05, 0.10, 0.42, 0.62),
+         phrase="Aujourd'hui, je t'explique de A à Z comment tu peux commander"),
+    dict(t=9.92, src=ALI, ss=13.3, mode="fit", box0=(0.0, 0.06, 0.50, 0.97), box1=(0.0, 0.10, 0.40, 0.80),
+         phrase="sur Alibaba, étape par étape."),
+    dict(t=11.95, src=LABELV, ss=7.0, mode="fill", c0=(0.55, 0.55), c1=(0.55, 0.52), z0=1.0, z1=1.14,
+         phrase="Parce que franchement, il n'y a rien de plus simple que ça."),
+]
 
 def to_new(t):
-    """Temps de la timeline d'origine -> temps de la vidéo montée."""
-    return t - sum(min(max(t - a, 0), b - a) for a, b in CUTS)
+    """Temps de la timeline d'origine -> temps de la vidéo v3 (partie conservée)."""
+    return t + DELTA if t >= SHOTS[FIRST_KEPT]["t"] else t
 
-NEW_TOTAL = to_new(TOTAL)
+NEW_TOTAL = TOTAL + DELTA
 
-def kept_pieces(t0, t1):
-    """Morceaux [a, b) de l'intervalle d'origine qui restent après les coupes."""
-    out, a = [], t0
-    for c0, c1 in sorted(CUTS):
-        if c1 <= a or c0 >= t1:
-            continue
-        if c0 > a:
-            out.append((a, c0))
-        a = max(a, c1)
-    if a < t1:
-        out.append((a, t1))
+def timeline():
+    """Liste (plan, début, fin, décalage) dans le temps de la v3 ; décalage = DELTA pour les plans d'origine."""
+    items = [(s, s["t"], 0.0) for s in INTRO_SHOTS] + [(s, s["t"] + DELTA, DELTA) for s in SHOTS[FIRST_KEPT:]]
+    out = []
+    for i, (s, t0, off) in enumerate(items):
+        t1 = items[i + 1][1] if i + 1 < len(items) else NEW_TOTAL
+        out.append((s, t0, t1, off))
     return out
+
+def sfx_new(t):
+    """Effets de l'accroche gardés tels quels, les autres suivent la voix d'origine."""
+    return t if t < 1.0 else t + DELTA
