@@ -310,15 +310,22 @@ def scene_E(t):   # 10.75 – 13.35 : lookbook en match-cuts
 
 @functools.lru_cache(maxsize=None)
 def formation_cards():
+    ia_page = img("capture_formation_ia_motion_design_2.jpg"); ct_page = img("capture_formation_claude_transform.jpg")
     ia = img("capture_formation_ia_motion_design.jpg").crop((26, 385, 618, 603))
-    ct = img("capture_formation_claude_transform.jpg").crop((26, 247, 624, 500))
-    ia_btn = img("capture_formation_ia_motion_design_2.jpg").crop((20, 935, 630, 1002))
-    ct_btn = img("capture_formation_claude_transform.jpg").crop((26, 938, 624, 1003))
+    ct = ct_page.crop((26, 247, 624, 500))
     def sized(im, w): return im.resize((w, int(im.height * w / im.width)), Image.LANCZOS)
-    return {"ia": card(sized(ia, 880), 30), "ct": card(sized(ct, 880), 30),
-            "ia_btn": card(sized(ia_btn, 820), 34, shadow=False), "ct_btn": card(sized(ct_btn, 820), 34, shadow=False)}
+    def strip(page, box, hl):
+        st = page.crop(box); W0 = 820; s = W0 / st.width; st = sized(st, W0)
+        return st, tuple(int(v * s) for v in hl)
+    ia_st, ia_hl = strip(ia_page, (20, 148, 632, 236), (205, 14, 352, 76))     # « 335+ Apprenants »
+    ct_st, ct_hl = strip(ct_page, (20, 170, 632, 232), (210, 6, 398, 56))      # « 128+ Apprenants »
+    return {"ia": card(sized(ia, 820), 30), "ct": card(sized(ct, 820), 30),
+            "ia_st": ia_st, "ia_hl": ia_hl, "ct_st": ct_st, "ct_hl": ct_hl,
+            "ia_btn": card(sized(ia_page.crop((20, 935, 630, 1002)), 760), 34, shadow=False),
+            "ct_btn": card(sized(ct_page.crop((26, 938, 624, 1003)), 760), 34, shadow=False)}
 
-TAP_IA, TAP_CT = S(10) + 1.25, S(10) + 2.85
+T0F = S(10)
+TAP_IA, TAP_CT = T0F + 1.45, T0F + 3.05
 
 def tap(base, t, t0, cx, cy):
     """Indicateur de toucher (cercle qui s'élargit) sur le bouton."""
@@ -329,21 +336,41 @@ def tap(base, t, t0, cx, cy):
         ImageDraw.Draw(ov).ellipse((cx - r, cy - r, cx + r, cy + r), fill=(255, 255, 255, a // 2), outline=(255, 255, 255, a), width=6)
         base.alpha_composite(ov)
 
-def scene_F(t):   # 13.35 – 17.12 : rejoindre les formations
+def stats(base, t, t0, cy, st, hl):
+    """Vraie bande de statistiques de la page + cadre jaune sur le nombre d'apprenants."""
+    if t < t0: return
+    k = ease_out((t - t0) / 0.3)
+    im = Image.new("RGBA", (st.width, st.height), (0, 0, 0, 0)); im.paste(st, (0, 0), rmask(st.size, 22))
+    a = clamp((t - t0 - 0.25) / 0.25)
+    if a > 0:
+        ImageDraw.Draw(im).rounded_rectangle((hl[0] - 8, hl[1] - 6, hl[2] + 8, hl[3] + 6), 14, outline=YELLOW + (255,), width=max(1, int(7 * a)))
+    paste_c(base, im, W // 2, cy + (1 - k) * 40, k)
+
+def badge(base, t, t0, txt, cx, cy):
+    if t < t0: return
+    k = ease_out((t - t0) / 0.3)
+    tx = text_img(txt, "Black", 44, INK)
+    bg = Image.new("RGBA", (tx.width + 44, tx.height + 16), (0, 0, 0, 0))
+    ImageDraw.Draw(bg).rounded_rectangle((0, 0, bg.width - 1, bg.height - 1), 30, fill=YELLOW + (255,))
+    bg.alpha_composite(tx, (22, 4))
+    paste_c(base, bg, cx, cy, k, 0.8 + 0.2 * k, -4)
+
+def scene_F(t):   # 13.35 – 17.12 : la preuve (apprenants, avis) + rejoindre
     base = bg_gradient(t)
     c = formation_cards()
-    kin(base, "Rejoins mes formations", t, S(10), W // 2, 300, "play", 96, WHITE)
+    kin(base, "Rejoins mes formations", t, T0F, W // 2, 210, "play", 96, WHITE)
     def show(name, t0, cy, press=None):
         if t < t0: return
-        k = ease_out((t - t0) / 0.35)
-        sc = 1.0
-        if press is not None and press <= t < press + 0.18: sc = 0.95
+        k = ease_out((t - t0) / 0.35); sc = 0.95 if (press is not None and press <= t < press + 0.18) else 1.0
         paste_c(base, c[name], W // 2, cy + (1 - k) * 70, k, sc)
-    show("ia", S(10) + 0.3, 600)
-    show("ia_btn", S(10) + 0.7, 870, TAP_IA); tap(base, t, TAP_IA, W // 2 + 250, 870)
-    show("ct", S(10) + 1.9, 1180)
-    show("ct_btn", S(10) + 2.3, 1450, TAP_CT); tap(base, t, TAP_CT, W // 2 + 250, 1450)
-    kin(base, "IA Motion Design · Claude Transform — 20,5 $US chacune", t, S(10) + 2.5, W // 2, 1600, "Medium", 40, CREAM)
+    show("ia", T0F + 0.25, 470)
+    stats(base, t, T0F + 0.55, 680, c["ia_st"], c["ia_hl"]); badge(base, t, T0F + 0.95, "335+ apprenants", 800, 340)
+    show("ia_btn", T0F + 1.05, 790, TAP_IA); tap(base, t, TAP_IA, W // 2 + 230, 790)
+    show("ct", T0F + 1.85, 1040)
+    stats(base, t, T0F + 2.15, 1262, c["ct_st"], c["ct_hl"]); badge(base, t, T0F + 2.55, "128+ apprenants", 800, 890)
+    show("ct_btn", T0F + 2.65, 1360, TAP_CT); tap(base, t, TAP_CT, W // 2 + 230, 1360)
+    kin(base, "Tu attends quoi pour nous rejoindre ?", t, T0F + 3.2, W // 2, 1490, "play", 66, YELLOW, 2)
+    kin(base, "20,5 $US par formation", t, T0F + 3.35, W // 2, 1575, "Medium", 38, CREAM)
     return base
 
 def scene_G(t):   # 17.2 – fin : appel à l'action
