@@ -308,20 +308,42 @@ def scene_E(t):   # 10.75 – 13.35 : lookbook en match-cuts
     ai_tag(base)
     return base
 
-def scene_F(t):   # 13.35 – 17.2 : la formation
+@functools.lru_cache(maxsize=None)
+def formation_cards():
+    ia = img("capture_formation_ia_motion_design.jpg").crop((26, 385, 618, 603))
+    ct = img("capture_formation_claude_transform.jpg").crop((26, 247, 624, 500))
+    ia_btn = img("capture_formation_ia_motion_design_2.jpg").crop((20, 935, 630, 1002))
+    ct_btn = img("capture_formation_claude_transform.jpg").crop((26, 938, 624, 1003))
+    def sized(im, w): return im.resize((w, int(im.height * w / im.width)), Image.LANCZOS)
+    return {"ia": card(sized(ia, 880), 30), "ct": card(sized(ct, 880), 30),
+            "ia_btn": card(sized(ia_btn, 820), 34, shadow=False), "ct_btn": card(sized(ct_btn, 820), 34, shadow=False)}
+
+TAP_IA, TAP_CT = S(10) + 1.25, S(10) + 2.85
+
+def tap(base, t, t0, cx, cy):
+    """Indicateur de toucher (cercle qui s'élargit) sur le bouton."""
+    k = (t - t0) / 0.45
+    if 0 <= k <= 1:
+        r = int(30 + 70 * ease_out(k)); a = int(200 * (1 - k))
+        ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(ov).ellipse((cx - r, cy - r, cx + r, cy + r), fill=(255, 255, 255, a // 2), outline=(255, 255, 255, a), width=6)
+        base.alpha_composite(ov)
+
+def scene_F(t):   # 13.35 – 17.12 : rejoindre les formations
     base = bg_gradient(t)
-    kin(base, "Je t'apprends à le faire", t, S(10), W // 2, 420, "play", 92, WHITE)
-    c = cards()["formation"]; t0 = S(10) + 0.55
-    if t >= t0:
-        k = ease_out((t - t0) / 0.45)
-        cr = c.crop((0, 0, max(1, int(c.width * ease_io(k))), c.height)); tmp = Image.new("RGBA", c.size, (0, 0, 0, 0)); tmp.paste(cr, (0, 0))
-        paste_c(base, tmp, W // 2, 900, 1.0, 1.0 + 0.02 * (t - t0))
-    kin(base, "Formation", t, S(10) + 1.3, W // 2, 1250, "SemiBold", 56, CREAM)
-    kin(base, "IA Motion Design", t, S(10) + 1.4, W // 2, 1350, "play", 112, WHITE)
-    u = clamp((t - S(10) - 1.75) / 0.4)
-    if u > 0:
-        ImageDraw.Draw(base).rectangle((W // 2 - 380, 1435, W // 2 - 380 + int(760 * ease_io(u)), 1443), fill=ORANGE + (255,))
-    kin(base, "Démonstrations pratiques • Ressources incluses", t, S(10) + 2.1, W // 2, 1540, "Medium", 40, CREAM)
+    c = formation_cards()
+    kin(base, "Rejoins mes formations", t, S(10), W // 2, 300, "play", 96, WHITE)
+    def show(name, t0, cy, press=None):
+        if t < t0: return
+        k = ease_out((t - t0) / 0.35)
+        sc = 1.0
+        if press is not None and press <= t < press + 0.18: sc = 0.95
+        paste_c(base, c[name], W // 2, cy + (1 - k) * 70, k, sc)
+    show("ia", S(10) + 0.3, 600)
+    show("ia_btn", S(10) + 0.7, 870, TAP_IA); tap(base, t, TAP_IA, W // 2 + 250, 870)
+    show("ct", S(10) + 1.9, 1180)
+    show("ct_btn", S(10) + 2.3, 1450, TAP_CT); tap(base, t, TAP_CT, W // 2 + 250, 1450)
+    kin(base, "IA Motion Design · Claude Transform — 20,5 $US chacune", t, S(10) + 2.5, W // 2, 1600, "Medium", 40, CREAM)
     return base
 
 def scene_G(t):   # 17.2 – fin : appel à l'action
@@ -350,6 +372,8 @@ def frame(t):
 # ------------------------------------------------------------------ audio
 SFX = [(S(1) - 0.08, "audio/sfx_souffle.mp3", -6),   # 1. ouverture du masque liquide
        (S(7) - 0.02, "audio/sfx_tissu.mp3", -4),     # 2. la robe apparaît portée
+       (TAP_IA - 0.02, "audio/sfx_clic.mp3", -9),     # toucher « Rejoindre la formation » (IA Motion Design)
+       (TAP_CT - 0.02, "audio/sfx_clic.mp3", -9),     # toucher « Rejoindre la formation » (Claude Transform)
        (17.2 + 0.30, "audio/sfx_clic.mp3", -8)]     # 3. la carte WhatsApp se pose
 
 def build_audio(out="cache/mix.wav"):
