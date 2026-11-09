@@ -173,17 +173,38 @@ def cards():
     return c
 
 @functools.lru_cache(maxsize=None)
-def flow_ui_frames():
-    """Vraie interface Google Flow : démo officielle « Ingredients to Video » (blog Google), 3,0 s → 6,3 s."""
-    w, h = 960, 540
-    raw = subprocess.check_output(["ffmpeg", "-v", "error", "-ss", "3.0", "-t", "3.3", "-i", "assets/google_flow_demo_ingredients_to_video.mp4",
-                                   "-vf", f"fps=30,scale={w}:{h}", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"])
-    n = len(raw) // (w * h * 3)
-    return [Image.frombuffer("RGB", (w, h), raw[i * w * h * 3:(i + 1) * w * h * 3], "raw", "RGB", 0, 1) for i in range(n)]
+def flow_ui_base():
+    """Vraie image de l'interface Google Flow (démo officielle, 3,0 s), dont on remplace les
+    ingrédients et le prompt par les nôtres. Présenté à l'écran comme un montage."""
+    raw = subprocess.check_output(["ffmpeg", "-v", "error", "-ss", "3.0", "-i", "assets/google_flow_demo_ingredients_to_video.mp4",
+                                   "-frames:v", "1", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"])
+    im = Image.frombuffer("RGB", (1920, 1080), raw, "raw", "RGB", 0, 1).copy()
+    a = np.asarray(im).astype(np.float32).copy()
+    a[395:525, 200:1910] = a[548:552, 200:1910].mean(axis=0, keepdims=True)   # efface le prompt d'origine
+    im = Image.fromarray(a.astype(np.uint8))
+    chips = [(180, 603, 545, 828, cover(before_photo(), 365, 225, 0.5, 0.45, 1.6)),
+             (568, 603, 930, 828, cover(img("personnage_planche.png"), 362, 225, 0.5, 0.48, 2.6)),
+             (953, 603, 1317, 828, cover(img("personnage_planche.png"), 364, 225, 0.5, 0.2, 1.0))]
+    for x0, y0, x1, y1, ph in chips:
+        im.paste(ph, (x0, y0), rmask((x1 - x0, y1 - y0), 56))
+    return im
 
-def flow_ui_card(t, t0, speed=2.5):
-    fr = flow_ui_frames(); i = int(clamp((t - t0) * speed * 30, 0, len(fr) - 1))
-    return card(fr[i], 30, border=WHITE + (255,))
+def flow_ui_card(t, t0):
+    base = flow_ui_base().copy(); d = ImageDraw.Draw(base)
+    full = "Elle porte cette robe dans un salon lumineux"
+    f = f_inter("Regular", 68)
+    n = int(len(full) * clamp((t - t0) / 0.85))
+    d.text((228, 410), full[:n], font=f, fill=(236, 238, 240))
+    if n < len(full) and int(t * 4) % 2 == 0:
+        x = 228 + tw(f, full[:n]) + 8; d.rectangle((x, 420, x + 5, 505), fill=(236, 238, 240))
+    k = clamp((t - t0 - 0.9) / 0.25)                       # bouton « générer » qui s'active
+    r = int(62 * (1 + 0.12 * math.sin(k * math.pi)))
+    cx, cy = 1815, 455
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(255, 255, 255) if k > 0 else (60, 64, 70))
+    col = (20, 22, 26) if k > 0 else (160, 165, 170)
+    d.line((cx - 30, cy, cx + 28, cy), fill=col, width=9); d.line((cx + 4, cy - 26, cx + 30, cy, cx + 4, cy + 26), fill=col, width=9)
+    crop = base.crop((110, 110, 1920, 880)).resize((960, int(770 * 960 / 1810)), Image.LANCZOS)
+    return card(crop, 30, border=WHITE + (255,))
 
 def prompt_card(t, t0):
     full = "« Elle porte cette robe dans un salon lumineux. »"
@@ -258,7 +279,7 @@ def scene_D(t):   # 6.5 – 10.75 : photo + personnage + phrase = vidéo
     if t >= t3:
         pop(flow_ui_card(t, t3), t3, W // 2, 1310, 0)
         kin(base, "3. Une phrase dans Google Flow", t, t3, W // 2, 1640, "play", 60, NAVY)
-        paste_c(base, text_img("Interface : démo officielle Google Flow", "Medium", 26, NAVY), W // 2, 1710, 0.75)
+        paste_c(base, text_img("Montage sur l’interface Google Flow", "Medium", 26, NAVY), W // 2, 1710, 0.75)
     if t >= tr:   # résultat : masque liquide vers la vidéo
         p = clamp((t - tr) / 0.6)
         full = Image.new("RGBA", (W, H))
