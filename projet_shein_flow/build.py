@@ -325,7 +325,6 @@ def formation_cards():
             "ct_btn": card(sized(ct_page.crop((26, 938, 624, 1003)), 760), 34, shadow=False)}
 
 T0F = S(10)
-TAP_IA, TAP_CT = T0F + 1.45, T0F + 3.05
 
 def tap(base, t, t0, cx, cy):
     """Indicateur de toucher (cercle qui s'élargit) sur le bouton."""
@@ -355,22 +354,41 @@ def badge(base, t, t0, txt, cx, cy):
     bg.alpha_composite(tx, (22, 4))
     paste_c(base, bg, cx, cy, k, 0.8 + 0.2 * k, -4)
 
-def scene_F(t):   # 13.35 – 17.12 : la preuve (apprenants, avis) + rejoindre
+@functools.lru_cache(maxsize=None)
+def phone_page(name, h=1330):
+    """Page complète dans un cadre de téléphone ; renvoie (image, échelle, décalage x, décalage y)."""
+    sc = img(name); w = int(sc.width * h / sc.height)
+    frame = Image.new("RGBA", (w + 28, h + 28), (0, 0, 0, 0))
+    ImageDraw.Draw(frame).rounded_rectangle((0, 0, w + 27, h + 27), 54, fill=(20, 20, 24, 255))
+    frame.paste(sc.resize((w, h), Image.LANCZOS), (14, 14), rmask((w, h), 44))
+    return card(frame.convert("RGB"), 58), h / sc.height
+
+PAGES = [  # (capture, début, cadre « apprenants », bouton, étiquette)
+    ("capture_formation_ia_motion_design.jpg", 13.35, (240, 290, 372, 354), (20, 1066, 630, 1134), "335+ apprenants"),
+    ("capture_formation_claude_transform.jpg", 15.25, (234, 178, 416, 224), (26, 938, 624, 1003), "128+ apprenants"),
+]
+TAP_IA, TAP_CT = 13.35 + 1.2, 15.25 + 1.2
+
+def scene_F(t):   # 13.35 – 17.12 : les pages de formation en entier
     base = bg_gradient(t)
-    c = formation_cards()
-    kin(base, "Rejoins mes formations", t, T0F, W // 2, 210, "play", 96, WHITE)
-    def show(name, t0, cy, press=None):
-        if t < t0: return
-        k = ease_out((t - t0) / 0.35); sc = 0.95 if (press is not None and press <= t < press + 0.18) else 1.0
-        paste_c(base, c[name], W // 2, cy + (1 - k) * 70, k, sc)
-    show("ia", T0F + 0.25, 470)
-    stats(base, t, T0F + 0.55, 680, c["ia_st"], c["ia_hl"]); badge(base, t, T0F + 0.95, "335+ apprenants", 800, 340)
-    show("ia_btn", T0F + 1.05, 790, TAP_IA); tap(base, t, TAP_IA, W // 2 + 230, 790)
-    show("ct", T0F + 1.85, 1040)
-    stats(base, t, T0F + 2.15, 1262, c["ct_st"], c["ct_hl"]); badge(base, t, T0F + 2.55, "128+ apprenants", 800, 890)
-    show("ct_btn", T0F + 2.65, 1360, TAP_CT); tap(base, t, TAP_CT, W // 2 + 230, 1360)
-    kin(base, "Tu attends quoi pour nous rejoindre ?", t, T0F + 3.2, W // 2, 1490, "play", 66, YELLOW, 2)
-    kin(base, "20,5 $US par formation", t, T0F + 3.35, W // 2, 1575, "Medium", 38, CREAM)
+    kin(base, "Rejoins mes formations", t, 13.35, W // 2, 120, "play", 84, WHITE)
+    for i, (name, t0, hl, btn, lab) in enumerate(PAGES):
+        t1 = PAGES[i + 1][1] if i + 1 < len(PAGES) else 99
+        if not (t0 <= t < t1 + 0.35): continue
+        ph, s = phone_page(name)
+        kin_in = ease_out((t - t0) / 0.35); out = ease_io((t - t1) / 0.35) if t >= t1 else 0
+        cx = W // 2 + (1 - kin_in) * 700 - out * 900; cy = 1060
+        ox = cx - ph.width / 2 + 70 + 14; oy = cy - ph.height / 2 + 70 + 14
+        paste_c(base, ph, cx, cy, 1.0)
+        d = ImageDraw.Draw(base)
+        a = clamp((t - t0 - 0.45) / 0.25)
+        if a > 0:
+            d.rounded_rectangle((ox + hl[0] * s - 8, oy + hl[1] * s - 6, ox + hl[2] * s + 8, oy + hl[3] * s + 6), 12, outline=YELLOW + (255,), width=int(6 * a))
+            badge(base, t, t0 + 0.55, lab, W // 2, 245)
+        tp = t0 + 1.2
+        if tp <= t < tp + 0.18:
+            d.rounded_rectangle((ox + btn[0] * s, oy + btn[1] * s, ox + btn[2] * s, oy + btn[3] * s), 18, outline=WHITE + (255,), width=6)
+        tap(base, t, tp, ox + (btn[0] + btn[2]) / 2 * s + 120, oy + (btn[1] + btn[3]) / 2 * s)
     return base
 
 @functools.lru_cache(maxsize=None)
