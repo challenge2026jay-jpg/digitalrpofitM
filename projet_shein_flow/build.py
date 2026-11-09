@@ -172,6 +172,19 @@ def cards():
     ring.alpha_composite(circ, (20, 20)); c["jub"] = ring
     return c
 
+@functools.lru_cache(maxsize=None)
+def flow_ui_frames():
+    """Vraie interface Google Flow : démo officielle « Ingredients to Video » (blog Google), 3,0 s → 6,3 s."""
+    w, h = 960, 540
+    raw = subprocess.check_output(["ffmpeg", "-v", "error", "-ss", "3.0", "-t", "3.3", "-i", "assets/google_flow_demo_ingredients_to_video.mp4",
+                                   "-vf", f"fps=30,scale={w}:{h}", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"])
+    n = len(raw) // (w * h * 3)
+    return [Image.frombuffer("RGB", (w, h), raw[i * w * h * 3:(i + 1) * w * h * 3], "raw", "RGB", 0, 1) for i in range(n)]
+
+def flow_ui_card(t, t0, speed=2.5):
+    fr = flow_ui_frames(); i = int(clamp((t - t0) * speed * 30, 0, len(fr) - 1))
+    return card(fr[i], 30, border=WHITE + (255,))
+
 def prompt_card(t, t0):
     full = "« Elle porte cette robe dans un salon lumineux. »"
     n = int(len(full) * clamp((t - t0) / 0.9))
@@ -237,13 +250,15 @@ def scene_D(t):   # 6.5 – 10.75 : photo + personnage + phrase = vidéo
         k = ease_out((t - t0) / 0.35); fl = 8 * math.sin((t - t0) * 2.2)
         im = c[name_or_img] if isinstance(name_or_img, str) else name_or_img
         paste_c(base, im, cx, cy + fl + (1 - k) * 60, k, 0.9 + 0.1 * k, rot)
-    pop("avant", S(5), 310, 760, 4)
-    kin(base, "1. Ta photo", t, S(5), 310, 1120, "play", 64, NAVY, maxw=480)
-    pop("perso", S(6), 770, 820, -4)
-    kin(base, "2. Ton personnage", t, S(6), 770, 1130, "play", 64, NAVY, maxw=520)
-    if t >= S(6) + 0.75:
-        pop(prompt_card(t, S(6) + 0.75), S(6) + 0.75, W // 2, 1420, 0)
-        kin(base, "3. Une phrase", t, S(6) + 0.75, W // 2, 1610, "play", 64, NAVY)
+    pop("avant", S(5), 310, 600, 4)
+    kin(base, "1. Ta photo", t, S(5), 310, 960, "play", 64, NAVY, maxw=480)
+    pop("perso", S(6), 770, 660, -4)
+    kin(base, "2. Ton personnage", t, S(6), 770, 970, "play", 64, NAVY, maxw=520)
+    t3 = S(6) + 0.55
+    if t >= t3:
+        pop(flow_ui_card(t, t3), t3, W // 2, 1310, 0)
+        kin(base, "3. Une phrase dans Google Flow", t, t3, W // 2, 1640, "play", 60, NAVY)
+        paste_c(base, text_img("Interface : démo officielle Google Flow", "Medium", 26, NAVY), W // 2, 1710, 0.75)
     if t >= tr:   # résultat : masque liquide vers la vidéo
         p = clamp((t - tr) / 0.6)
         full = Image.new("RGBA", (W, H))
