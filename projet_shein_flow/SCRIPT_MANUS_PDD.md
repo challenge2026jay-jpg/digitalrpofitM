@@ -1,59 +1,72 @@
-# Vidéo 3 — « Je commande sur Pinduoduo en direct depuis la RDC » : script pour Manus + écrans à enregistrer
+# Vidéo 3 — « Pinduoduo en français avec WeChat » sur les vrais écrans : script pour Manus
 
-## Le format repris des vidéos virales (sans reprendre leurs images)
+Vidéo : `export/pinduoduo_vrais_ecrans_9x16.mp4` (43 s, 9:16).
 
-| Vidéo de référence | Ce qu'on reprend | Ce qu'on ne reprend pas |
+## D'où viennent les écrans
+
+On a analysé 3 vidéos virales sur le sujet et repris les **écrans de l'appli** (pas les créateurs) :
+
+| Vidéo analysée | Écrans repris | Retiré / flouté |
 |---|---|---|
-| @connectchineafrique (149 200 vues, 470 commentaires) | Démonstration **en direct** d'un vrai achat : recherche → fiche produit → taille → adresse → paiement validé ; prix bien visible ; fin sur les transitaires | Son visage, ses écrans, son adresse et son numéro |
-| @yayoservices (12 500 vues) | Enregistrement d'écran **plein cadre** de WeChat en français, **flèche rouge** sur chaque bouton, une étape par écran | Ses écrans et son profil |
+| @yayoservices — « Pinduoduo en français sur WeChat » | Les 12 écrans du chemin WeChat → Pinduoduo → Traduction | Bulle « réponse au commentaire », ses flèches et sa main, son profil (nom, photo, ID), miniatures, contacts |
+| @connectchineafrique — « Comment passer commande sur Pinduoduo » (149 200 vues) | Fiche du polo à ¥19,8, choix de la taille, paiement réussi de ¥19,80 | Son visage (face-cam), ses sous-titres, l'adresse, le pseudo des acheteurs |
+| @justin_tm0 / @user23veroma | Accroche (prix + « le secret »), ciblage RDC | — |
 
-Notre version : **ton** enregistrement d'écran, cadré plein écran dans un téléphone, avec zooms, flèches rouges, sous-titres, vrais logos (WeChat, Pinduoduo, WhatsApp) et ton visage dans la bulle en bas.
-Durée visée : **58 secondes**.
+Notre motion par-dessus : écran dans un téléphone, léger zoom vers le bouton, cadre orange qui clignote, flèche jaune, toucher animé, numéro d'étape, vrais logos WeChat / Pinduoduo / WhatsApp, visage de Samantha qui « explique » dans la bulle.
 
-## Script à donner à Manus (voix off)
+## Le vrai chemin (vérifié sur les écrans)
 
-Consigne de voix : femme, français d'Afrique centrale, ton naturel et complice, comme si tu montrais à une amie. Rythme vif, petite pause à chaque « … ».
+1. WeChat → onglet **Moi**
+2. **Paramètres**
+3. **Généralités**
+4. **Gérer la page Découvrir**
+5. **Mini-programmes** → active « Afficher dans l'onglet Découvrir » (→ « Service activé »)
+6. Onglet **Découvrir** → **Mini-programmes**
+7. Ouvre **拼多多 (Pinduoduo)**
+8. Dans Pinduoduo, appuie sur **« ••• »** en haut à droite
+9. Appuie sur **« Traduction »** → l'appli passe en français
 
-| # | Temps | Texte à dire | Écran (ton enregistrement) | Texte à l'écran |
-|---|---|---|---|---|
-| 1 | 0 – 4 s | Regarde le prix de cet article sur Pinduoduo… Je te montre comment je commande, en direct, depuis la RDC. | Fiche produit, zoom sur le prix | « Je commande EN DIRECT depuis la RDC » |
-| 2 | 4 – 8 s | L'appli est en chinois ? Pas de panique : on passe par WeChat, et on la met en français. | Accueil WeChat | Logos WeChat + Pinduoduo |
-| 3 | 8 – 16 s | Dans WeChat : « Moi », « Paramètres », « Généralités », « Gérer la page Découvrir »… et tu actives « Mini-programmes ». | Les 5 écrans, un par un | Flèche rouge sur chaque bouton |
-| 4 | 16 – 21 s | Ensuite : « Découvrir », « Mini-programmes », et tu cherches Pinduoduo. | Recherche 拼多多 | Logo Pinduoduo |
-| 5 | 21 – 25 s | Appuie sur « Traduction » : tout passe en français. | Avant / après la traduction | « FR » |
-| 6 | 25 – 32 s | Je cherche mon article, je choisis la couleur… et la taille. | Recherche → fiche → choix taille | Zoom sur la taille |
-| 7 | 32 – 38 s | Pour l'adresse, je mets celle de mon transitaire en Chine — pas mon adresse à Kinshasa. | Écran adresse (floutée au montage) | « Adresse = ton transitaire » |
-| 8 | 38 – 44 s | Je paie… et c'est validé. Le transitaire regroupe mes colis et me les envoie au Congo. | Paiement réussi | ✅ « Commande validée » |
-| 9 | 44 – 52 s | Et justement : la liste des transitaires et des fournisseurs, je l'ai réunie dans mon groupe WhatsApp. Le lien est dans ma bio. | Capture du groupe WhatsApp | Drapeau RDC + « TRANSITAIRES · FOURNISSEURS » |
-| 10 | 52 – 58 s | Si tu bloques à une étape, écris-moi « PDD » en commentaire. Et pour aller plus loin, mes formations t'attendent. | Pages de formation | « Écris PDD 👇 » |
+## Script pour Manus (à copier tel quel)
 
-**Texte brut pour Manus (à copier tel quel) :**
+Consigne de voix : femme, français d'Afrique centrale, ton naturel et complice, rythme vif. Petite pause à chaque « … ».
 
-> Regarde le prix de cet article sur Pinduoduo… Je te montre comment je commande, en direct, depuis la RDC.
-> L'appli est en chinois ? Pas de panique : on passe par WeChat, et on la met en français.
-> Dans WeChat : « Moi », « Paramètres », « Généralités », « Gérer la page Découvrir »… et tu actives « Mini-programmes ».
-> Ensuite : « Découvrir », « Mini-programmes », et tu cherches Pinduoduo.
-> Appuie sur « Traduction » : tout passe en français.
-> Je cherche mon article, je choisis la couleur… et la taille.
-> Pour l'adresse, je mets celle de mon transitaire en Chine, pas mon adresse à Kinshasa.
-> Je paie… et c'est validé. Le transitaire regroupe mes colis et me les envoie au Congo.
-> Et justement : la liste des transitaires et des fournisseurs, je l'ai réunie dans mon groupe WhatsApp. Le lien est dans ma bio.
-> Si tu bloques à une étape, écris-moi « PDD » en commentaire. Et pour aller plus loin, mes formations t'attendent.
+> Un polo à moins de 20 yuans sur Pinduoduo… mais l'appli est en chinois ?
+> Je te la mets en français avec WeChat. Suis-moi !
+> Dans WeChat, appuie sur « Moi »,
+> puis « Paramètres »,
+> « Généralités »,
+> et « Gérer la page Découvrir ».
+> Touche « Mini-programmes »…
+> et active « Afficher dans l'onglet Découvrir ».
+> Retourne dans « Découvrir », « Mini-programmes »,
+> et ouvre Pinduoduo.
+> Appuie sur les trois petits points…
+> puis « Traduction »… et voilà : en français !
+> Tu choisis ta taille, tu paies… commande passée !
+> Tu es en RDC ? J'ai réuni la liste des transitaires et des fournisseurs dans mon groupe WhatsApp.
+> Le lien est dans ma bio. Si tu bloques, écris-moi « PDD ».
+> Et pour aller plus loin : mes formations.
 
-Quand Manus a fini, envoie-moi le fichier audio (MP3) : je cale chaque écran sur la phrase qui lui correspond.
+## Minutage (pour caler la voix)
 
-## Écrans à enregistrer sur ton téléphone (une seule prise, 1 à 2 minutes)
+| Temps | Phrase | À l'écran |
+|---|---|---|
+| 0,0 – 3,2 s | Un polo à moins de 20 yuans sur Pinduoduo… mais l'appli est en chinois ? | Fiche produit, prix ¥19,8 qui clignote |
+| 3,2 – 5,6 s | Je te la mets en français avec WeChat. Suis-moi ! | Avant / après (chinois → français) + logo WeChat |
+| 5,6 – 8,0 s | Dans WeChat, appuie sur « Moi », | Étape 1 |
+| 8,0 – 10,2 s | puis « Paramètres », | Étape 2 |
+| 10,2 – 12,4 s | « Généralités », | Étape 3 |
+| 12,4 – 14,8 s | et « Gérer la page Découvrir ». | Étape 4 |
+| 14,8 – 17,2 s | Touche « Mini-programmes »… | Étape 5 |
+| 17,2 – 20,0 s | et active « Afficher dans l'onglet Découvrir ». | Étape 6 + « Service activé » |
+| 20,0 – 22,4 s | Retourne dans « Découvrir », « Mini-programmes », | Étape 7 |
+| 22,4 – 24,6 s | et ouvre Pinduoduo. | Étape 8 |
+| 24,6 – 27,0 s | Appuie sur les trois petits points… | Étape 9 |
+| 27,0 – 29,4 s | puis « Traduction »… et voilà : en français ! | Étape 10 + badge FR |
+| 29,4 – 32,4 s | Tu choisis ta taille, tu paies… commande passée ! | Taille L, paiement ¥19,80 |
+| 32,4 – 35,6 s | Tu es en RDC ? J'ai réuni la liste des transitaires et des fournisseurs dans mon groupe WhatsApp. | Drapeau RDC, TRANSITAIRES / FOURNISSEURS |
+| 35,6 – 38,4 s | Le lien est dans ma bio. Si tu bloques, écris-moi « PDD ». | Capture WhatsApp |
+| 38,4 – 43,0 s | Et pour aller plus loin : mes formations. | Pages IA Motion Design et Claude Transform |
 
-Active l'enregistrement d'écran, puis fais ces gestes **lentement** (je coupe et j'accélère au montage) :
-
-1. **WeChat** : ouvre l'appli → onglet « Moi » → « Paramètres » → « Généralités » → « Gérer la page Découvrir » → active « Mini-programmes ».
-2. Retour → onglet « Découvrir » → « Mini-programmes » → tape 拼多多 dans la recherche → ouvre Pinduoduo.
-3. Dans Pinduoduo : montre la page **en chinois**, puis appuie sur « Traduction » pour la passer en français.
-4. Cherche un article (par exemple un polo) → ouvre une fiche produit → choisis une couleur et une taille.
-5. Va jusqu'à l'écran **adresse** (celle de ton transitaire) → puis l'écran de **paiement**. Si tu fais un vrai achat, filme aussi l'écran « paiement réussi ». Sinon, on s'arrête à l'écran de paiement et je change la phrase 8 pour qu'elle reste vraie.
-6. Ouvre ton **groupe WhatsApp** où se trouve la liste des transitaires et fournisseurs (montre le nom du groupe).
-
-**Important**
-- Ne dis dans la vidéo que ce que tu fais vraiment (si tu n'as pas payé, on ne montre pas « commande validée »).
-- Je floute au montage ton adresse, ton numéro et les noms des autres personnes.
-- Garde le prix que l'appli affiche : c'est lui qui accroche, il doit être réel.
+Quand l'audio de Manus est prêt : le mettre dans `audio/voix_pdd_ecrans.mp3` et relancer `python3 build_pdd_ecrans.py`.
+La musique baisse automatiquement sous la voix. Si une phrase dure plus longtemps que prévu, j'ajuste le minutage.
