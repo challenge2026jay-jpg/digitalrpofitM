@@ -51,7 +51,7 @@ SHOTS = [
     dict(t=8.80, src=ALI, ss=2.6, mode="fit", box0=(0.0, 0.07, 0.44, 0.86), box1=(0.05, 0.10, 0.42, 0.62),
          phrase="Aujourd'hui, je t'explique de A à Z comment tu peux commander"),
     dict(t=12.55, src=ALI, ss=13.3, mode="fit", box0=(0.0, 0.06, 0.50, 0.97), box1=(0.0, 0.10, 0.40, 0.80),
-         phrase="sur Alibaba gratuitement en moins de deux minutes."),
+         phrase="sur Alibaba en moins de deux minutes."),
     dict(t=15.55, src=LABELV, ss=7.0, mode="fill", c0=(0.55, 0.55), c1=(0.55, 0.52), z0=1.0, z1=1.14,
          phrase="Parce que franchement, il n'y a rien de plus simple que ça."),
     # --- ÉTAPE 1 : TRANSITAIRE ---
@@ -185,3 +185,32 @@ SFX = [
 
 MUSIC_GAIN_DB = -23
 MUSIC_DUCK = (48.80, 50.15, 0.12)   # baisse de la musique sur « non négociable »
+
+# ------------------------------------------------------------------ coupes (v2)
+# Passages retirés de la voix, des plans, des sous-titres et des sons
+# (bornes alignées sur les images à 30 fps, prises dans les silences) :
+#  1. « Si tu payes encore des formations pour apprendre ça, je suis désolée pour toi. »
+#  2. « gratuitement » dans « commander sur Alibaba gratuitement en moins de deux minutes »
+CUTS = [(127 / 30, 264 / 30), (394 / 30, 420 / 30)]
+
+def in_cut(t):
+    return any(a <= t < b for a, b in CUTS)
+
+def to_new(t):
+    """Temps de la timeline d'origine -> temps de la vidéo montée."""
+    return t - sum(min(max(t - a, 0), b - a) for a, b in CUTS)
+
+NEW_TOTAL = to_new(TOTAL)
+
+def kept_pieces(t0, t1):
+    """Morceaux [a, b) de l'intervalle d'origine qui restent après les coupes."""
+    out, a = [], t0
+    for c0, c1 in sorted(CUTS):
+        if c1 <= a or c0 >= t1:
+            continue
+        if c0 > a:
+            out.append((a, c0))
+        a = max(a, c1)
+    if a < t1:
+        out.append((a, t1))
+    return out

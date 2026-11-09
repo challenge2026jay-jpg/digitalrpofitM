@@ -52,17 +52,23 @@ def bounds():
 
 def write_plan_md():
     rows = []
+    N = plan.to_new
     for s, t0, t1 in bounds():
+        pcs = plan.kept_pieces(t0, t1)
+        if not pcs:
+            continue  # plan supprimé par les coupes
         f = os.path.basename(s["src"])
         extra = ""
         if s["src"].endswith(".mp4"):
             sp = s.get("speed", 1.0)
             extra = f" (extrait {s.get('ss', 0):.1f} s → {s.get('ss', 0) + (t1 - t0) * sp:.1f} s" + (f", vitesse ×{sp}" if sp != 1 else "") + ")"
         txt = "; ".join(x for a, b, x in ON_SCREEN if a < t1 and b > t0) or "Sous-titres synchronisés"
-        snd = "; ".join(f"{SFX_LABEL[n].split(' (')[0]} à {t:.2f} s" for t, n, *_ in plan.SFX if t0 - 0.06 <= t < t1)
-        rows.append(f"| {s['phrase']} | `{f}`{extra} | {fmt(t0)} → {fmt(t1)} | {txt} | {snd or '—'} |")
-    md = ["# Plan de montage — « Commander sur Alibaba » (TikTok 9:16)", "",
-          "Voix off : ElevenLabs, voix clonée « voix de samantha claude » (eleven_multilingual_v2), prise 1, 141,8 s.",
+        snd = "; ".join(f"{SFX_LABEL[n].split(' (')[0]} à {N(t):.2f} s" for t, n, *_ in plan.SFX if t0 - 0.06 <= t < t1 and not plan.in_cut(t))
+        rows.append(f"| {s['phrase']} | `{f}`{extra} | {fmt(N(pcs[0][0]))} → {fmt(N(pcs[-1][1]))} | {txt} | {snd or '—'} |")
+    md = ["# Plan de montage — « Commander sur Alibaba » (TikTok 9:16) — version 2", "",
+          "Version 2 : passages retirés (voix, plans, sous-titres, sons) — « Si tu payes encore des formations pour apprendre ça, "
+          "je suis désolée pour toi. » et le mot « gratuitement ». Durée : %.1f s." % plan.NEW_TOTAL, "",
+          "Voix off : ElevenLabs, voix clonée « voix de samantha claude » (eleven_multilingual_v2), prise 1, montée (`audio/voix_off_montee.mp3`).",
           "Timings : transcription horodatée mot à mot (ElevenLabs Scribe), fichier `audio/voix_off_words.json`.",
           "Musique : Mixkit « Motivating Mornings » (#33), −23 dB sous la voix, baissée sur « non négociable ».", "",
           "| Phrase prononcée | Fichier exact | Moment d'apparition | Texte à l'écran | Son ou effet |",
@@ -97,24 +103,30 @@ def write_fcpxml():
         assets[path] = (f"a{aid[0]}", kind, dur_of(path) if kind != "image" else 0)
         return assets[path][0]
     clips = []
+    N = plan.to_new
     for s, t0, t1 in bounds():
         kind = "video" if s["src"].endswith(".mp4") else "image"
-        a = asset(s["src"], kind)
         name = esc(os.path.basename(s["src"]))
-        if kind == "video":
-            clips.append(f'<asset-clip ref="{a}" lane="1" offset="{rt(t0)}" start="{rt(s.get("ss", 0))}" duration="{rt(t1 - t0)}" name="{name}" audioRole="dialogue" />')
-        else:
-            clips.append(f'<video ref="{a}" lane="1" offset="{rt(t0)}" start="0s" duration="{rt(t1 - t0)}" name="{name}" />')
-    vo = asset("audio/voix_off_samantha_claude.mp3", "audio")
-    clips.append(f'<asset-clip ref="{vo}" lane="-1" offset="0s" start="0s" duration="{rt(assets["audio/voix_off_samantha_claude.mp3"][2])}" name="Voix off" audioRole="dialogue" />')
+        for p0, p1 in plan.kept_pieces(t0, t1):
+            a = asset(s["src"], kind)
+            if kind == "video":
+                src_in = s.get("ss", 0) + (p0 - t0) * s.get("speed", 1.0)
+                clips.append(f'<asset-clip ref="{a}" lane="1" offset="{rt(N(p0))}" start="{rt(src_in)}" duration="{rt(p1 - p0)}" name="{name}" audioRole="dialogue" />')
+            else:
+                clips.append(f'<video ref="{a}" lane="1" offset="{rt(N(p0))}" start="0s" duration="{rt(p1 - p0)}" name="{name}" />')
+    vo = asset("audio/voix_off_montee.mp3", "audio")
+    clips.append(f'<asset-clip ref="{vo}" lane="-1" offset="0s" start="0s" duration="{rt(assets["audio/voix_off_montee.mp3"][2])}" name="Voix off (montée)" audioRole="dialogue" />')
     mu = asset("audio/music/music_motivating_mornings.mp3", "audio")
     md = assets["audio/music/music_motivating_mornings.mp3"][2]
     t = 0.0
-    while t < plan.TOTAL:
-        d = min(md, plan.TOTAL - t)
+    while t < plan.NEW_TOTAL:
+        d = min(md, plan.NEW_TOTAL - t)
         clips.append(f'<asset-clip ref="{mu}" lane="-2" offset="{rt(t)}" start="0s" duration="{rt(d)}" name="Musique" audioRole="music"><adjust-volume amount="{plan.MUSIC_GAIN_DB}dB"/></asset-clip>')
         t += d
     for i, (ts, n, gain, dur, fade) in enumerate(plan.SFX):
+        if plan.in_cut(ts):
+            continue
+        ts = N(ts)
         p = f"audio/sfx/{n}.mp3"
         a = asset(p, "audio")
         d = dur or assets[p][2]
@@ -134,9 +146,9 @@ def write_fcpxml():
   <library>
     <event name="Alibaba TikTok">
       <project name="Commander sur Alibaba - TikTok">
-        <sequence format="r0" duration="{rt(plan.TOTAL)}" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+        <sequence format="r0" duration="{rt(plan.NEW_TOTAL)}" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
           <spine>
-            <gap name="Base" offset="0s" start="0s" duration="{rt(plan.TOTAL)}">
+            <gap name="Base" offset="0s" start="0s" duration="{rt(plan.NEW_TOTAL)}">
               {chr(10).join("              " + c for c in clips).strip()}
             </gap>
           </spine>

@@ -5,20 +5,20 @@
     <format id="r0" name="FFVideoFormat1080x1920p30" frameDuration="1/30s" width="1080" height="1920"/>
     <asset id="a1" name="757730706103895999.jpg" start="0s" duration="0s" hasVideo="1" format="r0" ><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/757730706103895999.jpg"/></asset>
     <asset id="a2" name="alibaba recherch produit.mp4" start="0s" duration="638/30s" hasVideo="1" format="r0" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/alibaba%20recherch%20produit.mp4"/></asset>
-    <asset id="a3" name="5585988-hd_1080_1920_30fps.mp4" start="0s" duration="65/30s" hasVideo="1" format="r0" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/5585988-hd_1080_1920_30fps.mp4"/></asset>
-    <asset id="a4" name="6651432-uhd_4096_2160_25fps.mp4" start="0s" duration="266/30s" hasVideo="1" format="r0" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/6651432-uhd_4096_2160_25fps.mp4"/></asset>
-    <asset id="a5" name="7855148-uhd_3840_2160_25fps.mp4" start="0s" duration="438/30s" hasVideo="1" format="r0" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/7855148-uhd_3840_2160_25fps.mp4"/></asset>
-    <asset id="a6" name="7835286-uhd_3840_2160_25fps.mp4" start="0s" duration="326/30s" hasVideo="1" format="r0" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/7835286-uhd_3840_2160_25fps.mp4"/></asset>
-    <asset id="a7" name="896708975821689274.jpg" start="0s" duration="0s" hasVideo="1" format="r0" ><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/896708975821689274.jpg"/></asset>
-    <asset id="a8" name="Custom Canvas Totes – Ready for Your Brand.jpg" start="0s" duration="0s" hasVideo="1" format="r0" ><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/Custom%20Canvas%20Totes%20%E2%80%93%20Ready%20for%20Your%20Brand.jpg"/></asset>
-    <asset id="a9" name="Big Order.jpg" start="0s" duration="0s" hasVideo="1" format="r0" ><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/Big%20Order.jpg"/></asset>
-    <asset id="a10" name="1105844883513817896.jpg" start="0s" duration="0s" hasVideo="1" format="r0" ><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/1105844883513817896.jpg"/></asset>
-    <asset id="a11" name="MIL-STD-129 Labeling.jpg" start="0s" duration="0s" hasVideo="1" format="r0" ><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/MIL-STD-129%20Labeling.jpg"/></asset>
-    <asset id="a12" name="verified ca du fournis.png" start="0s" duration="0s" hasVideo="1" format="r0" ><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/verified%20ca%20du%20fournis.png"/></asset>
+    <asset id="a3" name="7855148-uhd_3840_2160_25fps.mp4" start="0s" duration="438/30s" hasVideo="1" format="r0" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/7855148-uhd_3840_2160_25fps.mp4"/></asset>
+    <asset id="a4" name="7835286-uhd_3840_2160_25fps.mp4" start="0s" duration="326/30s" hasVideo="1" format="r0" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/7835286-uhd_3840_2160_25fps.mp4"/></asset>
+    <asset id="a5" name="896708975821689274.jpg" start="0s" duration="0s" hasVideo="1" format="r0" ><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/896708975821689274.jpg"/></asset>
+    <asset id="a6" name="Custom Canvas Totes – Ready for Your Brand.jpg" start="0s" duration="0s" hasVideo="1" format="r0" ><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/Custom%20Canvas%20Totes%20%E2%80%93%20Ready%20for%20Your%20Brand.jpg"/></asset>
+    <asset id="a7" name="6651432-uhd_4096_2160_25fps.mp4" start="0s" duration="266/30s" hasVideo="1" format="r0" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/6651432-uhd_4096_2160_25fps.mp4"/></asset>
+    <asset id="a8" name="Big Order.jpg" start="0s" duration="0s" hasVideo="1" format="r0" ><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/Big%20Order.jpg"/></asset>
+    <asset id="a9" name="1105844883513817896.jpg" start="0s" duration="0s" hasVideo="1" format="r0" ><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/1105844883513817896.jpg"/></asset>
+    <asset id="a10" name="MIL-STD-129 Labeling.jpg" start="0s" duration="0s" hasVideo="1" format="r0" ><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/MIL-STD-129%20Labeling.jpg"/></asset>
+    <asset id="a11" name="verified ca du fournis.png" start="0s" duration="0s" hasVideo="1" format="r0" ><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/verified%20ca%20du%20fournis.png"/></asset>
+    <asset id="a12" name="5585988-hd_1080_1920_30fps.mp4" start="0s" duration="65/30s" hasVideo="1" format="r0" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/5585988-hd_1080_1920_30fps.mp4"/></asset>
     <asset id="a13" name="Make the Last Step Feel Effortless with Free Payment UI Kits.jpg" start="0s" duration="0s" hasVideo="1" format="r0" ><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/Make%20the%20Last%20Step%20Feel%20Effortless%20with%20Free%20Payment%20UI%20Kits.jpg"/></asset>
     <asset id="a14" name="6633345-hd_1080_1920_25fps.mp4" start="0s" duration="227/30s" hasVideo="1" format="r0" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/6633345-hd_1080_1920_25fps.mp4"/></asset>
     <asset id="a15" name="1089871178582673740.jpg" start="0s" duration="0s" hasVideo="1" format="r0" ><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/media/1089871178582673740.jpg"/></asset>
-    <asset id="a16" name="voix_off_samantha_claude.mp3" start="0s" duration="4255/30s"  hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/audio/voix_off_samantha_claude.mp3"/></asset>
+    <asset id="a16" name="voix_off_montee.mp3" start="0s" duration="4092/30s"  hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/audio/voix_off_montee.mp3"/></asset>
     <asset id="a17" name="music_motivating_mornings.mp3" start="0s" duration="2887/30s"  hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/audio/music/music_motivating_mornings.mp3"/></asset>
     <asset id="a18" name="whoosh_fast.mp3" start="0s" duration="54/30s"  hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/audio/sfx/whoosh_fast.mp3"/></asset>
     <asset id="a19" name="impact_deep_whoosh.mp3" start="0s" duration="123/30s"  hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///home/user/digitalrpofitM/montage_alibaba/audio/sfx/impact_deep_whoosh.mp3"/></asset>
@@ -36,89 +36,88 @@
   <library>
     <event name="Alibaba TikTok">
       <project name="Commander sur Alibaba - TikTok">
-        <sequence format="r0" duration="4296/30s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+        <sequence format="r0" duration="4133/30s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
           <spine>
-            <gap name="Base" offset="0s" start="0s" duration="4296/30s">
+            <gap name="Base" offset="0s" start="0s" duration="4133/30s">
               <video ref="a1" lane="1" offset="0s" start="0s" duration="72/30s" name="757730706103895999.jpg" />
-              <asset-clip ref="a2" lane="1" offset="72/30s" start="0s" duration="60/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
-              <asset-clip ref="a3" lane="1" offset="132/30s" start="0s" duration="76/30s" name="5585988-hd_1080_1920_30fps.mp4" audioRole="dialogue" />
-              <asset-clip ref="a4" lane="1" offset="208/30s" start="0s" duration="56/30s" name="6651432-uhd_4096_2160_25fps.mp4" audioRole="dialogue" />
-              <asset-clip ref="a2" lane="1" offset="264/30s" start="78/30s" duration="112/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
-              <asset-clip ref="a2" lane="1" offset="376/30s" start="399/30s" duration="90/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
-              <asset-clip ref="a5" lane="1" offset="466/30s" start="210/30s" duration="93/30s" name="7855148-uhd_3840_2160_25fps.mp4" audioRole="dialogue" />
-              <asset-clip ref="a2" lane="1" offset="560/30s" start="237/30s" duration="89/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
-              <asset-clip ref="a6" lane="1" offset="648/30s" start="6/30s" duration="68/30s" name="7835286-uhd_3840_2160_25fps.mp4" audioRole="dialogue" />
-              <video ref="a7" lane="1" offset="716/30s" start="0s" duration="121/30s" name="896708975821689274.jpg" />
-              <video ref="a8" lane="1" offset="837/30s" start="0s" duration="74/30s" name="Custom Canvas Totes – Ready for Your Brand.jpg" />
-              <asset-clip ref="a4" lane="1" offset="910/30s" start="60/30s" duration="99/30s" name="6651432-uhd_4096_2160_25fps.mp4" audioRole="dialogue" />
-              <video ref="a9" lane="1" offset="1010/30s" start="0s" duration="82/30s" name="Big Order.jpg" />
-              <video ref="a10" lane="1" offset="1092/30s" start="0s" duration="94/30s" name="1105844883513817896.jpg" />
-              <video ref="a10" lane="1" offset="1186/30s" start="0s" duration="89/30s" name="1105844883513817896.jpg" />
-              <video ref="a7" lane="1" offset="1275/30s" start="0s" duration="42/30s" name="896708975821689274.jpg" />
-              <video ref="a11" lane="1" offset="1317/30s" start="0s" duration="72/30s" name="MIL-STD-129 Labeling.jpg" />
-              <asset-clip ref="a5" lane="1" offset="1389/30s" start="0s" duration="77/30s" name="7855148-uhd_3840_2160_25fps.mp4" audioRole="dialogue" />
-              <asset-clip ref="a5" lane="1" offset="1466/30s" start="78/30s" duration="36/30s" name="7855148-uhd_3840_2160_25fps.mp4" audioRole="dialogue" />
-              <asset-clip ref="a2" lane="1" offset="1502/30s" start="312/30s" duration="86/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
-              <asset-clip ref="a2" lane="1" offset="1587/30s" start="468/30s" duration="72/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
-              <asset-clip ref="a2" lane="1" offset="1659/30s" start="549/30s" duration="81/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
-              <video ref="a12" lane="1" offset="1740/30s" start="0s" duration="108/30s" name="verified ca du fournis.png" />
-              <video ref="a12" lane="1" offset="1848/30s" start="0s" duration="39/30s" name="verified ca du fournis.png" />
-              <video ref="a12" lane="1" offset="1887/30s" start="0s" duration="51/30s" name="verified ca du fournis.png" />
-              <asset-clip ref="a2" lane="1" offset="1938/30s" start="570/30s" duration="42/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
-              <asset-clip ref="a6" lane="1" offset="1980/30s" start="162/30s" duration="153/30s" name="7835286-uhd_3840_2160_25fps.mp4" audioRole="dialogue" />
-              <video ref="a12" lane="1" offset="2133/30s" start="0s" duration="120/30s" name="verified ca du fournis.png" />
-              <video ref="a12" lane="1" offset="2253/30s" start="0s" duration="104/30s" name="verified ca du fournis.png" />
-              <asset-clip ref="a2" lane="1" offset="2356/30s" start="399/30s" duration="116/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
-              <asset-clip ref="a2" lane="1" offset="2472/30s" start="150/30s" duration="93/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
-              <video ref="a12" lane="1" offset="2565/30s" start="0s" duration="123/30s" name="verified ca du fournis.png" />
-              <asset-clip ref="a4" lane="1" offset="2688/30s" start="159/30s" duration="60/30s" name="6651432-uhd_4096_2160_25fps.mp4" audioRole="dialogue" />
-              <asset-clip ref="a3" lane="1" offset="2748/30s" start="0s" duration="315/30s" name="5585988-hd_1080_1920_30fps.mp4" audioRole="dialogue" />
-              <asset-clip ref="a3" lane="1" offset="3063/30s" start="0s" duration="87/30s" name="5585988-hd_1080_1920_30fps.mp4" audioRole="dialogue" />
-              <asset-clip ref="a4" lane="1" offset="3150/30s" start="210/30s" duration="60/30s" name="6651432-uhd_4096_2160_25fps.mp4" audioRole="dialogue" />
-              <video ref="a13" lane="1" offset="3210/30s" start="0s" duration="76/30s" name="Make the Last Step Feel Effortless with Free Payment UI Kits.jpg" />
-              <asset-clip ref="a14" lane="1" offset="3286/30s" start="174/30s" duration="52/30s" name="6633345-hd_1080_1920_25fps.mp4" audioRole="dialogue" />
-              <asset-clip ref="a14" lane="1" offset="3339/30s" start="0s" duration="110/30s" name="6633345-hd_1080_1920_25fps.mp4" audioRole="dialogue" />
-              <asset-clip ref="a2" lane="1" offset="3448/30s" start="558/30s" duration="76/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
-              <video ref="a8" lane="1" offset="3525/30s" start="0s" duration="104/30s" name="Custom Canvas Totes – Ready for Your Brand.jpg" />
-              <asset-clip ref="a5" lane="1" offset="3628/30s" start="300/30s" duration="93/30s" name="7855148-uhd_3840_2160_25fps.mp4" audioRole="dialogue" />
-              <video ref="a9" lane="1" offset="3722/30s" start="0s" duration="117/30s" name="Big Order.jpg" />
-              <video ref="a11" lane="1" offset="3838/30s" start="0s" duration="79/30s" name="MIL-STD-129 Labeling.jpg" />
-              <video ref="a10" lane="1" offset="3918/30s" start="0s" duration="60/30s" name="1105844883513817896.jpg" />
-              <video ref="a7" lane="1" offset="3978/30s" start="0s" duration="90/30s" name="896708975821689274.jpg" />
-              <asset-clip ref="a6" lane="1" offset="4068/30s" start="81/30s" duration="60/30s" name="7835286-uhd_3840_2160_25fps.mp4" audioRole="dialogue" />
-              <video ref="a15" lane="1" offset="4128/30s" start="0s" duration="168/30s" name="1089871178582673740.jpg" />
-              <asset-clip ref="a16" lane="-1" offset="0s" start="0s" duration="4255/30s" name="Voix off" audioRole="dialogue" />
+              <asset-clip ref="a2" lane="1" offset="72/30s" start="0s" duration="55/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
+              <asset-clip ref="a2" lane="1" offset="127/30s" start="78/30s" duration="112/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
+              <asset-clip ref="a2" lane="1" offset="240/30s" start="399/30s" duration="17/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
+              <asset-clip ref="a2" lane="1" offset="257/30s" start="442/30s" duration="47/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
+              <asset-clip ref="a3" lane="1" offset="304/30s" start="210/30s" duration="93/30s" name="7855148-uhd_3840_2160_25fps.mp4" audioRole="dialogue" />
+              <asset-clip ref="a2" lane="1" offset="396/30s" start="237/30s" duration="89/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
+              <asset-clip ref="a4" lane="1" offset="485/30s" start="6/30s" duration="68/30s" name="7835286-uhd_3840_2160_25fps.mp4" audioRole="dialogue" />
+              <video ref="a5" lane="1" offset="552/30s" start="0s" duration="121/30s" name="896708975821689274.jpg" />
+              <video ref="a6" lane="1" offset="674/30s" start="0s" duration="74/30s" name="Custom Canvas Totes – Ready for Your Brand.jpg" />
+              <asset-clip ref="a7" lane="1" offset="748/30s" start="60/30s" duration="99/30s" name="6651432-uhd_4096_2160_25fps.mp4" audioRole="dialogue" />
+              <video ref="a8" lane="1" offset="846/30s" start="0s" duration="82/30s" name="Big Order.jpg" />
+              <video ref="a9" lane="1" offset="929/30s" start="0s" duration="94/30s" name="1105844883513817896.jpg" />
+              <video ref="a9" lane="1" offset="1023/30s" start="0s" duration="89/30s" name="1105844883513817896.jpg" />
+              <video ref="a5" lane="1" offset="1112/30s" start="0s" duration="42/30s" name="896708975821689274.jpg" />
+              <video ref="a10" lane="1" offset="1154/30s" start="0s" duration="72/30s" name="MIL-STD-129 Labeling.jpg" />
+              <asset-clip ref="a3" lane="1" offset="1226/30s" start="0s" duration="77/30s" name="7855148-uhd_3840_2160_25fps.mp4" audioRole="dialogue" />
+              <asset-clip ref="a3" lane="1" offset="1302/30s" start="78/30s" duration="36/30s" name="7855148-uhd_3840_2160_25fps.mp4" audioRole="dialogue" />
+              <asset-clip ref="a2" lane="1" offset="1338/30s" start="312/30s" duration="86/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
+              <asset-clip ref="a2" lane="1" offset="1424/30s" start="468/30s" duration="72/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
+              <asset-clip ref="a2" lane="1" offset="1496/30s" start="549/30s" duration="81/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
+              <video ref="a11" lane="1" offset="1577/30s" start="0s" duration="108/30s" name="verified ca du fournis.png" />
+              <video ref="a11" lane="1" offset="1685/30s" start="0s" duration="39/30s" name="verified ca du fournis.png" />
+              <video ref="a11" lane="1" offset="1724/30s" start="0s" duration="51/30s" name="verified ca du fournis.png" />
+              <asset-clip ref="a2" lane="1" offset="1775/30s" start="570/30s" duration="42/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
+              <asset-clip ref="a4" lane="1" offset="1817/30s" start="162/30s" duration="153/30s" name="7835286-uhd_3840_2160_25fps.mp4" audioRole="dialogue" />
+              <video ref="a11" lane="1" offset="1970/30s" start="0s" duration="120/30s" name="verified ca du fournis.png" />
+              <video ref="a11" lane="1" offset="2090/30s" start="0s" duration="104/30s" name="verified ca du fournis.png" />
+              <asset-clip ref="a2" lane="1" offset="2194/30s" start="399/30s" duration="116/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
+              <asset-clip ref="a2" lane="1" offset="2309/30s" start="150/30s" duration="93/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
+              <video ref="a11" lane="1" offset="2402/30s" start="0s" duration="123/30s" name="verified ca du fournis.png" />
+              <asset-clip ref="a7" lane="1" offset="2525/30s" start="159/30s" duration="60/30s" name="6651432-uhd_4096_2160_25fps.mp4" audioRole="dialogue" />
+              <asset-clip ref="a12" lane="1" offset="2585/30s" start="0s" duration="315/30s" name="5585988-hd_1080_1920_30fps.mp4" audioRole="dialogue" />
+              <asset-clip ref="a12" lane="1" offset="2900/30s" start="0s" duration="87/30s" name="5585988-hd_1080_1920_30fps.mp4" audioRole="dialogue" />
+              <asset-clip ref="a7" lane="1" offset="2987/30s" start="210/30s" duration="60/30s" name="6651432-uhd_4096_2160_25fps.mp4" audioRole="dialogue" />
+              <video ref="a13" lane="1" offset="3047/30s" start="0s" duration="76/30s" name="Make the Last Step Feel Effortless with Free Payment UI Kits.jpg" />
+              <asset-clip ref="a14" lane="1" offset="3124/30s" start="174/30s" duration="52/30s" name="6633345-hd_1080_1920_25fps.mp4" audioRole="dialogue" />
+              <asset-clip ref="a14" lane="1" offset="3176/30s" start="0s" duration="110/30s" name="6633345-hd_1080_1920_25fps.mp4" audioRole="dialogue" />
+              <asset-clip ref="a2" lane="1" offset="3286/30s" start="558/30s" duration="76/30s" name="alibaba recherch produit.mp4" audioRole="dialogue" />
+              <video ref="a6" lane="1" offset="3362/30s" start="0s" duration="104/30s" name="Custom Canvas Totes – Ready for Your Brand.jpg" />
+              <asset-clip ref="a3" lane="1" offset="3466/30s" start="300/30s" duration="93/30s" name="7855148-uhd_3840_2160_25fps.mp4" audioRole="dialogue" />
+              <video ref="a8" lane="1" offset="3558/30s" start="0s" duration="117/30s" name="Big Order.jpg" />
+              <video ref="a10" lane="1" offset="3676/30s" start="0s" duration="79/30s" name="MIL-STD-129 Labeling.jpg" />
+              <video ref="a9" lane="1" offset="3755/30s" start="0s" duration="60/30s" name="1105844883513817896.jpg" />
+              <video ref="a5" lane="1" offset="3815/30s" start="0s" duration="90/30s" name="896708975821689274.jpg" />
+              <asset-clip ref="a4" lane="1" offset="3905/30s" start="81/30s" duration="60/30s" name="7835286-uhd_3840_2160_25fps.mp4" audioRole="dialogue" />
+              <video ref="a15" lane="1" offset="3965/30s" start="0s" duration="168/30s" name="1089871178582673740.jpg" />
+              <asset-clip ref="a16" lane="-1" offset="0s" start="0s" duration="4092/30s" name="Voix off (montée)" audioRole="dialogue" />
               <asset-clip ref="a17" lane="-2" offset="0s" start="0s" duration="2887/30s" name="Musique" audioRole="music"><adjust-volume amount="-23dB"/></asset-clip>
-              <asset-clip ref="a17" lane="-2" offset="2887/30s" start="0s" duration="1409/30s" name="Musique" audioRole="music"><adjust-volume amount="-23dB"/></asset-clip>
+              <asset-clip ref="a17" lane="-2" offset="2887/30s" start="0s" duration="1246/30s" name="Musique" audioRole="music"><adjust-volume amount="-23dB"/></asset-clip>
               <asset-clip ref="a18" lane="-3" offset="0s" start="0s" duration="54/30s" name="SFX whoosh_fast" audioRole="effects"><adjust-volume amount="-8dB"/></asset-clip>
               <asset-clip ref="a19" lane="-4" offset="2/30s" start="0s" duration="48/30s" name="SFX impact_deep_whoosh" audioRole="effects"><adjust-volume amount="-16dB"/></asset-clip>
-              <asset-clip ref="a20" lane="-5" offset="646/30s" start="0s" duration="71/30s" name="SFX whoosh_air" audioRole="effects"><adjust-volume amount="-6dB"/></asset-clip>
-              <asset-clip ref="a18" lane="-3" offset="714/30s" start="0s" duration="54/30s" name="SFX whoosh_fast" audioRole="effects"><adjust-volume amount="-12dB"/></asset-clip>
-              <asset-clip ref="a21" lane="-4" offset="1013/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
-              <asset-clip ref="a21" lane="-5" offset="1190/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
-              <asset-clip ref="a21" lane="-3" offset="1278/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
-              <asset-clip ref="a21" lane="-4" offset="1363/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
-              <asset-clip ref="a19" lane="-5" offset="1468/30s" start="0s" duration="54/30s" name="SFX impact_deep_whoosh" audioRole="effects"><adjust-volume amount="-15dB"/></asset-clip>
-              <asset-clip ref="a22" lane="-3" offset="1528/30s" start="0s" duration="15/30s" name="SFX mouse_double" audioRole="effects"><adjust-volume amount="-4dB"/></asset-clip>
-              <asset-clip ref="a23" lane="-4" offset="1556/30s" start="0s" duration="27/30s" name="SFX typing_laptop" audioRole="effects"><adjust-volume amount="-12dB"/></asset-clip>
-              <asset-clip ref="a24" lane="-5" offset="1591/30s" start="0s" duration="33/30s" name="SFX mouse_clicks" audioRole="effects"><adjust-volume amount="-6dB"/></asset-clip>
-              <asset-clip ref="a22" lane="-3" offset="1662/30s" start="0s" duration="15/30s" name="SFX mouse_double" audioRole="effects"><adjust-volume amount="-6dB"/></asset-clip>
-              <asset-clip ref="a21" lane="-4" offset="1786/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
-              <asset-clip ref="a21" lane="-5" offset="1855/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
-              <asset-clip ref="a21" lane="-3" offset="1898/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
-              <asset-clip ref="a21" lane="-4" offset="1941/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
-              <asset-clip ref="a20" lane="-5" offset="2205/30s" start="0s" duration="71/30s" name="SFX whoosh_air" audioRole="effects"><adjust-volume amount="-14dB"/></asset-clip>
-              <asset-clip ref="a22" lane="-3" offset="2635/30s" start="0s" duration="15/30s" name="SFX mouse_double" audioRole="effects"><adjust-volume amount="-2dB"/></asset-clip>
-              <asset-clip ref="a23" lane="-4" offset="2700/30s" start="0s" duration="39/30s" name="SFX typing_laptop" audioRole="effects"><adjust-volume amount="-14dB"/></asset-clip>
-              <asset-clip ref="a23" lane="-5" offset="2760/30s" start="0s" duration="120/30s" name="SFX typing_laptop" audioRole="effects"><adjust-volume amount="-18dB"/></asset-clip>
-              <asset-clip ref="a25" lane="-3" offset="3276/30s" start="0s" duration="40/30s" name="SFX confirmation_tone" audioRole="effects"><adjust-volume amount="-16dB"/></asset-clip>
-              <asset-clip ref="a26" lane="-4" offset="3633/30s" start="0s" duration="12/30s" name="SFX camera_shutter" audioRole="effects"><adjust-volume amount="-5dB"/></asset-clip>
-              <asset-clip ref="a27" lane="-5" offset="3727/30s" start="0s" duration="21/30s" name="SFX scanner_beeps" audioRole="effects"><adjust-volume amount="-24dB"/></asset-clip>
-              <asset-clip ref="a21" lane="-3" offset="3775/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-5dB"/></asset-clip>
-              <asset-clip ref="a20" lane="-4" offset="3917/30s" start="0s" duration="71/30s" name="SFX whoosh_air" audioRole="effects"><adjust-volume amount="-12dB"/></asset-clip>
-              <asset-clip ref="a28" lane="-5" offset="3981/30s" start="0s" duration="138/30s" name="SFX truck_steady" audioRole="effects"><adjust-volume amount="-22dB"/></asset-clip>
-              <asset-clip ref="a20" lane="-3" offset="4126/30s" start="0s" duration="71/30s" name="SFX whoosh_air" audioRole="effects"><adjust-volume amount="-10dB"/></asset-clip>
-              <asset-clip ref="a29" lane="-4" offset="4185/30s" start="0s" duration="16/30s" name="SFX long_pop" audioRole="effects"><adjust-volume amount="-5dB"/></asset-clip>
+              <asset-clip ref="a20" lane="-5" offset="484/30s" start="0s" duration="71/30s" name="SFX whoosh_air" audioRole="effects"><adjust-volume amount="-6dB"/></asset-clip>
+              <asset-clip ref="a18" lane="-3" offset="551/30s" start="0s" duration="54/30s" name="SFX whoosh_fast" audioRole="effects"><adjust-volume amount="-12dB"/></asset-clip>
+              <asset-clip ref="a21" lane="-4" offset="850/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
+              <asset-clip ref="a21" lane="-5" offset="1027/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
+              <asset-clip ref="a21" lane="-3" offset="1115/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
+              <asset-clip ref="a21" lane="-4" offset="1200/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
+              <asset-clip ref="a19" lane="-5" offset="1306/30s" start="0s" duration="54/30s" name="SFX impact_deep_whoosh" audioRole="effects"><adjust-volume amount="-15dB"/></asset-clip>
+              <asset-clip ref="a22" lane="-3" offset="1365/30s" start="0s" duration="15/30s" name="SFX mouse_double" audioRole="effects"><adjust-volume amount="-4dB"/></asset-clip>
+              <asset-clip ref="a23" lane="-4" offset="1393/30s" start="0s" duration="27/30s" name="SFX typing_laptop" audioRole="effects"><adjust-volume amount="-12dB"/></asset-clip>
+              <asset-clip ref="a24" lane="-5" offset="1428/30s" start="0s" duration="33/30s" name="SFX mouse_clicks" audioRole="effects"><adjust-volume amount="-6dB"/></asset-clip>
+              <asset-clip ref="a22" lane="-3" offset="1499/30s" start="0s" duration="15/30s" name="SFX mouse_double" audioRole="effects"><adjust-volume amount="-6dB"/></asset-clip>
+              <asset-clip ref="a21" lane="-4" offset="1623/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
+              <asset-clip ref="a21" lane="-5" offset="1692/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
+              <asset-clip ref="a21" lane="-3" offset="1735/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
+              <asset-clip ref="a21" lane="-4" offset="1778/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-3dB"/></asset-clip>
+              <asset-clip ref="a20" lane="-5" offset="2042/30s" start="0s" duration="71/30s" name="SFX whoosh_air" audioRole="effects"><adjust-volume amount="-14dB"/></asset-clip>
+              <asset-clip ref="a22" lane="-3" offset="2472/30s" start="0s" duration="15/30s" name="SFX mouse_double" audioRole="effects"><adjust-volume amount="-2dB"/></asset-clip>
+              <asset-clip ref="a23" lane="-4" offset="2537/30s" start="0s" duration="39/30s" name="SFX typing_laptop" audioRole="effects"><adjust-volume amount="-14dB"/></asset-clip>
+              <asset-clip ref="a23" lane="-5" offset="2597/30s" start="0s" duration="120/30s" name="SFX typing_laptop" audioRole="effects"><adjust-volume amount="-18dB"/></asset-clip>
+              <asset-clip ref="a25" lane="-3" offset="3113/30s" start="0s" duration="40/30s" name="SFX confirmation_tone" audioRole="effects"><adjust-volume amount="-16dB"/></asset-clip>
+              <asset-clip ref="a26" lane="-4" offset="3470/30s" start="0s" duration="12/30s" name="SFX camera_shutter" audioRole="effects"><adjust-volume amount="-5dB"/></asset-clip>
+              <asset-clip ref="a27" lane="-5" offset="3564/30s" start="0s" duration="21/30s" name="SFX scanner_beeps" audioRole="effects"><adjust-volume amount="-24dB"/></asset-clip>
+              <asset-clip ref="a21" lane="-3" offset="3612/30s" start="0s" duration="9/30s" name="SFX check_box" audioRole="effects"><adjust-volume amount="-5dB"/></asset-clip>
+              <asset-clip ref="a20" lane="-4" offset="3754/30s" start="0s" duration="71/30s" name="SFX whoosh_air" audioRole="effects"><adjust-volume amount="-12dB"/></asset-clip>
+              <asset-clip ref="a28" lane="-5" offset="3818/30s" start="0s" duration="138/30s" name="SFX truck_steady" audioRole="effects"><adjust-volume amount="-22dB"/></asset-clip>
+              <asset-clip ref="a20" lane="-3" offset="3964/30s" start="0s" duration="71/30s" name="SFX whoosh_air" audioRole="effects"><adjust-volume amount="-10dB"/></asset-clip>
+              <asset-clip ref="a29" lane="-4" offset="4022/30s" start="0s" duration="16/30s" name="SFX long_pop" audioRole="effects"><adjust-volume amount="-5dB"/></asset-clip>
             </gap>
           </spine>
         </sequence>

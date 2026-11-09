@@ -417,10 +417,12 @@ def all_frames(t_from=0.0, t_to=None):
     for s, t0, t1 in shot_bounds():
         if t1 <= t_from or t0 >= t_to:
             continue
+        if all(plan.in_cut(x / FPS) for x in range(round(t0 * FPS), round(t1 * FPS))):
+            continue  # plan entièrement coupé
         f0 = round(t0 * FPS)
         for j, fr in enumerate(render_shot(s, t0, t1)):
             t = (f0 + j) / FPS
-            if t < t_from or t >= t_to:
+            if t < t_from or t >= t_to or plan.in_cut(t + 1e-6):
                 continue
             ovs = overlays(t)
             if 121.10 <= t < 121.30:  # flash appareil photo
@@ -445,9 +447,12 @@ def build_subs():
         tx = w["text"]
         if tx in ("«", "»", "»."):
             continue
-        ws.append(dict(text=DISPLAY_FIX.get(tx, tx), start=w["start"], end=w["end"]))
+        if plan.in_cut(w["start"]):
+            continue
+        ws.append(dict(text=DISPLAY_FIX.get(tx, tx), start=plan.to_new(w["start"]), end=plan.to_new(w["end"])))
+    hide = [(plan.to_new(a), plan.to_new(b)) for a, b in plan.SUB_HIDE]
     def hidden(t):
-        return any(a - 0.01 <= t < b for a, b in plan.SUB_HIDE)
+        return any(a - 0.01 <= t < b for a, b in hide)
     ws = [w for w in ws if not hidden(w["start"])]
     # groupes de 1 à 3 mots, coupure après ponctuation ou pause
     groups, cur = [], []
@@ -466,7 +471,7 @@ def build_subs():
     for i, g in enumerate(groups):
         st = g[0]["start"] - 0.04
         en = min(g[-1]["end"] + 0.45, groups[i + 1][0]["start"] - 0.04) if i + 1 < len(groups) else g[-1]["end"] + 0.6
-        for a, b in plan.SUB_HIDE:
+        for a, b in hide:
             if st < a < en:
                 en = a
         parts = []
@@ -508,14 +513,32 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 # ---------------------------------------------------------------- audio
 def build_audio(out="cache/mix.wav"):
     inputs = ["-i", "audio/voix_off_samantha_claude.mp3", "-stream_loop", "1", "-i", "audio/music/music_motivating_mornings.mp3"]
-    fc = ["[0:a]aresample=48000,volume=-1.5dB,apad=whole_dur=%.2f[v]" % plan.TOTAL]
+    T = plan.NEW_TOTAL
+    # voix : segments conservés, micro-fondus de 8 ms à chaque raccord
+    keep, s0 = [], 0.0
+    for a, b in plan.CUTS:
+        keep.append((s0, a)); s0 = b
+    keep.append((s0, 999.0))
+    fc = [f"[0:a]aresample=48000,asplit={len(keep)}" + "".join(f"[k{i}]" for i in range(len(keep)))]
+    for i, (a, b) in enumerate(keep):
+        ch = f"[k{i}]atrim={a:.4f}:{b:.4f},asetpts=PTS-STARTPTS"
+        if i > 0:
+            ch += ",afade=t=in:d=0.008"
+        if i < len(keep) - 1:
+            ch += f",afade=t=out:st={b - a - 0.008:.4f}:d=0.008"
+        fc.append(ch + f"[c{i}]")
+    fc.append("".join(f"[c{i}]" for i in range(len(keep))) + f"concat=n={len(keep)}:v=0:a=1,volume=-1.5dB,asplit=2[v][vo]")
     a, b, g = plan.MUSIC_DUCK
-    fc.append(f"[1:a]aresample=48000,atrim=0:{plan.TOTAL},volume={plan.MUSIC_GAIN_DB}dB,"
-              f"volume='if(between(t,{a},{b}),{g},1)':eval=frame,afade=t=in:d=0.6,afade=t=out:st={plan.TOTAL - 2.2}:d=2.2[m]")
+    a, b = plan.to_new(a), plan.to_new(b)
+    fc.append(f"[1:a]aresample=48000,atrim=0:{T},volume={plan.MUSIC_GAIN_DB}dB,"
+              f"volume='if(between(t,{a},{b}),{g},1)':eval=frame,afade=t=in:d=0.6,afade=t=out:st={T - 2.2}:d=2.2[m]")
     labels = ["[v]", "[m]"]
     for i, (t, name, gain, dur, fade) in enumerate(plan.SFX):
+        if plan.in_cut(t):
+            continue
+        t = plan.to_new(t)
         inputs += ["-i", f"audio/sfx/{name}.mp3"]
-        idx = i + 2
+        idx = len(labels)
         chain = f"[{idx}:a]aresample=48000,aformat=channel_layouts=stereo"
         if dur:
             chain += f",atrim=0:{dur}"
@@ -523,13 +546,14 @@ def build_audio(out="cache/mix.wav"):
                 chain += f",afade=t=out:st={max(0, dur - fade)}:d={fade}"
         chain += f",volume={gain}dB,adelay={int(t * 1000)}|{int(t * 1000)}[s{i}]"
         fc.append(chain); labels.append(f"[s{i}]")
-    fc.append("".join(labels) + f"amix=inputs={len(labels)}:normalize=0:duration=first,alimiter=limit=0.85[out]")
+    fc.append("".join(labels) + f"amix=inputs={len(labels)}:normalize=0:duration=longest,alimiter=limit=0.85[out]")
     subprocess.check_call(["ffmpeg", "-v", "error", "-y"] + inputs + ["-filter_complex", ";".join(fc),
-                           "-map", "[out]", "-t", str(plan.TOTAL), "-ac", "2", out])
+                           "-map", "[out]", "-t", f"{T:.3f}", "-ac", "2", out,
+                           "-map", "[vo]", "audio/voix_off_montee.mp3"])
     return out
 
 # ---------------------------------------------------------------- main
-def render(out="export/alibaba_tiktok.mp4"):
+def render(out="export/alibaba_tiktok_v2.mp4"):
     n = build_subs()
     print("sous-titres :", n, "blocs")
     mix = build_audio()
@@ -543,7 +567,7 @@ def render(out="export/alibaba_tiktok.mp4"):
     for i, (t, fr) in enumerate(all_frames()):
         p.stdin.write(fr.tobytes())
         if i % 300 == 0:
-            print(f"  {t:6.1f}s / {plan.TOTAL}s", flush=True)
+            print(f"  {plan.to_new(t):6.1f}s / {plan.NEW_TOTAL:.1f}s", flush=True)
     p.stdin.close(); p.wait()
     print("OK ->", out)
 

@@ -92,7 +92,7 @@ def render(bg_path, out, cx=0.5, cy=0.5, zoom=1.0):
     # 4. promesse
     d = ImageDraw.Draw(im)
     f3 = f_inter("Black", 66)
-    centered(d, 1070, "sans payer de formation", f3, (255, 255, 255), 3, INK)
+    centered(d, 1070, "le guide étape par étape", f3, (255, 255, 255), 3, INK)
 
     # 5. ligne d'étapes façon marge d'affiche
     f4 = f_inter("ExtraBold", 34)
