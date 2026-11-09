@@ -8,7 +8,7 @@ Pas de visage, d'avatar ni d'éléments de démonstration (« original », « Fi
 
 | Fichier | Rôle |
 |---|---|
-| `export/alibaba_tiktok_v2.mp4` | **Vidéo finale v2** (sans le passage sur les formations ni « gratuitement »), non publiée — `alibaba_tiktok_v1.mp4` = première version |
+| `export/alibaba_tiktok_v3.mp4` | **Vidéo finale v3** : intro reformulée sans promesse (« Pas besoin de te compliquer la vie avec ça », « étape par étape »), reste identique, CTA conservé. Non publiée. `v2` = version avec coupes, `v1` = première version |
 | `PLAN_DE_MONTAGE.md` | Tableau phrase / fichier / moment / texte écran / son |
 | `projet_editable/alibaba_tiktok.fcpxml` | Timeline éditable : plans, voix, musique, SFX sur pistes séparées (DaVinci Resolve : *Fichier → Importer → Timeline*, Final Cut Pro, Premiere via conversion XML). Reliez les médias au dossier `media/` si demandé. Les zooms, cartes et checklist sont « cuits » dans le rendu Python, pas dans la timeline. |
 | `sous_titres.srt` / `sous_titres.ass` | Sous-titres mot à mot (SRT pour CapCut/Premiere, ASS = style exact) |
