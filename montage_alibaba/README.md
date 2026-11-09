@@ -20,7 +20,7 @@ Pas de visage, d'avatar ni d'éléments de démonstration (« original », « Fi
 
 ## Sources
 
-- **Visuels** : uniquement le dossier Drive fourni (15 fichiers, tous examinés un par un). Pinterest n'a pas été utilisé : la recherche exige une connexion, et le Chrome de l'ordinateur n'était pas joignable depuis la session.
+- **Visuels** : uniquement le dossier Drive fourni (15 fichiers, tous examinés un par un). Aucun visuel Pinterest dans la vidéo : la recherche de vidéos exige une connexion, et le Chrome de l’ordinateur n’était pas joignable depuis la session (Pinterest a servi uniquement d’inspiration pour la couverture, voir plus bas).
 - **Voix** : ElevenLabs, voix clonée « voix de samantha claude » (seule voix clonée du compte correspondant à « Samantha Claude »), modèle `eleven_multilingual_v2`.
 - **Musique** : Mixkit « Motivating Mornings » (#33), licence *Mixkit Stock Music Free License*.
 - **Effets** : Mixkit (licence *Sound Effects Free License* : usage libre, commercial ou non, dans des vidéos sur les réseaux sociaux) — détails dans `export_projet.py` (`SFX_LABEL`).
