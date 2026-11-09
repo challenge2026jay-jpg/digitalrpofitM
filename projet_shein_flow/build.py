@@ -75,7 +75,8 @@ def tw(f, s): b = f.getbbox(s); return b[2] - b[0]
 
 @functools.lru_cache(maxsize=None)
 def text_img(s, font_key, size, color, stroke=0, scolor=INK, spacing_word=None):
-    f = {"play": f_play, "play7": f_play7, "anton": f_anton}.get(font_key)
+    f = {"play": f_play, "play7": f_play7, "anton": f_anton,
+         "cjk": lambda s: ImageFont.truetype("/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc", s)}.get(font_key)
     f = f(size) if f else f_inter(font_key, size)
     words = s.split(" "); gap = spacing_word if spacing_word is not None else int(size * 0.28)
     w = sum(tw(f, x) for x in words) + gap * (len(words) - 1) + 2 * stroke + 20
