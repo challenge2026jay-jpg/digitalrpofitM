@@ -1,6 +1,6 @@
 # Woman Business — Projet « SHEIN × Google Flow » : brief remis en ordre + storyboard v1
 
-Statut : **proposition à valider, aucune vidéo produite**.
+Statut : **vidéo A produite** → `export/woman_business_flow_9x16.mp4` (21,6 s), rendu reproductible avec `python3 build.py`.
 
 ---
 
