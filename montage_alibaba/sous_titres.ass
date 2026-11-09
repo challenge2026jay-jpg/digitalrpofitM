@@ -1,0 +1,171 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter Display Black,82,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,6,2,2,90,90,470,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.68,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Commander\h sur
+Dialogue: 0,0:00:00.68,0:00:01.72,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}{\c&H0AD6FF&}Alibaba{\c&HFFFFFF&}\h n'a\h jamais
+Dialogue: 0,0:00:01.72,0:00:02.70,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}été\h aussi\h simple
+Dialogue: 0,0:00:02.70,0:00:04.40,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}qu'en\h 2026.
+Dialogue: 0,0:00:04.40,0:00:05.06,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Si\h tu\h payes
+Dialogue: 0,0:00:05.06,0:00:05.52,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}encore\h des
+Dialogue: 0,0:00:05.52,0:00:06.30,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}formations\h pour
+Dialogue: 0,0:00:06.30,0:00:07.26,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}apprendre\h ça,
+Dialogue: 0,0:00:07.26,0:00:08.00,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}je\h suis\h désolée
+Dialogue: 0,0:00:08.00,0:00:08.87,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}pour\h toi.
+Dialogue: 0,0:00:08.96,0:00:09.72,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Aujourd'hui,
+Dialogue: 0,0:00:09.72,0:00:10.68,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}je\h t'explique\h de
+Dialogue: 0,0:00:10.68,0:00:11.28,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}A\h à\h Z
+Dialogue: 0,0:00:11.28,0:00:11.92,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}comment\h tu\h peux
+Dialogue: 0,0:00:11.92,0:00:12.56,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}commander\h sur
+Dialogue: 0,0:00:12.56,0:00:14.04,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}{\c&H0AD6FF&}Alibaba{\c&HFFFFFF&}\h gratuitement
+Dialogue: 0,0:00:14.04,0:00:14.58,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}en\h moins\h de
+Dialogue: 0,0:00:14.58,0:00:15.64,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}deux\h minutes.
+Dialogue: 0,0:00:15.64,0:00:16.02,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Parce\h que
+Dialogue: 0,0:00:16.02,0:00:16.60,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}franchement,
+Dialogue: 0,0:00:16.60,0:00:16.96,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}il\h n'y\h a
+Dialogue: 0,0:00:16.96,0:00:17.54,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}rien\h de\h plus
+Dialogue: 0,0:00:17.54,0:00:18.74,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}simple\h que\h ça.
+Dialogue: 0,0:00:18.74,0:00:19.84,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}La\h première\h chose
+Dialogue: 0,0:00:19.84,0:00:20.74,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}avant\h de\h toucher
+Dialogue: 0,0:00:20.74,0:00:21.72,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}{\c&H0AD6FF&}Alibaba,{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.72,0:00:22.60,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}c'est\h de\h trouver
+Dialogue: 0,0:00:22.60,0:00:23.92,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}un\h {\c&H0AD6FF&}transitaire.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.92,0:00:24.38,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Lui,
+Dialogue: 0,0:00:24.38,0:00:25.32,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}il\h va\h t'apporter
+Dialogue: 0,0:00:25.32,0:00:25.98,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ton\h colis\h de
+Dialogue: 0,0:00:25.98,0:00:27.16,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}la\h Chine\h jusqu'à
+Dialogue: 0,0:00:27.16,0:00:28.04,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ton\h pays.
+Dialogue: 0,0:00:28.04,0:00:28.42,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Il\h y\h en
+Dialogue: 0,0:00:28.42,0:00:28.96,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}a\h plein,
+Dialogue: 0,0:00:28.96,0:00:29.62,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ça\h dépend\h de
+Dialogue: 0,0:00:29.62,0:00:30.40,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ton\h pays.
+Dialogue: 0,0:00:30.40,0:00:31.42,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Tu\h les\h contactes,
+Dialogue: 0,0:00:31.42,0:00:32.10,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}tu\h leur\h poses
+Dialogue: 0,0:00:32.10,0:00:32.84,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}quatre\h questions
+Dialogue: 0,0:00:32.84,0:00:33.72,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}précises.
+Dialogue: 0,0:00:33.72,0:00:34.26,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Le\h {\c&H0AD6FF&}prix{\c&HFFFFFF&}\h du
+Dialogue: 0,0:00:34.26,0:00:35.26,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}kilo\h en\h fonction
+Dialogue: 0,0:00:35.26,0:00:36.20,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}du\h produit\h et
+Dialogue: 0,0:00:36.20,0:00:37.34,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}du\h {\c&H0AD6FF&}CBM{\c&HFFFFFF&}\h si
+Dialogue: 0,0:00:37.34,0:00:37.76,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}tu\h veux\h par
+Dialogue: 0,0:00:37.76,0:00:38.86,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}exemple\h envoyer\h par
+Dialogue: 0,0:00:38.86,0:00:39.62,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}bateau.
+Dialogue: 0,0:00:39.62,0:00:40.52,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}La\h durée\h d'envoi
+Dialogue: 0,0:00:40.52,0:00:41.16,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}en\h fonction\h de
+Dialogue: 0,0:00:41.16,0:00:41.82,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}la\h méthode\h que
+Dialogue: 0,0:00:41.82,0:00:42.56,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}tu\h choisis.
+Dialogue: 0,0:00:42.56,0:00:43.42,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Leur\h adresse\h en
+Dialogue: 0,0:00:43.42,0:00:43.96,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Chine.
+Dialogue: 0,0:00:43.96,0:00:44.92,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Et\h tout\h simplement
+Dialogue: 0,0:00:44.92,0:00:45.80,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}aussi\h le\h {\c&H0AD6FF&}shipping{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.80,0:00:46.34,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}{\c&H0AD6FF&}mark.{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.34,0:00:47.12,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Tu\h valides\h cette
+Dialogue: 0,0:00:47.12,0:00:47.92,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}étape\h avant\h de
+Dialogue: 0,0:00:47.92,0:00:48.52,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}passer\h à\h la
+Dialogue: 0,0:00:48.52,0:00:48.85,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}suite.
+Dialogue: 0,0:00:50.06,0:00:50.56,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Maintenant,
+Dialogue: 0,0:00:50.56,0:00:51.12,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}tu\h vas\h sur
+Dialogue: 0,0:00:51.12,0:00:51.70,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}{\c&H0AD6FF&}Alibaba,{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.70,0:00:52.34,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}tu\h cherches\h ton
+Dialogue: 0,0:00:52.34,0:00:53.26,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}produit\h et\h là,
+Dialogue: 0,0:00:53.26,0:00:53.98,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}tu\h ne\h choisis
+Dialogue: 0,0:00:53.98,0:00:55.30,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}pas\h n'importe\h qui.
+Dialogue: 0,0:00:55.30,0:00:56.30,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Tu\h filtres\h sur
+Dialogue: 0,0:00:56.30,0:00:57.34,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ces\h quatre\h critères
+Dialogue: 0,0:00:57.34,0:00:57.98,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}seulement.
+Dialogue: 0,0:00:57.98,0:00:58.96,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Le\h fournisseur\h doit
+Dialogue: 0,0:00:58.96,0:01:00.04,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}avoir\h au\h minimum
+Dialogue: 0,0:01:00.04,0:01:00.80,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}deux\h ans\h sur
+Dialogue: 0,0:01:00.80,0:01:01.64,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}la\h plateforme,
+Dialogue: 0,0:01:01.64,0:01:02.96,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}un\h statut\h vérifié,
+Dialogue: 0,0:01:02.96,0:01:04.38,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}des\h avis\h positifs
+Dialogue: 0,0:01:04.38,0:01:04.92,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}et\h le\h {\c&H0AD6FF&}Trade{\c&HFFFFFF&}
+Dialogue: 0,0:01:04.92,0:01:05.95,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}{\c&H0AD6FF&}Assurance.{\c&HFFFFFF&}
+Dialogue: 0,0:01:06.00,0:01:06.90,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}C'est\h la\h garantie
+Dialogue: 0,0:01:06.90,0:01:07.94,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}{\c&H0AD6FF&}d'Alibaba{\c&HFFFFFF&}\h que\h si
+Dialogue: 0,0:01:07.94,0:01:08.92,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ton\h fournisseur\h te
+Dialogue: 0,0:01:08.92,0:01:09.40,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}douille,
+Dialogue: 0,0:01:09.40,0:01:10.26,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}{\c&H0AD6FF&}Alibaba{\c&HFFFFFF&}\h va\h te
+Dialogue: 0,0:01:10.26,0:01:11.16,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}rembourser.
+Dialogue: 0,0:01:11.16,0:01:11.68,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Si\h tu\h veux
+Dialogue: 0,0:01:11.68,0:01:12.54,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}encore\h plus\h de
+Dialogue: 0,0:01:12.54,0:01:13.40,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}sécurité,
+Dialogue: 0,0:01:13.40,0:01:14.06,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}tu\h scrolles\h vers
+Dialogue: 0,0:01:14.06,0:01:14.50,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}le\h bas\h de
+Dialogue: 0,0:01:14.50,0:01:15.18,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}sa\h page\h et
+Dialogue: 0,0:01:15.18,0:01:15.92,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}tu\h regardes\h le
+Dialogue: 0,0:01:15.92,0:01:16.62,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}montant\h qu'il\h a
+Dialogue: 0,0:01:16.62,0:01:17.52,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}reçu\h depuis\h sa
+Dialogue: 0,0:01:17.52,0:01:18.55,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}création.
+Dialogue: 0,0:01:18.62,0:01:19.56,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Un\h fournisseur\h avec
+Dialogue: 0,0:01:19.56,0:01:20.24,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}un\h million\h de
+Dialogue: 0,0:01:20.24,0:01:20.72,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}dollars\h de
+Dialogue: 0,0:01:20.72,0:01:21.40,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}transaction,
+Dialogue: 0,0:01:21.40,0:01:22.52,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}c'est\h bon\h signe.
+Dialogue: 0,0:01:22.52,0:01:23.14,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Tu\h as\h trouvé
+Dialogue: 0,0:01:23.14,0:01:24.24,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}ton\h fournisseur
+Dialogue: 0,0:01:24.24,0:01:24.32,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}?
+Dialogue: 0,0:01:24.32,0:01:25.54,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}C'est\h parfait.
+Dialogue: 0,0:01:25.54,0:01:26.06,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Tu\h cliques
+Dialogue: 0,0:01:26.06,0:01:26.74,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}maintenant\h tout
+Dialogue: 0,0:01:26.74,0:01:27.82,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}simplement\h sur
+Dialogue: 0,0:01:27.82,0:01:29.51,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Contact\h Supplier
+Dialogue: 0,0:01:29.70,0:01:30.34,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Tu\h lui\h envoies
+Dialogue: 0,0:01:30.34,0:01:31.60,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}un\h message\h simple.
+Dialogue: 0,0:01:42.16,0:01:43.12,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Juste\h des\h trucs
+Dialogue: 0,0:01:43.12,0:01:43.90,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}qui\h sont\h aussi
+Dialogue: 0,0:01:43.90,0:01:44.96,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}simples\h que\h ça.
+Dialogue: 0,0:01:44.96,0:01:45.80,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Il\h te\h répond,
+Dialogue: 0,0:01:45.80,0:01:46.40,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}vous\h vous\h mettez
+Dialogue: 0,0:01:46.40,0:01:46.94,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}d'accord.
+Dialogue: 0,0:01:46.94,0:01:47.34,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Et\h là,
+Dialogue: 0,0:01:47.34,0:01:48.06,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}il\h t'envoie\h le
+Dialogue: 0,0:01:48.06,0:01:48.82,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}lien\h de\h paiement
+Dialogue: 0,0:01:48.82,0:01:49.56,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}et\h tu\h règles,
+Dialogue: 0,0:01:49.56,0:01:50.06,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}que\h ce\h soit
+Dialogue: 0,0:01:50.06,0:01:51.32,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}avec\h ta\h carte.
+Dialogue: 0,0:01:51.32,0:01:51.62,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Moi,
+Dialogue: 0,0:01:51.62,0:01:52.52,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}personnellement,
+Dialogue: 0,0:01:52.52,0:01:53.58,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}j'utilise\h la\h carte
+Dialogue: 0,0:01:53.58,0:01:54.60,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}virtuelle\h d'Orange
+Dialogue: 0,0:01:54.60,0:01:55.30,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Money.
+Dialogue: 0,0:01:55.30,0:01:55.80,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Le\h taux\h de
+Dialogue: 0,0:01:55.80,0:01:56.32,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}change,
+Dialogue: 0,0:01:56.32,0:01:57.52,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}il\h est\h parfait.
+Dialogue: 0,0:01:57.52,0:01:58.02,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Une\h fois\h que
+Dialogue: 0,0:01:58.02,0:01:58.82,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}tu\h as\h payé,
+Dialogue: 0,0:01:58.82,0:01:59.56,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}tu\h demandes\h deux
+Dialogue: 0,0:01:59.56,0:02:00.20,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}choses\h à\h ton
+Dialogue: 0,0:02:00.20,0:02:00.96,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}fournisseur.
+Dialogue: 0,0:02:00.96,0:02:01.56,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Une\h photo\h du
+Dialogue: 0,0:02:01.56,0:02:02.34,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}colis\h avec\h le
+Dialogue: 0,0:02:02.34,0:02:03.36,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}{\c&H0AD6FF&}shipping{\c&HFFFFFF&}\h {\c&H0AD6FF&}mark{\c&HFFFFFF&}\h bien
+Dialogue: 0,0:02:03.36,0:02:04.20,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}visible\h et\h le
+Dialogue: 0,0:02:04.20,0:02:05.44,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}{\c&H0AD6FF&}tracking{\c&HFFFFFF&}\h {\c&H0AD6FF&}code{\c&HFFFFFF&}\h ainsi
+Dialogue: 0,0:02:05.44,0:02:06.20,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}que\h le\h poids
+Dialogue: 0,0:02:06.20,0:02:06.64,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}pour\h que\h tu
+Dialogue: 0,0:02:06.64,0:02:07.30,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}puisses\h faire\h tes
+Dialogue: 0,0:02:07.30,0:02:08.18,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}calculs.
+Dialogue: 0,0:02:08.18,0:02:08.78,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Tu\h prends\h ce
+Dialogue: 0,0:02:08.78,0:02:09.88,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}{\c&H0AD6FF&}tracking{\c&HFFFFFF&}\h {\c&H0AD6FF&}code{\c&HFFFFFF&}\h ainsi
+Dialogue: 0,0:02:09.88,0:02:10.68,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}que\h le\h poids,
+Dialogue: 0,0:02:10.68,0:02:11.38,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}tu\h envoies\h ça
+Dialogue: 0,0:02:11.38,0:02:12.44,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}à\h ton\h {\c&H0AD6FF&}transitaire{\c&HFFFFFF&}
+Dialogue: 0,0:02:12.44,0:02:12.98,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}et\h là,
+Dialogue: 0,0:02:12.98,0:02:13.66,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}c'est\h tout.
+Dialogue: 0,0:02:13.66,0:02:14.40,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Ton\h colis,
+Dialogue: 0,0:02:14.40,0:02:14.68,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}là,
+Dialogue: 0,0:02:14.68,0:02:15.12,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}il\h est\h en
+Dialogue: 0,0:02:15.12,0:02:15.72,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}route.
+Dialogue: 0,0:02:15.72,0:02:16.14,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}Voilà,
+Dialogue: 0,0:02:16.14,0:02:16.98,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}c'est\h aussi\h simple
+Dialogue: 0,0:02:16.98,0:02:17.60,Sub,,0,0,0,,{\fscx86\fscy86\t(0,90,\fscx100\fscy100)}que\h ça.
