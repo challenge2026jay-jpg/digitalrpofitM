@@ -15,7 +15,7 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 ROOT = os.path.dirname(os.path.abspath(__file__)); os.chdir(ROOT)
 W, H, FPS = 1080, 1920, 30
 VO = 0.25                       # décalage de la voix dans la vidéo
-TOTAL = 21.6
+TOTAL = 23.0
 
 NAVY, NAVY2 = (14, 27, 61), (6, 12, 30)
 ORANGE, CREAM, INK = (242, 140, 40), (246, 238, 228), (16, 18, 28)
@@ -373,18 +373,38 @@ def scene_F(t):   # 13.35 – 17.12 : la preuve (apprenants, avis) + rejoindre
     kin(base, "20,5 $US par formation", t, T0F + 3.35, W // 2, 1575, "Medium", 38, CREAM)
     return base
 
-def scene_G(t):   # 17.2 – fin : appel à l'action
+@functools.lru_cache(maxsize=None)
+def whatsapp_full():
+    """Capture complète de la chaîne WhatsApp (1080x2436), en cadre de téléphone."""
+    sc = img("capture_chaine_whatsapp.jpg")
+    h = 1330; w = int(sc.width * h / sc.height)
+    ph = sc.resize((w, h), Image.LANCZOS)
+    frame = Image.new("RGBA", (w + 28, h + 28), (0, 0, 0, 0))
+    ImageDraw.Draw(frame).rounded_rectangle((0, 0, w + 27, h + 27), 54, fill=(20, 20, 24, 255))
+    frame.paste(ph, (14, 14), rmask((w, h), 44))
+    return card(frame.convert("RGB"), 58), h / sc.height, w, h
+
+def scene_G(t):   # 17.12 – fin : la chaîne WhatsApp en entier
     base = bg_gradient(t, warm=True)
-    kin(base, "Rejoins la chaîne WhatsApp", t, 17.12, W // 2, 470, "play", 86, WHITE)
-    t0 = 17.2; k = ease_out((t - t0) / 0.32)
-    if t >= t0: paste_c(base, cards()["whatsapp"], W // 2, 1000 + (1 - k) * 260, k)
+    kin(base, "Rejoins la chaîne WhatsApp", t, 17.12, W // 2, 120, "play", 80, WHITE)
+    ph, s, w, h = whatsapp_full()
+    t0 = 17.2; k = ease_out((t - t0) / 0.4)
+    z = 1.0                                                   # la capture reste visible en entier
+    if t >= t0:
+        im = ph if z == 1.0 else ph.resize((int(ph.width * z), int(ph.height * z)), Image.BICUBIC)
+        cy = 1075 + (1 - k) * 260
+        paste_c(base, im, W // 2, cy, k)
+        a = clamp((t - (t0 + 1.2)) / 0.3)
+        if a > 0:   # cadre jaune sur « Chaîne • 940 followers »
+            x0 = W // 2 - (ph.width * z) / 2 + (70 + 14 + 330 * s) * z; y0 = cy - (ph.height * z) / 2 + (70 + 14 + 625 * s) * z
+            x1 = x0 + 420 * s * z; y1 = y0 + 60 * s * z
+            ImageDraw.Draw(base).rounded_rectangle((x0 - 10, y0 - 8, x1 + 10, y1 + 8), 14, outline=YELLOW + (255,), width=int(6 * a))
     if t >= S(12):
         pill = text_img("Le lien est dans ma bio", "Black", 60, INK)
         bg = Image.new("RGBA", (pill.width + 60, pill.height + 24), (0, 0, 0, 0))
         ImageDraw.Draw(bg).rounded_rectangle((0, 0, bg.width - 1, bg.height - 1), 40, fill=YELLOW + (255,))
         bg.alpha_composite(pill, (30, 8))
-        kk = ease_out((t - S(12)) / 0.3); paste_c(base, bg, W // 2, 1500, kk, 0.9 + 0.1 * kk)
-    paste_c(base, text_img("Woman Business", "play7", 54, CREAM), W // 2, 1700, 0.85)
+        kk = ease_out((t - S(12)) / 0.3); paste_c(base, bg, W // 2, 240, kk, 0.9 + 0.1 * kk)
     return base
 
 SCENES = [(0.0, scene_A), (2.75, scene_B), (5.0, scene_C), (6.5, scene_D), (10.75, scene_E), (13.35, scene_F), (17.12, scene_G)]
