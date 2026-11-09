@@ -4,13 +4,13 @@ Vidéo : `export/pinduoduo_vrais_ecrans_9x16.mp4` (43 s, 9:16).
 
 ## D'où viennent les écrans
 
-On a analysé 3 vidéos virales sur le sujet et repris les **écrans de l'appli** (pas les créateurs) :
+On a analysé 4 vidéos virales sur le sujet ; les écrans viennent de 2 d’entre elles. On reprend les **écrans de l’appli**, pas les créateurs :
 
 | Vidéo analysée | Écrans repris | Retiré / flouté |
 |---|---|---|
 | @yayoservices — « Pinduoduo en français sur WeChat » | Les 12 écrans du chemin WeChat → Pinduoduo → Traduction | Bulle « réponse au commentaire », ses flèches et sa main, son profil (nom, photo, ID), miniatures, contacts |
 | @connectchineafrique — « Comment passer commande sur Pinduoduo » (149 200 vues) | Fiche du polo à ¥19,8, choix de la taille, paiement réussi de ¥19,80 | Son visage (face-cam), ses sous-titres, l'adresse, le pseudo des acheteurs |
-| @justin_tm0 / @user23veroma | Accroche (prix + « le secret »), ciblage RDC | — |
+| @justin_tm0 / @user23veroma | Aucun écran repris : servent seulement à l’analyse (accroche « le secret », ciblage RDC) | — |
 
 Notre motion par-dessus : écran dans un téléphone, léger zoom vers le bouton, cadre orange qui clignote, flèche jaune, toucher animé, numéro d'étape, vrais logos WeChat / Pinduoduo / WhatsApp, visage de Samantha qui « explique » dans la bulle.
 
