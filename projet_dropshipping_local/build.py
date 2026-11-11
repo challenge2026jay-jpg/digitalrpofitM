@@ -68,16 +68,27 @@ for k, p in enumerate(P.PASSAGES):
 for k in range(len(PASS_T)):
     PASS_T[k][1] = PASS_T[k + 1][0] if k + 1 < len(PASS_T) else TOTAL
 
-# plans à l'échelle de la vidéo
+def anchor_time(k, a, lead=0.0):
+    """Temps d'un ancrage dans le passage k : None = début, nombre = fraction, texte = mot prononcé."""
+    t0, t1, i0, i1 = PASS_T[k]
+    if a is None: return t0
+    if isinstance(a, (int, float)): return t0 + (t1 - t0) * a
+    toks = tokens(P.PASSAGES[k][0])
+    j = toks.index(a)                      # le mot doit exister tel quel dans le passage
+    return max(t0, WORDS[i0 + j]["start"] - lead)
+
+# plans à l'échelle de la vidéo : chaque image arrive sur son mot
 SHOTS = []
 vid_offset = {}
 for k, (txt, shots, sfx, label) in enumerate(P.PASSAGES):
-    t0, t1 = PASS_T[k][:2]; tot = sum(s[1] for s in shots); t = t0
-    for (f, wgt, crop, mv, tr) in shots:
-        d = (t1 - t0) * wgt / tot
+    starts = [anchor_time(k, sh[1], lead=0.08) for sh in shots]
+    for n, (f, anc, crop, mv, tr) in enumerate(shots):
+        t = starts[n]; t_end = starts[n + 1] if n + 1 < len(shots) else PASS_T[k][1]
         off = vid_offset.get(f, 0.0)
-        if f in P.F and P.F[f].endswith(".mp4"): vid_offset[f] = off + d + 1.0
-        SHOTS.append(dict(f=f, t0=t, t1=t + d, crop=crop, mv=mv, tr=tr, off=off, k=k)); t += d
+        if f in P.F and P.F[f].endswith(".mp4"): vid_offset[f] = off + (t_end - t) + 1.0
+        SHOTS.append(dict(f=f, t0=t, t1=t_end, crop=crop, mv=mv, tr=tr, off=off, k=k))
+# le premier plan d'un passage commence là où finit le précédent (pas de trou)
+for n in range(1, len(SHOTS)): SHOTS[n - 1]["t1"] = SHOTS[n]["t0"]
 
 # ------------------------------------------------------------------ sources
 @functools.lru_cache(maxsize=None)
@@ -259,7 +270,7 @@ def draw_subs(im, t):
 def label_at(t):
     for k, p in enumerate(P.PASSAGES):
         if p[3]:
-            t0, t1 = PASS_T[k][:2]; s = t0 + (t1 - t0) * p[3][1]
+            t1 = PASS_T[k][1]; s = anchor_time(k, p[3][1])
             if s <= t < t1: return p[3][0], s, t1
     return None
 
@@ -327,13 +338,12 @@ VOICE = "audio/voix_samantha_claude.mp3"
 def sfx_events():
     ev = []
     for k, p in enumerate(P.PASSAGES):
-        t0, t1 = PASS_T[k][:2]
-        for (r, f, g) in p[2]: ev.append((t0 + (t1 - t0) * r, f, g))
+        for (r, f, g) in p[2]: ev.append((anchor_time(k, r), f, g))
     return ev
 
 def music_volume_expr():
     """Musique calme au début, plus présente pendant les étapes pratiques, puis baisse avant le CTA."""
-    a = PASS_T[21][0]; b = PASS_T[25][0]; c = PASS_T[-1][0]
+    a = PASS_T[25][0]; b = PASS_T[30][0]; c = PASS_T[-1][0]
     base = 0.16 if os.path.exists(VOICE) else 0.42
     return (f"{base}*(1+0.35*between(t,{a},{b})-0.45*gte(t,{c - 1.0})*min(1,(t-{c - 1.0})/1.0))")
 

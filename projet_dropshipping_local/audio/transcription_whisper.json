@@ -1,0 +1,1969 @@
+{
+ "words": [
+  {
+   "text": "Attends,",
+   "start": 0.0,
+   "end": 0.42
+  },
+  {
+   "text": "tu",
+   "start": 0.54,
+   "end": 0.64
+  },
+  {
+   "text": "es",
+   "start": 0.64,
+   "end": 0.72
+  },
+  {
+   "text": "au",
+   "start": 0.72,
+   "end": 0.82
+  },
+  {
+   "text": "Kongokinshasa",
+   "start": 0.82,
+   "end": 1.72
+  },
+  {
+   "text": "?",
+   "start": 1.72,
+   "end": 2.14
+  },
+  {
+   "text": "Tu",
+   "start": 2.14,
+   "end": 2.34
+  },
+  {
+   "text": "as",
+   "start": 2.34,
+   "end": 2.46
+  },
+  {
+   "text": "50",
+   "start": 2.46,
+   "end": 2.8
+  },
+  {
+   "text": "dollars",
+   "start": 2.8,
+   "end": 3.12
+  },
+  {
+   "text": "et",
+   "start": 3.12,
+   "end": 3.28
+  },
+  {
+   "text": "tu",
+   "start": 3.28,
+   "end": 3.42
+  },
+  {
+   "text": "veux",
+   "start": 3.42,
+   "end": 3.52
+  },
+  {
+   "text": "aussi",
+   "start": 3.52,
+   "end": 3.7
+  },
+  {
+   "text": "te",
+   "start": 3.7,
+   "end": 3.84
+  },
+  {
+   "text": "lancer",
+   "start": 3.84,
+   "end": 4.08
+  },
+  {
+   "text": "dans",
+   "start": 4.08,
+   "end": 4.22
+  },
+  {
+   "text": "un",
+   "start": 4.22,
+   "end": 4.4
+  },
+  {
+   "text": "business",
+   "start": 4.4,
+   "end": 4.64
+  },
+  {
+   "text": "en",
+   "start": 4.64,
+   "end": 4.84
+  },
+  {
+   "text": "ligne",
+   "start": 4.84,
+   "end": 5.0
+  },
+  {
+   "text": "?",
+   "start": 5.0,
+   "end": 5.64
+  },
+  {
+   "text": "Je",
+   "start": 5.64,
+   "end": 5.84
+  },
+  {
+   "text": "ne",
+   "start": 5.84,
+   "end": 5.94
+  },
+  {
+   "text": "vais",
+   "start": 5.94,
+   "end": 5.98
+  },
+  {
+   "text": "pas",
+   "start": 5.98,
+   "end": 6.14
+  },
+  {
+   "text": "te",
+   "start": 6.14,
+   "end": 6.22
+  },
+  {
+   "text": "parler",
+   "start": 6.22,
+   "end": 6.36
+  },
+  {
+   "text": "uniquement",
+   "start": 6.36,
+   "end": 7.08
+  },
+  {
+   "text": "de",
+   "start": 7.08,
+   "end": 7.24
+  },
+  {
+   "text": "produits",
+   "start": 7.24,
+   "end": 7.54
+  },
+  {
+   "text": "digitaux.",
+   "start": 7.54,
+   "end": 8.1
+  },
+  {
+   "text": "Ce",
+   "start": 8.82,
+   "end": 9.08
+  },
+  {
+   "text": "n",
+   "start": 9.08,
+   "end": 9.12
+  },
+  {
+   "text": "'est",
+   "start": 9.12,
+   "end": 9.14
+  },
+  {
+   "text": "pas",
+   "start": 9.14,
+   "end": 9.28
+  },
+  {
+   "text": "parce",
+   "start": 9.28,
+   "end": 9.48
+  },
+  {
+   "text": "que",
+   "start": 9.48,
+   "end": 9.58
+  },
+  {
+   "text": "les",
+   "start": 9.58,
+   "end": 9.68
+  },
+  {
+   "text": "produits",
+   "start": 9.68,
+   "end": 9.88
+  },
+  {
+   "text": "digitaux",
+   "start": 9.88,
+   "end": 10.3
+  },
+  {
+   "text": "ne",
+   "start": 10.3,
+   "end": 10.4
+  },
+  {
+   "text": "rapportent",
+   "start": 10.4,
+   "end": 10.72
+  },
+  {
+   "text": "pas.",
+   "start": 10.72,
+   "end": 10.84
+  },
+  {
+   "text": "Au",
+   "start": 11.26,
+   "end": 11.38
+  },
+  {
+   "text": "contraire,",
+   "start": 11.38,
+   "end": 11.84
+  },
+  {
+   "text": "ça",
+   "start": 12.08,
+   "end": 12.18
+  },
+  {
+   "text": "peut",
+   "start": 12.18,
+   "end": 12.3
+  },
+  {
+   "text": "très",
+   "start": 12.3,
+   "end": 12.48
+  },
+  {
+   "text": "bien",
+   "start": 12.48,
+   "end": 12.64
+  },
+  {
+   "text": "marcher.",
+   "start": 12.64,
+   "end": 12.96
+  },
+  {
+   "text": "Moi",
+   "start": 13.38,
+   "end": 13.6
+  },
+  {
+   "text": "-même,",
+   "start": 13.6,
+   "end": 13.8
+  },
+  {
+   "text": "j",
+   "start": 13.82,
+   "end": 13.96
+  },
+  {
+   "text": "'en",
+   "start": 13.96,
+   "end": 14.0
+  },
+  {
+   "text": "fais,",
+   "start": 14.0,
+   "end": 14.16
+  },
+  {
+   "text": "et",
+   "start": 14.4,
+   "end": 14.44
+  },
+  {
+   "text": "je",
+   "start": 14.44,
+   "end": 14.54
+  },
+  {
+   "text": "gagne",
+   "start": 14.54,
+   "end": 14.68
+  },
+  {
+   "text": "beaucoup",
+   "start": 14.68,
+   "end": 14.96
+  },
+  {
+   "text": "d",
+   "start": 14.96,
+   "end": 15.12
+  },
+  {
+   "text": "'argent",
+   "start": 15.12,
+   "end": 15.26
+  },
+  {
+   "text": "avec.",
+   "start": 15.26,
+   "end": 15.46
+  },
+  {
+   "text": "Mais",
+   "start": 16.24,
+   "end": 16.42
+  },
+  {
+   "text": "je",
+   "start": 16.42,
+   "end": 16.52
+  },
+  {
+   "text": "ne",
+   "start": 16.52,
+   "end": 16.6
+  },
+  {
+   "text": "suis",
+   "start": 16.6,
+   "end": 16.7
+  },
+  {
+   "text": "pas",
+   "start": 16.7,
+   "end": 16.82
+  },
+  {
+   "text": "trop",
+   "start": 16.82,
+   "end": 17.04
+  },
+  {
+   "text": "dedans,",
+   "start": 17.04,
+   "end": 17.4
+  },
+  {
+   "text": "c",
+   "start": 17.64,
+   "end": 17.7
+  },
+  {
+   "text": "'est",
+   "start": 17.7,
+   "end": 17.74
+  },
+  {
+   "text": "pourquoi",
+   "start": 17.74,
+   "end": 17.92
+  },
+  {
+   "text": "je",
+   "start": 17.92,
+   "end": 18.08
+  },
+  {
+   "text": "n",
+   "start": 18.08,
+   "end": 18.08
+  },
+  {
+   "text": "'en",
+   "start": 18.08,
+   "end": 18.14
+  },
+  {
+   "text": "parle",
+   "start": 18.14,
+   "end": 18.26
+  },
+  {
+   "text": "pas",
+   "start": 18.26,
+   "end": 18.42
+  },
+  {
+   "text": "beaucoup.",
+   "start": 18.42,
+   "end": 18.66
+  },
+  {
+   "text": "Aujourd",
+   "start": 19.36,
+   "end": 19.62
+  },
+  {
+   "text": "'hui,",
+   "start": 19.62,
+   "end": 19.9
+  },
+  {
+   "text": "je",
+   "start": 20.12,
+   "end": 20.2
+  },
+  {
+   "text": "veux",
+   "start": 20.2,
+   "end": 20.32
+  },
+  {
+   "text": "aussi",
+   "start": 20.32,
+   "end": 20.54
+  },
+  {
+   "text": "te",
+   "start": 20.54,
+   "end": 20.66
+  },
+  {
+   "text": "parler",
+   "start": 20.66,
+   "end": 20.86
+  },
+  {
+   "text": "du",
+   "start": 20.86,
+   "end": 21.04
+  },
+  {
+   "text": "commerce",
+   "start": 21.04,
+   "end": 21.28
+  },
+  {
+   "text": "physique",
+   "start": 21.28,
+   "end": 21.64
+  },
+  {
+   "text": "ou",
+   "start": 21.64,
+   "end": 21.82
+  },
+  {
+   "text": "en",
+   "start": 21.82,
+   "end": 21.92
+  },
+  {
+   "text": "ligne,",
+   "start": 21.92,
+   "end": 22.12
+  },
+  {
+   "text": "et",
+   "start": 22.44,
+   "end": 22.66
+  },
+  {
+   "text": "plus",
+   "start": 22.66,
+   "end": 22.84
+  },
+  {
+   "text": "précisément",
+   "start": 22.84,
+   "end": 23.38
+  },
+  {
+   "text": "du",
+   "start": 23.38,
+   "end": 23.54
+  },
+  {
+   "text": "dropshipping",
+   "start": 23.54,
+   "end": 24.02
+  },
+  {
+   "text": "local.",
+   "start": 24.02,
+   "end": 24.44
+  },
+  {
+   "text": "En",
+   "start": 25.4,
+   "end": 25.76
+  },
+  {
+   "text": "2023",
+   "start": 25.76,
+   "end": 26.12
+  },
+  {
+   "text": "-2024,",
+   "start": 26.12,
+   "end": 26.9
+  },
+  {
+   "text": "la",
+   "start": 27.22,
+   "end": 27.34
+  },
+  {
+   "text": "manière",
+   "start": 27.34,
+   "end": 27.64
+  },
+  {
+   "text": "de",
+   "start": 27.64,
+   "end": 27.82
+  },
+  {
+   "text": "vendre",
+   "start": 27.82,
+   "end": 28.04
+  },
+  {
+   "text": "en",
+   "start": 28.04,
+   "end": 28.14
+  },
+  {
+   "text": "ligne",
+   "start": 28.14,
+   "end": 28.3
+  },
+  {
+   "text": "était",
+   "start": 28.3,
+   "end": 28.48
+  },
+  {
+   "text": "différente.",
+   "start": 28.48,
+   "end": 29.02
+  },
+  {
+   "text": "En",
+   "start": 29.6,
+   "end": 29.8
+  },
+  {
+   "text": "2026,",
+   "start": 29.8,
+   "end": 30.44
+  },
+  {
+   "text": "on",
+   "start": 30.86,
+   "end": 30.94
+  },
+  {
+   "text": "sent",
+   "start": 30.94,
+   "end": 31.14
+  },
+  {
+   "text": "que",
+   "start": 31.14,
+   "end": 31.28
+  },
+  {
+   "text": "les",
+   "start": 31.28,
+   "end": 31.38
+  },
+  {
+   "text": "choses",
+   "start": 31.38,
+   "end": 31.54
+  },
+  {
+   "text": "évoluent",
+   "start": 31.54,
+   "end": 31.94
+  },
+  {
+   "text": "et",
+   "start": 31.94,
+   "end": 32.08
+  },
+  {
+   "text": "que",
+   "start": 32.08,
+   "end": 32.18
+  },
+  {
+   "text": "le",
+   "start": 32.18,
+   "end": 32.26
+  },
+  {
+   "text": "commerce",
+   "start": 32.26,
+   "end": 32.54
+  },
+  {
+   "text": "en",
+   "start": 32.54,
+   "end": 32.74
+  },
+  {
+   "text": "ligne",
+   "start": 32.74,
+   "end": 32.86
+  },
+  {
+   "text": "prend",
+   "start": 32.86,
+   "end": 33.04
+  },
+  {
+   "text": "de",
+   "start": 33.04,
+   "end": 33.2
+  },
+  {
+   "text": "plus",
+   "start": 33.2,
+   "end": 33.42
+  },
+  {
+   "text": "en",
+   "start": 33.42,
+   "end": 33.56
+  },
+  {
+   "text": "plus",
+   "start": 33.56,
+   "end": 33.7
+  },
+  {
+   "text": "de",
+   "start": 33.7,
+   "end": 33.82
+  },
+  {
+   "text": "place.",
+   "start": 33.82,
+   "end": 34.02
+  },
+  {
+   "text": "Le",
+   "start": 34.92,
+   "end": 35.22
+  },
+  {
+   "text": "dropshipping",
+   "start": 35.22,
+   "end": 35.66
+  },
+  {
+   "text": "local,",
+   "start": 35.66,
+   "end": 35.96
+  },
+  {
+   "text": "c",
+   "start": 36.18,
+   "end": 36.42
+  },
+  {
+   "text": "'est",
+   "start": 36.42,
+   "end": 36.46
+  },
+  {
+   "text": "vendre",
+   "start": 36.46,
+   "end": 36.76
+  },
+  {
+   "text": "des",
+   "start": 36.76,
+   "end": 36.9
+  },
+  {
+   "text": "produits",
+   "start": 36.9,
+   "end": 37.16
+  },
+  {
+   "text": "disponibles",
+   "start": 37.16,
+   "end": 37.78
+  },
+  {
+   "text": "chez",
+   "start": 37.78,
+   "end": 37.92
+  },
+  {
+   "text": "un",
+   "start": 37.92,
+   "end": 38.12
+  },
+  {
+   "text": "fournisseur",
+   "start": 38.12,
+   "end": 38.56
+  },
+  {
+   "text": "dans",
+   "start": 38.56,
+   "end": 38.7
+  },
+  {
+   "text": "ton",
+   "start": 38.7,
+   "end": 38.84
+  },
+  {
+   "text": "pays,",
+   "start": 38.84,
+   "end": 39.08
+  },
+  {
+   "text": "sans",
+   "start": 39.36,
+   "end": 39.66
+  },
+  {
+   "text": "devoir",
+   "start": 39.66,
+   "end": 39.84
+  },
+  {
+   "text": "acheter",
+   "start": 39.84,
+   "end": 40.14
+  },
+  {
+   "text": "un",
+   "start": 40.14,
+   "end": 40.26
+  },
+  {
+   "text": "gros",
+   "start": 40.26,
+   "end": 40.4
+  },
+  {
+   "text": "stock",
+   "start": 40.4,
+   "end": 40.6
+  },
+  {
+   "text": "au",
+   "start": 40.6,
+   "end": 40.72
+  },
+  {
+   "text": "départ.",
+   "start": 40.72,
+   "end": 40.9
+  },
+  {
+   "text": "Tu",
+   "start": 41.66,
+   "end": 41.82
+  },
+  {
+   "text": "présentes",
+   "start": 41.82,
+   "end": 42.16
+  },
+  {
+   "text": "les",
+   "start": 42.16,
+   "end": 42.3
+  },
+  {
+   "text": "produits",
+   "start": 42.3,
+   "end": 42.52
+  },
+  {
+   "text": "sur",
+   "start": 42.52,
+   "end": 42.74
+  },
+  {
+   "text": "WhatsApp,",
+   "start": 42.74,
+   "end": 43.06
+  },
+  {
+   "text": "Instagram",
+   "start": 43.3,
+   "end": 43.62
+  },
+  {
+   "text": "ou",
+   "start": 43.62,
+   "end": 43.92
+  },
+  {
+   "text": "TikTok.",
+   "start": 43.92,
+   "end": 44.1
+  },
+  {
+   "text": "Quand",
+   "start": 44.9,
+   "end": 45.08
+  },
+  {
+   "text": "un",
+   "start": 45.08,
+   "end": 45.24
+  },
+  {
+   "text": "client",
+   "start": 45.24,
+   "end": 45.42
+  },
+  {
+   "text": "commande,",
+   "start": 45.42,
+   "end": 45.88
+  },
+  {
+   "text": "tu",
+   "start": 46.2,
+   "end": 46.32
+  },
+  {
+   "text": "vérifies",
+   "start": 46.32,
+   "end": 46.66
+  },
+  {
+   "text": "la",
+   "start": 46.66,
+   "end": 46.82
+  },
+  {
+   "text": "disponibilité",
+   "start": 46.82,
+   "end": 47.54
+  },
+  {
+   "text": "auprès",
+   "start": 47.54,
+   "end": 47.76
+  },
+  {
+   "text": "du",
+   "start": 47.76,
+   "end": 47.9
+  },
+  {
+   "text": "fournisseur,",
+   "start": 47.9,
+   "end": 48.46
+  },
+  {
+   "text": "tu",
+   "start": 48.78,
+   "end": 48.9
+  },
+  {
+   "text": "achètes",
+   "start": 48.9,
+   "end": 49.12
+  },
+  {
+   "text": "le",
+   "start": 49.12,
+   "end": 49.26
+  },
+  {
+   "text": "produit",
+   "start": 49.26,
+   "end": 49.52
+  },
+  {
+   "text": "et",
+   "start": 49.52,
+   "end": 50.02
+  },
+  {
+   "text": "tu",
+   "start": 50.02,
+   "end": 50.14
+  },
+  {
+   "text": "organises",
+   "start": 50.14,
+   "end": 50.5
+  },
+  {
+   "text": "sa",
+   "start": 50.5,
+   "end": 50.64
+  },
+  {
+   "text": "livraison",
+   "start": 50.64,
+   "end": 50.96
+  },
+  {
+   "text": "au",
+   "start": 50.96,
+   "end": 51.08
+  },
+  {
+   "text": "client.",
+   "start": 51.08,
+   "end": 51.28
+  },
+  {
+   "text": "Selon",
+   "start": 52.08,
+   "end": 52.48
+  },
+  {
+   "text": "l",
+   "start": 52.48,
+   "end": 52.6
+  },
+  {
+   "text": "'accord",
+   "start": 52.6,
+   "end": 52.72
+  },
+  {
+   "text": "que",
+   "start": 52.72,
+   "end": 52.88
+  },
+  {
+   "text": "tu",
+   "start": 52.88,
+   "end": 52.98
+  },
+  {
+   "text": "es",
+   "start": 52.98,
+   "end": 53.06
+  },
+  {
+   "text": "avec",
+   "start": 53.06,
+   "end": 53.16
+  },
+  {
+   "text": "le",
+   "start": 53.16,
+   "end": 53.32
+  },
+  {
+   "text": "fournisseur,",
+   "start": 53.32,
+   "end": 53.8
+  },
+  {
+   "text": "il",
+   "start": 53.94,
+   "end": 54.06
+  },
+  {
+   "text": "peut",
+   "start": 54.06,
+   "end": 54.2
+  },
+  {
+   "text": "aussi",
+   "start": 54.2,
+   "end": 54.4
+  },
+  {
+   "text": "préparer",
+   "start": 54.4,
+   "end": 54.8
+  },
+  {
+   "text": "directement",
+   "start": 54.8,
+   "end": 55.22
+  },
+  {
+   "text": "le",
+   "start": 55.22,
+   "end": 55.36
+  },
+  {
+   "text": "colis.",
+   "start": 55.36,
+   "end": 55.56
+  },
+  {
+   "text": "Pourquoi",
+   "start": 56.0,
+   "end": 56.32
+  },
+  {
+   "text": "c",
+   "start": 56.32,
+   "end": 56.5
+  },
+  {
+   "text": "'est",
+   "start": 56.5,
+   "end": 56.52
+  },
+  {
+   "text": "intéressant",
+   "start": 56.52,
+   "end": 56.96
+  },
+  {
+   "text": "quand",
+   "start": 56.96,
+   "end": 57.16
+  },
+  {
+   "text": "on",
+   "start": 57.16,
+   "end": 57.3
+  },
+  {
+   "text": "débute",
+   "start": 57.3,
+   "end": 57.66
+  },
+  {
+   "text": "?",
+   "start": 57.66,
+   "end": 57.86
+  },
+  {
+   "text": "Parce",
+   "start": 57.86,
+   "end": 58.56
+  },
+  {
+   "text": "que",
+   "start": 58.56,
+   "end": 58.72
+  },
+  {
+   "text": "tu",
+   "start": 58.72,
+   "end": 58.84
+  },
+  {
+   "text": "peux",
+   "start": 58.84,
+   "end": 58.98
+  },
+  {
+   "text": "commencer",
+   "start": 58.98,
+   "end": 59.38
+  },
+  {
+   "text": "avec",
+   "start": 59.38,
+   "end": 59.6
+  },
+  {
+   "text": "peu",
+   "start": 59.6,
+   "end": 59.84
+  },
+  {
+   "text": "d",
+   "start": 59.84,
+   "end": 59.98
+  },
+  {
+   "text": "'argent,",
+   "start": 59.98,
+   "end": 60.22
+  },
+  {
+   "text": "tester",
+   "start": 60.86,
+   "end": 61.18
+  },
+  {
+   "text": "la",
+   "start": 61.18,
+   "end": 61.4
+  },
+  {
+   "text": "demande",
+   "start": 61.4,
+   "end": 61.68
+  },
+  {
+   "text": "avant",
+   "start": 61.68,
+   "end": 62.0
+  },
+  {
+   "text": "d",
+   "start": 62.0,
+   "end": 62.2
+  },
+  {
+   "text": "'acheter",
+   "start": 62.2,
+   "end": 62.4
+  },
+  {
+   "text": "beaucoup",
+   "start": 62.4,
+   "end": 62.64
+  },
+  {
+   "text": "de",
+   "start": 62.64,
+   "end": 62.82
+  },
+  {
+   "text": "produits",
+   "start": 62.82,
+   "end": 63.08
+  },
+  {
+   "text": "et",
+   "start": 63.08,
+   "end": 63.78
+  },
+  {
+   "text": "éviter",
+   "start": 63.78,
+   "end": 64.18
+  },
+  {
+   "text": "de",
+   "start": 64.18,
+   "end": 64.34
+  },
+  {
+   "text": "bloquer",
+   "start": 64.34,
+   "end": 64.62
+  },
+  {
+   "text": "tout",
+   "start": 64.62,
+   "end": 64.96
+  },
+  {
+   "text": "ton",
+   "start": 64.96,
+   "end": 65.14
+  },
+  {
+   "text": "budget",
+   "start": 65.14,
+   "end": 65.38
+  },
+  {
+   "text": "dans",
+   "start": 65.38,
+   "end": 65.58
+  },
+  {
+   "text": "un",
+   "start": 65.58,
+   "end": 65.78
+  },
+  {
+   "text": "stock",
+   "start": 65.78,
+   "end": 66.0
+  },
+  {
+   "text": "qui",
+   "start": 66.0,
+   "end": 66.18
+  },
+  {
+   "text": "risque",
+   "start": 66.18,
+   "end": 66.34
+  },
+  {
+   "text": "de",
+   "start": 66.34,
+   "end": 66.48
+  },
+  {
+   "text": "ne",
+   "start": 66.48,
+   "end": 66.56
+  },
+  {
+   "text": "pas",
+   "start": 66.56,
+   "end": 66.7
+  },
+  {
+   "text": "se",
+   "start": 66.7,
+   "end": 66.8
+  },
+  {
+   "text": "vendre.",
+   "start": 66.8,
+   "end": 67.12
+  },
+  {
+   "text": "Les",
+   "start": 67.78,
+   "end": 67.96
+  },
+  {
+   "text": "produits",
+   "start": 67.96,
+   "end": 68.24
+  },
+  {
+   "text": "étant",
+   "start": 68.24,
+   "end": 68.48
+  },
+  {
+   "text": "déjà",
+   "start": 68.48,
+   "end": 68.76
+  },
+  {
+   "text": "dans",
+   "start": 68.76,
+   "end": 68.9
+  },
+  {
+   "text": "le",
+   "start": 68.9,
+   "end": 69.0
+  },
+  {
+   "text": "pays,",
+   "start": 69.0,
+   "end": 69.2
+  },
+  {
+   "text": "la",
+   "start": 69.7,
+   "end": 69.78
+  },
+  {
+   "text": "livraison",
+   "start": 69.78,
+   "end": 70.18
+  },
+  {
+   "text": "peut",
+   "start": 70.18,
+   "end": 70.36
+  },
+  {
+   "text": "être",
+   "start": 70.36,
+   "end": 70.5
+  },
+  {
+   "text": "plus",
+   "start": 70.5,
+   "end": 70.66
+  },
+  {
+   "text": "rapide",
+   "start": 70.66,
+   "end": 71.04
+  },
+  {
+   "text": "qu",
+   "start": 71.04,
+   "end": 71.14
+  },
+  {
+   "text": "'une",
+   "start": 71.14,
+   "end": 71.22
+  },
+  {
+   "text": "commande",
+   "start": 71.22,
+   "end": 71.5
+  },
+  {
+   "text": "à",
+   "start": 71.5,
+   "end": 71.6
+  },
+  {
+   "text": "l",
+   "start": 71.6,
+   "end": 71.64
+  },
+  {
+   "text": "'étranger.",
+   "start": 71.64,
+   "end": 72.02
+  },
+  {
+   "text": "Tu",
+   "start": 72.62,
+   "end": 72.86
+  },
+  {
+   "text": "peux",
+   "start": 72.86,
+   "end": 73.0
+  },
+  {
+   "text": "aussi",
+   "start": 73.0,
+   "end": 73.2
+  },
+  {
+   "text": "vérifier",
+   "start": 73.2,
+   "end": 73.56
+  },
+  {
+   "text": "leur",
+   "start": 73.56,
+   "end": 73.74
+  },
+  {
+   "text": "qualité",
+   "start": 73.74,
+   "end": 74.12
+  },
+  {
+   "text": "et",
+   "start": 74.12,
+   "end": 74.68
+  },
+  {
+   "text": "échanger",
+   "start": 74.68,
+   "end": 75.12
+  },
+  {
+   "text": "plus",
+   "start": 75.12,
+   "end": 75.38
+  },
+  {
+   "text": "facilement",
+   "start": 75.38,
+   "end": 75.86
+  },
+  {
+   "text": "avec",
+   "start": 75.86,
+   "end": 76.02
+  },
+  {
+   "text": "ton",
+   "start": 76.02,
+   "end": 76.18
+  },
+  {
+   "text": "fournisseur.",
+   "start": 76.18,
+   "end": 76.7
+  },
+  {
+   "text": "Avec",
+   "start": 77.74,
+   "end": 78.08
+  },
+  {
+   "text": "50",
+   "start": 78.08,
+   "end": 78.4
+  },
+  {
+   "text": "dollars,",
+   "start": 78.4,
+   "end": 78.7
+  },
+  {
+   "text": "tu",
+   "start": 78.94,
+   "end": 79.0
+  },
+  {
+   "text": "peux",
+   "start": 79.0,
+   "end": 79.12
+  },
+  {
+   "text": "commencer",
+   "start": 79.12,
+   "end": 79.44
+  },
+  {
+   "text": "petit,",
+   "start": 79.44,
+   "end": 79.8
+  },
+  {
+   "text": "par",
+   "start": 80.36,
+   "end": 80.52
+  },
+  {
+   "text": "exemple",
+   "start": 80.52,
+   "end": 80.8
+  },
+  {
+   "text": "avec",
+   "start": 80.8,
+   "end": 81.0
+  },
+  {
+   "text": "des",
+   "start": 81.0,
+   "end": 81.18
+  },
+  {
+   "text": "accessoires.",
+   "start": 81.18,
+   "end": 81.74
+  },
+  {
+   "text": "Choisir",
+   "start": 82.4,
+   "end": 82.86
+  },
+  {
+   "text": "un",
+   "start": 82.86,
+   "end": 83.02
+  },
+  {
+   "text": "produit,",
+   "start": 83.02,
+   "end": 83.3
+  },
+  {
+   "text": "renseigne",
+   "start": 83.92,
+   "end": 84.18
+  },
+  {
+   "text": "-toi",
+   "start": 84.18,
+   "end": 84.36
+  },
+  {
+   "text": "auprès",
+   "start": 84.36,
+   "end": 84.6
+  },
+  {
+   "text": "d",
+   "start": 84.6,
+   "end": 84.72
+  },
+  {
+   "text": "'un",
+   "start": 84.72,
+   "end": 84.78
+  },
+  {
+   "text": "fournisseur",
+   "start": 84.78,
+   "end": 85.18
+  },
+  {
+   "text": "local",
+   "start": 85.18,
+   "end": 85.4
+  },
+  {
+   "text": "sur",
+   "start": 85.4,
+   "end": 85.62
+  },
+  {
+   "text": "son",
+   "start": 85.62,
+   "end": 85.82
+  },
+  {
+   "text": "prix",
+   "start": 85.82,
+   "end": 86.04
+  },
+  {
+   "text": "et",
+   "start": 86.04,
+   "end": 86.16
+  },
+  {
+   "text": "sa",
+   "start": 86.16,
+   "end": 86.28
+  },
+  {
+   "text": "disponibilité,",
+   "start": 86.28,
+   "end": 87.08
+  },
+  {
+   "text": "puis",
+   "start": 87.08,
+   "end": 87.72
+  },
+  {
+   "text": "présente",
+   "start": 87.72,
+   "end": 88.14
+  },
+  {
+   "text": "-le",
+   "start": 88.14,
+   "end": 88.26
+  },
+  {
+   "text": "à",
+   "start": 88.26,
+   "end": 88.38
+  },
+  {
+   "text": "tes",
+   "start": 88.38,
+   "end": 88.48
+  },
+  {
+   "text": "premiers",
+   "start": 88.48,
+   "end": 88.76
+  },
+  {
+   "text": "clients.",
+   "start": 88.76,
+   "end": 89.12
+  },
+  {
+   "text": "Calcule",
+   "start": 89.78,
+   "end": 90.06
+  },
+  {
+   "text": "bien",
+   "start": 90.06,
+   "end": 90.2
+  },
+  {
+   "text": "ta",
+   "start": 90.2,
+   "end": 90.38
+  },
+  {
+   "text": "marge",
+   "start": 90.38,
+   "end": 90.72
+  },
+  {
+   "text": "et",
+   "start": 90.72,
+   "end": 91.18
+  },
+  {
+   "text": "prévois",
+   "start": 91.18,
+   "end": 91.56
+  },
+  {
+   "text": "aussi",
+   "start": 91.56,
+   "end": 91.82
+  },
+  {
+   "text": "les",
+   "start": 91.82,
+   "end": 91.96
+  },
+  {
+   "text": "frais",
+   "start": 91.96,
+   "end": 92.14
+  },
+  {
+   "text": "de",
+   "start": 92.14,
+   "end": 92.22
+  },
+  {
+   "text": "livraison",
+   "start": 92.22,
+   "end": 92.64
+  },
+  {
+   "text": "et",
+   "start": 92.64,
+   "end": 92.92
+  },
+  {
+   "text": "de",
+   "start": 92.92,
+   "end": 93.02
+  },
+  {
+   "text": "communication.",
+   "start": 93.02,
+   "end": 93.44
+  },
+  {
+   "text": "Si",
+   "start": 94.46,
+   "end": 94.84
+  },
+  {
+   "text": "tu",
+   "start": 94.84,
+   "end": 94.96
+  },
+  {
+   "text": "veux",
+   "start": 94.96,
+   "end": 95.08
+  },
+  {
+   "text": "te",
+   "start": 95.08,
+   "end": 95.18
+  },
+  {
+   "text": "lancer",
+   "start": 95.18,
+   "end": 95.38
+  },
+  {
+   "text": "dans",
+   "start": 95.38,
+   "end": 95.5
+  },
+  {
+   "text": "un",
+   "start": 95.5,
+   "end": 95.68
+  },
+  {
+   "text": "business",
+   "start": 95.68,
+   "end": 95.88
+  },
+  {
+   "text": "à",
+   "start": 95.88,
+   "end": 96.08
+  },
+  {
+   "text": "long",
+   "start": 96.08,
+   "end": 96.2
+  },
+  {
+   "text": "terme,",
+   "start": 96.2,
+   "end": 96.4
+  },
+  {
+   "text": "le",
+   "start": 96.88,
+   "end": 96.94
+  },
+  {
+   "text": "commerce",
+   "start": 96.94,
+   "end": 97.16
+  },
+  {
+   "text": "physique",
+   "start": 97.16,
+   "end": 97.58
+  },
+  {
+   "text": "ou",
+   "start": 97.58,
+   "end": 97.8
+  },
+  {
+   "text": "en",
+   "start": 97.8,
+   "end": 97.9
+  },
+  {
+   "text": "ligne",
+   "start": 97.9,
+   "end": 98.04
+  },
+  {
+   "text": "peut",
+   "start": 98.04,
+   "end": 98.24
+  },
+  {
+   "text": "être",
+   "start": 98.24,
+   "end": 98.42
+  },
+  {
+   "text": "une",
+   "start": 98.42,
+   "end": 98.56
+  },
+  {
+   "text": "piste",
+   "start": 98.56,
+   "end": 98.78
+  },
+  {
+   "text": "à",
+   "start": 98.78,
+   "end": 98.88
+  },
+  {
+   "text": "explorer.",
+   "start": 98.88,
+   "end": 99.22
+  },
+  {
+   "text": "Et",
+   "start": 100.02,
+   "end": 100.12
+  },
+  {
+   "text": "le",
+   "start": 100.12,
+   "end": 100.22
+  },
+  {
+   "text": "dropshipping",
+   "start": 100.22,
+   "end": 100.62
+  },
+  {
+   "text": "local",
+   "start": 100.62,
+   "end": 100.94
+  },
+  {
+   "text": "peut",
+   "start": 100.94,
+   "end": 101.28
+  },
+  {
+   "text": "t",
+   "start": 101.28,
+   "end": 101.38
+  },
+  {
+   "text": "'aider",
+   "start": 101.38,
+   "end": 101.46
+  },
+  {
+   "text": "à",
+   "start": 101.46,
+   "end": 101.56
+  },
+  {
+   "text": "commencer",
+   "start": 101.56,
+   "end": 101.84
+  },
+  {
+   "text": "progressivement,",
+   "start": 101.84,
+   "end": 102.74
+  },
+  {
+   "text": "à",
+   "start": 103.14,
+   "end": 103.18
+  },
+  {
+   "text": "apprendre",
+   "start": 103.18,
+   "end": 103.48
+  },
+  {
+   "text": "à",
+   "start": 103.48,
+   "end": 103.66
+  },
+  {
+   "text": "vendre",
+   "start": 103.66,
+   "end": 104.04
+  },
+  {
+   "text": "et",
+   "start": 104.04,
+   "end": 104.16
+  },
+  {
+   "text": "à",
+   "start": 104.16,
+   "end": 104.26
+  },
+  {
+   "text": "comprendre",
+   "start": 104.26,
+   "end": 104.5
+  },
+  {
+   "text": "ce",
+   "start": 104.5,
+   "end": 104.72
+  },
+  {
+   "text": "que",
+   "start": 104.72,
+   "end": 104.82
+  },
+  {
+   "text": "tes",
+   "start": 104.82,
+   "end": 104.92
+  },
+  {
+   "text": "clients",
+   "start": 104.92,
+   "end": 105.14
+  },
+  {
+   "text": "recherchent,",
+   "start": 105.14,
+   "end": 105.34
+  },
+  {
+   "text": "sans",
+   "start": 106.0,
+   "end": 106.28
+  },
+  {
+   "text": "investir",
+   "start": 106.28,
+   "end": 106.74
+  },
+  {
+   "text": "tout",
+   "start": 106.74,
+   "end": 107.0
+  },
+  {
+   "text": "ton",
+   "start": 107.0,
+   "end": 107.18
+  },
+  {
+   "text": "argent",
+   "start": 107.18,
+   "end": 107.44
+  },
+  {
+   "text": "dans",
+   "start": 107.44,
+   "end": 107.62
+  },
+  {
+   "text": "un",
+   "start": 107.62,
+   "end": 107.8
+  },
+  {
+   "text": "gros",
+   "start": 107.8,
+   "end": 107.9
+  },
+  {
+   "text": "stock.",
+   "start": 107.9,
+   "end": 108.16
+  },
+  {
+   "text": "Pour",
+   "start": 109.08,
+   "end": 109.26
+  },
+  {
+   "text": "commencer,",
+   "start": 109.26,
+   "end": 109.66
+  },
+  {
+   "text": "écri",
+   "start": 110.1,
+   "end": 110.38
+  },
+  {
+   "text": "local",
+   "start": 110.38,
+   "end": 110.94
+  },
+  {
+   "text": "en",
+   "start": 110.94,
+   "end": 111.32
+  },
+  {
+   "text": "commentaire",
+   "start": 111.32,
+   "end": 111.86
+  },
+  {
+   "text": "et",
+   "start": 111.86,
+   "end": 112.26
+  },
+  {
+   "text": "je",
+   "start": 112.26,
+   "end": 112.36
+  },
+  {
+   "text": "t",
+   "start": 112.36,
+   "end": 112.48
+  },
+  {
+   "text": "'envoie",
+   "start": 112.48,
+   "end": 112.66
+  },
+  {
+   "text": "le",
+   "start": 112.66,
+   "end": 112.76
+  },
+  {
+   "text": "lien",
+   "start": 112.76,
+   "end": 112.94
+  },
+  {
+   "text": "de",
+   "start": 112.94,
+   "end": 113.04
+  },
+  {
+   "text": "la",
+   "start": 113.04,
+   "end": 113.16
+  },
+  {
+   "text": "chaîne.",
+   "start": 113.16,
+   "end": 113.32
+  }
+ ]
+}
