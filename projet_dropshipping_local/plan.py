@@ -1,0 +1,146 @@
+"""Plan de montage — « Dropshipping local avec 50 dollars » (TikTok faceless, 9:16).
+
+Chaque passage = un morceau exact du script. Les temps viennent de audio/voix_mots.json
+(mots horodatés de la voix ElevenLabs « Samantha Claude ») ; en attendant la voix, un minutage
+estimé est généré par build.py (voir README).
+
+Plan : (cadrage) = (cx, cy, zoom) dans l'image source, 0–1 ; zoom > 1 resserre (et écarte les visages).
+Transitions : "cut" (coupe franche), "fondu" (0,2 s), "balayage" (glissement 0,25 s).
+Mouvement : "in" (rapprochement lent), "out" (zoom arrière), "gauche"/"droite" (léger panoramique), None.
+"""
+
+M = "media/"
+F = {  # numéro -> nom exact du fichier du Drive (préfixé par son numéro d'ordre dans le dossier)
+    "01": "01 - Young entrepreneur packing order in warehouse.jpg",
+    "02": "02 - 441775044713248418.jpg",
+    "03": "03 - Commandes Wholesale de Noël 🎄 _ Coulisses d'une Petite Entreprise Artisanale.jpg",
+    "08": "08 - 233382_medium.mp4",
+    "10": "10 - 935904366336508881 (1).jpg",
+    "11": "11 - 39892-423345743_medium.mp4",
+    "13": "13 - 100 Phone Accessories on Amazon_ Cases, Chargers and Earbuds.jpg",
+    "14": "14 - Buisness Ebook _ Buisness Guide.jpg",
+    "15": "15 - Crush Ebook Sales on Instagram_ Story Strategies for Faceless Accounts.jpg",
+    "16": "16 - aesthetic photo editor MULI.jpg",
+    "17": "17 - AMERICAN DOLLAR.jpg",
+    "18": "18 - 298645019062415060.jpg",
+    "19": "19 - 286930_medium.mp4",
+    "20": "20 - Premium Poly Mailer Bags for Ecommerce Shipping _ Tilak Polypack.jpg",
+    "21": "21 - HIPAA Patient Intake & Forms Blog _ MedForward.jpg",
+    "23": "23 - 972355375786710434.jpg",
+    "24": "24 - 1360-147055409_medium.mp4",
+    "25": "25 - Business.jpg",
+    "26": "26 - China’s logistics sector grows 6_2% in Q1 2026.jpg",
+    "27": "27 - 878413102300172217.jpg",
+    "28": "28 - Amazon Liquidation Pallets.jpg",
+    "29": "29 - 5 simple steps to know if cellular support is what….jpg",
+    "30": "30 - 945826359270500032.jpg",
+    "31": "31 - Quality Packing And Shipping Solutions In Madera.jpg",
+    "32": "32 - WhatsApp Business Marketing Tips for Indian SMEs.jpg",
+    "33": "33 - Traveling light_ This UBeesize tripod is a….jpg",
+    "34": "34 - Mobile shop #mobile accessories.jpg",
+}
+
+# Zones floutées (x0, y0, x1, y1 en 0–1) : prénoms ou données personnelles visibles
+BLUR = {"32": [(0.27, 0.215, 0.9, 0.305)]}
+
+# Mots-clés mis en évidence dans les sous-titres (jaune)
+KEYWORDS = ["50 dollars", "produits digitaux", "dropshipping local", "fournisseur local", "petit stock",
+            "livraison", "marge", "LOCAL"]
+
+# (texte exact du passage, [plans], [sons], texte à l'écran ou None)
+# plan = (fichier, poids de durée, (cx, cy, zoom), mouvement, transition d'entrée)
+# son  = (moment : 0–1 dans le passage, fichier, gain dB)
+PASSAGES = [
+    ("Attends, tu es au Congo-Kinshasa, tu as 50 dollars",
+     [("17", 1, (0.5, 0.5, 1.05), "in", "cut")],
+     [(0.55, "papier_froisse_billets", -12)], None),
+    ("et tu veux aussi te lancer dans un business en ligne ?",
+     [("29", 0.8, (0.6, 0.45, 1.1), None, "cut"), ("08", 1.2, (0.42, 0.42, 1.25), "in", "cut")],
+     [(0.45, "notification_message_pop", -16)], None),
+    ("Je ne vais pas te parler uniquement de produits digitaux.",
+     [("14", 1, (0.5, 0.45, 1.05), "in", "cut"), ("13", 1, (0.5, 0.5, 1.05), None, "cut")],
+     [(0.48, "page_tournee", -12)], None),
+    ("Ce n'est pas parce que les produits digitaux ne rapportent pas. Au contraire, ça peut très bien marcher. Moi-même, j'en fais et je gagne beaucoup d'argent avec.",
+     [("11", 1.3, (0.42, 0.62, 1.55), None, "cut"), ("15", 0.9, (0.5, 0.42, 1.0), "in", "fondu"), ("16", 1, (0.5, 0.5, 1.05), "in", "fondu")],
+     [(0.02, "frappe_clavier_lente", -22)], None),
+    ("Mais je ne suis pas trop dedans, c'est pourquoi je n'en parle pas beaucoup.",
+     [("23", 1, (0.45, 0.5, 1.05), "out", "cut"), ("13", 1, (0.62, 0.72, 1.6), None, "cut")],
+     [(0.47, "fermeture_objectif", -16)], None),
+    ("Aujourd'hui, je veux aussi te parler du commerce physique ou en ligne, et plus précisément du dropshipping local.",
+     [("02", 1, (0.5, 0.5, 1.05), "droite", "cut"), ("32", 1, (0.5, 0.5, 1.05), "in", "balayage"), ("03", 1, (0.5, 0.5, 1.05), "in", "cut")],
+     [(0.3, "whoosh_air", -16)], ("Dropshipping local", 0.68)),
+    ("En 2023-2024, la manière de vendre en ligne était différente.",
+     [("16", 1, (0.5, 0.5, 1.12), "out", "balayage")],
+     [(0.0, "whoosh_fast_inverse", -14)], ("2023-2024", 0.05)),
+    ("En 2026, on sent que les choses évoluent",
+     [("24", 1, (0.45, 0.6, 1.0), "in", "balayage")],
+     [(0.0, "whoosh_air", -16), (0.25, "mise_au_point", -24)], ("2026", 0.05)),
+    ("et que le commerce en ligne prend de plus en plus de place.",
+     [("21", 1, (0.55, 0.45, 1.05), None, "cut"), ("32", 1, (0.5, 0.42, 1.25), None, "cut"), ("20", 1, (0.55, 0.78, 1.7), None, "cut")],
+     [], None),
+    ("Le dropshipping local, c'est vendre des produits disponibles chez un fournisseur dans ton pays,",
+     [("18", 1.2, (0.5, 0.5, 1.05), "in", "cut"), ("34", 1, (0.5, 0.45, 1.05), "gauche", "cut")],
+     [], None),
+    ("sans devoir acheter un gros stock au départ.",
+     [("28", 0.8, (0.5, 0.5, 1.1), "out", "cut"), ("13", 1.2, (0.5, 0.5, 1.0), "in", "cut")],
+     [], ("Commencer petit", 0.42)),
+    ("Tu présentes les produits sur WhatsApp, Instagram ou TikTok.",
+     [("33", 1, (0.45, 0.5, 1.1), "in", "cut"), ("16", 1, (0.5, 0.48, 1.2), None, "cut")],
+     [(0.1, "appareil_photo", -14)], None),
+    ("Quand un client commande, tu vérifies la disponibilité auprès du fournisseur,",
+     [("32", 1, (0.48, 0.55, 1.45), "in", "cut"), ("11", 1, (0.45, 0.66, 1.7), None, "balayage")],
+     [(0.05, "clavier_telephone", -22)], None),
+    ("tu achètes le produit et tu organises sa livraison au client.",
+     [("20", 1, (0.6, 0.8, 1.9), None, "cut"), ("31", 1, (0.38, 0.66, 1.75), "in", "cut")],
+     [(0.15, "papier_tranche_ruban", -12)], None),
+    ("Selon l'accord que tu as avec le fournisseur, il peut aussi préparer directement le colis.",
+     [("01", 1, (0.48, 0.74, 1.9), "in", "cut"), ("03", 1, (0.55, 0.6, 1.25), None, "fondu")],
+     [(0.48, "grande_page_carton", -14)], None),
+    ("Pourquoi c'est intéressant quand on débute ?",
+     [("29", 1, (0.45, 0.55, 1.15), "in", "cut")],
+     [], None),
+    ("Parce que tu peux commencer avec peu d'argent, tester la demande avant d'acheter beaucoup de produits,",
+     [("17", 0.9, (0.55, 0.55, 1.25), None, "cut"), ("21", 1.1, (0.62, 0.45, 1.2), "in", "cut")],
+     [(0.48, "notification_message_pop", -16)], None),
+    ("et éviter de bloquer tout ton budget dans un stock qui risque de ne pas se vendre.",
+     [("28", 1, (0.5, 0.5, 1.05), "in", "cut")],
+     [], ("Teste avant d'investir davantage", 0.2)),
+    ("Les produits étant déjà dans le pays, la livraison peut être plus rapide qu'une commande à l'étranger.",
+     [("27", 1.2, (0.5, 0.55, 1.05), "droite", "cut"), ("30", 0.9, (0.5, 0.55, 1.05), None, "cut"), ("26", 0.9, (0.35, 0.5, 1.0), "out", "balayage")],
+     [(0.7, "whoosh_fast", -16)], None),
+    ("Tu peux aussi vérifier leur qualité",
+     [("13", 1, (0.35, 0.75, 1.8), "in", "cut")],
+     [(0.2, "clics_souris", -18)], None),
+    ("et échanger plus facilement avec ton fournisseur.",
+     [("32", 1, (0.5, 0.4, 1.5), None, "cut")],
+     [(0.15, "clavier_telephone", -22)], None),
+    ("Avec 50 dollars, tu peux commencer petit, par exemple avec des accessoires.",
+     [("13", 1, (0.5, 0.5, 1.0), "in", "cut"), ("02", 1, (0.5, 0.5, 1.1), "droite", "cut")],
+     [], ("50 $", 0.05)),
+    ("Choisis un produit, renseigne-toi auprès d'un fournisseur local sur son prix et sa disponibilité,",
+     [("34", 1, (0.5, 0.55, 1.2), "in", "cut"), ("29", 1, (0.35, 0.6, 1.35), None, "cut"), ("32", 1, (0.5, 0.62, 1.4), None, "cut")],
+     [(0.36, "crayon_ecriture", -16), (0.72, "bulle_message_envoye", -16)], None),
+    ("puis présente-le à tes premiers clients.",
+     [("33", 1, (0.45, 0.42, 1.35), "in", "cut")],
+     [(0.15, "appareil_photo", -14)], None),
+    ("Calcule bien ta marge, et prévois aussi les frais de livraison et de communication.",
+     [("19", 1, (0.62, 0.5, 1.0), None, "cut")],
+     [(0.05, "touches_calculatrice", -18)], ("CALCUL", 0.18)),
+    ("Si tu veux te lancer dans un business à long terme, le commerce physique ou en ligne peut être une piste à explorer.",
+     [("23", 1, (0.45, 0.55, 1.1), "in", "fondu"), ("25", 1, (0.5, 0.62, 1.15), None, "cut")],
+     [], None),
+    ("Et le dropshipping local peut t'aider à commencer progressivement,",
+     [("31", 1, (0.4, 0.62, 1.7), "in", "cut")],
+     [], ("Étape par étape", 0.15)),
+    ("à apprendre à vendre et à comprendre ce que tes clients recherchent,",
+     [("21", 1, (0.55, 0.45, 1.15), None, "cut"), ("29", 1, (0.55, 0.5, 1.2), "in", "cut")],
+     [(0.05, "notification_message_pop", -18)], None),
+    ("sans investir tout ton argent dans un gros stock.",
+     [("13", 1, (0.5, 0.5, 1.08), "out", "fondu")],
+     [], ("Teste. Apprends. Réinvestis.", 0.1)),
+    ("Pour commencer, écris LOCAL en commentaire, et je t'envoie le lien de la chaîne.",
+     [("CTA", 1, None, None, "fondu")],
+     [(0.32, "clavier_telephone", -18), (0.9, "validation_douce", -12)], None),
+]
+
+CTA_HOLD = 2.6        # secondes de carton final après la dernière phrase

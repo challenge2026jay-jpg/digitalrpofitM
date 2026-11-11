@@ -1,0 +1,38 @@
+# Plan de montage — Dropshipping local
+
+> Minutage **estimé** (la voix ElevenLabs n'a pas encore pu être générée) : il sera recalculé automatiquement sur la vraie voix.
+
+Durée : 177.2 s.
+
+| Phrase prononcée | Fichier exact (Drive) | Passage | Texte à l'écran | Son et transition |
+|---|---|---|---|---|
+| Attends, tu es au Congo-Kinshasa, tu as 50 dollars | `17 - AMERICAN DOLLAR.jpg` | 0.0–4.3 s | — | froissement de papier (billets) ; coupe franche |
+| et tu veux aussi te lancer dans un business en ligne ? | `29 - 5 simple steps to know if cellular support is what….jpg` → `08 - 233382_medium.mp4` | 4.3–8.9 s | — | notification ; coupe franche, coupe franche |
+| Je ne vais pas te parler uniquement de produits digitaux. | `14 - Buisness Ebook _ Buisness Guide.jpg` → `13 - 100 Phone Accessories on Amazon_ Cases, Chargers and Earbuds.jpg` | 8.9–13.6 s | — | page tournée ; coupe franche, coupe franche |
+| Ce n'est pas parce que les produits digitaux ne rapportent pas. Au contraire, ça peut très bien marcher. Moi-même, j'en fais et je gagne beaucoup d'argent avec. | `11 - 39892-423345743_medium.mp4` → `15 - Crush Ebook Sales on Instagram_ Story Strategies for Faceless Accounts.jpg` → `16 - aesthetic photo editor MULI.jpg` | 13.6–26.8 s | — | frappe clavier ; coupe franche, fondu court, fondu court |
+| Mais je ne suis pas trop dedans, c'est pourquoi je n'en parle pas beaucoup. | `23 - 972355375786710434.jpg` → `13 - 100 Phone Accessories on Amazon_ Cases, Chargers and Earbuds.jpg` | 26.8–32.9 s | — | fermeture légère ; coupe franche, coupe franche |
+| Aujourd'hui, je veux aussi te parler du commerce physique ou en ligne, et plus précisément du dropshipping local. | `02 - 441775044713248418.jpg` → `32 - WhatsApp Business Marketing Tips for Indian SMEs.jpg` → `03 - Commandes Wholesale de Noël 🎄 _ Coulisses d'une Petite Entreprise Artisanale.jpg` | 32.9–41.9 s | Dropshipping local | whoosh doux ; coupe franche, balayage, coupe franche |
+| En 2023-2024, la manière de vendre en ligne était différente. | `16 - aesthetic photo editor MULI.jpg` | 41.9–46.9 s | 2023-2024 | whoosh inversé (rembobinage) ; balayage |
+| En 2026, on sent que les choses évoluent | `24 - 1360-147055409_medium.mp4` | 46.9–50.1 s | 2026 | whoosh doux, mise au point ; balayage |
+| et que le commerce en ligne prend de plus en plus de place. | `21 - HIPAA Patient Intake & Forms Blog _ MedForward.jpg` → `32 - WhatsApp Business Marketing Tips for Indian SMEs.jpg` → `20 - Premium Poly Mailer Bags for Ecommerce Shipping _ Tilak Polypack.jpg` | 50.1–55.1 s | — | musique seule ; coupe franche, coupe franche, coupe franche |
+| Le dropshipping local, c'est vendre des produits disponibles chez un fournisseur dans ton pays, | `18 - 298645019062415060.jpg` → `34 - Mobile shop #mobile accessories.jpg` | 55.1–62.3 s | — | musique seule ; coupe franche, coupe franche |
+| sans devoir acheter un gros stock au départ. | `28 - Amazon Liquidation Pallets.jpg` → `13 - 100 Phone Accessories on Amazon_ Cases, Chargers and Earbuds.jpg` | 62.3–66.0 s | Commencer petit | musique seule ; coupe franche, coupe franche |
+| Tu présentes les produits sur WhatsApp, Instagram ou TikTok. | `33 - Traveling light_ This UBeesize tripod is a….jpg` → `16 - aesthetic photo editor MULI.jpg` | 66.0–70.8 s | — | déclic d'appareil photo ; coupe franche, coupe franche |
+| Quand un client commande, tu vérifies la disponibilité auprès du fournisseur, | `32 - WhatsApp Business Marketing Tips for Indian SMEs.jpg` → `11 - 39892-423345743_medium.mp4` | 70.8–76.7 s | — | frappe sur téléphone ; coupe franche, balayage |
+| tu achètes le produit et tu organises sa livraison au client. | `20 - Premium Poly Mailer Bags for Ecommerce Shipping _ Tilak Polypack.jpg` → `31 - Quality Packing And Shipping Solutions In Madera.jpg` | 76.7–81.7 s | — | papier tranché (ruban) ; coupe franche, coupe franche |
+| Selon l'accord que tu as avec le fournisseur, il peut aussi préparer directement le colis. | `01 - Young entrepreneur packing order in warehouse.jpg` → `03 - Commandes Wholesale de Noël 🎄 _ Coulisses d'une Petite Entreprise Artisanale.jpg` | 81.7–88.8 s | — | fermeture carton (papier) ; coupe franche, fondu court |
+| Pourquoi c'est intéressant quand on débute ? | `29 - 5 simple steps to know if cellular support is what….jpg` | 88.8–92.4 s | — | musique seule ; coupe franche |
+| Parce que tu peux commencer avec peu d'argent, tester la demande avant d'acheter beaucoup de produits, | `17 - AMERICAN DOLLAR.jpg` → `21 - HIPAA Patient Intake & Forms Blog _ MedForward.jpg` | 92.4–100.2 s | — | notification ; coupe franche, coupe franche |
+| et éviter de bloquer tout ton budget dans un stock qui risque de ne pas se vendre. | `28 - Amazon Liquidation Pallets.jpg` | 100.2–106.9 s | Teste avant d'investir davantage | musique seule ; coupe franche |
+| Les produits étant déjà dans le pays, la livraison peut être plus rapide qu'une commande à l'étranger. | `27 - 878413102300172217.jpg` → `30 - 945826359270500032.jpg` → `26 - China’s logistics sector grows 6_2% in Q1 2026.jpg` | 106.9–114.9 s | — | whoosh court ; coupe franche, coupe franche, balayage |
+| Tu peux aussi vérifier leur qualité | `13 - 100 Phone Accessories on Amazon_ Cases, Chargers and Earbuds.jpg` | 114.9–117.5 s | — | petit clic ; coupe franche |
+| et échanger plus facilement avec ton fournisseur. | `32 - WhatsApp Business Marketing Tips for Indian SMEs.jpg` | 117.5–121.5 s | — | frappe sur téléphone ; coupe franche |
+| Avec 50 dollars, tu peux commencer petit, par exemple avec des accessoires. | `13 - 100 Phone Accessories on Amazon_ Cases, Chargers and Earbuds.jpg` → `02 - 441775044713248418.jpg` | 121.5–127.6 s | 50 $ | musique seule ; coupe franche, coupe franche |
+| Choisis un produit, renseigne-toi auprès d'un fournisseur local sur son prix et sa disponibilité, | `34 - Mobile shop #mobile accessories.jpg` → `29 - 5 simple steps to know if cellular support is what….jpg` → `32 - WhatsApp Business Marketing Tips for Indian SMEs.jpg` | 127.6–134.9 s | — | stylo, message envoyé ; coupe franche, coupe franche, coupe franche |
+| puis présente-le à tes premiers clients. | `33 - Traveling light_ This UBeesize tripod is a….jpg` | 134.9–138.2 s | — | déclic d'appareil photo ; coupe franche |
+| Calcule bien ta marge, et prévois aussi les frais de livraison et de communication. | `19 - 286930_medium.mp4` | 138.2–144.9 s | Carnet « Ma marge » : prix d'achat, livraison, communication, prix de vente | touches de calculatrice ; coupe franche |
+| Si tu veux te lancer dans un business à long terme, le commerce physique ou en ligne peut être une piste à explorer. | `23 - 972355375786710434.jpg` → `25 - Business.jpg` | 144.9–154.2 s | — | musique seule ; fondu court, coupe franche |
+| Et le dropshipping local peut t'aider à commencer progressivement, | `31 - Quality Packing And Shipping Solutions In Madera.jpg` | 154.2–159.1 s | Étape par étape | musique seule ; coupe franche |
+| à apprendre à vendre et à comprendre ce que tes clients recherchent, | `21 - HIPAA Patient Intake & Forms Blog _ MedForward.jpg` → `29 - 5 simple steps to know if cellular support is what….jpg` | 159.1–164.3 s | — | notification ; coupe franche, coupe franche |
+| sans investir tout ton argent dans un gros stock. | `13 - 100 Phone Accessories on Amazon_ Cases, Chargers and Earbuds.jpg` | 164.3–168.4 s | Teste. Apprends. Réinvestis. | musique seule ; fondu court |
+| Pour commencer, écris LOCAL en commentaire, et je t'envoie le lien de la chaîne. | carton final (zone de commentaires stylisée, fond flou de « 16 - aesthetic photo editor MULI.jpg ») | 168.4–177.2 s | ÉCRIS « LOCAL » EN COMMENTAIRE / Je t'envoie le lien de la chaîne | frappe sur téléphone, validation douce ; fondu court |
