@@ -28,22 +28,39 @@ def wend(i): return WORDS[i]["end"]
 # ------------------------------------------------------------------ ce qui apparaît, et quand (numéros de mots)
 # carte : (mot d'arrivée, mot de départ, source, cadrage (cx, cy, zoom), taille (l, h), son d'arrivée)
 CARDS = [
-    (7,   18,  "17 - AMERICAN DOLLAR.jpg", (0.5, 0.5, 1.0), (760, 860), "papier_froisse_billets"),          # 50 dollars
+    (7,   13,  "17 - AMERICAN DOLLAR.jpg", (0.5, 0.5, 1.0), (760, 860), "papier_froisse_billets"),          # 50 dollars
+    (13,  18,  "08 - 233382_medium.mp4", (0.48, 0.6, 1.0), (760, 860), "whoosh_air"),                         # te lancer dans un business
     (25,  39,  "14 - Buisness Ebook _ Buisness Guide.jpg", (0.5, 0.42, 1.0), (760, 860), "page_tournee"),     # produits digitaux
+    (39,  47,  "15 - Crush Ebook Sales on Instagram_ Story Strategies for Faceless Accounts.jpg", (0.5, 0.42, 1.0), (760, 860), "page_tournee"),  # ça peut très bien marcher
     (47,  55,  "DASH", None, (940, 520), "whoosh_air"),                                                     # j'ai gagné beaucoup d'argent
     (75,  79,  "18 - 298645019062415060.jpg", (0.5, 0.5, 1.0), (820, 720), "whoosh_air"),                    # commerce physique
     (79,  81,  "32 - WhatsApp Business Marketing Tips for Indian SMEs.jpg", (0.5, 0.5, 1.15), (820, 720), "whoosh_fast"),  # commerce online
-    (127, 140, "34 - Mobile shop #mobile accessories.jpg", (0.5, 0.45, 1.05), (820, 760), "whoosh_air"),     # produits disponibles chez un fournisseur
+    (105, 112, "21 - HIPAA Patient Intake & Forms Blog _ MedForward.jpg", (0.55, 0.45, 1.0), (820, 720), "notification_message_pop"),  # les commerces en ligne
+    (112, 121, "20 - Premium Poly Mailer Bags for Ecommerce Shipping _ Tilak Polypack.jpg", (0.55, 0.7, 1.4), (820, 720), "whoosh_air"),  # prennent de plus en plus de place
+    (127, 131, "34 - Mobile shop #mobile accessories.jpg", (0.5, 0.45, 1.05), (820, 760), "whoosh_air"),     # produits disponibles
+    (131, 135, "02 - 441775044713248418.jpg", (0.5, 0.5, 1.05), (820, 760), "whoosh_fast"),                  # chez un fournisseur
+    (135, 140, "13 - 100 Phone Accessories on Amazon_ Cases, Chargers and Earbuds.jpg", (0.5, 0.5, 1.0), (820, 760), "whoosh_air"),  # sans gros stock au départ
+    (141, 146, "33 - Traveling light_ This UBeesize tripod is a….jpg", (0.45, 0.45, 1.0), (820, 720), "appareil_photo"),  # tu présentes tes produits
     (152, 163, "pixabay/px_message_telephone.mp4", (0.5, 0.5, 1.0), (820, 640), "clavier_telephone"),        # les clients commandent
     (169, 174, "31 - Quality Packing And Shipping Solutions In Madera.jpg", (0.4, 0.6, 1.55), (820, 720), "whoosh_air"),   # livraison aux clients
     (184, 189, "01 - Young entrepreneur packing order in warehouse.jpg", (0.48, 0.74, 1.8), (820, 720), "papier_tranche_ruban"),  # préparer le colis
+    (199, 203, "pixabay/px_billets_mains.mp4", (0.5, 0.5, 1.0), (820, 640), "papier_froisse_billets"),       # peu d'argent
+    (203, 211, "pixabay/px_telephone_main_fond_blanc.mp4", (0.5, 0.5, 1.0), (820, 640), "notification_message_pop"),  # tester la demande
+    (218, 228, "28 - Amazon Liquidation Pallets.jpg", (0.5, 0.5, 1.0), (820, 720), "whoosh_air"),            # un stock qui risque de ne pas être vendu
     (235, 242, "27 - 878413102300172217.jpg", (0.5, 0.55, 1.0), (820, 720), "whoosh_air"),                  # livraison plus rapide
     (242, 245, "26 - China’s logistics sector grows 6_2% in Q1 2026.jpg", (0.35, 0.5, 1.0), (820, 720), "whoosh_fast"),  # commande à l'étranger
     (249, 252, "13 - 100 Phone Accessories on Amazon_ Cases, Chargers and Earbuds.jpg", (0.35, 0.75, 1.8), (820, 720), "clics_souris"),  # vérifier la qualité
+    (252, 258, "32 - WhatsApp Business Marketing Tips for Indian SMEs.jpg", (0.5, 0.42, 1.3), (820, 720), "bulle_message_envoye"),  # échanger avec ton fournisseur
     (259, 266, "17 - AMERICAN DOLLAR.jpg", (0.5, 0.55, 1.15), (760, 860), "papier_froisse_billets"),       # avec 50 dollars
     (268, 271, "13 - 100 Phone Accessories on Amazon_ Cases, Chargers and Earbuds.jpg", (0.5, 0.5, 1.0), (820, 760), "whoosh_air"),  # accessoires
-    (291, 296, "pixabay/../19 - 286930_medium.mp4", (0.62, 0.5, 1.0), (820, 600), "touches_calculatrice"),  # calcule ta marge
+    (291, 296, "19 - 286930_medium.mp4", (0.62, 0.5, 1.0), (820, 600), "touches_calculatrice"),            # calcule ta marge
+    (316, 319, "18 - 298645019062415060.jpg", (0.5, 0.5, 1.0), (820, 720), "whoosh_air"),                    # le commerce physique
+    (319, 330, "pixabay/px_telephone_manteau.mp4", (0.42, 0.5, 1.0), (820, 720), "whoosh_fast"),             # ou le commerce en ligne
+    (332, 339, "03 - Commandes Wholesale de Noël 🎄 _ Coulisses d'une Petite Entreprise Artisanale.jpg", (0.5, 0.5, 1.0), (820, 720), "whoosh_air"),  # commencer progressivement
+    (343, 351, "21 - HIPAA Patient Intake & Forms Blog _ MedForward.jpg", (0.55, 0.45, 1.05), (820, 720), "notification_message_pop"),  # ce que tes clients recherchent
+    (351, 360, "13 - 100 Phone Accessories on Amazon_ Cases, Chargers and Earbuds.jpg", (0.5, 0.5, 1.0), (820, 720), "whoosh_air"),  # sans gros stock
 ]
+CALC = next(c for c in CARDS if "286930" in c[2])
 LOGOS = [("WhatsApp", 146, LOGO_WA), ("Instagram", 147, MEDIA + "38 - 733312751865693445.jpg"),
          ("TikTok", 148, MEDIA + "36 - Logo do tik tok _ Vetor Premium.jpg"), ("Facebook", 151, MEDIA + "37 - Facebook logo.jpg")]
 LOGO_END = 152
@@ -186,7 +203,7 @@ def in_words(t, w0, w1):
     t0 = wt(w0) - 0.05; t1 = wt(w1) - 0.08 if w1 < len(WORDS) else TOTAL
     return t0, t1, (t0 <= t < t1)
 
-def draw_graphics(base, t):
+def draw_graphics(base, t, busy_cards=0.0):
     present = 0.0
     for w0, w1, l1, l2 in TITRES:
         t0, t1, on = in_words(t, w0, w1)
@@ -215,11 +232,13 @@ def draw_graphics(base, t):
             d.text((x + 40, y + 18), lab, font=f, fill=INK + (int(255 * k),)); y += 150
         present = 1
     t0, t1, on = in_words(t, *MARGE)
-    if on and t > card_window(CARDS[-1])[1]:                  # après la calculatrice : le carnet de marge
-        a = ease_out((t - card_window(CARDS[-1])[1]) / 0.3) * clamp((t1 - t) / 0.2); draw_marge(base, t, a); present = 1
+    if on and t > card_window(CALC)[1]:                  # après la calculatrice : le carnet de marge
+        a = ease_out((t - card_window(CALC)[1]) / 0.3) * clamp((t1 - t) / 0.2); draw_marge(base, t, a); present = 1
     for w0, w1, s in EMPHASE:
         t0, t1, on = in_words(t, w0, w1)
-        if on: V.pill(base, s, W // 2, 560 - (1 - ease_out((t - t0) / 0.25)) * 20, ease_out((t - t0) / 0.25) * clamp((t1 - t) / 0.15), size=92); present = 1
+        if on:
+            y = 205 if busy_cards > 0.05 else 560
+            V.pill(base, s, W // 2, y - (1 - ease_out((t - t0) / 0.25)) * 20, ease_out((t - t0) / 0.25) * clamp((t1 - t) / 0.15), size=80 if busy_cards > 0.05 else 92); present = 1
     return present
 
 def draw_marge(base, t, a):
@@ -295,7 +314,8 @@ def frame(t):
             prev = background(t).convert("RGB"); im = Image.blend(prev, im, ease(dt / 0.25))
         return im
     base = background(t)
-    busy = max(draw_cards(base, t), draw_logos(base, t), draw_graphics(base, t))
+    bc = draw_cards(base, t)
+    busy = max(bc, draw_logos(base, t), draw_graphics(base, t, bc))
     draw_kinetic(base, t, busy)
     for n in list(_video):
         if t > card_window(CARDS[n])[1] + 0.5: _video.pop(n).p.kill()
@@ -311,7 +331,7 @@ def sfx_events():
 def build_audio(out="cache/mix_v3.wav"):
     inp = ["-i", V.MUSIC, "-i", V.MUSIC, "-i", V.VOICE]
     fc = ["[0:a][1:a]acrossfade=d=3[mm]",
-          f"[mm]aresample=48000,atrim=0:{TOTAL},volume='{V.music_expr()}':eval=frame,afade=t=in:d=0.3,afade=t=out:st={TOTAL - 1.5}:d=1.5[m]",
+          f"[mm]aresample=48000,atrim=0:{TOTAL},volume='{V.music_expr().replace("0.11*", "0.073*")}':eval=frame,afade=t=in:d=0.3,afade=t=out:st={TOTAL - 1.5}:d=1.5[m]",
           "[2:a]aresample=48000,aformat=channel_layouts=stereo[v]"]
     lab = ["[m]", "[v]"]
     for n, (t, f, g) in enumerate(sfx_events()):
@@ -344,7 +364,7 @@ def write_plan():
     for w0, w1, y in ANNEES: items.append((wt(w0), " ".join(WORDS[j]["text"] for j in range(w0, w1)), f"année « {y} » en grand", wt(w1), "whoosh"))
     items.append((wt(ETAPES[0]), "Le dropshipping local … livraison aux clients", "barre Fournisseur › Présentation › Commande › Livraison (l'étape s'allume au mot)", wt(ETAPES[1]), "—"))
     items.append((wt(TROIS[0]), "choisis le produit … premiers clients", "1 Choisir · 2 Vérifier le prix · 3 Présenter", wt(TROIS[1]), "whoosh"))
-    items.append((card_window(CARDS[-1])[1], "et prévois aussi les frais …", "carnet : Achat + Livraison + Communication = MA MARGE", wt(MARGE[1]), "—"))
+    items.append((card_window(CALC)[1], "et prévois aussi les frais …", "carnet : Achat + Livraison + Communication = MA MARGE", wt(MARGE[1]), "—"))
     for w0, w1, s in EMPHASE: items.append((wt(w0), " ".join(WORDS[j]["text"] for j in range(w0, w1)), f"pastille « {s} »", wt(w1), "—"))
     items.append((wt(CTA_W), " ".join(WORDS[j]["text"] for j in range(CTA_W, len(WORDS))), "ÉCRIS « LOCAL » EN COMMENTAIRE, zone de commentaire, « Je t'envoie le lien de ma chaîne WhatsApp », logo WhatsApp", TOTAL, "clavier, validation douce"))
     for t0, ph, vis, t1, snd in sorted(items): rows.append(f"| {ph} | {vis} | {t0:.1f}–{t1:.1f} s | {snd} |")
