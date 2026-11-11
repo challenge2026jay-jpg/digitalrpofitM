@@ -8,7 +8,7 @@ Durée : 115.9 s.
 | et tu veux aussi te lancer dans un business en ligne ? | `08 - 233382_medium.mp4` | 3.1–5.6 s | — | notification ; coupe franche |
 | Je ne vais pas te parler uniquement de produits digitaux. | `14 - Buisness Ebook _ Buisness Guide.jpg` | 5.6–8.8 s | — | page tournée ; coupe franche |
 | Ce n'est pas parce que les produits digitaux ne rapportent pas. Au contraire, ça peut très bien marcher. | `15 - Crush Ebook Sales on Instagram_ Story Strategies for Faceless Accounts.jpg` | 8.8–13.4 s | — | musique seule ; coupe franche |
-| Moi-même, j'en fais et je gagne beaucoup d'argent avec. | `11 - 39892-423345743_medium.mp4` | 13.4–16.2 s | — | frappe clavier ; coupe franche |
+| Moi-même, j'en fais et je gagne beaucoup d'argent avec. | capture du tableau de bord Chariow (`35 - capture_tableau_de_bord_chariow.png`), rapprochement sur le revenu total | 13.4–16.2 s | — | petit clic ; coupe franche |
 | Mais je ne suis pas trop dedans, c'est pourquoi je n'en parle pas beaucoup. | `14 - Buisness Ebook _ Buisness Guide.jpg` | 16.2–19.4 s | — | fermeture légère ; fondu court |
 | Aujourd'hui, je veux aussi te parler du commerce physique ou en ligne, | `18 - 298645019062415060.jpg` → `32 - WhatsApp Business Marketing Tips for Indian SMEs.jpg` | 19.4–22.4 s | — | whoosh doux ; coupe franche, balayage |
 | et plus précisément du dropshipping local. | `03 - Commandes Wholesale de Noël 🎄 _ Coulisses d'une Petite Entreprise Artisanale.jpg` | 22.4–25.4 s | Dropshipping local | musique seule ; coupe franche |

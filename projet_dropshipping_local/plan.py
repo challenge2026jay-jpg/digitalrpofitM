@@ -38,6 +38,7 @@ F = {  # numéro -> nom exact du fichier du Drive (préfixé par son numéro d'o
     "32": "32 - WhatsApp Business Marketing Tips for Indian SMEs.jpg",
     "33": "33 - Traveling light_ This UBeesize tripod is a….jpg",
     "34": "34 - Mobile shop #mobile accessories.jpg",
+    "35": "35 - capture_tableau_de_bord_chariow.png",   # capture envoyée par Samantha (son tableau de bord Chariow)
 }
 
 # Zones floutées (x0, y0, x1, y1 en 0–1) : prénoms ou données personnelles visibles
@@ -66,8 +67,8 @@ PASSAGES = [
      [("15", None, (0.5, 0.42, 1.0), "in", "cut")],
      [], None),
     ("Moi-même, j'en fais et je gagne beaucoup d'argent avec.",
-     [("11", None, (0.5, 0.92, 2.3), None, "cut")],
-     [(0.0, "frappe_clavier_lente", -24)], None),
+     [("DASH", None, None, None, "cut")],
+     [("gagne", "clics_souris", -20)], None),
     ("Mais je ne suis pas trop dedans, c'est pourquoi je n'en parle pas beaucoup.",
      [("14", None, (0.5, 0.5, 1.12), "out", "fondu")],
      [("parle", "fermeture_objectif", -18)], None),

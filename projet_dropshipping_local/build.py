@@ -312,8 +312,45 @@ def shot_index(t):
         if s["t0"] <= t < s["t1"]: return i
     return len(SHOTS) - 1
 
+# ------------------------------------------------------------------ tableau de bord Chariow (capture réelle)
+DASH_CROP = (0, 226, 2000, 900)            # sans la barre du navigateur ni le bandeau jaune
+DASH_TARGET = (352, 384, 1000, 674)        # zone du « Revenu total » (dans la capture recadrée)
+DASH_HL = (455, 500, 728, 575)             # « 1088000 CDF » à encadrer
+
+@functools.lru_cache(maxsize=None)
+def dash_src(): return Image.open(P.M + P.F["35"]).convert("RGB").crop(DASH_CROP)
+
+@functools.lru_cache(maxsize=None)
+def dash_bg():
+    im = cover(Image.open(P.M + P.F["35"]).convert("RGB"), 0.5, 0.55, 1.0).filter(ImageFilter.GaussianBlur(30))
+    return Image.blend(im, Image.new("RGB", (W, H), (12, 12, 16)), 0.62)
+
+def render_dash(i, t):
+    s = SHOTS[i]; src = dash_src(); sw, sh = src.size
+    k = ease((t - s["t0"] - 0.35) / 1.1)                          # plan large, puis rapprochement
+    full = (0, 0, sw, sh); tg = DASH_TARGET
+    v = [full[j] + (tg[j] - full[j]) * k for j in range(4)]
+    dw = 1000; dh = int(dw * (v[3] - v[1]) / (v[2] - v[0]))
+    view = src.crop(tuple(int(x) for x in v)).resize((dw, dh), Image.LANCZOS)
+    im = dash_bg().copy(); x0 = (W - dw) // 2; y0 = 760 - dh // 2
+    sh_ = Image.new("RGBA", (dw + 120, dh + 120), (0, 0, 0, 0))
+    ImageDraw.Draw(sh_).rounded_rectangle((60, 76, dw + 60, dh + 76), 28, fill=(0, 0, 0, 140))
+    im.paste(sh_.filter(ImageFilter.GaussianBlur(22)), (x0 - 60, y0 - 60), sh_.filter(ImageFilter.GaussianBlur(22)))
+    m = Image.new("L", (dw, dh), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, dw - 1, dh - 1), 28, fill=255)
+    im.paste(view, (x0, y0), m)
+    if k > 0.95:                                                  # cadre jaune qui clignote sur le revenu
+        sx = dw / (v[2] - v[0]); sy = dh / (v[3] - v[1])
+        hx0 = x0 + (DASH_HL[0] - v[0]) * sx; hy0 = y0 + (DASH_HL[1] - v[1]) * sy
+        hx1 = x0 + (DASH_HL[2] - v[0]) * sx; hy1 = y0 + (DASH_HL[3] - v[1]) * sy
+        a = 0.6 + 0.4 * abs(math.sin((t - s["t0"]) * 6))
+        ImageDraw.Draw(im, "RGBA").rounded_rectangle((hx0 - 14, hy0 - 12, hx1 + 14, hy1 + 12), 18, outline=YELLOW + (int(255 * a),), width=9)
+    return im
+
 def base_frame(i, t):
-    return render_cta(t) if SHOTS[i]["f"] == "CTA" else render_shot(i, t)
+    f = SHOTS[i]["f"]
+    if f == "CTA": return render_cta(t)
+    if f == "DASH": return render_dash(i, t)
+    return render_shot(i, t)
 
 def frame(t):
     i = shot_index(t); s = SHOTS[i]; im = base_frame(i, t)
@@ -386,7 +423,7 @@ def write_plan():
     rows = ["| Phrase prononcée | Fichier exact (Drive) | Passage | Texte à l'écran | Son et transition |", "|---|---|---|---|---|"]
     for k, (txt, shots, sfx, label) in enumerate(P.PASSAGES):
         t0, t1 = PASS_T[k][:2]
-        files = " → ".join(("carton final (zone de commentaires stylisée, fond flou de « " + P.F["16"] + " »)") if s[0] == "CTA" else f"`{P.F[s[0]]}`" for s in shots)
+        files = " → ".join(("capture du tableau de bord Chariow (`" + P.F["35"] + "`), rapprochement sur le revenu total") if s[0] == "DASH" else ("carton final (zone de commentaires stylisée, fond flou de « " + P.F["16"] + " »)") if s[0] == "CTA" else f"`{P.F[s[0]]}`" for s in shots)
         lab = {"CALCUL": "Carnet « Ma marge » : prix d'achat, livraison, communication, prix de vente"}.get(label[0], label[0]) if label else "—"
         if k == len(P.PASSAGES) - 1: lab = "ÉCRIS « LOCAL » EN COMMENTAIRE / Je t'envoie le lien de la chaîne"
         snd = ", ".join(SFX_FR.get(f, f) for _, f, _ in sfx) or "musique seule"
