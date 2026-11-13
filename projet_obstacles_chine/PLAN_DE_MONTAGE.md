@@ -110,3 +110,23 @@ python3 build_chine.py --frames 75 300   # aperçus PNG à ces secondes, dans ca
 - Chaque scène est une petite fonction dans `build_chine.py` (`@scene("phrase d'ancrage")`). Pour changer un texte, une couleur ou le moment d'apparition, on modifie la fonction et on relance le rendu.
 - `engine.py` contient le style : couleurs, polices (Inter, Playfair Display, IBM Plex Mono), cartes, tampons, curseur.
 - Sons : `audio/sfx/` (S1 à S20, identifiants Mixkit dans `ids.json`). Musique : `audio/music/`.
+
+## Version courte verticale (1 min, 9:16)
+
+Fichier : `export/obstacles_chine_1min_9x16.mp4` (1080 × 1920, 59,8 s, son à −14 LUFS pour TikTok, Reels et Shorts). Script : `build_short.py`.
+
+Même voix (extraits de la voix nettoyée, rien de synthétique ajouté), mêmes images du Drive, même style. Les textes et sous-titres restent dans la zone centrale, hors des boutons de TikTok et Instagram.
+
+| Temps | Extrait de la voix | À l'écran |
+|---|---|---|
+| 0:00 | « Tu as déjà regardé un produit sur une plateforme chinoise » | Titre + boutique D8 |
+| 0:02 | « Mais dans la réalité… un parcours du combattant. » | Fond noir, glitch, « du combattant. » en rouge |
+| 0:07 | « Trouver un fournisseur réellement fiable. » / « Règle simple, teste le fournisseur avant de tester ton capital. » | 01 + tampon VÉRIFIE, puis D10 |
+| 0:14 | « La barrière linguistique… » / « Écris toutes les caractéristiques du produit » | 02 + tampon ÉCRIS TOUT, puis fiche produit |
+| 0:20 | « Recevoir une qualité différente… » / « La meilleure solution est de commander un échantillon. » | 03, puis D12 + tampon ÉCHANTILLON |
+| 0:26 | « Les frais cachés… » / « Mais le prix du produit n'est pas toujours le coût réel. » | 04, puis D2 + « Prix affiché 3 $ » + ≠ COÛT RÉEL |
+| 0:31 | « Les retards de production et de livraison. » / « Commande suffisamment tôt… marge de sécurité. » | 05, puis planning + marge de sécurité |
+| 0:38 | « Les arnaques et les paiements risqués. » / « Évite de transférer tout ton capital… jamais testé. » | 06 en rouge, puis alerte + ARNAQUE |
+| 0:45 | « Ne pas calculer la rentabilité… » / « Un produit peut donc être populaire et ne pas être rentable. » | 07, puis D8 + « populaire ≠ rentable. » |
+| 0:51 | « Rejoins ma chaîne. Le lien est dans ma bio. » | Bouton S'abonner cliqué |
+| 0:53 | « En importation, ce n'est pas celui qui commande le plus qui réussit, c'est celui qui vérifie le mieux. » | Fond noir, phrase finale, musique coupée |
