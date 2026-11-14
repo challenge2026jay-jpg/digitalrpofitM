@@ -1,0 +1,2237 @@
+{
+ "words": [
+  {
+   "text": "Attends,",
+   "type": "word",
+   "start": 0.25,
+   "end": 0.77
+  },
+  {
+   "text": "tu",
+   "type": "word",
+   "start": 1.01,
+   "end": 1.23
+  },
+  {
+   "text": "es",
+   "type": "word",
+   "start": 1.27,
+   "end": 1.49
+  },
+  {
+   "text": "au",
+   "type": "word",
+   "start": 1.53,
+   "end": 1.75
+  },
+  {
+   "text": "Congo-Kinshasa,",
+   "type": "word",
+   "start": 1.79,
+   "end": 2.73
+  },
+  {
+   "text": "tu",
+   "type": "word",
+   "start": 2.97,
+   "end": 3.19
+  },
+  {
+   "text": "as",
+   "type": "word",
+   "start": 3.23,
+   "end": 3.45
+  },
+  {
+   "text": "50",
+   "type": "word",
+   "start": 3.49,
+   "end": 3.71
+  },
+  {
+   "text": "dollars",
+   "type": "word",
+   "start": 3.75,
+   "end": 4.27
+  },
+  {
+   "text": "et",
+   "type": "word",
+   "start": 4.31,
+   "end": 4.53
+  },
+  {
+   "text": "tu",
+   "type": "word",
+   "start": 4.57,
+   "end": 4.79
+  },
+  {
+   "text": "veux",
+   "type": "word",
+   "start": 4.83,
+   "end": 5.17
+  },
+  {
+   "text": "aussi",
+   "type": "word",
+   "start": 5.21,
+   "end": 5.61
+  },
+  {
+   "text": "te",
+   "type": "word",
+   "start": 5.65,
+   "end": 5.87
+  },
+  {
+   "text": "lancer",
+   "type": "word",
+   "start": 5.91,
+   "end": 6.37
+  },
+  {
+   "text": "dans",
+   "type": "word",
+   "start": 6.41,
+   "end": 6.75
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 6.79,
+   "end": 7.01
+  },
+  {
+   "text": "business",
+   "type": "word",
+   "start": 7.05,
+   "end": 7.63
+  },
+  {
+   "text": "en",
+   "type": "word",
+   "start": 7.67,
+   "end": 7.89
+  },
+  {
+   "text": "ligne",
+   "type": "word",
+   "start": 7.93,
+   "end": 8.33
+  },
+  {
+   "text": "?",
+   "type": "word",
+   "start": 8.37,
+   "end": 8.47
+  },
+  {
+   "text": "Je",
+   "type": "word",
+   "start": 8.93,
+   "end": 9.15
+  },
+  {
+   "text": "ne",
+   "type": "word",
+   "start": 9.19,
+   "end": 9.41
+  },
+  {
+   "text": "vais",
+   "type": "word",
+   "start": 9.45,
+   "end": 9.79
+  },
+  {
+   "text": "pas",
+   "type": "word",
+   "start": 9.83,
+   "end": 10.11
+  },
+  {
+   "text": "te",
+   "type": "word",
+   "start": 10.15,
+   "end": 10.37
+  },
+  {
+   "text": "parler",
+   "type": "word",
+   "start": 10.41,
+   "end": 10.87
+  },
+  {
+   "text": "uniquement",
+   "type": "word",
+   "start": 10.91,
+   "end": 11.61
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 11.65,
+   "end": 11.87
+  },
+  {
+   "text": "produits",
+   "type": "word",
+   "start": 11.91,
+   "end": 12.49
+  },
+  {
+   "text": "digitaux.",
+   "type": "word",
+   "start": 12.53,
+   "end": 13.11
+  },
+  {
+   "text": "Ce",
+   "type": "word",
+   "start": 13.57,
+   "end": 13.79
+  },
+  {
+   "text": "n'est",
+   "type": "word",
+   "start": 13.83,
+   "end": 14.23
+  },
+  {
+   "text": "pas",
+   "type": "word",
+   "start": 14.27,
+   "end": 14.55
+  },
+  {
+   "text": "parce",
+   "type": "word",
+   "start": 14.59,
+   "end": 14.99
+  },
+  {
+   "text": "que",
+   "type": "word",
+   "start": 15.03,
+   "end": 15.31
+  },
+  {
+   "text": "les",
+   "type": "word",
+   "start": 15.35,
+   "end": 15.63
+  },
+  {
+   "text": "produits",
+   "type": "word",
+   "start": 15.67,
+   "end": 16.25
+  },
+  {
+   "text": "digitaux",
+   "type": "word",
+   "start": 16.29,
+   "end": 16.87
+  },
+  {
+   "text": "ne",
+   "type": "word",
+   "start": 16.91,
+   "end": 17.13
+  },
+  {
+   "text": "rapportent",
+   "type": "word",
+   "start": 17.17,
+   "end": 17.87
+  },
+  {
+   "text": "pas.",
+   "type": "word",
+   "start": 17.91,
+   "end": 18.19
+  },
+  {
+   "text": "Au",
+   "type": "word",
+   "start": 18.65,
+   "end": 18.87
+  },
+  {
+   "text": "contraire,",
+   "type": "word",
+   "start": 18.91,
+   "end": 19.55
+  },
+  {
+   "text": "ça",
+   "type": "word",
+   "start": 19.79,
+   "end": 20.01
+  },
+  {
+   "text": "peut",
+   "type": "word",
+   "start": 20.05,
+   "end": 20.39
+  },
+  {
+   "text": "très",
+   "type": "word",
+   "start": 20.43,
+   "end": 20.77
+  },
+  {
+   "text": "bien",
+   "type": "word",
+   "start": 20.81,
+   "end": 21.15
+  },
+  {
+   "text": "marcher.",
+   "type": "word",
+   "start": 21.19,
+   "end": 21.71
+  },
+  {
+   "text": "Moi-même,",
+   "type": "word",
+   "start": 22.17,
+   "end": 22.75
+  },
+  {
+   "text": "j'en",
+   "type": "word",
+   "start": 22.99,
+   "end": 23.33
+  },
+  {
+   "text": "fais",
+   "type": "word",
+   "start": 23.37,
+   "end": 23.71
+  },
+  {
+   "text": "et",
+   "type": "word",
+   "start": 23.75,
+   "end": 23.97
+  },
+  {
+   "text": "je",
+   "type": "word",
+   "start": 24.01,
+   "end": 24.23
+  },
+  {
+   "text": "gagne",
+   "type": "word",
+   "start": 24.27,
+   "end": 24.67
+  },
+  {
+   "text": "beaucoup",
+   "type": "word",
+   "start": 24.71,
+   "end": 25.29
+  },
+  {
+   "text": "d'argent",
+   "type": "word",
+   "start": 25.33,
+   "end": 25.91
+  },
+  {
+   "text": "avec.",
+   "type": "word",
+   "start": 25.95,
+   "end": 26.29
+  },
+  {
+   "text": "Mais",
+   "type": "word",
+   "start": 26.75,
+   "end": 27.09
+  },
+  {
+   "text": "je",
+   "type": "word",
+   "start": 27.13,
+   "end": 27.35
+  },
+  {
+   "text": "ne",
+   "type": "word",
+   "start": 27.39,
+   "end": 27.61
+  },
+  {
+   "text": "suis",
+   "type": "word",
+   "start": 27.65,
+   "end": 27.99
+  },
+  {
+   "text": "pas",
+   "type": "word",
+   "start": 28.03,
+   "end": 28.31
+  },
+  {
+   "text": "trop",
+   "type": "word",
+   "start": 28.35,
+   "end": 28.69
+  },
+  {
+   "text": "dedans,",
+   "type": "word",
+   "start": 28.73,
+   "end": 29.19
+  },
+  {
+   "text": "c'est",
+   "type": "word",
+   "start": 29.43,
+   "end": 29.83
+  },
+  {
+   "text": "pourquoi",
+   "type": "word",
+   "start": 29.87,
+   "end": 30.45
+  },
+  {
+   "text": "je",
+   "type": "word",
+   "start": 30.49,
+   "end": 30.71
+  },
+  {
+   "text": "n'en",
+   "type": "word",
+   "start": 30.75,
+   "end": 31.09
+  },
+  {
+   "text": "parle",
+   "type": "word",
+   "start": 31.13,
+   "end": 31.53
+  },
+  {
+   "text": "pas",
+   "type": "word",
+   "start": 31.57,
+   "end": 31.85
+  },
+  {
+   "text": "beaucoup.",
+   "type": "word",
+   "start": 31.89,
+   "end": 32.47
+  },
+  {
+   "text": "Aujourd'hui,",
+   "type": "word",
+   "start": 32.93,
+   "end": 33.69
+  },
+  {
+   "text": "je",
+   "type": "word",
+   "start": 33.93,
+   "end": 34.15
+  },
+  {
+   "text": "veux",
+   "type": "word",
+   "start": 34.19,
+   "end": 34.53
+  },
+  {
+   "text": "aussi",
+   "type": "word",
+   "start": 34.57,
+   "end": 34.97
+  },
+  {
+   "text": "te",
+   "type": "word",
+   "start": 35.01,
+   "end": 35.23
+  },
+  {
+   "text": "parler",
+   "type": "word",
+   "start": 35.27,
+   "end": 35.73
+  },
+  {
+   "text": "du",
+   "type": "word",
+   "start": 35.77,
+   "end": 35.99
+  },
+  {
+   "text": "commerce",
+   "type": "word",
+   "start": 36.03,
+   "end": 36.61
+  },
+  {
+   "text": "physique",
+   "type": "word",
+   "start": 36.65,
+   "end": 37.23
+  },
+  {
+   "text": "ou",
+   "type": "word",
+   "start": 37.27,
+   "end": 37.49
+  },
+  {
+   "text": "en",
+   "type": "word",
+   "start": 37.53,
+   "end": 37.75
+  },
+  {
+   "text": "ligne,",
+   "type": "word",
+   "start": 37.79,
+   "end": 38.19
+  },
+  {
+   "text": "et",
+   "type": "word",
+   "start": 38.43,
+   "end": 38.65
+  },
+  {
+   "text": "plus",
+   "type": "word",
+   "start": 38.69,
+   "end": 39.03
+  },
+  {
+   "text": "précisément",
+   "type": "word",
+   "start": 39.07,
+   "end": 39.83
+  },
+  {
+   "text": "du",
+   "type": "word",
+   "start": 39.87,
+   "end": 40.09
+  },
+  {
+   "text": "dropshipping",
+   "type": "word",
+   "start": 40.13,
+   "end": 40.95
+  },
+  {
+   "text": "local.",
+   "type": "word",
+   "start": 40.99,
+   "end": 41.39
+  },
+  {
+   "text": "En",
+   "type": "word",
+   "start": 41.85,
+   "end": 42.07
+  },
+  {
+   "text": "2023-2024,",
+   "type": "word",
+   "start": 42.11,
+   "end": 42.75
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 42.99,
+   "end": 43.21
+  },
+  {
+   "text": "manière",
+   "type": "word",
+   "start": 43.25,
+   "end": 43.77
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 43.81,
+   "end": 44.03
+  },
+  {
+   "text": "vendre",
+   "type": "word",
+   "start": 44.07,
+   "end": 44.53
+  },
+  {
+   "text": "en",
+   "type": "word",
+   "start": 44.57,
+   "end": 44.79
+  },
+  {
+   "text": "ligne",
+   "type": "word",
+   "start": 44.83,
+   "end": 45.23
+  },
+  {
+   "text": "était",
+   "type": "word",
+   "start": 45.27,
+   "end": 45.67
+  },
+  {
+   "text": "différente.",
+   "type": "word",
+   "start": 45.71,
+   "end": 46.41
+  },
+  {
+   "text": "En",
+   "type": "word",
+   "start": 46.87,
+   "end": 47.09
+  },
+  {
+   "text": "2026,",
+   "type": "word",
+   "start": 47.13,
+   "end": 47.47
+  },
+  {
+   "text": "on",
+   "type": "word",
+   "start": 47.71,
+   "end": 47.93
+  },
+  {
+   "text": "sent",
+   "type": "word",
+   "start": 47.97,
+   "end": 48.31
+  },
+  {
+   "text": "que",
+   "type": "word",
+   "start": 48.35,
+   "end": 48.63
+  },
+  {
+   "text": "les",
+   "type": "word",
+   "start": 48.67,
+   "end": 48.95
+  },
+  {
+   "text": "choses",
+   "type": "word",
+   "start": 48.99,
+   "end": 49.45
+  },
+  {
+   "text": "évoluent",
+   "type": "word",
+   "start": 49.49,
+   "end": 50.07
+  },
+  {
+   "text": "et",
+   "type": "word",
+   "start": 50.11,
+   "end": 50.33
+  },
+  {
+   "text": "que",
+   "type": "word",
+   "start": 50.37,
+   "end": 50.65
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 50.69,
+   "end": 50.91
+  },
+  {
+   "text": "commerce",
+   "type": "word",
+   "start": 50.95,
+   "end": 51.53
+  },
+  {
+   "text": "en",
+   "type": "word",
+   "start": 51.57,
+   "end": 51.79
+  },
+  {
+   "text": "ligne",
+   "type": "word",
+   "start": 51.83,
+   "end": 52.23
+  },
+  {
+   "text": "prend",
+   "type": "word",
+   "start": 52.27,
+   "end": 52.67
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 52.71,
+   "end": 52.93
+  },
+  {
+   "text": "plus",
+   "type": "word",
+   "start": 52.97,
+   "end": 53.31
+  },
+  {
+   "text": "en",
+   "type": "word",
+   "start": 53.35,
+   "end": 53.57
+  },
+  {
+   "text": "plus",
+   "type": "word",
+   "start": 53.61,
+   "end": 53.95
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 53.99,
+   "end": 54.21
+  },
+  {
+   "text": "place.",
+   "type": "word",
+   "start": 54.25,
+   "end": 54.65
+  },
+  {
+   "text": "Le",
+   "type": "word",
+   "start": 55.11,
+   "end": 55.33
+  },
+  {
+   "text": "dropshipping",
+   "type": "word",
+   "start": 55.37,
+   "end": 56.19
+  },
+  {
+   "text": "local,",
+   "type": "word",
+   "start": 56.23,
+   "end": 56.63
+  },
+  {
+   "text": "c'est",
+   "type": "word",
+   "start": 56.87,
+   "end": 57.27
+  },
+  {
+   "text": "vendre",
+   "type": "word",
+   "start": 57.31,
+   "end": 57.77
+  },
+  {
+   "text": "des",
+   "type": "word",
+   "start": 57.81,
+   "end": 58.09
+  },
+  {
+   "text": "produits",
+   "type": "word",
+   "start": 58.13,
+   "end": 58.71
+  },
+  {
+   "text": "disponibles",
+   "type": "word",
+   "start": 58.75,
+   "end": 59.51
+  },
+  {
+   "text": "chez",
+   "type": "word",
+   "start": 59.55,
+   "end": 59.89
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 59.93,
+   "end": 60.15
+  },
+  {
+   "text": "fournisseur",
+   "type": "word",
+   "start": 60.19,
+   "end": 60.95
+  },
+  {
+   "text": "dans",
+   "type": "word",
+   "start": 60.99,
+   "end": 61.33
+  },
+  {
+   "text": "ton",
+   "type": "word",
+   "start": 61.37,
+   "end": 61.65
+  },
+  {
+   "text": "pays,",
+   "type": "word",
+   "start": 61.69,
+   "end": 62.03
+  },
+  {
+   "text": "sans",
+   "type": "word",
+   "start": 62.27,
+   "end": 62.61
+  },
+  {
+   "text": "devoir",
+   "type": "word",
+   "start": 62.65,
+   "end": 63.11
+  },
+  {
+   "text": "acheter",
+   "type": "word",
+   "start": 63.15,
+   "end": 63.67
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 63.71,
+   "end": 63.93
+  },
+  {
+   "text": "gros",
+   "type": "word",
+   "start": 63.97,
+   "end": 64.31
+  },
+  {
+   "text": "stock",
+   "type": "word",
+   "start": 64.35,
+   "end": 64.75
+  },
+  {
+   "text": "au",
+   "type": "word",
+   "start": 64.79,
+   "end": 65.01
+  },
+  {
+   "text": "départ.",
+   "type": "word",
+   "start": 65.05,
+   "end": 65.51
+  },
+  {
+   "text": "Tu",
+   "type": "word",
+   "start": 65.97,
+   "end": 66.19
+  },
+  {
+   "text": "présentes",
+   "type": "word",
+   "start": 66.23,
+   "end": 66.87
+  },
+  {
+   "text": "les",
+   "type": "word",
+   "start": 66.91,
+   "end": 67.19
+  },
+  {
+   "text": "produits",
+   "type": "word",
+   "start": 67.23,
+   "end": 67.81
+  },
+  {
+   "text": "sur",
+   "type": "word",
+   "start": 67.85,
+   "end": 68.13
+  },
+  {
+   "text": "WhatsApp,",
+   "type": "word",
+   "start": 68.17,
+   "end": 68.75
+  },
+  {
+   "text": "Instagram",
+   "type": "word",
+   "start": 68.99,
+   "end": 69.63
+  },
+  {
+   "text": "ou",
+   "type": "word",
+   "start": 69.67,
+   "end": 69.89
+  },
+  {
+   "text": "TikTok.",
+   "type": "word",
+   "start": 69.93,
+   "end": 70.39
+  },
+  {
+   "text": "Quand",
+   "type": "word",
+   "start": 70.85,
+   "end": 71.25
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 71.29,
+   "end": 71.51
+  },
+  {
+   "text": "client",
+   "type": "word",
+   "start": 71.55,
+   "end": 72.01
+  },
+  {
+   "text": "commande,",
+   "type": "word",
+   "start": 72.05,
+   "end": 72.63
+  },
+  {
+   "text": "tu",
+   "type": "word",
+   "start": 72.87,
+   "end": 73.09
+  },
+  {
+   "text": "vérifies",
+   "type": "word",
+   "start": 73.13,
+   "end": 73.71
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 73.75,
+   "end": 73.97
+  },
+  {
+   "text": "disponibilité",
+   "type": "word",
+   "start": 74.01,
+   "end": 74.89
+  },
+  {
+   "text": "auprès",
+   "type": "word",
+   "start": 74.93,
+   "end": 75.39
+  },
+  {
+   "text": "du",
+   "type": "word",
+   "start": 75.43,
+   "end": 75.65
+  },
+  {
+   "text": "fournisseur,",
+   "type": "word",
+   "start": 75.69,
+   "end": 76.45
+  },
+  {
+   "text": "tu",
+   "type": "word",
+   "start": 76.69,
+   "end": 76.91
+  },
+  {
+   "text": "achètes",
+   "type": "word",
+   "start": 76.95,
+   "end": 77.47
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 77.51,
+   "end": 77.73
+  },
+  {
+   "text": "produit",
+   "type": "word",
+   "start": 77.77,
+   "end": 78.29
+  },
+  {
+   "text": "et",
+   "type": "word",
+   "start": 78.33,
+   "end": 78.55
+  },
+  {
+   "text": "tu",
+   "type": "word",
+   "start": 78.59,
+   "end": 78.81
+  },
+  {
+   "text": "organises",
+   "type": "word",
+   "start": 78.85,
+   "end": 79.49
+  },
+  {
+   "text": "sa",
+   "type": "word",
+   "start": 79.53,
+   "end": 79.75
+  },
+  {
+   "text": "livraison",
+   "type": "word",
+   "start": 79.79,
+   "end": 80.43
+  },
+  {
+   "text": "au",
+   "type": "word",
+   "start": 80.47,
+   "end": 80.69
+  },
+  {
+   "text": "client.",
+   "type": "word",
+   "start": 80.73,
+   "end": 81.19
+  },
+  {
+   "text": "Selon",
+   "type": "word",
+   "start": 81.65,
+   "end": 82.05
+  },
+  {
+   "text": "l'accord",
+   "type": "word",
+   "start": 82.09,
+   "end": 82.67
+  },
+  {
+   "text": "que",
+   "type": "word",
+   "start": 82.71,
+   "end": 82.99
+  },
+  {
+   "text": "tu",
+   "type": "word",
+   "start": 83.03,
+   "end": 83.25
+  },
+  {
+   "text": "as",
+   "type": "word",
+   "start": 83.29,
+   "end": 83.51
+  },
+  {
+   "text": "avec",
+   "type": "word",
+   "start": 83.55,
+   "end": 83.89
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 83.93,
+   "end": 84.15
+  },
+  {
+   "text": "fournisseur,",
+   "type": "word",
+   "start": 84.19,
+   "end": 84.95
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 85.19,
+   "end": 85.41
+  },
+  {
+   "text": "peut",
+   "type": "word",
+   "start": 85.45,
+   "end": 85.79
+  },
+  {
+   "text": "aussi",
+   "type": "word",
+   "start": 85.83,
+   "end": 86.23
+  },
+  {
+   "text": "préparer",
+   "type": "word",
+   "start": 86.27,
+   "end": 86.85
+  },
+  {
+   "text": "directement",
+   "type": "word",
+   "start": 86.89,
+   "end": 87.65
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 87.69,
+   "end": 87.91
+  },
+  {
+   "text": "colis.",
+   "type": "word",
+   "start": 87.95,
+   "end": 88.35
+  },
+  {
+   "text": "Pourquoi",
+   "type": "word",
+   "start": 88.81,
+   "end": 89.39
+  },
+  {
+   "text": "c'est",
+   "type": "word",
+   "start": 89.43,
+   "end": 89.83
+  },
+  {
+   "text": "intéressant",
+   "type": "word",
+   "start": 89.87,
+   "end": 90.63
+  },
+  {
+   "text": "quand",
+   "type": "word",
+   "start": 90.67,
+   "end": 91.07
+  },
+  {
+   "text": "on",
+   "type": "word",
+   "start": 91.11,
+   "end": 91.33
+  },
+  {
+   "text": "débute",
+   "type": "word",
+   "start": 91.37,
+   "end": 91.83
+  },
+  {
+   "text": "?",
+   "type": "word",
+   "start": 91.87,
+   "end": 91.97
+  },
+  {
+   "text": "Parce",
+   "type": "word",
+   "start": 92.43,
+   "end": 92.83
+  },
+  {
+   "text": "que",
+   "type": "word",
+   "start": 92.87,
+   "end": 93.15
+  },
+  {
+   "text": "tu",
+   "type": "word",
+   "start": 93.19,
+   "end": 93.41
+  },
+  {
+   "text": "peux",
+   "type": "word",
+   "start": 93.45,
+   "end": 93.79
+  },
+  {
+   "text": "commencer",
+   "type": "word",
+   "start": 93.83,
+   "end": 94.47
+  },
+  {
+   "text": "avec",
+   "type": "word",
+   "start": 94.51,
+   "end": 94.85
+  },
+  {
+   "text": "peu",
+   "type": "word",
+   "start": 94.89,
+   "end": 95.17
+  },
+  {
+   "text": "d'argent,",
+   "type": "word",
+   "start": 95.21,
+   "end": 95.79
+  },
+  {
+   "text": "tester",
+   "type": "word",
+   "start": 96.03,
+   "end": 96.49
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 96.53,
+   "end": 96.75
+  },
+  {
+   "text": "demande",
+   "type": "word",
+   "start": 96.79,
+   "end": 97.31
+  },
+  {
+   "text": "avant",
+   "type": "word",
+   "start": 97.35,
+   "end": 97.75
+  },
+  {
+   "text": "d'acheter",
+   "type": "word",
+   "start": 97.79,
+   "end": 98.43
+  },
+  {
+   "text": "beaucoup",
+   "type": "word",
+   "start": 98.47,
+   "end": 99.05
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 99.09,
+   "end": 99.31
+  },
+  {
+   "text": "produits,",
+   "type": "word",
+   "start": 99.35,
+   "end": 99.93
+  },
+  {
+   "text": "et",
+   "type": "word",
+   "start": 100.17,
+   "end": 100.39
+  },
+  {
+   "text": "éviter",
+   "type": "word",
+   "start": 100.43,
+   "end": 100.89
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 100.93,
+   "end": 101.15
+  },
+  {
+   "text": "bloquer",
+   "type": "word",
+   "start": 101.19,
+   "end": 101.71
+  },
+  {
+   "text": "tout",
+   "type": "word",
+   "start": 101.75,
+   "end": 102.09
+  },
+  {
+   "text": "ton",
+   "type": "word",
+   "start": 102.13,
+   "end": 102.41
+  },
+  {
+   "text": "budget",
+   "type": "word",
+   "start": 102.45,
+   "end": 102.91
+  },
+  {
+   "text": "dans",
+   "type": "word",
+   "start": 102.95,
+   "end": 103.29
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 103.33,
+   "end": 103.55
+  },
+  {
+   "text": "stock",
+   "type": "word",
+   "start": 103.59,
+   "end": 103.99
+  },
+  {
+   "text": "qui",
+   "type": "word",
+   "start": 104.03,
+   "end": 104.31
+  },
+  {
+   "text": "risque",
+   "type": "word",
+   "start": 104.35,
+   "end": 104.81
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 104.85,
+   "end": 105.07
+  },
+  {
+   "text": "ne",
+   "type": "word",
+   "start": 105.11,
+   "end": 105.33
+  },
+  {
+   "text": "pas",
+   "type": "word",
+   "start": 105.37,
+   "end": 105.65
+  },
+  {
+   "text": "se",
+   "type": "word",
+   "start": 105.69,
+   "end": 105.91
+  },
+  {
+   "text": "vendre.",
+   "type": "word",
+   "start": 105.95,
+   "end": 106.41
+  },
+  {
+   "text": "Les",
+   "type": "word",
+   "start": 106.87,
+   "end": 107.15
+  },
+  {
+   "text": "produits",
+   "type": "word",
+   "start": 107.19,
+   "end": 107.77
+  },
+  {
+   "text": "étant",
+   "type": "word",
+   "start": 107.81,
+   "end": 108.21
+  },
+  {
+   "text": "déjà",
+   "type": "word",
+   "start": 108.25,
+   "end": 108.59
+  },
+  {
+   "text": "dans",
+   "type": "word",
+   "start": 108.63,
+   "end": 108.97
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 109.01,
+   "end": 109.23
+  },
+  {
+   "text": "pays,",
+   "type": "word",
+   "start": 109.27,
+   "end": 109.61
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 109.85,
+   "end": 110.07
+  },
+  {
+   "text": "livraison",
+   "type": "word",
+   "start": 110.11,
+   "end": 110.75
+  },
+  {
+   "text": "peut",
+   "type": "word",
+   "start": 110.79,
+   "end": 111.13
+  },
+  {
+   "text": "être",
+   "type": "word",
+   "start": 111.17,
+   "end": 111.51
+  },
+  {
+   "text": "plus",
+   "type": "word",
+   "start": 111.55,
+   "end": 111.89
+  },
+  {
+   "text": "rapide",
+   "type": "word",
+   "start": 111.93,
+   "end": 112.39
+  },
+  {
+   "text": "qu'une",
+   "type": "word",
+   "start": 112.43,
+   "end": 112.89
+  },
+  {
+   "text": "commande",
+   "type": "word",
+   "start": 112.93,
+   "end": 113.51
+  },
+  {
+   "text": "à",
+   "type": "word",
+   "start": 113.55,
+   "end": 113.71
+  },
+  {
+   "text": "l'étranger.",
+   "type": "word",
+   "start": 113.75,
+   "end": 114.45
+  },
+  {
+   "text": "Tu",
+   "type": "word",
+   "start": 114.91,
+   "end": 115.13
+  },
+  {
+   "text": "peux",
+   "type": "word",
+   "start": 115.17,
+   "end": 115.51
+  },
+  {
+   "text": "aussi",
+   "type": "word",
+   "start": 115.55,
+   "end": 115.95
+  },
+  {
+   "text": "vérifier",
+   "type": "word",
+   "start": 115.99,
+   "end": 116.57
+  },
+  {
+   "text": "leur",
+   "type": "word",
+   "start": 116.61,
+   "end": 116.95
+  },
+  {
+   "text": "qualité",
+   "type": "word",
+   "start": 116.99,
+   "end": 117.51
+  },
+  {
+   "text": "et",
+   "type": "word",
+   "start": 117.55,
+   "end": 117.77
+  },
+  {
+   "text": "échanger",
+   "type": "word",
+   "start": 117.81,
+   "end": 118.39
+  },
+  {
+   "text": "plus",
+   "type": "word",
+   "start": 118.43,
+   "end": 118.77
+  },
+  {
+   "text": "facilement",
+   "type": "word",
+   "start": 118.81,
+   "end": 119.51
+  },
+  {
+   "text": "avec",
+   "type": "word",
+   "start": 119.55,
+   "end": 119.89
+  },
+  {
+   "text": "ton",
+   "type": "word",
+   "start": 119.93,
+   "end": 120.21
+  },
+  {
+   "text": "fournisseur.",
+   "type": "word",
+   "start": 120.25,
+   "end": 121.01
+  },
+  {
+   "text": "Avec",
+   "type": "word",
+   "start": 121.47,
+   "end": 121.81
+  },
+  {
+   "text": "50",
+   "type": "word",
+   "start": 121.85,
+   "end": 122.07
+  },
+  {
+   "text": "dollars,",
+   "type": "word",
+   "start": 122.11,
+   "end": 122.63
+  },
+  {
+   "text": "tu",
+   "type": "word",
+   "start": 122.87,
+   "end": 123.09
+  },
+  {
+   "text": "peux",
+   "type": "word",
+   "start": 123.13,
+   "end": 123.47
+  },
+  {
+   "text": "commencer",
+   "type": "word",
+   "start": 123.51,
+   "end": 124.15
+  },
+  {
+   "text": "petit,",
+   "type": "word",
+   "start": 124.19,
+   "end": 124.59
+  },
+  {
+   "text": "par",
+   "type": "word",
+   "start": 124.83,
+   "end": 125.11
+  },
+  {
+   "text": "exemple",
+   "type": "word",
+   "start": 125.15,
+   "end": 125.67
+  },
+  {
+   "text": "avec",
+   "type": "word",
+   "start": 125.71,
+   "end": 126.05
+  },
+  {
+   "text": "des",
+   "type": "word",
+   "start": 126.09,
+   "end": 126.37
+  },
+  {
+   "text": "accessoires.",
+   "type": "word",
+   "start": 126.41,
+   "end": 127.17
+  },
+  {
+   "text": "Choisis",
+   "type": "word",
+   "start": 127.63,
+   "end": 128.15
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 128.19,
+   "end": 128.41
+  },
+  {
+   "text": "produit,",
+   "type": "word",
+   "start": 128.45,
+   "end": 128.97
+  },
+  {
+   "text": "renseigne-toi",
+   "type": "word",
+   "start": 129.21,
+   "end": 130.09
+  },
+  {
+   "text": "auprès",
+   "type": "word",
+   "start": 130.13,
+   "end": 130.59
+  },
+  {
+   "text": "d'un",
+   "type": "word",
+   "start": 130.63,
+   "end": 130.97
+  },
+  {
+   "text": "fournisseur",
+   "type": "word",
+   "start": 131.01,
+   "end": 131.77
+  },
+  {
+   "text": "local",
+   "type": "word",
+   "start": 131.81,
+   "end": 132.21
+  },
+  {
+   "text": "sur",
+   "type": "word",
+   "start": 132.25,
+   "end": 132.53
+  },
+  {
+   "text": "son",
+   "type": "word",
+   "start": 132.57,
+   "end": 132.85
+  },
+  {
+   "text": "prix",
+   "type": "word",
+   "start": 132.89,
+   "end": 133.23
+  },
+  {
+   "text": "et",
+   "type": "word",
+   "start": 133.27,
+   "end": 133.49
+  },
+  {
+   "text": "sa",
+   "type": "word",
+   "start": 133.53,
+   "end": 133.75
+  },
+  {
+   "text": "disponibilité,",
+   "type": "word",
+   "start": 133.79,
+   "end": 134.67
+  },
+  {
+   "text": "puis",
+   "type": "word",
+   "start": 134.91,
+   "end": 135.25
+  },
+  {
+   "text": "présente-le",
+   "type": "word",
+   "start": 135.29,
+   "end": 136.05
+  },
+  {
+   "text": "à",
+   "type": "word",
+   "start": 136.09,
+   "end": 136.25
+  },
+  {
+   "text": "tes",
+   "type": "word",
+   "start": 136.29,
+   "end": 136.57
+  },
+  {
+   "text": "premiers",
+   "type": "word",
+   "start": 136.61,
+   "end": 137.19
+  },
+  {
+   "text": "clients.",
+   "type": "word",
+   "start": 137.23,
+   "end": 137.75
+  },
+  {
+   "text": "Calcule",
+   "type": "word",
+   "start": 138.21,
+   "end": 138.73
+  },
+  {
+   "text": "bien",
+   "type": "word",
+   "start": 138.77,
+   "end": 139.11
+  },
+  {
+   "text": "ta",
+   "type": "word",
+   "start": 139.15,
+   "end": 139.37
+  },
+  {
+   "text": "marge,",
+   "type": "word",
+   "start": 139.41,
+   "end": 139.81
+  },
+  {
+   "text": "et",
+   "type": "word",
+   "start": 140.05,
+   "end": 140.27
+  },
+  {
+   "text": "prévois",
+   "type": "word",
+   "start": 140.31,
+   "end": 140.83
+  },
+  {
+   "text": "aussi",
+   "type": "word",
+   "start": 140.87,
+   "end": 141.27
+  },
+  {
+   "text": "les",
+   "type": "word",
+   "start": 141.31,
+   "end": 141.59
+  },
+  {
+   "text": "frais",
+   "type": "word",
+   "start": 141.63,
+   "end": 142.03
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 142.07,
+   "end": 142.29
+  },
+  {
+   "text": "livraison",
+   "type": "word",
+   "start": 142.33,
+   "end": 142.97
+  },
+  {
+   "text": "et",
+   "type": "word",
+   "start": 143.01,
+   "end": 143.23
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 143.27,
+   "end": 143.49
+  },
+  {
+   "text": "communication.",
+   "type": "word",
+   "start": 143.53,
+   "end": 144.41
+  },
+  {
+   "text": "Si",
+   "type": "word",
+   "start": 144.87,
+   "end": 145.09
+  },
+  {
+   "text": "tu",
+   "type": "word",
+   "start": 145.13,
+   "end": 145.35
+  },
+  {
+   "text": "veux",
+   "type": "word",
+   "start": 145.39,
+   "end": 145.73
+  },
+  {
+   "text": "te",
+   "type": "word",
+   "start": 145.77,
+   "end": 145.99
+  },
+  {
+   "text": "lancer",
+   "type": "word",
+   "start": 146.03,
+   "end": 146.49
+  },
+  {
+   "text": "dans",
+   "type": "word",
+   "start": 146.53,
+   "end": 146.87
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 146.91,
+   "end": 147.13
+  },
+  {
+   "text": "business",
+   "type": "word",
+   "start": 147.17,
+   "end": 147.75
+  },
+  {
+   "text": "à",
+   "type": "word",
+   "start": 147.79,
+   "end": 147.95
+  },
+  {
+   "text": "long",
+   "type": "word",
+   "start": 147.99,
+   "end": 148.33
+  },
+  {
+   "text": "terme,",
+   "type": "word",
+   "start": 148.37,
+   "end": 148.77
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 149.01,
+   "end": 149.23
+  },
+  {
+   "text": "commerce",
+   "type": "word",
+   "start": 149.27,
+   "end": 149.85
+  },
+  {
+   "text": "physique",
+   "type": "word",
+   "start": 149.89,
+   "end": 150.47
+  },
+  {
+   "text": "ou",
+   "type": "word",
+   "start": 150.51,
+   "end": 150.73
+  },
+  {
+   "text": "en",
+   "type": "word",
+   "start": 150.77,
+   "end": 150.99
+  },
+  {
+   "text": "ligne",
+   "type": "word",
+   "start": 151.03,
+   "end": 151.43
+  },
+  {
+   "text": "peut",
+   "type": "word",
+   "start": 151.47,
+   "end": 151.81
+  },
+  {
+   "text": "être",
+   "type": "word",
+   "start": 151.85,
+   "end": 152.19
+  },
+  {
+   "text": "une",
+   "type": "word",
+   "start": 152.23,
+   "end": 152.51
+  },
+  {
+   "text": "piste",
+   "type": "word",
+   "start": 152.55,
+   "end": 152.95
+  },
+  {
+   "text": "à",
+   "type": "word",
+   "start": 152.99,
+   "end": 153.15
+  },
+  {
+   "text": "explorer.",
+   "type": "word",
+   "start": 153.19,
+   "end": 153.77
+  },
+  {
+   "text": "Et",
+   "type": "word",
+   "start": 154.23,
+   "end": 154.45
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 154.49,
+   "end": 154.71
+  },
+  {
+   "text": "dropshipping",
+   "type": "word",
+   "start": 154.75,
+   "end": 155.57
+  },
+  {
+   "text": "local",
+   "type": "word",
+   "start": 155.61,
+   "end": 156.01
+  },
+  {
+   "text": "peut",
+   "type": "word",
+   "start": 156.05,
+   "end": 156.39
+  },
+  {
+   "text": "t'aider",
+   "type": "word",
+   "start": 156.43,
+   "end": 156.95
+  },
+  {
+   "text": "à",
+   "type": "word",
+   "start": 156.99,
+   "end": 157.15
+  },
+  {
+   "text": "commencer",
+   "type": "word",
+   "start": 157.19,
+   "end": 157.83
+  },
+  {
+   "text": "progressivement,",
+   "type": "word",
+   "start": 157.87,
+   "end": 158.87
+  },
+  {
+   "text": "à",
+   "type": "word",
+   "start": 159.11,
+   "end": 159.27
+  },
+  {
+   "text": "apprendre",
+   "type": "word",
+   "start": 159.31,
+   "end": 159.95
+  },
+  {
+   "text": "à",
+   "type": "word",
+   "start": 159.99,
+   "end": 160.15
+  },
+  {
+   "text": "vendre",
+   "type": "word",
+   "start": 160.19,
+   "end": 160.65
+  },
+  {
+   "text": "et",
+   "type": "word",
+   "start": 160.69,
+   "end": 160.91
+  },
+  {
+   "text": "à",
+   "type": "word",
+   "start": 160.95,
+   "end": 161.11
+  },
+  {
+   "text": "comprendre",
+   "type": "word",
+   "start": 161.15,
+   "end": 161.85
+  },
+  {
+   "text": "ce",
+   "type": "word",
+   "start": 161.89,
+   "end": 162.11
+  },
+  {
+   "text": "que",
+   "type": "word",
+   "start": 162.15,
+   "end": 162.43
+  },
+  {
+   "text": "tes",
+   "type": "word",
+   "start": 162.47,
+   "end": 162.75
+  },
+  {
+   "text": "clients",
+   "type": "word",
+   "start": 162.79,
+   "end": 163.31
+  },
+  {
+   "text": "recherchent,",
+   "type": "word",
+   "start": 163.35,
+   "end": 164.11
+  },
+  {
+   "text": "sans",
+   "type": "word",
+   "start": 164.35,
+   "end": 164.69
+  },
+  {
+   "text": "investir",
+   "type": "word",
+   "start": 164.73,
+   "end": 165.31
+  },
+  {
+   "text": "tout",
+   "type": "word",
+   "start": 165.35,
+   "end": 165.69
+  },
+  {
+   "text": "ton",
+   "type": "word",
+   "start": 165.73,
+   "end": 166.01
+  },
+  {
+   "text": "argent",
+   "type": "word",
+   "start": 166.05,
+   "end": 166.51
+  },
+  {
+   "text": "dans",
+   "type": "word",
+   "start": 166.55,
+   "end": 166.89
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 166.93,
+   "end": 167.15
+  },
+  {
+   "text": "gros",
+   "type": "word",
+   "start": 167.19,
+   "end": 167.53
+  },
+  {
+   "text": "stock.",
+   "type": "word",
+   "start": 167.57,
+   "end": 167.97
+  },
+  {
+   "text": "Pour",
+   "type": "word",
+   "start": 168.43,
+   "end": 168.77
+  },
+  {
+   "text": "commencer,",
+   "type": "word",
+   "start": 168.81,
+   "end": 169.45
+  },
+  {
+   "text": "écris",
+   "type": "word",
+   "start": 169.69,
+   "end": 170.09
+  },
+  {
+   "text": "LOCAL",
+   "type": "word",
+   "start": 170.13,
+   "end": 170.53
+  },
+  {
+   "text": "en",
+   "type": "word",
+   "start": 170.57,
+   "end": 170.79
+  },
+  {
+   "text": "commentaire,",
+   "type": "word",
+   "start": 170.83,
+   "end": 171.59
+  },
+  {
+   "text": "et",
+   "type": "word",
+   "start": 171.83,
+   "end": 172.05
+  },
+  {
+   "text": "je",
+   "type": "word",
+   "start": 172.09,
+   "end": 172.31
+  },
+  {
+   "text": "t'envoie",
+   "type": "word",
+   "start": 172.35,
+   "end": 172.93
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 172.97,
+   "end": 173.19
+  },
+  {
+   "text": "lien",
+   "type": "word",
+   "start": 173.23,
+   "end": 173.57
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 173.61,
+   "end": 173.83
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 173.87,
+   "end": 174.09
+  },
+  {
+   "text": "chaîne.",
+   "type": "word",
+   "start": 174.13,
+   "end": 174.59
+  }
+ ],
+ "estime": true
+}

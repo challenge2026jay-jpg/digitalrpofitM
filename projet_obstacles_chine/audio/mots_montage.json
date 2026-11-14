@@ -1,0 +1,8796 @@
+{
+"coupes": [
+[
+303.45,
+311.75,
+"8 s de sons inintelligibles après « Prenons un exemple. »"
+],
+[
+334.48,
+335.22,
+"« Eggy » avant « combien me coûtera… »"
+],
+[
+338.42,
+339.12,
+"« Au-dessus » avant « c'est cette question… »"
+],
+[
+498.0,
+499.2,
+"« Oh bah » avant « est-ce que ce produit peut se vendre ? »"
+],
+[
+501.1,
+503.62,
+"« Yo, c'est… Ah… »"
+],
+[
+507.75,
+510.25,
+"« Euh… Yo ? » après « après tous les frais ? »"
+]
+],
+"words": [
+{
+"text": "Tu",
+"start": 0.0,
+"end": 0.06
+},
+{
+"text": "as",
+"start": 0.06,
+"end": 0.18
+},
+{
+"text": "déjà",
+"start": 0.18,
+"end": 0.4
+},
+{
+"text": "regardé",
+"start": 0.4,
+"end": 0.64
+},
+{
+"text": "un",
+"start": 0.64,
+"end": 0.84
+},
+{
+"text": "produit",
+"start": 0.84,
+"end": 0.98
+},
+{
+"text": "sur",
+"start": 0.98,
+"end": 1.16
+},
+{
+"text": "une",
+"start": 1.16,
+"end": 1.24
+},
+{
+"text": "plateforme",
+"start": 1.24,
+"end": 1.56
+},
+{
+"text": "chinoise",
+"start": 1.56,
+"end": 1.88
+},
+{
+"text": "en",
+"start": 1.88,
+"end": 2.0
+},
+{
+"text": "te",
+"start": 2.0,
+"end": 2.22
+},
+{
+"text": "disant",
+"start": 2.22,
+"end": 2.62
+},
+{
+"text": "«",
+"start": 2.62,
+"end": 2.74
+},
+{
+"text": "Au",
+"start": 2.74,
+"end": 2.94
+},
+{
+"text": "cas",
+"start": 2.94,
+"end": 3.12
+},
+{
+"text": "ici,",
+"start": 3.12,
+"end": 3.36
+},
+{
+"text": "je",
+"start": 3.48,
+"end": 3.5
+},
+{
+"text": "peux",
+"start": 3.5,
+"end": 3.66
+},
+{
+"text": "l",
+"start": 3.66,
+"end": 3.74
+},
+{
+"text": "'acheter",
+"start": 3.74,
+"end": 3.86
+},
+{
+"text": "à",
+"start": 3.86,
+"end": 3.98
+},
+{
+"text": "3",
+"start": 3.98,
+"end": 4.14
+},
+{
+"text": "dollars,",
+"start": 4.14,
+"end": 4.44
+},
+{
+"text": "et",
+"start": 4.64,
+"end": 4.76
+},
+{
+"text": "le",
+"start": 4.76,
+"end": 4.96
+},
+{
+"text": "revendre",
+"start": 4.96,
+"end": 5.14
+},
+{
+"text": "facilement",
+"start": 5.14,
+"end": 5.5
+},
+{
+"text": "chez",
+"start": 5.5,
+"end": 5.68
+},
+{
+"text": "moi,",
+"start": 5.68,
+"end": 5.96
+},
+{
+"text": "y",
+"start": 6.06,
+"end": 6.12
+},
+{
+"text": "'eux.",
+"start": 6.12,
+"end": 6.4
+},
+{
+"text": "»",
+"start": 6.52,
+"end": 6.54
+},
+{
+"text": "Sur",
+"start": 6.54,
+"end": 6.7
+},
+{
+"text": "le",
+"start": 6.7,
+"end": 6.9
+},
+{
+"text": "papier,",
+"start": 6.9,
+"end": 7.34
+},
+{
+"text": "tout",
+"start": 7.5,
+"end": 7.68
+},
+{
+"text": "paraît",
+"start": 7.68,
+"end": 7.96
+},
+{
+"text": "sain.",
+"start": 7.96,
+"end": 8.2
+},
+{
+"text": "Tu",
+"start": 8.42,
+"end": 8.54
+},
+{
+"text": "trouves",
+"start": 8.54,
+"end": 8.74
+},
+{
+"text": "un",
+"start": 8.74,
+"end": 8.88
+},
+{
+"text": "fournisseur,",
+"start": 8.88,
+"end": 9.58
+},
+{
+"text": "tu",
+"start": 9.74,
+"end": 9.86
+},
+{
+"text": "choisis",
+"start": 9.86,
+"end": 10.08
+},
+{
+"text": "un",
+"start": 10.08,
+"end": 10.26
+},
+{
+"text": "produit,",
+"start": 10.26,
+"end": 10.56
+},
+{
+"text": "tu",
+"start": 11.08,
+"end": 11.28
+},
+{
+"text": "paies,",
+"start": 11.28,
+"end": 11.5
+},
+{
+"text": "tu",
+"start": 11.9,
+"end": 12.04
+},
+{
+"text": "attends",
+"start": 12.04,
+"end": 12.22
+},
+{
+"text": "ton",
+"start": 12.22,
+"end": 12.44
+},
+{
+"text": "colis",
+"start": 12.44,
+"end": 12.88
+},
+{
+"text": "et",
+"start": 12.88,
+"end": 13.08
+},
+{
+"text": "tu",
+"start": 13.08,
+"end": 13.28
+},
+{
+"text": "commences",
+"start": 13.28,
+"end": 13.54
+},
+{
+"text": "à",
+"start": 13.54,
+"end": 13.7
+},
+{
+"text": "vendre.",
+"start": 13.7,
+"end": 14.14
+},
+{
+"text": "Mais",
+"start": 14.22,
+"end": 14.46
+},
+{
+"text": "dans",
+"start": 14.46,
+"end": 14.64
+},
+{
+"text": "la",
+"start": 14.64,
+"end": 14.86
+},
+{
+"text": "réalité,",
+"start": 14.86,
+"end": 15.26
+},
+{
+"text": "commander",
+"start": 15.7,
+"end": 15.98
+},
+{
+"text": "en",
+"start": 15.98,
+"end": 16.24
+},
+{
+"text": "Chine",
+"start": 16.24,
+"end": 16.38
+},
+{
+"text": "peut",
+"start": 16.38,
+"end": 16.52
+},
+{
+"text": "rapidement",
+"start": 16.52,
+"end": 16.88
+},
+{
+"text": "devenir",
+"start": 16.88,
+"end": 17.16
+},
+{
+"text": "un",
+"start": 17.16,
+"end": 17.4
+},
+{
+"text": "parcours",
+"start": 17.4,
+"end": 17.68
+},
+{
+"text": "du",
+"start": 17.68,
+"end": 17.92
+},
+{
+"text": "combattant.",
+"start": 17.92,
+"end": 18.34
+},
+{
+"text": "Le",
+"start": 18.92,
+"end": 19.12
+},
+{
+"text": "produit",
+"start": 19.12,
+"end": 19.4
+},
+{
+"text": "reçu",
+"start": 19.4,
+"end": 19.72
+},
+{
+"text": "peut",
+"start": 19.72,
+"end": 19.9
+},
+{
+"text": "être",
+"start": 19.9,
+"end": 20.16
+},
+{
+"text": "différent",
+"start": 20.16,
+"end": 20.5
+},
+{
+"text": "de",
+"start": 20.5,
+"end": 20.66
+},
+{
+"text": "la",
+"start": 20.66,
+"end": 20.84
+},
+{
+"text": "photo,",
+"start": 20.84,
+"end": 21.12
+},
+{
+"text": "la",
+"start": 21.42,
+"end": 21.6
+},
+{
+"text": "qualité",
+"start": 21.6,
+"end": 21.88
+},
+{
+"text": "peut",
+"start": 21.88,
+"end": 22.06
+},
+{
+"text": "être",
+"start": 22.06,
+"end": 22.32
+},
+{
+"text": "décevante,",
+"start": 22.32,
+"end": 22.9
+},
+{
+"text": "le",
+"start": 23.2,
+"end": 23.36
+},
+{
+"text": "fournisseur",
+"start": 23.36,
+"end": 23.86
+},
+{
+"text": "peut",
+"start": 23.86,
+"end": 24.02
+},
+{
+"text": "cesser",
+"start": 24.02,
+"end": 24.26
+},
+{
+"text": "de",
+"start": 24.26,
+"end": 24.48
+},
+{
+"text": "répondre,",
+"start": 24.48,
+"end": 24.84
+},
+{
+"text": "les",
+"start": 25.2,
+"end": 25.38
+},
+{
+"text": "frais",
+"start": 25.38,
+"end": 25.48
+},
+{
+"text": "de",
+"start": 25.48,
+"end": 25.7
+},
+{
+"text": "transport",
+"start": 25.7,
+"end": 26.04
+},
+{
+"text": "peuvent",
+"start": 26.04,
+"end": 26.32
+},
+{
+"text": "augmenter",
+"start": 26.32,
+"end": 26.68
+},
+{
+"text": "ton",
+"start": 26.68,
+"end": 26.92
+},
+{
+"text": "coût",
+"start": 26.92,
+"end": 27.4
+},
+{
+"text": "et",
+"start": 27.4,
+"end": 27.66
+},
+{
+"text": "le",
+"start": 27.66,
+"end": 27.84
+},
+{
+"text": "colis",
+"start": 27.84,
+"end": 28.14
+},
+{
+"text": "peut",
+"start": 28.14,
+"end": 28.32
+},
+{
+"text": "arriver",
+"start": 28.32,
+"end": 28.66
+},
+{
+"text": "tellement",
+"start": 28.66,
+"end": 29.1
+},
+{
+"text": "tard",
+"start": 29.1,
+"end": 29.28
+},
+{
+"text": "que",
+"start": 29.28,
+"end": 29.44
+},
+{
+"text": "la",
+"start": 29.44,
+"end": 29.62
+},
+{
+"text": "période",
+"start": 29.62,
+"end": 29.86
+},
+{
+"text": "de",
+"start": 29.86,
+"end": 30.08
+},
+{
+"text": "vente",
+"start": 30.08,
+"end": 30.2
+},
+{
+"text": "est",
+"start": 30.2,
+"end": 30.4
+},
+{
+"text": "déjà",
+"start": 30.4,
+"end": 30.64
+},
+{
+"text": "terminée.",
+"start": 30.64,
+"end": 31.22
+},
+{
+"text": "Quand",
+"start": 31.36,
+"end": 31.5
+},
+{
+"text": "on",
+"start": 31.5,
+"end": 31.72
+},
+{
+"text": "débute",
+"start": 31.72,
+"end": 31.96
+},
+{
+"text": "avec",
+"start": 31.96,
+"end": 32.2
+},
+{
+"text": "un",
+"start": 32.2,
+"end": 32.36
+},
+{
+"text": "petit",
+"start": 32.36,
+"end": 32.5
+},
+{
+"text": "budget,",
+"start": 32.5,
+"end": 32.8
+},
+{
+"text": "une",
+"start": 33.32,
+"end": 33.46
+},
+{
+"text": "seule",
+"start": 33.46,
+"end": 33.62
+},
+{
+"text": "erreur",
+"start": 33.62,
+"end": 33.94
+},
+{
+"text": "peut",
+"start": 33.94,
+"end": 34.1
+},
+{
+"text": "bloquer",
+"start": 34.1,
+"end": 34.4
+},
+{
+"text": "tout",
+"start": 34.4,
+"end": 34.56
+},
+{
+"text": "son",
+"start": 34.56,
+"end": 34.68
+},
+{
+"text": "capital.",
+"start": 34.68,
+"end": 35.1
+},
+{
+"text": "Tu",
+"start": 35.5,
+"end": 35.62
+},
+{
+"text": "peux",
+"start": 35.62,
+"end": 35.76
+},
+{
+"text": "avoir",
+"start": 35.76,
+"end": 36.02
+},
+{
+"text": "trouvé",
+"start": 36.02,
+"end": 36.22
+},
+{
+"text": "un",
+"start": 36.22,
+"end": 36.46
+},
+{
+"text": "bon",
+"start": 36.46,
+"end": 36.7
+},
+{
+"text": "produit",
+"start": 36.7,
+"end": 37.04
+},
+{
+"text": "et",
+"start": 37.04,
+"end": 37.22
+},
+{
+"text": "pourtant",
+"start": 37.22,
+"end": 37.52
+},
+{
+"text": "perdre",
+"start": 37.52,
+"end": 37.84
+},
+{
+"text": "de",
+"start": 37.84,
+"end": 38.0
+},
+{
+"text": "l",
+"start": 38.0,
+"end": 38.16
+},
+{
+"text": "'argent",
+"start": 38.16,
+"end": 38.34
+},
+{
+"text": "simplement",
+"start": 38.34,
+"end": 39.0
+},
+{
+"text": "parce",
+"start": 39.0,
+"end": 39.54
+},
+{
+"text": "que",
+"start": 39.54,
+"end": 39.66
+},
+{
+"text": "tu",
+"start": 39.66,
+"end": 39.74
+},
+{
+"text": "n",
+"start": 39.74,
+"end": 39.9
+},
+{
+"text": "'as",
+"start": 39.9,
+"end": 39.92
+},
+{
+"text": "pas",
+"start": 39.92,
+"end": 40.04
+},
+{
+"text": "vérifié",
+"start": 40.04,
+"end": 40.42
+},
+{
+"text": "le",
+"start": 40.42,
+"end": 40.58
+},
+{
+"text": "fournisseur,",
+"start": 40.58,
+"end": 41.46
+},
+{
+"text": "demandé",
+"start": 41.82,
+"end": 42.04
+},
+{
+"text": "un",
+"start": 42.04,
+"end": 42.3
+},
+{
+"text": "échantillon",
+"start": 42.3,
+"end": 42.94
+},
+{
+"text": "ou",
+"start": 42.94,
+"end": 43.46
+},
+{
+"text": "calculé",
+"start": 43.46,
+"end": 44.1
+},
+{
+"text": "les",
+"start": 44.1,
+"end": 44.42
+},
+{
+"text": "frais",
+"start": 44.42,
+"end": 44.5
+},
+{
+"text": "réels.",
+"start": 44.5,
+"end": 44.98
+},
+{
+"text": "Dans",
+"start": 45.24,
+"end": 45.38
+},
+{
+"text": "cette",
+"start": 45.38,
+"end": 45.58
+},
+{
+"text": "vidéo,",
+"start": 45.58,
+"end": 45.92
+},
+{
+"text": "nous",
+"start": 46.3,
+"end": 46.4
+},
+{
+"text": "allons",
+"start": 46.4,
+"end": 46.62
+},
+{
+"text": "voir",
+"start": 46.62,
+"end": 46.84
+},
+{
+"text": "les",
+"start": 46.84,
+"end": 47.08
+},
+{
+"text": "principaux",
+"start": 47.08,
+"end": 47.54
+},
+{
+"text": "obstacles",
+"start": 47.54,
+"end": 47.9
+},
+{
+"text": "rencontrés",
+"start": 47.9,
+"end": 48.46
+},
+{
+"text": "lors",
+"start": 48.46,
+"end": 48.6
+},
+{
+"text": "des",
+"start": 48.6,
+"end": 48.8
+},
+{
+"text": "commandes",
+"start": 48.8,
+"end": 48.96
+},
+{
+"text": "en",
+"start": 48.96,
+"end": 49.2
+},
+{
+"text": "Chine,",
+"start": 49.2,
+"end": 49.64
+},
+{
+"text": "mais",
+"start": 49.76,
+"end": 49.94
+},
+{
+"text": "surtout",
+"start": 49.94,
+"end": 50.18
+},
+{
+"text": "les",
+"start": 50.18,
+"end": 50.36
+},
+{
+"text": "solutions",
+"start": 50.36,
+"end": 50.72
+},
+{
+"text": "concrètes",
+"start": 50.72,
+"end": 51.1
+},
+{
+"text": "pour",
+"start": 51.1,
+"end": 51.26
+},
+{
+"text": "les",
+"start": 51.26,
+"end": 51.5
+},
+{
+"text": "éviter.",
+"start": 51.5,
+"end": 51.8
+},
+{
+"text": "Nous",
+"start": 52.08,
+"end": 52.3
+},
+{
+"text": "parlerons",
+"start": 52.3,
+"end": 52.6
+},
+{
+"text": "des",
+"start": 52.6,
+"end": 52.76
+},
+{
+"text": "fournisseurs,",
+"start": 52.76,
+"end": 53.38
+},
+{
+"text": "de",
+"start": 53.44,
+"end": 53.54
+},
+{
+"text": "la",
+"start": 53.54,
+"end": 53.7
+},
+{
+"text": "communication,",
+"start": 53.7,
+"end": 54.24
+},
+{
+"text": "de",
+"start": 54.4,
+"end": 54.46
+},
+{
+"text": "la",
+"start": 54.46,
+"end": 54.62
+},
+{
+"text": "qualité,",
+"start": 54.62,
+"end": 54.98
+},
+{
+"text": "des",
+"start": 55.14,
+"end": 55.28
+},
+{
+"text": "frais",
+"start": 55.28,
+"end": 55.94
+},
+{
+"text": "cachés",
+"start": 55.94,
+"end": 56.76
+},
+{
+"text": "et",
+"start": 56.76,
+"end": 56.94
+},
+{
+"text": "des",
+"start": 56.94,
+"end": 57.1
+},
+{
+"text": "délais.",
+"start": 57.1,
+"end": 57.4
+},
+{
+"text": "Avant",
+"start": 57.58,
+"end": 57.8
+},
+{
+"text": "de",
+"start": 57.8,
+"end": 58.08
+},
+{
+"text": "commander",
+"start": 58.08,
+"end": 58.36
+},
+{
+"text": "ton",
+"start": 58.36,
+"end": 58.6
+},
+{
+"text": "prochain",
+"start": 58.6,
+"end": 58.88
+},
+{
+"text": "stock,",
+"start": 58.88,
+"end": 59.18
+},
+{
+"text": "retiens",
+"start": 59.8,
+"end": 59.96
+},
+{
+"text": "déjà",
+"start": 59.96,
+"end": 60.24
+},
+{
+"text": "ceci,",
+"start": 60.24,
+"end": 60.62
+},
+{
+"text": "en",
+"start": 61.06,
+"end": 61.24
+},
+{
+"text": "importation,",
+"start": 61.24,
+"end": 61.9
+},
+{
+"text": "le",
+"start": 62.22,
+"end": 62.36
+},
+{
+"text": "problème",
+"start": 62.36,
+"end": 62.56
+},
+{
+"text": "n",
+"start": 62.56,
+"end": 62.72
+},
+{
+"text": "'est",
+"start": 62.72,
+"end": 62.78
+},
+{
+"text": "pas",
+"start": 62.78,
+"end": 62.94
+},
+{
+"text": "seulement",
+"start": 62.94,
+"end": 63.16
+},
+{
+"text": "de",
+"start": 63.16,
+"end": 63.38
+},
+{
+"text": "trouver",
+"start": 63.38,
+"end": 63.5
+},
+{
+"text": "un",
+"start": 63.5,
+"end": 63.72
+},
+{
+"text": "produit",
+"start": 63.72,
+"end": 63.88
+},
+{
+"text": "bon",
+"start": 63.88,
+"end": 64.06
+},
+{
+"text": "marché,",
+"start": 64.06,
+"end": 64.34
+},
+{
+"text": "le",
+"start": 64.72,
+"end": 64.92
+},
+{
+"text": "vrai",
+"start": 64.92,
+"end": 65.14
+},
+{
+"text": "défi,",
+"start": 65.14,
+"end": 65.66
+},
+{
+"text": "c",
+"start": 65.84,
+"end": 66.0
+},
+{
+"text": "'est",
+"start": 66.0,
+"end": 66.0
+},
+{
+"text": "de",
+"start": 66.0,
+"end": 66.2
+},
+{
+"text": "recevoir",
+"start": 66.2,
+"end": 66.54
+},
+{
+"text": "le",
+"start": 66.54,
+"end": 66.72
+},
+{
+"text": "bon",
+"start": 66.72,
+"end": 66.9
+},
+{
+"text": "produit",
+"start": 66.9,
+"end": 67.26
+},
+{
+"text": "au",
+"start": 67.26,
+"end": 67.56
+},
+{
+"text": "bon",
+"start": 67.56,
+"end": 67.78
+},
+{
+"text": "prix",
+"start": 67.78,
+"end": 68.2
+},
+{
+"text": "dans",
+"start": 68.2,
+"end": 68.62
+},
+{
+"text": "les",
+"start": 68.62,
+"end": 68.8
+},
+{
+"text": "bons",
+"start": 68.8,
+"end": 68.9
+},
+{
+"text": "délais.",
+"start": 68.9,
+"end": 69.12
+},
+{
+"text": "Trouver",
+"start": 70.5,
+"end": 70.84
+},
+{
+"text": "un",
+"start": 70.84,
+"end": 70.98
+},
+{
+"text": "fournisseur",
+"start": 70.98,
+"end": 71.52
+},
+{
+"text": "réellement",
+"start": 71.52,
+"end": 71.94
+},
+{
+"text": "fiable.",
+"start": 71.94,
+"end": 72.1
+},
+{
+"text": "Le",
+"start": 72.24,
+"end": 72.68
+},
+{
+"text": "premier",
+"start": 72.68,
+"end": 72.98
+},
+{
+"text": "obstacle,",
+"start": 72.98,
+"end": 73.38
+},
+{
+"text": "c",
+"start": 73.42,
+"end": 73.52
+},
+{
+"text": "'est",
+"start": 73.52,
+"end": 73.52
+},
+{
+"text": "de",
+"start": 73.52,
+"end": 73.68
+},
+{
+"text": "savoir",
+"start": 73.68,
+"end": 73.82
+},
+{
+"text": "à",
+"start": 73.82,
+"end": 73.98
+},
+{
+"text": "qui",
+"start": 73.98,
+"end": 74.06
+},
+{
+"text": "tu",
+"start": 74.06,
+"end": 74.2
+},
+{
+"text": "peux",
+"start": 74.2,
+"end": 74.3
+},
+{
+"text": "faire",
+"start": 74.3,
+"end": 74.46
+},
+{
+"text": "confiance.",
+"start": 74.46,
+"end": 74.9
+},
+{
+"text": "Sur",
+"start": 75.36,
+"end": 75.46
+},
+{
+"text": "internet,",
+"start": 75.46,
+"end": 76.06
+},
+{
+"text": "beaucoup",
+"start": 76.62,
+"end": 76.78
+},
+{
+"text": "de",
+"start": 76.78,
+"end": 77.02
+},
+{
+"text": "fournisseurs",
+"start": 77.02,
+"end": 77.54
+},
+{
+"text": "présentent",
+"start": 77.54,
+"end": 77.86
+},
+{
+"text": "de",
+"start": 77.86,
+"end": 78.04
+},
+{
+"text": "belles",
+"start": 78.04,
+"end": 78.26
+},
+{
+"text": "photos,",
+"start": 78.26,
+"end": 78.52
+},
+{
+"text": "des",
+"start": 79.16,
+"end": 79.28
+},
+{
+"text": "prix",
+"start": 79.28,
+"end": 79.44
+},
+{
+"text": "attractifs",
+"start": 79.44,
+"end": 79.98
+},
+{
+"text": "et",
+"start": 79.98,
+"end": 80.18
+},
+{
+"text": "des",
+"start": 80.18,
+"end": 80.38
+},
+{
+"text": "descriptions",
+"start": 80.38,
+"end": 80.76
+},
+{
+"text": "professionnelles,",
+"start": 80.76,
+"end": 81.76
+},
+{
+"text": "mais",
+"start": 81.8,
+"end": 81.94
+},
+{
+"text": "une",
+"start": 81.94,
+"end": 82.14
+},
+{
+"text": "belle",
+"start": 82.14,
+"end": 82.28
+},
+{
+"text": "page",
+"start": 82.28,
+"end": 82.52
+},
+{
+"text": "ne",
+"start": 82.52,
+"end": 82.68
+},
+{
+"text": "garantit",
+"start": 82.68,
+"end": 83.08
+},
+{
+"text": "pas",
+"start": 83.08,
+"end": 83.26
+},
+{
+"text": "toujours",
+"start": 83.26,
+"end": 83.48
+},
+{
+"text": "une",
+"start": 83.48,
+"end": 83.68
+},
+{
+"text": "bonne",
+"start": 83.68,
+"end": 83.82
+},
+{
+"text": "expérience.",
+"start": 83.82,
+"end": 84.46
+},
+{
+"text": "Certains",
+"start": 84.46,
+"end": 85.28
+},
+{
+"text": "fournisseurs",
+"start": 85.28,
+"end": 85.72
+},
+{
+"text": "sont",
+"start": 85.72,
+"end": 85.92
+},
+{
+"text": "sérieux,",
+"start": 85.92,
+"end": 86.62
+},
+{
+"text": "d",
+"start": 86.8,
+"end": 86.98
+},
+{
+"text": "'autres",
+"start": 86.98,
+"end": 87.06
+},
+{
+"text": "sont",
+"start": 87.06,
+"end": 87.28
+},
+{
+"text": "des",
+"start": 87.28,
+"end": 87.62
+},
+{
+"text": "intermédiaires,",
+"start": 87.62,
+"end": 88.18
+},
+{
+"text": "et",
+"start": 88.36,
+"end": 88.48
+},
+{
+"text": "certains",
+"start": 88.48,
+"end": 88.68
+},
+{
+"text": "peuvent",
+"start": 88.68,
+"end": 88.9
+},
+{
+"text": "utiliser",
+"start": 88.9,
+"end": 89.26
+},
+{
+"text": "de",
+"start": 89.26,
+"end": 89.5
+},
+{
+"text": "fausses",
+"start": 89.5,
+"end": 89.7
+},
+{
+"text": "images",
+"start": 89.7,
+"end": 90.02
+},
+{
+"text": "ou",
+"start": 90.02,
+"end": 90.44
+},
+{
+"text": "exagérer",
+"start": 90.44,
+"end": 90.84
+},
+{
+"text": "leur",
+"start": 90.84,
+"end": 90.98
+},
+{
+"text": "capacité.",
+"start": 90.98,
+"end": 91.54
+},
+{
+"text": "Le",
+"start": 91.86,
+"end": 92.08
+},
+{
+"text": "prix",
+"start": 92.08,
+"end": 92.3
+},
+{
+"text": "le",
+"start": 92.3,
+"end": 92.58
+},
+{
+"text": "plus",
+"start": 92.58,
+"end": 92.74
+},
+{
+"text": "bas",
+"start": 92.74,
+"end": 93.12
+},
+{
+"text": "n",
+"start": 93.12,
+"end": 93.46
+},
+{
+"text": "'est",
+"start": 93.46,
+"end": 93.56
+},
+{
+"text": "donc",
+"start": 93.56,
+"end": 93.78
+},
+{
+"text": "pas",
+"start": 93.78,
+"end": 94.0
+},
+{
+"text": "forcément",
+"start": 94.0,
+"end": 94.36
+},
+{
+"text": "la",
+"start": 94.36,
+"end": 94.64
+},
+{
+"text": "meilleure",
+"start": 94.64,
+"end": 95.0
+},
+{
+"text": "opportunité.",
+"start": 95.0,
+"end": 95.76
+},
+{
+"text": "Un",
+"start": 96.12,
+"end": 96.26
+},
+{
+"text": "tarif",
+"start": 96.26,
+"end": 96.54
+},
+{
+"text": "beaucoup",
+"start": 96.54,
+"end": 96.84
+},
+{
+"text": "plus",
+"start": 96.84,
+"end": 97.04
+},
+{
+"text": "bas",
+"start": 97.04,
+"end": 97.16
+},
+{
+"text": "que",
+"start": 97.16,
+"end": 97.32
+},
+{
+"text": "celui",
+"start": 97.32,
+"end": 97.52
+},
+{
+"text": "des",
+"start": 97.52,
+"end": 97.76
+},
+{
+"text": "autres",
+"start": 97.76,
+"end": 98.0
+},
+{
+"text": "fournisseurs",
+"start": 98.0,
+"end": 98.8
+},
+{
+"text": "doit",
+"start": 98.8,
+"end": 99.0
+},
+{
+"text": "plutôt",
+"start": 99.0,
+"end": 99.28
+},
+{
+"text": "te",
+"start": 99.28,
+"end": 99.48
+},
+{
+"text": "pousser",
+"start": 99.48,
+"end": 99.7
+},
+{
+"text": "à",
+"start": 99.7,
+"end": 99.82
+},
+{
+"text": "poser",
+"start": 99.82,
+"end": 100.02
+},
+{
+"text": "davantage",
+"start": 100.02,
+"end": 100.52
+},
+{
+"text": "de",
+"start": 100.52,
+"end": 100.76
+},
+{
+"text": "questions.",
+"start": 100.76,
+"end": 101.06
+},
+{
+"text": "Avant",
+"start": 101.34,
+"end": 101.52
+},
+{
+"text": "de",
+"start": 101.52,
+"end": 101.7
+},
+{
+"text": "commander,",
+"start": 101.7,
+"end": 102.06
+},
+{
+"text": "vérifie",
+"start": 102.28,
+"end": 102.54
+},
+{
+"text": "l",
+"start": 102.54,
+"end": 102.66
+},
+{
+"text": "'ancienneté",
+"start": 102.66,
+"end": 103.02
+},
+{
+"text": "du",
+"start": 103.02,
+"end": 103.2
+},
+{
+"text": "fournisseur,",
+"start": 103.2,
+"end": 103.96
+},
+{
+"text": "demande",
+"start": 104.16,
+"end": 104.24
+},
+{
+"text": "des",
+"start": 104.24,
+"end": 104.42
+},
+{
+"text": "photos",
+"start": 104.42,
+"end": 104.66
+},
+{
+"text": "et",
+"start": 104.66,
+"end": 104.84
+},
+{
+"text": "des",
+"start": 104.84,
+"end": 104.98
+},
+{
+"text": "vidéos",
+"start": 104.98,
+"end": 105.2
+},
+{
+"text": "réelles",
+"start": 105.2,
+"end": 105.42
+},
+{
+"text": "du",
+"start": 105.42,
+"end": 105.66
+},
+{
+"text": "produit,",
+"start": 105.66,
+"end": 105.9
+},
+{
+"text": "pose",
+"start": 106.18,
+"end": 106.32
+},
+{
+"text": "des",
+"start": 106.32,
+"end": 106.54
+},
+{
+"text": "questions",
+"start": 106.54,
+"end": 106.82
+},
+{
+"text": "précises",
+"start": 106.82,
+"end": 107.18
+},
+{
+"text": "sur",
+"start": 107.18,
+"end": 107.36
+},
+{
+"text": "les",
+"start": 107.36,
+"end": 107.5
+},
+{
+"text": "quantités",
+"start": 107.5,
+"end": 107.82
+},
+{
+"text": "minimales,",
+"start": 107.82,
+"end": 108.64
+},
+{
+"text": "les",
+"start": 108.84,
+"end": 108.98
+},
+{
+"text": "délais",
+"start": 108.98,
+"end": 109.12
+},
+{
+"text": "de",
+"start": 109.12,
+"end": 109.44
+},
+{
+"text": "production",
+"start": 109.44,
+"end": 109.7
+},
+{
+"text": "et",
+"start": 109.7,
+"end": 109.86
+},
+{
+"text": "les",
+"start": 109.86,
+"end": 110.0
+},
+{
+"text": "conditions",
+"start": 110.0,
+"end": 110.3
+},
+{
+"text": "de",
+"start": 110.3,
+"end": 110.54
+},
+{
+"text": "paiement,",
+"start": 110.54,
+"end": 110.98
+},
+{
+"text": "demande",
+"start": 111.2,
+"end": 111.38
+},
+{
+"text": "également",
+"start": 111.38,
+"end": 111.78
+},
+{
+"text": "une",
+"start": 111.78,
+"end": 111.88
+},
+{
+"text": "vidéo",
+"start": 111.88,
+"end": 112.16
+},
+{
+"text": "récente",
+"start": 112.16,
+"end": 112.54
+},
+{
+"text": "où",
+"start": 112.54,
+"end": 112.66
+},
+{
+"text": "le",
+"start": 112.66,
+"end": 112.82
+},
+{
+"text": "fournisseur",
+"start": 112.82,
+"end": 113.24
+},
+{
+"text": "montre",
+"start": 113.24,
+"end": 113.5
+},
+{
+"text": "plusieurs",
+"start": 113.5,
+"end": 113.88
+},
+{
+"text": "pièces,",
+"start": 113.88,
+"end": 114.42
+},
+{
+"text": "l",
+"start": 114.56,
+"end": 114.68
+},
+{
+"text": "'emballage",
+"start": 114.68,
+"end": 115.1
+},
+{
+"text": "et",
+"start": 115.1,
+"end": 115.2
+},
+{
+"text": "les",
+"start": 115.2,
+"end": 115.32
+},
+{
+"text": "détails",
+"start": 115.32,
+"end": 115.5
+},
+{
+"text": "du",
+"start": 115.5,
+"end": 115.74
+},
+{
+"text": "produit.",
+"start": 115.74,
+"end": 116.0
+},
+{
+"text": "Cela",
+"start": 116.32,
+"end": 116.54
+},
+{
+"text": "permet",
+"start": 116.54,
+"end": 116.8
+},
+{
+"text": "déjà",
+"start": 116.8,
+"end": 117.08
+},
+{
+"text": "de",
+"start": 117.08,
+"end": 117.18
+},
+{
+"text": "vérifier",
+"start": 117.18,
+"end": 117.6
+},
+{
+"text": "que",
+"start": 117.6,
+"end": 117.72
+},
+{
+"text": "le",
+"start": 117.72,
+"end": 117.98
+},
+{
+"text": "produit",
+"start": 117.98,
+"end": 118.16
+},
+{
+"text": "existe",
+"start": 118.16,
+"end": 118.6
+},
+{
+"text": "réellement",
+"start": 118.6,
+"end": 119.34
+},
+{
+"text": "et",
+"start": 119.34,
+"end": 119.58
+},
+{
+"text": "qu",
+"start": 119.58,
+"end": 119.68
+},
+{
+"text": "'il",
+"start": 119.68,
+"end": 119.82
+},
+{
+"text": "correspond",
+"start": 119.82,
+"end": 120.2
+},
+{
+"text": "aux",
+"start": 120.2,
+"end": 120.34
+},
+{
+"text": "photos",
+"start": 120.34,
+"end": 120.6
+},
+{
+"text": "présentées.",
+"start": 120.6,
+"end": 121.28
+},
+{
+"text": "Et",
+"start": 121.66,
+"end": 121.8
+},
+{
+"text": "surtout,",
+"start": 121.8,
+"end": 122.14
+},
+{
+"text": "ne",
+"start": 122.26,
+"end": 122.3
+},
+{
+"text": "commence",
+"start": 122.3,
+"end": 122.58
+},
+{
+"text": "pas",
+"start": 122.58,
+"end": 122.74
+},
+{
+"text": "par",
+"start": 122.74,
+"end": 122.86
+},
+{
+"text": "une",
+"start": 122.86,
+"end": 123.04
+},
+{
+"text": "grosse",
+"start": 123.04,
+"end": 123.2
+},
+{
+"text": "commande.",
+"start": 123.2,
+"end": 123.74
+},
+{
+"text": "Fais",
+"start": 123.86,
+"end": 124.02
+},
+{
+"text": "d",
+"start": 124.02,
+"end": 124.16
+},
+{
+"text": "'abord",
+"start": 124.16,
+"end": 124.3
+},
+{
+"text": "un",
+"start": 124.3,
+"end": 124.52
+},
+{
+"text": "test.",
+"start": 124.52,
+"end": 124.74
+},
+{
+"text": "Une",
+"start": 125.04,
+"end": 125.22
+},
+{
+"text": "petite",
+"start": 125.22,
+"end": 125.54
+},
+{
+"text": "commande",
+"start": 125.54,
+"end": 125.84
+},
+{
+"text": "te",
+"start": 125.84,
+"end": 126.1
+},
+{
+"text": "permettra",
+"start": 126.1,
+"end": 126.36
+},
+{
+"text": "d",
+"start": 126.36,
+"end": 126.48
+},
+{
+"text": "'évaluer",
+"start": 126.48,
+"end": 126.82
+},
+{
+"text": "la",
+"start": 126.82,
+"end": 127.02
+},
+{
+"text": "communication,",
+"start": 127.02,
+"end": 127.66
+},
+{
+"text": "la",
+"start": 127.8,
+"end": 128.0
+},
+{
+"text": "qualité",
+"start": 128.0,
+"end": 128.44
+},
+{
+"text": "et",
+"start": 128.44,
+"end": 128.9
+},
+{
+"text": "la",
+"start": 128.9,
+"end": 129.16
+},
+{
+"text": "ponctualité",
+"start": 129.16,
+"end": 129.76
+},
+{
+"text": "du",
+"start": 129.76,
+"end": 129.94
+},
+{
+"text": "fournisseur",
+"start": 129.94,
+"end": 130.78
+},
+{
+"text": "avant",
+"start": 130.78,
+"end": 131.18
+},
+{
+"text": "de",
+"start": 131.18,
+"end": 131.36
+},
+{
+"text": "lui",
+"start": 131.36,
+"end": 131.5
+},
+{
+"text": "confier",
+"start": 131.5,
+"end": 131.78
+},
+{
+"text": "une",
+"start": 131.78,
+"end": 131.94
+},
+{
+"text": "somme",
+"start": 131.94,
+"end": 132.14
+},
+{
+"text": "importante.",
+"start": 132.14,
+"end": 132.58
+},
+{
+"text": "Règle",
+"start": 132.98,
+"end": 133.3
+},
+{
+"text": "simple,",
+"start": 133.3,
+"end": 133.84
+},
+{
+"text": "teste",
+"start": 134.26,
+"end": 134.56
+},
+{
+"text": "le",
+"start": 134.56,
+"end": 134.74
+},
+{
+"text": "fournisseur",
+"start": 134.74,
+"end": 135.64
+},
+{
+"text": "avant",
+"start": 135.64,
+"end": 135.86
+},
+{
+"text": "de",
+"start": 135.86,
+"end": 136.08
+},
+{
+"text": "tester",
+"start": 136.08,
+"end": 136.28
+},
+{
+"text": "ton",
+"start": 136.28,
+"end": 136.48
+},
+{
+"text": "capital.",
+"start": 136.48,
+"end": 136.92
+},
+{
+"text": "La",
+"start": 138.3,
+"end": 138.56
+},
+{
+"text": "barrière",
+"start": 138.56,
+"end": 138.9
+},
+{
+"text": "linguistique",
+"start": 138.9,
+"end": 139.5
+},
+{
+"text": "et",
+"start": 139.5,
+"end": 139.64
+},
+{
+"text": "les",
+"start": 139.64,
+"end": 139.84
+},
+{
+"text": "erreurs",
+"start": 139.84,
+"end": 140.04
+},
+{
+"text": "de",
+"start": 140.04,
+"end": 140.34
+},
+{
+"text": "compréhension.",
+"start": 140.34,
+"end": 140.84
+},
+{
+"text": "Le",
+"start": 140.84,
+"end": 141.3
+},
+{
+"text": "deuxième",
+"start": 141.3,
+"end": 141.62
+},
+{
+"text": "obstacle",
+"start": 141.62,
+"end": 142.18
+},
+{
+"text": "concerne",
+"start": 142.18,
+"end": 142.84
+},
+{
+"text": "la",
+"start": 142.84,
+"end": 143.04
+},
+{
+"text": "communication.",
+"start": 143.04,
+"end": 143.66
+},
+{
+"text": "Une",
+"start": 144.1,
+"end": 144.16
+},
+{
+"text": "mauvaise",
+"start": 144.16,
+"end": 144.5
+},
+{
+"text": "traduction",
+"start": 144.5,
+"end": 144.94
+},
+{
+"text": "peut",
+"start": 144.94,
+"end": 145.12
+},
+{
+"text": "provoquer",
+"start": 145.12,
+"end": 145.5
+},
+{
+"text": "une",
+"start": 145.5,
+"end": 145.68
+},
+{
+"text": "erreur",
+"start": 145.68,
+"end": 145.92
+},
+{
+"text": "sur",
+"start": 145.92,
+"end": 146.1
+},
+{
+"text": "la",
+"start": 146.1,
+"end": 146.3
+},
+{
+"text": "couleur,",
+"start": 146.3,
+"end": 146.6
+},
+{
+"text": "la",
+"start": 146.98,
+"end": 147.18
+},
+{
+"text": "taille,",
+"start": 147.18,
+"end": 147.44
+},
+{
+"text": "la",
+"start": 147.6,
+"end": 147.78
+},
+{
+"text": "matière,",
+"start": 147.78,
+"end": 148.12
+},
+{
+"text": "le",
+"start": 148.44,
+"end": 148.58
+},
+{
+"text": "modèle,",
+"start": 148.58,
+"end": 148.82
+},
+{
+"text": "la",
+"start": 149.2,
+"end": 149.3
+},
+{
+"text": "quantité",
+"start": 149.3,
+"end": 149.86
+},
+{
+"text": "ou",
+"start": 149.86,
+"end": 150.18
+},
+{
+"text": "l",
+"start": 150.18,
+"end": 150.3
+},
+{
+"text": "'emballage.",
+"start": 150.3,
+"end": 150.72
+},
+{
+"text": "Tu",
+"start": 151.02,
+"end": 151.1
+},
+{
+"text": "peux",
+"start": 151.1,
+"end": 151.28
+},
+{
+"text": "penser",
+"start": 151.28,
+"end": 151.5
+},
+{
+"text": "avoir",
+"start": 151.5,
+"end": 151.72
+},
+{
+"text": "commandé",
+"start": 151.72,
+"end": 152.08
+},
+{
+"text": "100",
+"start": 152.08,
+"end": 152.22
+},
+{
+"text": "pièces",
+"start": 152.22,
+"end": 152.46
+},
+{
+"text": "noires",
+"start": 152.46,
+"end": 152.78
+},
+{
+"text": "avec",
+"start": 152.78,
+"end": 152.98
+},
+{
+"text": "un",
+"start": 152.98,
+"end": 153.16
+},
+{
+"text": "emballage",
+"start": 153.16,
+"end": 153.48
+},
+{
+"text": "individuel,",
+"start": 153.48,
+"end": 154.36
+},
+{
+"text": "alors",
+"start": 154.5,
+"end": 154.72
+},
+{
+"text": "que",
+"start": 154.72,
+"end": 154.86
+},
+{
+"text": "le",
+"start": 154.86,
+"end": 155.0
+},
+{
+"text": "fournisseur",
+"start": 155.0,
+"end": 155.38
+},
+{
+"text": "a",
+"start": 155.38,
+"end": 155.52
+},
+{
+"text": "compris",
+"start": 155.52,
+"end": 155.74
+},
+{
+"text": "autre",
+"start": 155.74,
+"end": 156.02
+},
+{
+"text": "chose.",
+"start": 156.02,
+"end": 156.28
+},
+{
+"text": "Une",
+"start": 156.6,
+"end": 156.82
+},
+{
+"text": "petite",
+"start": 156.82,
+"end": 157.18
+},
+{
+"text": "confusion",
+"start": 157.18,
+"end": 157.58
+},
+{
+"text": "au",
+"start": 157.58,
+"end": 157.76
+},
+{
+"text": "départ",
+"start": 157.76,
+"end": 158.0
+},
+{
+"text": "peut",
+"start": 158.0,
+"end": 158.24
+},
+{
+"text": "donc",
+"start": 158.24,
+"end": 158.44
+},
+{
+"text": "devenir",
+"start": 158.44,
+"end": 158.72
+},
+{
+"text": "une",
+"start": 158.72,
+"end": 159.04
+},
+{
+"text": "grosse",
+"start": 159.04,
+"end": 159.32
+},
+{
+"text": "perte",
+"start": 159.32,
+"end": 159.58
+},
+{
+"text": "à",
+"start": 159.58,
+"end": 159.7
+},
+{
+"text": "l",
+"start": 159.7,
+"end": 159.84
+},
+{
+"text": "'arrivée.",
+"start": 159.84,
+"end": 160.24
+},
+{
+"text": "Pour",
+"start": 160.42,
+"end": 160.54
+},
+{
+"text": "éviter",
+"start": 160.54,
+"end": 160.9
+},
+{
+"text": "cela,",
+"start": 160.9,
+"end": 161.12
+},
+{
+"text": "ne",
+"start": 161.22,
+"end": 161.28
+},
+{
+"text": "te",
+"start": 161.28,
+"end": 161.46
+},
+{
+"text": "contente",
+"start": 161.46,
+"end": 161.68
+},
+{
+"text": "pas",
+"start": 161.68,
+"end": 161.82
+},
+{
+"text": "d",
+"start": 161.82,
+"end": 161.9
+},
+{
+"text": "'une",
+"start": 161.9,
+"end": 162.06
+},
+{
+"text": "conversation",
+"start": 162.06,
+"end": 162.52
+},
+{
+"text": "vague.",
+"start": 162.52,
+"end": 162.74
+},
+{
+"text": "Écris",
+"start": 163.2,
+"end": 163.5
+},
+{
+"text": "toutes",
+"start": 163.5,
+"end": 163.94
+},
+{
+"text": "les",
+"start": 163.94,
+"end": 164.24
+},
+{
+"text": "caractéristiques",
+"start": 164.24,
+"end": 164.88
+},
+{
+"text": "du",
+"start": 164.88,
+"end": 165.1
+},
+{
+"text": "produit,",
+"start": 165.1,
+"end": 165.52
+},
+{
+"text": "la",
+"start": 165.82,
+"end": 166.0
+},
+{
+"text": "quantité,",
+"start": 166.0,
+"end": 166.6
+},
+{
+"text": "la",
+"start": 167.14,
+"end": 167.36
+},
+{
+"text": "couleur,",
+"start": 167.36,
+"end": 167.72
+},
+{
+"text": "les",
+"start": 167.72,
+"end": 168.12
+},
+{
+"text": "dimensions,",
+"start": 168.12,
+"end": 168.7
+},
+{
+"text": "le",
+"start": 169.1,
+"end": 169.28
+},
+{
+"text": "matériau,",
+"start": 169.28,
+"end": 169.96
+},
+{
+"text": "le",
+"start": 170.18,
+"end": 170.32
+},
+{
+"text": "logo,",
+"start": 170.32,
+"end": 170.62
+},
+{
+"text": "le",
+"start": 171.24,
+"end": 171.32
+},
+{
+"text": "type",
+"start": 171.32,
+"end": 171.48
+},
+{
+"text": "d",
+"start": 171.48,
+"end": 171.66
+},
+{
+"text": "'emballage",
+"start": 171.66,
+"end": 172.26
+},
+{
+"text": "et",
+"start": 172.26,
+"end": 172.58
+},
+{
+"text": "le",
+"start": 172.58,
+"end": 172.82
+},
+{
+"text": "délai",
+"start": 172.82,
+"end": 173.08
+},
+{
+"text": "souhaité.",
+"start": 173.08,
+"end": 173.8
+},
+{
+"text": "Ajoute",
+"start": 174.0,
+"end": 174.14
+},
+{
+"text": "des",
+"start": 174.14,
+"end": 174.3
+},
+{
+"text": "photos",
+"start": 174.3,
+"end": 174.56
+},
+{
+"text": "à",
+"start": 174.56,
+"end": 174.66
+},
+{
+"text": "noter",
+"start": 174.66,
+"end": 175.06
+},
+{
+"text": "ou",
+"start": 175.06,
+"end": 175.28
+},
+{
+"text": "des",
+"start": 175.28,
+"end": 175.46
+},
+{
+"text": "captures",
+"start": 175.46,
+"end": 175.72
+},
+{
+"text": "d",
+"start": 175.72,
+"end": 175.86
+},
+{
+"text": "'écran.",
+"start": 175.86,
+"end": 176.06
+},
+{
+"text": "Si",
+"start": 176.48,
+"end": 176.54
+},
+{
+"text": "tu",
+"start": 176.54,
+"end": 176.72
+},
+{
+"text": "veux",
+"start": 176.72,
+"end": 176.82
+},
+{
+"text": "une",
+"start": 176.82,
+"end": 177.02
+},
+{
+"text": "taille",
+"start": 177.02,
+"end": 177.24
+},
+{
+"text": "précise,",
+"start": 177.24,
+"end": 177.9
+},
+{
+"text": "indique",
+"start": 178.22,
+"end": 178.42
+},
+{
+"text": "les",
+"start": 178.42,
+"end": 178.6
+},
+{
+"text": "mesures.",
+"start": 178.6,
+"end": 178.88
+},
+{
+"text": "Si",
+"start": 179.28,
+"end": 179.42
+},
+{
+"text": "tu",
+"start": 179.42,
+"end": 179.58
+},
+{
+"text": "veux",
+"start": 179.58,
+"end": 179.7
+},
+{
+"text": "un",
+"start": 179.7,
+"end": 179.86
+},
+{
+"text": "logo,",
+"start": 179.86,
+"end": 180.16
+},
+{
+"text": "demande",
+"start": 180.72,
+"end": 180.9
+},
+{
+"text": "une",
+"start": 180.9,
+"end": 181.1
+},
+{
+"text": "maquette",
+"start": 181.1,
+"end": 181.36
+},
+{
+"text": "avant",
+"start": 181.36,
+"end": 181.54
+},
+{
+"text": "la",
+"start": 181.54,
+"end": 181.82
+},
+{
+"text": "production.",
+"start": 181.82,
+"end": 182.12
+},
+{
+"text": "Ensuite,",
+"start": 182.6,
+"end": 182.94
+},
+{
+"text": "reformule",
+"start": 183.28,
+"end": 183.6
+},
+{
+"text": "la",
+"start": 183.6,
+"end": 183.84
+},
+{
+"text": "commande",
+"start": 183.84,
+"end": 184.06
+},
+{
+"text": "dans",
+"start": 184.06,
+"end": 184.28
+},
+{
+"text": "un",
+"start": 184.28,
+"end": 184.46
+},
+{
+"text": "seul",
+"start": 184.46,
+"end": 184.58
+},
+{
+"text": "message",
+"start": 184.58,
+"end": 185.06
+},
+{
+"text": "et",
+"start": 185.06,
+"end": 185.72
+},
+{
+"text": "demande",
+"start": 185.72,
+"end": 186.0
+},
+{
+"text": "au",
+"start": 186.0,
+"end": 186.16
+},
+{
+"text": "fournisseur",
+"start": 186.16,
+"end": 186.64
+},
+{
+"text": "de",
+"start": 186.64,
+"end": 186.9
+},
+{
+"text": "confirmer",
+"start": 186.9,
+"end": 187.26
+},
+{
+"text": "chaque",
+"start": 187.26,
+"end": 187.48
+},
+{
+"text": "élément.",
+"start": 187.48,
+"end": 187.92
+},
+{
+"text": "Cette",
+"start": 188.7,
+"end": 188.94
+},
+{
+"text": "étape",
+"start": 188.94,
+"end": 189.32
+},
+{
+"text": "peut",
+"start": 189.32,
+"end": 189.44
+},
+{
+"text": "sembler",
+"start": 189.44,
+"end": 189.84
+},
+{
+"text": "lente,",
+"start": 189.84,
+"end": 190.12
+},
+{
+"text": "mais",
+"start": 190.2,
+"end": 190.34
+},
+{
+"text": "elle",
+"start": 190.34,
+"end": 190.5
+},
+{
+"text": "est",
+"start": 190.5,
+"end": 190.58
+},
+{
+"text": "beaucoup",
+"start": 190.58,
+"end": 190.88
+},
+{
+"text": "plus",
+"start": 190.88,
+"end": 191.08
+},
+{
+"text": "rapide",
+"start": 191.08,
+"end": 191.54
+},
+{
+"text": "que",
+"start": 191.54,
+"end": 191.78
+},
+{
+"text": "de",
+"start": 191.78,
+"end": 192.02
+},
+{
+"text": "gérer",
+"start": 192.02,
+"end": 192.24
+},
+{
+"text": "une",
+"start": 192.24,
+"end": 192.48
+},
+{
+"text": "erreur",
+"start": 192.48,
+"end": 192.72
+},
+{
+"text": "sur",
+"start": 192.72,
+"end": 192.96
+},
+{
+"text": "plusieurs",
+"start": 192.96,
+"end": 193.26
+},
+{
+"text": "cartons",
+"start": 193.26,
+"end": 193.66
+},
+{
+"text": "déjà",
+"start": 193.66,
+"end": 194.0
+},
+{
+"text": "expédiés.",
+"start": 194.0,
+"end": 194.72
+},
+{
+"text": "Recevoir",
+"start": 196.84,
+"end": 197.36
+},
+{
+"text": "une",
+"start": 197.36,
+"end": 197.52
+},
+{
+"text": "qualité",
+"start": 197.52,
+"end": 197.94
+},
+{
+"text": "différente",
+"start": 197.94,
+"end": 198.46
+},
+{
+"text": "de",
+"start": 198.46,
+"end": 198.66
+},
+{
+"text": "celle",
+"start": 198.66,
+"end": 198.88
+},
+{
+"text": "attendue.",
+"start": 198.88,
+"end": 199.16
+},
+{
+"text": "Troisième",
+"start": 200.12,
+"end": 200.5
+},
+{
+"text": "obstacle,",
+"start": 200.5,
+"end": 201.02
+},
+{
+"text": "la",
+"start": 201.58,
+"end": 201.7
+},
+{
+"text": "qualité",
+"start": 201.7,
+"end": 201.96
+},
+{
+"text": "du",
+"start": 201.96,
+"end": 202.22
+},
+{
+"text": "produit.",
+"start": 202.22,
+"end": 202.42
+},
+{
+"text": "Les",
+"start": 202.9,
+"end": 202.94
+},
+{
+"text": "photos",
+"start": 202.94,
+"end": 203.24
+},
+{
+"text": "publiées",
+"start": 203.24,
+"end": 203.68
+},
+{
+"text": "en",
+"start": 203.68,
+"end": 203.88
+},
+{
+"text": "ligne",
+"start": 203.88,
+"end": 204.04
+},
+{
+"text": "sont",
+"start": 204.04,
+"end": 204.3
+},
+{
+"text": "souvent",
+"start": 204.3,
+"end": 204.6
+},
+{
+"text": "prises",
+"start": 204.6,
+"end": 204.82
+},
+{
+"text": "sous",
+"start": 204.82,
+"end": 205.02
+},
+{
+"text": "une",
+"start": 205.02,
+"end": 205.2
+},
+{
+"text": "bonne",
+"start": 205.2,
+"end": 205.32
+},
+{
+"text": "lumière,",
+"start": 205.32,
+"end": 205.76
+},
+{
+"text": "avec",
+"start": 206.22,
+"end": 206.32
+},
+{
+"text": "un",
+"start": 206.32,
+"end": 206.52
+},
+{
+"text": "angle",
+"start": 206.52,
+"end": 206.74
+},
+{
+"text": "avantageux",
+"start": 206.74,
+"end": 207.46
+},
+{
+"text": "et",
+"start": 207.46,
+"end": 207.68
+},
+{
+"text": "parfois",
+"start": 207.68,
+"end": 208.06
+},
+{
+"text": "une",
+"start": 208.06,
+"end": 208.3
+},
+{
+"text": "retouche.",
+"start": 208.3,
+"end": 208.84
+},
+{
+"text": "Le",
+"start": 209.06,
+"end": 209.24
+},
+{
+"text": "produit",
+"start": 209.24,
+"end": 209.52
+},
+{
+"text": "réel",
+"start": 209.52,
+"end": 209.9
+},
+{
+"text": "peut",
+"start": 209.9,
+"end": 210.14
+},
+{
+"text": "être",
+"start": 210.14,
+"end": 210.4
+},
+{
+"text": "plus",
+"start": 210.4,
+"end": 210.66
+},
+{
+"text": "petit,",
+"start": 210.66,
+"end": 211.08
+},
+{
+"text": "plus",
+"start": 211.46,
+"end": 211.68
+},
+{
+"text": "fragile,",
+"start": 211.68,
+"end": 212.08
+},
+{
+"text": "moins",
+"start": 212.58,
+"end": 212.72
+},
+{
+"text": "bien",
+"start": 212.72,
+"end": 213.02
+},
+{
+"text": "fini",
+"start": 213.02,
+"end": 213.36
+},
+{
+"text": "ou",
+"start": 213.36,
+"end": 213.8
+},
+{
+"text": "fabriqué",
+"start": 213.8,
+"end": 214.28
+},
+{
+"text": "avec",
+"start": 214.28,
+"end": 214.54
+},
+{
+"text": "une",
+"start": 214.54,
+"end": 214.66
+},
+{
+"text": "matière",
+"start": 214.66,
+"end": 214.92
+},
+{
+"text": "différente.",
+"start": 214.92,
+"end": 215.54
+},
+{
+"text": "C",
+"start": 216.3,
+"end": 216.36
+},
+{
+"text": "'est",
+"start": 216.36,
+"end": 216.44
+},
+{
+"text": "pourquoi",
+"start": 216.44,
+"end": 216.64
+},
+{
+"text": "il",
+"start": 216.64,
+"end": 216.76
+},
+{
+"text": "ne",
+"start": 216.76,
+"end": 216.82
+},
+{
+"text": "faut",
+"start": 216.82,
+"end": 216.98
+},
+{
+"text": "pas",
+"start": 216.98,
+"end": 217.14
+},
+{
+"text": "commander",
+"start": 217.14,
+"end": 217.38
+},
+{
+"text": "une",
+"start": 217.38,
+"end": 217.68
+},
+{
+"text": "grande",
+"start": 217.68,
+"end": 217.82
+},
+{
+"text": "quantité",
+"start": 217.82,
+"end": 218.28
+},
+{
+"text": "uniquement",
+"start": 218.28,
+"end": 218.68
+},
+{
+"text": "à",
+"start": 218.68,
+"end": 218.82
+},
+{
+"text": "partir",
+"start": 218.82,
+"end": 219.02
+},
+{
+"text": "d",
+"start": 219.02,
+"end": 219.14
+},
+{
+"text": "'une",
+"start": 219.14,
+"end": 219.24
+},
+{
+"text": "photo.",
+"start": 219.24,
+"end": 219.5
+},
+{
+"text": "La",
+"start": 220.28,
+"end": 220.4
+},
+{
+"text": "meilleure",
+"start": 220.4,
+"end": 220.64
+},
+{
+"text": "solution",
+"start": 220.64,
+"end": 221.1
+},
+{
+"text": "est",
+"start": 221.1,
+"end": 221.64
+},
+{
+"text": "de",
+"start": 221.64,
+"end": 221.92
+},
+{
+"text": "commander",
+"start": 221.92,
+"end": 222.18
+},
+{
+"text": "un",
+"start": 222.18,
+"end": 222.4
+},
+{
+"text": "échantillon.",
+"start": 222.4,
+"end": 222.84
+},
+{
+"text": "Il",
+"start": 222.84,
+"end": 223.22
+},
+{
+"text": "te",
+"start": 223.22,
+"end": 223.52
+},
+{
+"text": "permettra",
+"start": 223.52,
+"end": 223.82
+},
+{
+"text": "de",
+"start": 223.82,
+"end": 224.02
+},
+{
+"text": "vérifier",
+"start": 224.02,
+"end": 224.36
+},
+{
+"text": "la",
+"start": 224.36,
+"end": 224.64
+},
+{
+"text": "taille,",
+"start": 224.64,
+"end": 224.9
+},
+{
+"text": "la",
+"start": 225.02,
+"end": 225.26
+},
+{
+"text": "matière,",
+"start": 225.26,
+"end": 225.62
+},
+{
+"text": "la",
+"start": 226.1,
+"end": 226.26
+},
+{
+"text": "solidité,",
+"start": 226.26,
+"end": 226.92
+},
+{
+"text": "la",
+"start": 227.38,
+"end": 227.52
+},
+{
+"text": "finition,",
+"start": 227.52,
+"end": 228.14
+},
+{
+"text": "la",
+"start": 228.48,
+"end": 228.66
+},
+{
+"text": "couleur",
+"start": 228.66,
+"end": 229.0
+},
+{
+"text": "et",
+"start": 229.0,
+"end": 229.48
+},
+{
+"text": "l",
+"start": 229.48,
+"end": 229.64
+},
+{
+"text": "'emballage.",
+"start": 229.64,
+"end": 230.2
+},
+{
+"text": "Tu",
+"start": 230.54,
+"end": 230.64
+},
+{
+"text": "peux",
+"start": 230.64,
+"end": 230.84
+},
+{
+"text": "aussi",
+"start": 230.84,
+"end": 231.08
+},
+{
+"text": "le",
+"start": 231.08,
+"end": 231.28
+},
+{
+"text": "montrer",
+"start": 231.28,
+"end": 231.5
+},
+{
+"text": "à",
+"start": 231.5,
+"end": 231.6
+},
+{
+"text": "des",
+"start": 231.6,
+"end": 231.82
+},
+{
+"text": "clients",
+"start": 231.82,
+"end": 232.0
+},
+{
+"text": "potentiels",
+"start": 232.0,
+"end": 232.56
+},
+{
+"text": "avant",
+"start": 232.56,
+"end": 232.7
+},
+{
+"text": "d",
+"start": 232.7,
+"end": 232.86
+},
+{
+"text": "'acheter",
+"start": 232.86,
+"end": 233.02
+},
+{
+"text": "davantage",
+"start": 233.02,
+"end": 233.66
+},
+{
+"text": "si",
+"start": 233.66,
+"end": 234.1
+},
+{
+"text": "le",
+"start": 234.1,
+"end": 234.34
+},
+{
+"text": "produit",
+"start": 234.34,
+"end": 234.54
+},
+{
+"text": "doit",
+"start": 234.54,
+"end": 234.72
+},
+{
+"text": "apporter",
+"start": 234.72,
+"end": 235.04
+},
+{
+"text": "ton",
+"start": 235.04,
+"end": 235.24
+},
+{
+"text": "logo,",
+"start": 235.24,
+"end": 235.56
+},
+{
+"text": "demande",
+"start": 236.12,
+"end": 236.32
+},
+{
+"text": "une",
+"start": 236.32,
+"end": 236.56
+},
+{
+"text": "maquette",
+"start": 236.56,
+"end": 237.24
+},
+{
+"text": "et",
+"start": 237.24,
+"end": 237.52
+},
+{
+"text": "si",
+"start": 237.52,
+"end": 237.76
+},
+{
+"text": "possible",
+"start": 237.76,
+"end": 238.22
+},
+{
+"text": "un",
+"start": 238.22,
+"end": 238.56
+},
+{
+"text": "échantillon",
+"start": 238.56,
+"end": 239.08
+},
+{
+"text": "personnalisé",
+"start": 239.08,
+"end": 239.92
+},
+{
+"text": "avant",
+"start": 239.92,
+"end": 240.24
+},
+{
+"text": "de",
+"start": 240.24,
+"end": 240.38
+},
+{
+"text": "lancer",
+"start": 240.38,
+"end": 240.68
+},
+{
+"text": "toute",
+"start": 240.68,
+"end": 240.82
+},
+{
+"text": "la",
+"start": 240.82,
+"end": 241.08
+},
+{
+"text": "production.",
+"start": 241.08,
+"end": 241.44
+},
+{
+"text": "Pour",
+"start": 241.84,
+"end": 241.86
+},
+{
+"text": "une",
+"start": 241.86,
+"end": 242.04
+},
+{
+"text": "commande",
+"start": 242.04,
+"end": 242.36
+},
+{
+"text": "importante,",
+"start": 242.36,
+"end": 242.82
+},
+{
+"text": "une",
+"start": 243.22,
+"end": 243.38
+},
+{
+"text": "inspection",
+"start": 243.38,
+"end": 243.74
+},
+{
+"text": "avant",
+"start": 243.74,
+"end": 243.98
+},
+{
+"text": "expédition",
+"start": 243.98,
+"end": 244.78
+},
+{
+"text": "peut",
+"start": 244.78,
+"end": 245.0
+},
+{
+"text": "également",
+"start": 245.0,
+"end": 245.32
+},
+{
+"text": "être",
+"start": 245.32,
+"end": 245.56
+},
+{
+"text": "utile.",
+"start": 245.56,
+"end": 246.1
+},
+{
+"text": "Elle",
+"start": 246.24,
+"end": 246.52
+},
+{
+"text": "permet",
+"start": 246.52,
+"end": 246.8
+},
+{
+"text": "de",
+"start": 246.8,
+"end": 247.06
+},
+{
+"text": "vérifier",
+"start": 247.06,
+"end": 247.4
+},
+{
+"text": "la",
+"start": 247.4,
+"end": 247.56
+},
+{
+"text": "quantité,",
+"start": 247.56,
+"end": 248.16
+},
+{
+"text": "l",
+"start": 248.74,
+"end": 248.8
+},
+{
+"text": "'état",
+"start": 248.8,
+"end": 248.98
+},
+{
+"text": "des",
+"start": 248.98,
+"end": 249.32
+},
+{
+"text": "produits",
+"start": 249.32,
+"end": 249.6
+},
+{
+"text": "et",
+"start": 249.6,
+"end": 249.86
+},
+{
+"text": "leur",
+"start": 249.86,
+"end": 250.06
+},
+{
+"text": "conformité",
+"start": 250.06,
+"end": 250.68
+},
+{
+"text": "avec",
+"start": 250.68,
+"end": 250.94
+},
+{
+"text": "ta",
+"start": 250.94,
+"end": 251.12
+},
+{
+"text": "commande.",
+"start": 251.12,
+"end": 251.72
+},
+{
+"text": "Défini",
+"start": 251.72,
+"end": 252.26
+},
+{
+"text": "les",
+"start": 252.26,
+"end": 252.48
+},
+{
+"text": "critères",
+"start": 252.48,
+"end": 252.78
+},
+{
+"text": "de",
+"start": 252.78,
+"end": 252.98
+},
+{
+"text": "qualité",
+"start": 252.98,
+"end": 253.28
+},
+{
+"text": "avant",
+"start": 253.28,
+"end": 253.48
+},
+{
+"text": "de",
+"start": 253.48,
+"end": 253.68
+},
+{
+"text": "payer.",
+"start": 253.68,
+"end": 253.96
+},
+{
+"text": "Dire",
+"start": 254.38,
+"end": 254.46
+},
+{
+"text": "au",
+"start": 254.46,
+"end": 254.64
+},
+{
+"text": "gars",
+"start": 254.64,
+"end": 254.78
+},
+{
+"text": "«",
+"start": 254.78,
+"end": 255.22
+},
+{
+"text": "je",
+"start": 255.22,
+"end": 255.3
+},
+{
+"text": "veux",
+"start": 255.3,
+"end": 255.42
+},
+{
+"text": "une",
+"start": 255.42,
+"end": 255.6
+},
+{
+"text": "bonne",
+"start": 255.6,
+"end": 255.78
+},
+{
+"text": "qualité",
+"start": 255.78,
+"end": 256.16
+},
+{
+"text": "ee",
+"start": 256.16,
+"end": 256.58
+},
+{
+"text": "et",
+"start": 256.58,
+"end": 256.8
+},
+{
+"text": "trop",
+"start": 256.8,
+"end": 257.04
+},
+{
+"text": "vague",
+"start": 257.04,
+"end": 257.24
+},
+{
+"text": "».",
+"start": 257.24,
+"end": 257.58
+},
+{
+"text": "Il",
+"start": 257.58,
+"end": 257.74
+},
+{
+"text": "vaut",
+"start": 257.74,
+"end": 257.86
+},
+{
+"text": "mieux",
+"start": 257.86,
+"end": 258.08
+},
+{
+"text": "préciser",
+"start": 258.08,
+"end": 258.46
+},
+{
+"text": "ce",
+"start": 258.46,
+"end": 258.6
+},
+{
+"text": "que",
+"start": 258.6,
+"end": 258.64
+},
+{
+"text": "tu",
+"start": 258.64,
+"end": 258.84
+},
+{
+"text": "acceptes",
+"start": 258.84,
+"end": 259.32
+},
+{
+"text": "et",
+"start": 259.32,
+"end": 259.44
+},
+{
+"text": "ce",
+"start": 259.44,
+"end": 259.6
+},
+{
+"text": "que",
+"start": 259.6,
+"end": 259.64
+},
+{
+"text": "tu",
+"start": 259.64,
+"end": 259.8
+},
+{
+"text": "refuses.",
+"start": 259.8,
+"end": 260.4
+},
+{
+"text": "Un",
+"start": 260.58,
+"end": 260.62
+},
+{
+"text": "échantillon",
+"start": 260.62,
+"end": 261.1
+},
+{
+"text": "coûte",
+"start": 261.1,
+"end": 261.3
+},
+{
+"text": "quelques",
+"start": 261.3,
+"end": 261.6
+},
+{
+"text": "dollars.",
+"start": 261.6,
+"end": 261.92
+},
+{
+"text": "Un",
+"start": 262.3,
+"end": 262.44
+},
+{
+"text": "stock",
+"start": 262.44,
+"end": 262.68
+},
+{
+"text": "entier",
+"start": 262.68,
+"end": 263.0
+},
+{
+"text": "de",
+"start": 263.0,
+"end": 263.24
+},
+{
+"text": "mauvaise",
+"start": 263.24,
+"end": 263.52
+},
+{
+"text": "qualité",
+"start": 263.52,
+"end": 263.98
+},
+{
+"text": "peut",
+"start": 263.98,
+"end": 264.44
+},
+{
+"text": "te",
+"start": 264.44,
+"end": 264.66
+},
+{
+"text": "coûter",
+"start": 264.66,
+"end": 264.86
+},
+{
+"text": "ton",
+"start": 264.86,
+"end": 265.1
+},
+{
+"text": "activité.",
+"start": 265.1,
+"end": 265.6
+},
+{
+"text": "Les",
+"start": 267.0,
+"end": 267.22
+},
+{
+"text": "frais",
+"start": 267.22,
+"end": 267.46
+},
+{
+"text": "cachés",
+"start": 267.46,
+"end": 267.82
+},
+{
+"text": "qui",
+"start": 267.82,
+"end": 268.04
+},
+{
+"text": "changent",
+"start": 268.04,
+"end": 268.2
+},
+{
+"text": "le",
+"start": 268.2,
+"end": 268.4
+},
+{
+"text": "prix",
+"start": 268.4,
+"end": 268.52
+},
+{
+"text": "réel.",
+"start": 268.52,
+"end": 269.06
+},
+{
+"text": "Beaucoup",
+"start": 269.3,
+"end": 269.48
+},
+{
+"text": "de",
+"start": 269.48,
+"end": 269.74
+},
+{
+"text": "débutants",
+"start": 269.74,
+"end": 270.06
+},
+{
+"text": "regardent",
+"start": 270.06,
+"end": 270.38
+},
+{
+"text": "uniquement",
+"start": 270.38,
+"end": 270.78
+},
+{
+"text": "le",
+"start": 270.78,
+"end": 271.0
+},
+{
+"text": "prix",
+"start": 271.0,
+"end": 271.14
+},
+{
+"text": "affiché",
+"start": 271.14,
+"end": 271.6
+},
+{
+"text": "par",
+"start": 271.6,
+"end": 271.8
+},
+{
+"text": "le",
+"start": 271.8,
+"end": 271.96
+},
+{
+"text": "fournisseur.",
+"start": 271.96,
+"end": 272.7
+},
+{
+"text": "Point.",
+"start": 272.84,
+"end": 272.94
+},
+{
+"text": "Ils",
+"start": 273.24,
+"end": 273.42
+},
+{
+"text": "voient",
+"start": 273.42,
+"end": 273.54
+},
+{
+"text": "un",
+"start": 273.54,
+"end": 273.7
+},
+{
+"text": "produit",
+"start": 273.7,
+"end": 273.88
+},
+{
+"text": "à",
+"start": 273.88,
+"end": 274.08
+},
+{
+"text": "3",
+"start": 274.08,
+"end": 274.28
+},
+{
+"text": "dollars",
+"start": 274.28,
+"end": 274.56
+},
+{
+"text": "et",
+"start": 274.56,
+"end": 274.74
+},
+{
+"text": "pensent",
+"start": 274.74,
+"end": 274.96
+},
+{
+"text": "pouvoir",
+"start": 274.96,
+"end": 275.26
+},
+{
+"text": "le",
+"start": 275.26,
+"end": 275.48
+},
+{
+"text": "revendre",
+"start": 275.48,
+"end": 275.72
+},
+{
+"text": "avec",
+"start": 275.72,
+"end": 275.98
+},
+{
+"text": "une",
+"start": 275.98,
+"end": 276.26
+},
+{
+"text": "grande",
+"start": 276.26,
+"end": 276.48
+},
+{
+"text": "marge.",
+"start": 276.48,
+"end": 276.96
+},
+{
+"text": "Mais",
+"start": 277.12,
+"end": 277.26
+},
+{
+"text": "le",
+"start": 277.26,
+"end": 277.46
+},
+{
+"text": "prix",
+"start": 277.46,
+"end": 277.56
+},
+{
+"text": "du",
+"start": 277.56,
+"end": 277.8
+},
+{
+"text": "produit",
+"start": 277.8,
+"end": 278.0
+},
+{
+"text": "n",
+"start": 278.0,
+"end": 278.18
+},
+{
+"text": "'est",
+"start": 278.18,
+"end": 278.18
+},
+{
+"text": "pas",
+"start": 278.18,
+"end": 278.4
+},
+{
+"text": "toujours",
+"start": 278.4,
+"end": 278.6
+},
+{
+"text": "le",
+"start": 278.6,
+"end": 278.78
+},
+{
+"text": "coût",
+"start": 278.78,
+"end": 278.92
+},
+{
+"text": "réel.",
+"start": 278.92,
+"end": 279.28
+},
+{
+"text": "Il",
+"start": 279.28,
+"end": 279.7
+},
+{
+"text": "faut",
+"start": 279.7,
+"end": 279.86
+},
+{
+"text": "parfois",
+"start": 279.86,
+"end": 280.2
+},
+{
+"text": "ajouter",
+"start": 280.2,
+"end": 280.5
+},
+{
+"text": "le",
+"start": 280.5,
+"end": 280.78
+},
+{
+"text": "transport",
+"start": 280.78,
+"end": 281.22
+},
+{
+"text": "entre",
+"start": 281.22,
+"end": 281.96
+},
+{
+"text": "l",
+"start": 281.96,
+"end": 282.18
+},
+{
+"text": "'usine",
+"start": 282.18,
+"end": 282.54
+},
+{
+"text": "et",
+"start": 282.54,
+"end": 282.7
+},
+{
+"text": "l",
+"start": 282.7,
+"end": 282.84
+},
+{
+"text": "'entrepôt,",
+"start": 282.84,
+"end": 283.62
+},
+{
+"text": "les",
+"start": 283.9,
+"end": 284.08
+},
+{
+"text": "frais",
+"start": 284.08,
+"end": 284.16
+},
+{
+"text": "de",
+"start": 284.16,
+"end": 284.44
+},
+{
+"text": "regroupement,",
+"start": 284.44,
+"end": 284.92
+},
+{
+"text": "le",
+"start": 285.34,
+"end": 285.54
+},
+{
+"text": "transport",
+"start": 285.54,
+"end": 285.86
+},
+{
+"text": "international,",
+"start": 285.86,
+"end": 286.6
+},
+{
+"text": "les",
+"start": 287.06,
+"end": 287.24
+},
+{
+"text": "éventuels",
+"start": 287.24,
+"end": 287.78
+},
+{
+"text": "frais",
+"start": 287.78,
+"end": 287.92
+},
+{
+"text": "de",
+"start": 287.92,
+"end": 288.16
+},
+{
+"text": "douane,",
+"start": 288.16,
+"end": 288.72
+},
+{
+"text": "la",
+"start": 289.04,
+"end": 289.18
+},
+{
+"text": "livraison",
+"start": 289.18,
+"end": 289.54
+},
+{
+"text": "locale,",
+"start": 289.54,
+"end": 290.18
+},
+{
+"text": "les",
+"start": 290.54,
+"end": 290.76
+},
+{
+"text": "frais",
+"start": 290.76,
+"end": 290.8
+},
+{
+"text": "de",
+"start": 290.8,
+"end": 290.98
+},
+{
+"text": "l",
+"start": 290.98,
+"end": 291.12
+},
+{
+"text": "'agent",
+"start": 291.12,
+"end": 291.4
+},
+{
+"text": "et",
+"start": 291.4,
+"end": 291.64
+},
+{
+"text": "les",
+"start": 291.64,
+"end": 291.84
+},
+{
+"text": "frais",
+"start": 291.84,
+"end": 291.96
+},
+{
+"text": "de",
+"start": 291.96,
+"end": 292.14
+},
+{
+"text": "change.",
+"start": 292.14,
+"end": 292.36
+},
+{
+"text": "Utilise",
+"start": 292.7,
+"end": 293.2
+},
+{
+"text": "cette",
+"start": 293.2,
+"end": 293.44
+},
+{
+"text": "formule",
+"start": 293.44,
+"end": 293.82
+},
+{
+"text": "simple,",
+"start": 293.82,
+"end": 294.42
+},
+{
+"text": "coût",
+"start": 294.74,
+"end": 294.78
+},
+{
+"text": "réel",
+"start": 294.78,
+"end": 295.02
+},
+{
+"text": "égale",
+"start": 295.02,
+"end": 295.3
+},
+{
+"text": "prix",
+"start": 295.3,
+"end": 295.44
+},
+{
+"text": "du",
+"start": 295.44,
+"end": 295.72
+},
+{
+"text": "produit,",
+"start": 295.72,
+"end": 296.06
+},
+{
+"text": "plus",
+"start": 296.38,
+"end": 296.5
+},
+{
+"text": "transport,",
+"start": 296.5,
+"end": 297.14
+},
+{
+"text": "plus",
+"start": 297.6,
+"end": 297.72
+},
+{
+"text": "frais",
+"start": 297.72,
+"end": 297.86
+},
+{
+"text": "de",
+"start": 297.86,
+"end": 298.1
+},
+{
+"text": "service,",
+"start": 298.1,
+"end": 298.6
+},
+{
+"text": "plus",
+"start": 298.96,
+"end": 299.12
+},
+{
+"text": "éventuels",
+"start": 299.12,
+"end": 299.68
+},
+{
+"text": "frais",
+"start": 299.68,
+"end": 299.82
+},
+{
+"text": "de",
+"start": 299.82,
+"end": 300.04
+},
+{
+"text": "douane,",
+"start": 300.04,
+"end": 300.54
+},
+{
+"text": "plus",
+"start": 300.84,
+"end": 300.94
+},
+{
+"text": "livraison",
+"start": 300.94,
+"end": 301.38
+},
+{
+"text": "locale.",
+"start": 301.38,
+"end": 301.72
+},
+{
+"text": "Prenons",
+"start": 302.08,
+"end": 302.64
+},
+{
+"text": "un",
+"start": 302.64,
+"end": 302.88
+},
+{
+"text": "exemple.",
+"start": 302.88,
+"end": 303.24
+},
+{
+"text": "Le",
+"start": 303.66,
+"end": 304.18
+},
+{
+"text": "produit",
+"start": 304.18,
+"end": 304.54
+},
+{
+"text": "coûte",
+"start": 304.54,
+"end": 304.8
+},
+{
+"text": "3",
+"start": 304.8,
+"end": 305.06
+},
+{
+"text": "dollars",
+"start": 305.06,
+"end": 305.42
+},
+{
+"text": "et",
+"start": 305.42,
+"end": 305.78
+},
+{
+"text": "le",
+"start": 305.78,
+"end": 306.0
+},
+{
+"text": "transport",
+"start": 306.0,
+"end": 306.34
+},
+{
+"text": "ainsi",
+"start": 306.34,
+"end": 306.62
+},
+{
+"text": "que",
+"start": 306.62,
+"end": 306.8
+},
+{
+"text": "les",
+"start": 306.8,
+"end": 306.98
+},
+{
+"text": "autres",
+"start": 306.98,
+"end": 307.3
+},
+{
+"text": "frais",
+"start": 307.3,
+"end": 307.56
+},
+{
+"text": "ajoutent",
+"start": 307.56,
+"end": 307.98
+},
+{
+"text": "2",
+"start": 307.98,
+"end": 308.2
+},
+{
+"text": "dollars.",
+"start": 308.2,
+"end": 308.6
+},
+{
+"text": "Ton",
+"start": 308.88,
+"end": 308.9
+},
+{
+"text": "coût",
+"start": 308.9,
+"end": 309.12
+},
+{
+"text": "réel",
+"start": 309.12,
+"end": 309.74
+},
+{
+"text": "est",
+"start": 309.74,
+"end": 310.0
+},
+{
+"text": "donc",
+"start": 310.0,
+"end": 310.18
+},
+{
+"text": "de",
+"start": 310.18,
+"end": 310.42
+},
+{
+"text": "5",
+"start": 310.42,
+"end": 310.6
+},
+{
+"text": "dollars",
+"start": 310.6,
+"end": 311.02
+},
+{
+"text": "et",
+"start": 311.02,
+"end": 311.4
+},
+{
+"text": "non",
+"start": 311.4,
+"end": 311.54
+},
+{
+"text": "de",
+"start": 311.54,
+"end": 311.8
+},
+{
+"text": "3",
+"start": 311.8,
+"end": 311.98
+},
+{
+"text": "dollars.",
+"start": 311.98,
+"end": 312.28
+},
+{
+"text": "Si",
+"start": 312.56,
+"end": 312.7
+},
+{
+"text": "tu",
+"start": 312.7,
+"end": 312.86
+},
+{
+"text": "le",
+"start": 312.86,
+"end": 313.02
+},
+{
+"text": "revends",
+"start": 313.02,
+"end": 313.18
+},
+{
+"text": "7",
+"start": 313.18,
+"end": 313.36
+},
+{
+"text": "dollars,",
+"start": 313.36,
+"end": 313.66
+},
+{
+"text": "ta",
+"start": 313.78,
+"end": 313.86
+},
+{
+"text": "marge",
+"start": 313.86,
+"end": 314.1
+},
+{
+"text": "apparente",
+"start": 314.1,
+"end": 314.42
+},
+{
+"text": "est",
+"start": 314.42,
+"end": 314.54
+},
+{
+"text": "de",
+"start": 314.54,
+"end": 314.66
+},
+{
+"text": "2",
+"start": 314.66,
+"end": 314.8
+},
+{
+"text": "dollars.",
+"start": 314.8,
+"end": 315.18
+},
+{
+"text": "Mais",
+"start": 315.74,
+"end": 315.88
+},
+{
+"text": "si",
+"start": 315.88,
+"end": 316.1
+},
+{
+"text": "tu",
+"start": 316.1,
+"end": 316.2
+},
+{
+"text": "dois",
+"start": 316.2,
+"end": 316.32
+},
+{
+"text": "encore",
+"start": 316.32,
+"end": 316.64
+},
+{
+"text": "payer",
+"start": 316.64,
+"end": 316.78
+},
+{
+"text": "la",
+"start": 316.78,
+"end": 317.0
+},
+{
+"text": "publicité,",
+"start": 317.0,
+"end": 317.66
+},
+{
+"text": "la",
+"start": 318.06,
+"end": 318.2
+},
+{
+"text": "livraison",
+"start": 318.2,
+"end": 318.5
+},
+{
+"text": "aux",
+"start": 318.5,
+"end": 318.78
+},
+{
+"text": "clients",
+"start": 318.78,
+"end": 319.04
+},
+{
+"text": "ou",
+"start": 319.04,
+"end": 319.54
+},
+{
+"text": "gérer",
+"start": 319.54,
+"end": 319.84
+},
+{
+"text": "quelques",
+"start": 319.84,
+"end": 320.16
+},
+{
+"text": "produits",
+"start": 320.16,
+"end": 320.5
+},
+{
+"text": "défectueux,",
+"start": 320.5,
+"end": 321.58
+},
+{
+"text": "ta",
+"start": 321.78,
+"end": 321.88
+},
+{
+"text": "marge",
+"start": 321.88,
+"end": 322.18
+},
+{
+"text": "réelle",
+"start": 322.18,
+"end": 322.76
+},
+{
+"text": "peut",
+"start": 322.76,
+"end": 323.02
+},
+{
+"text": "devenir",
+"start": 323.02,
+"end": 323.42
+},
+{
+"text": "très",
+"start": 323.42,
+"end": 323.78
+},
+{
+"text": "faible.",
+"start": 323.78,
+"end": 324.22
+},
+{
+"text": "Avant",
+"start": 324.34,
+"end": 324.6
+},
+{
+"text": "de",
+"start": 324.6,
+"end": 324.84
+},
+{
+"text": "commander,",
+"start": 324.84,
+"end": 325.2
+},
+{
+"text": "demande",
+"start": 325.44,
+"end": 325.62
+},
+{
+"text": "donc",
+"start": 325.62,
+"end": 326.14
+},
+{
+"text": "combien",
+"start": 326.22,
+"end": 326.5
+},
+{
+"text": "me",
+"start": 326.5,
+"end": 326.72
+},
+{
+"text": "coûtera",
+"start": 326.72,
+"end": 326.98
+},
+{
+"text": "ce",
+"start": 326.98,
+"end": 327.24
+},
+{
+"text": "produit",
+"start": 327.24,
+"end": 327.62
+},
+{
+"text": "une",
+"start": 327.62,
+"end": 328.06
+},
+{
+"text": "fois",
+"start": 328.06,
+"end": 328.24
+},
+{
+"text": "arrivé",
+"start": 328.24,
+"end": 328.5
+},
+{
+"text": "dans",
+"start": 328.5,
+"end": 328.7
+},
+{
+"text": "mon",
+"start": 328.7,
+"end": 328.82
+},
+{
+"text": "pays",
+"start": 328.82,
+"end": 329.1
+},
+{
+"text": "c",
+"start": 329.46,
+"end": 329.46
+},
+{
+"text": "'est",
+"start": 329.46,
+"end": 329.56
+},
+{
+"text": "cette",
+"start": 329.56,
+"end": 329.74
+},
+{
+"text": "question",
+"start": 329.74,
+"end": 330.06
+},
+{
+"text": "qui",
+"start": 330.06,
+"end": 330.36
+},
+{
+"text": "protège",
+"start": 330.36,
+"end": 330.54
+},
+{
+"text": "ta",
+"start": 330.54,
+"end": 330.7
+},
+{
+"text": "rentabilité.",
+"start": 330.7,
+"end": 331.42
+},
+{
+"text": "Les",
+"start": 332.82,
+"end": 332.98
+},
+{
+"text": "retards",
+"start": 332.98,
+"end": 333.34
+},
+{
+"text": "de",
+"start": 333.34,
+"end": 333.58
+},
+{
+"text": "production",
+"start": 333.58,
+"end": 334.08
+},
+{
+"text": "et",
+"start": 334.08,
+"end": 334.46
+},
+{
+"text": "de",
+"start": 334.46,
+"end": 334.64
+},
+{
+"text": "livraison.",
+"start": 334.64,
+"end": 335.26
+},
+{
+"text": "Le",
+"start": 335.56,
+"end": 335.7
+},
+{
+"text": "cinquième",
+"start": 335.7,
+"end": 336.1
+},
+{
+"text": "obstacle,",
+"start": 336.1,
+"end": 336.68
+},
+{
+"text": "ce",
+"start": 337.2,
+"end": 337.3
+},
+{
+"text": "sont",
+"start": 337.3,
+"end": 337.48
+},
+{
+"text": "les",
+"start": 337.48,
+"end": 337.7
+},
+{
+"text": "délais.",
+"start": 337.7,
+"end": 337.92
+},
+{
+"text": "Un",
+"start": 338.24,
+"end": 338.4
+},
+{
+"text": "fournisseur",
+"start": 338.4,
+"end": 338.94
+},
+{
+"text": "peut",
+"start": 338.94,
+"end": 339.12
+},
+{
+"text": "annoncer",
+"start": 339.12,
+"end": 339.5
+},
+{
+"text": "que",
+"start": 339.5,
+"end": 339.66
+},
+{
+"text": "la",
+"start": 339.66,
+"end": 339.84
+},
+{
+"text": "marchandise",
+"start": 339.84,
+"end": 340.44
+},
+{
+"text": "sera",
+"start": 340.44,
+"end": 340.74
+},
+{
+"text": "prête",
+"start": 340.74,
+"end": 341.06
+},
+{
+"text": "dans",
+"start": 341.06,
+"end": 341.32
+},
+{
+"text": "7",
+"start": 341.32,
+"end": 341.68
+},
+{
+"text": "jours.",
+"start": 341.68,
+"end": 342.02
+},
+{
+"text": "Mais",
+"start": 342.36,
+"end": 342.52
+},
+{
+"text": "il",
+"start": 342.52,
+"end": 342.66
+},
+{
+"text": "faut",
+"start": 342.66,
+"end": 342.8
+},
+{
+"text": "distinguer",
+"start": 342.8,
+"end": 343.34
+},
+{
+"text": "le",
+"start": 343.34,
+"end": 343.54
+},
+{
+"text": "délai",
+"start": 343.54,
+"end": 343.72
+},
+{
+"text": "de",
+"start": 343.72,
+"end": 343.98
+},
+{
+"text": "production,",
+"start": 343.98,
+"end": 344.4
+},
+{
+"text": "le",
+"start": 344.86,
+"end": 344.96
+},
+{
+"text": "délai",
+"start": 344.96,
+"end": 345.18
+},
+{
+"text": "de",
+"start": 345.18,
+"end": 345.38
+},
+{
+"text": "préparation,",
+"start": 345.38,
+"end": 346.12
+},
+{
+"text": "le",
+"start": 346.38,
+"end": 346.52
+},
+{
+"text": "délai",
+"start": 346.52,
+"end": 346.74
+},
+{
+"text": "de",
+"start": 346.74,
+"end": 346.96
+},
+{
+"text": "transport",
+"start": 346.96,
+"end": 347.44
+},
+{
+"text": "et",
+"start": 347.44,
+"end": 347.86
+},
+{
+"text": "le",
+"start": 347.86,
+"end": 348.14
+},
+{
+"text": "délai",
+"start": 348.14,
+"end": 348.4
+},
+{
+"text": "de",
+"start": 348.4,
+"end": 348.58
+},
+{
+"text": "livraison",
+"start": 348.58,
+"end": 348.9
+},
+{
+"text": "dans",
+"start": 348.9,
+"end": 349.1
+},
+{
+"text": "ton",
+"start": 349.1,
+"end": 349.24
+},
+{
+"text": "pays.",
+"start": 349.24,
+"end": 349.46
+},
+{
+"text": "Si",
+"start": 349.78,
+"end": 349.94
+},
+{
+"text": "tu",
+"start": 349.94,
+"end": 350.12
+},
+{
+"text": "confonds",
+"start": 350.12,
+"end": 350.34
+},
+{
+"text": "ces",
+"start": 350.34,
+"end": 350.52
+},
+{
+"text": "étapes,",
+"start": 350.52,
+"end": 351.12
+},
+{
+"text": "tu",
+"start": 351.32,
+"end": 351.46
+},
+{
+"text": "risques",
+"start": 351.46,
+"end": 351.68
+},
+{
+"text": "de",
+"start": 351.68,
+"end": 351.96
+},
+{
+"text": "promettre",
+"start": 351.96,
+"end": 352.18
+},
+{
+"text": "une",
+"start": 352.18,
+"end": 352.34
+},
+{
+"text": "date",
+"start": 352.34,
+"end": 352.48
+},
+{
+"text": "à",
+"start": 352.48,
+"end": 352.6
+},
+{
+"text": "tes",
+"start": 352.6,
+"end": 352.72
+},
+{
+"text": "clients",
+"start": 352.72,
+"end": 353.0
+},
+{
+"text": "que",
+"start": 353.0,
+"end": 353.32
+},
+{
+"text": "tu",
+"start": 353.32,
+"end": 353.44
+},
+{
+"text": "ne",
+"start": 353.44,
+"end": 353.56
+},
+{
+"text": "pourras",
+"start": 353.56,
+"end": 353.74
+},
+{
+"text": "pas",
+"start": 353.74,
+"end": 353.88
+},
+{
+"text": "respecter.",
+"start": 353.88,
+"end": 354.48
+},
+{
+"text": "Un",
+"start": 354.64,
+"end": 354.84
+},
+{
+"text": "retard",
+"start": 354.84,
+"end": 355.06
+},
+{
+"text": "est",
+"start": 355.06,
+"end": 355.32
+},
+{
+"text": "particulièrement",
+"start": 355.32,
+"end": 355.86
+},
+{
+"text": "problématique",
+"start": 355.86,
+"end": 356.42
+},
+{
+"text": "si",
+"start": 356.42,
+"end": 356.6
+},
+{
+"text": "tu",
+"start": 356.6,
+"end": 356.74
+},
+{
+"text": "vends",
+"start": 356.74,
+"end": 356.92
+},
+{
+"text": "un",
+"start": 356.92,
+"end": 357.02
+},
+{
+"text": "produit",
+"start": 357.02,
+"end": 357.12
+},
+{
+"text": "saisonnier.",
+"start": 357.12,
+"end": 357.6
+},
+{
+"text": "Si",
+"start": 357.6,
+"end": 358.16
+},
+{
+"text": "tu",
+"start": 358.16,
+"end": 358.32
+},
+{
+"text": "prépares",
+"start": 358.32,
+"end": 358.58
+},
+{
+"text": "une",
+"start": 358.58,
+"end": 358.76
+},
+{
+"text": "promotion,",
+"start": 358.76,
+"end": 359.16
+},
+{
+"text": "si",
+"start": 359.3,
+"end": 359.44
+},
+{
+"text": "tu",
+"start": 359.44,
+"end": 359.62
+},
+{
+"text": "as",
+"start": 359.62,
+"end": 359.68
+},
+{
+"text": "déjà",
+"start": 359.68,
+"end": 359.94
+},
+{
+"text": "encaissé",
+"start": 359.94,
+"end": 360.26
+},
+{
+"text": "des",
+"start": 360.26,
+"end": 360.48
+},
+{
+"text": "commandes,",
+"start": 360.48,
+"end": 361.06
+},
+{
+"text": "demande",
+"start": 362.92,
+"end": 363.42
+},
+{
+"text": "donc",
+"start": 363.42,
+"end": 363.92
+},
+{
+"text": "un",
+"start": 363.92,
+"end": 364.22
+},
+{
+"text": "calendrier",
+"start": 364.22,
+"end": 364.64
+},
+{
+"text": "clair.",
+"start": 364.64,
+"end": 365.02
+},
+{
+"text": "Vérifie",
+"start": 365.74,
+"end": 366.06
+},
+{
+"text": "si",
+"start": 366.06,
+"end": 366.2
+},
+{
+"text": "le",
+"start": 366.2,
+"end": 366.4
+},
+{
+"text": "produit",
+"start": 366.4,
+"end": 366.58
+},
+{
+"text": "est",
+"start": 366.58,
+"end": 366.72
+},
+{
+"text": "déjà",
+"start": 366.72,
+"end": 366.94
+},
+{
+"text": "disponible",
+"start": 366.94,
+"end": 367.4
+},
+{
+"text": "ou",
+"start": 367.4,
+"end": 367.5
+},
+{
+"text": "si",
+"start": 367.5,
+"end": 367.6
+},
+{
+"text": "il",
+"start": 367.6,
+"end": 367.64
+},
+{
+"text": "doit",
+"start": 367.64,
+"end": 367.72
+},
+{
+"text": "être",
+"start": 367.72,
+"end": 367.98
+},
+{
+"text": "fabriqué,",
+"start": 367.98,
+"end": 368.72
+},
+{
+"text": "dont",
+"start": 368.9,
+"end": 368.96
+},
+{
+"text": "aussi",
+"start": 368.96,
+"end": 369.3
+},
+{
+"text": "le",
+"start": 369.3,
+"end": 369.5
+},
+{
+"text": "délai",
+"start": 369.5,
+"end": 369.74
+},
+{
+"text": "estimé",
+"start": 369.74,
+"end": 370.08
+},
+{
+"text": "pour",
+"start": 370.08,
+"end": 370.36
+},
+{
+"text": "chaque",
+"start": 370.36,
+"end": 370.5
+},
+{
+"text": "étape",
+"start": 370.5,
+"end": 370.74
+},
+{
+"text": "du",
+"start": 370.74,
+"end": 370.98
+},
+{
+"text": "transport.",
+"start": 370.98,
+"end": 371.32
+},
+{
+"text": "Commande",
+"start": 371.68,
+"end": 372.08
+},
+{
+"text": "suffisamment",
+"start": 372.08,
+"end": 372.64
+},
+{
+"text": "tôt",
+"start": 372.64,
+"end": 372.98
+},
+{
+"text": "et",
+"start": 372.98,
+"end": 373.3
+},
+{
+"text": "prévoit",
+"start": 373.3,
+"end": 373.64
+},
+{
+"text": "toujours",
+"start": 373.64,
+"end": 374.1
+},
+{
+"text": "une",
+"start": 374.1,
+"end": 374.34
+},
+{
+"text": "marge",
+"start": 374.34,
+"end": 374.64
+},
+{
+"text": "de",
+"start": 374.64,
+"end": 374.92
+},
+{
+"text": "sécurité.",
+"start": 374.92,
+"end": 375.24
+},
+{
+"text": "Si",
+"start": 375.58,
+"end": 375.74
+},
+{
+"text": "le",
+"start": 375.74,
+"end": 375.96
+},
+{
+"text": "fournisseur",
+"start": 375.96,
+"end": 376.44
+},
+{
+"text": "annonce",
+"start": 376.44,
+"end": 376.7
+},
+{
+"text": "30",
+"start": 376.7,
+"end": 376.94
+},
+{
+"text": "jours,",
+"start": 376.94,
+"end": 377.24
+},
+{
+"text": "ne",
+"start": 377.78,
+"end": 377.96
+},
+{
+"text": "construis",
+"start": 377.96,
+"end": 378.22
+},
+{
+"text": "pas",
+"start": 378.22,
+"end": 378.4
+},
+{
+"text": "tout",
+"start": 378.4,
+"end": 378.56
+},
+{
+"text": "ton",
+"start": 378.56,
+"end": 378.68
+},
+{
+"text": "plan",
+"start": 378.68,
+"end": 378.86
+},
+{
+"text": "commercial",
+"start": 378.86,
+"end": 379.28
+},
+{
+"text": "sur",
+"start": 379.28,
+"end": 379.5
+},
+{
+"text": "une",
+"start": 379.5,
+"end": 379.72
+},
+{
+"text": "arrivée",
+"start": 379.72,
+"end": 380.1
+},
+{
+"text": "exactement",
+"start": 380.1,
+"end": 380.8
+},
+{
+"text": "au",
+"start": 380.8,
+"end": 381.14
+},
+{
+"text": "30ème",
+"start": 381.14,
+"end": 381.52
+},
+{
+"text": "jour,",
+"start": 381.52,
+"end": 381.7
+},
+{
+"text": "et",
+"start": 382.06,
+"end": 382.16
+},
+{
+"text": "ne",
+"start": 382.16,
+"end": 382.34
+},
+{
+"text": "promets",
+"start": 382.34,
+"end": 382.5
+},
+{
+"text": "jamais",
+"start": 382.5,
+"end": 382.78
+},
+{
+"text": "une",
+"start": 382.78,
+"end": 382.96
+},
+{
+"text": "date",
+"start": 382.96,
+"end": 383.08
+},
+{
+"text": "à",
+"start": 383.08,
+"end": 383.22
+},
+{
+"text": "ton",
+"start": 383.22,
+"end": 383.34
+},
+{
+"text": "client",
+"start": 383.34,
+"end": 383.7
+},
+{
+"text": "avant",
+"start": 383.7,
+"end": 384.24
+},
+{
+"text": "d",
+"start": 384.24,
+"end": 384.42
+},
+{
+"text": "'avoir",
+"start": 384.42,
+"end": 384.54
+},
+{
+"text": "une",
+"start": 384.54,
+"end": 384.78
+},
+{
+"text": "confirmation",
+"start": 384.78,
+"end": 385.26
+},
+{
+"text": "fiable",
+"start": 385.26,
+"end": 385.6
+},
+{
+"text": "du",
+"start": 385.6,
+"end": 385.84
+},
+{
+"text": "transporteur",
+"start": 385.84,
+"end": 386.64
+},
+{
+"text": "ou",
+"start": 386.64,
+"end": 386.86
+},
+{
+"text": "de",
+"start": 386.86,
+"end": 387.02
+},
+{
+"text": "ton",
+"start": 387.02,
+"end": 387.14
+},
+{
+"text": "agent.",
+"start": 387.14,
+"end": 387.32
+},
+{
+"text": "Les",
+"start": 388.5,
+"end": 388.94
+},
+{
+"text": "arnaques",
+"start": 388.94,
+"end": 389.38
+},
+{
+"text": "et",
+"start": 389.38,
+"end": 389.52
+},
+{
+"text": "les",
+"start": 389.52,
+"end": 389.68
+},
+{
+"text": "paiements",
+"start": 389.68,
+"end": 389.92
+},
+{
+"text": "risqués.",
+"start": 389.92,
+"end": 390.64
+},
+{
+"text": "Méfie",
+"start": 390.78,
+"end": 391.04
+},
+{
+"text": "-toi",
+"start": 391.04,
+"end": 391.16
+},
+{
+"text": "d",
+"start": 391.16,
+"end": 391.24
+},
+{
+"text": "'un",
+"start": 391.24,
+"end": 391.36
+},
+{
+"text": "fournisseur",
+"start": 391.36,
+"end": 391.86
+},
+{
+"text": "qui",
+"start": 391.86,
+"end": 392.02
+},
+{
+"text": "te",
+"start": 392.02,
+"end": 392.16
+},
+{
+"text": "met",
+"start": 392.16,
+"end": 392.18
+},
+{
+"text": "une",
+"start": 392.18,
+"end": 392.3
+},
+{
+"text": "pression",
+"start": 392.3,
+"end": 392.78
+},
+{
+"text": "excessive",
+"start": 392.78,
+"end": 393.24
+},
+{
+"text": "pour",
+"start": 393.24,
+"end": 393.5
+},
+{
+"text": "payer",
+"start": 393.5,
+"end": 393.84
+},
+{
+"text": "immédiatement,",
+"start": 393.84,
+"end": 394.92
+},
+{
+"text": "qui",
+"start": 395.12,
+"end": 395.34
+},
+{
+"text": "refuse",
+"start": 395.34,
+"end": 395.64
+},
+{
+"text": "de",
+"start": 395.64,
+"end": 395.88
+},
+{
+"text": "répondre",
+"start": 395.88,
+"end": 396.14
+},
+{
+"text": "aux",
+"start": 396.14,
+"end": 396.3
+},
+{
+"text": "questions",
+"start": 396.3,
+"end": 396.82
+},
+{
+"text": "ou",
+"start": 396.82,
+"end": 397.28
+},
+{
+"text": "qui",
+"start": 397.28,
+"end": 397.56
+},
+{
+"text": "change",
+"start": 397.56,
+"end": 397.7
+},
+{
+"text": "soudainement",
+"start": 397.7,
+"end": 398.18
+},
+{
+"text": "de",
+"start": 398.18,
+"end": 398.36
+},
+{
+"text": "compte",
+"start": 398.36,
+"end": 398.54
+},
+{
+"text": "bancaire.",
+"start": 398.54,
+"end": 399.22
+},
+{
+"text": "Sois",
+"start": 399.74,
+"end": 399.92
+},
+{
+"text": "également",
+"start": 399.92,
+"end": 400.34
+},
+{
+"text": "prudent",
+"start": 400.34,
+"end": 400.6
+},
+{
+"text": "si",
+"start": 400.6,
+"end": 400.8
+},
+{
+"text": "le",
+"start": 400.8,
+"end": 400.92
+},
+{
+"text": "nom",
+"start": 400.92,
+"end": 401.04
+},
+{
+"text": "du",
+"start": 401.04,
+"end": 401.22
+},
+{
+"text": "bénéficiaire",
+"start": 401.22,
+"end": 401.78
+},
+{
+"text": "ne",
+"start": 401.78,
+"end": 402.0
+},
+{
+"text": "correspond",
+"start": 402.0,
+"end": 402.32
+},
+{
+"text": "pas",
+"start": 402.32,
+"end": 402.52
+},
+{
+"text": "au",
+"start": 402.52,
+"end": 402.58
+},
+{
+"text": "nom",
+"start": 402.58,
+"end": 402.76
+},
+{
+"text": "de",
+"start": 402.76,
+"end": 402.94
+},
+{
+"text": "l",
+"start": 402.94,
+"end": 403.04
+},
+{
+"text": "'entreprise,",
+"start": 403.04,
+"end": 403.52
+},
+{
+"text": "si",
+"start": 403.84,
+"end": 403.98
+},
+{
+"text": "le",
+"start": 403.98,
+"end": 404.14
+},
+{
+"text": "fournisseur",
+"start": 404.14,
+"end": 404.66
+},
+{
+"text": "refuse",
+"start": 404.66,
+"end": 404.88
+},
+{
+"text": "d",
+"start": 404.88,
+"end": 405.0
+},
+{
+"text": "'envoyer",
+"start": 405.0,
+"end": 405.32
+},
+{
+"text": "un",
+"start": 405.32,
+"end": 405.46
+},
+{
+"text": "échantillon",
+"start": 405.46,
+"end": 406.0
+},
+{
+"text": "ou",
+"start": 406.0,
+"end": 406.24
+},
+{
+"text": "si",
+"start": 406.24,
+"end": 406.44
+},
+{
+"text": "le",
+"start": 406.44,
+"end": 406.64
+},
+{
+"text": "prix",
+"start": 406.64,
+"end": 406.74
+},
+{
+"text": "est",
+"start": 406.74,
+"end": 406.88
+},
+{
+"text": "beaucoup",
+"start": 406.88,
+"end": 407.14
+},
+{
+"text": "trop",
+"start": 407.14,
+"end": 407.34
+},
+{
+"text": "beau",
+"start": 407.34,
+"end": 407.46
+},
+{
+"text": "pour",
+"start": 407.46,
+"end": 407.62
+},
+{
+"text": "être",
+"start": 407.62,
+"end": 407.88
+},
+{
+"text": "fait.",
+"start": 407.88,
+"end": 408.06
+},
+{
+"text": "Avant",
+"start": 408.16,
+"end": 408.36
+},
+{
+"text": "de",
+"start": 408.36,
+"end": 408.56
+},
+{
+"text": "payer,",
+"start": 408.56,
+"end": 408.96
+},
+{
+"text": "vérifie",
+"start": 409.44,
+"end": 409.6
+},
+{
+"text": "les",
+"start": 409.6,
+"end": 409.8
+},
+{
+"text": "informations",
+"start": 409.8,
+"end": 410.26
+},
+{
+"text": "de",
+"start": 410.26,
+"end": 410.4
+},
+{
+"text": "l",
+"start": 410.4,
+"end": 410.48
+},
+{
+"text": "'entreprise",
+"start": 410.48,
+"end": 410.98
+},
+{
+"text": "et",
+"start": 410.98,
+"end": 411.48
+},
+{
+"text": "conserve",
+"start": 411.48,
+"end": 411.8
+},
+{
+"text": "les",
+"start": 411.8,
+"end": 412.02
+},
+{
+"text": "factures,",
+"start": 412.02,
+"end": 412.66
+},
+{
+"text": "les",
+"start": 412.9,
+"end": 413.04
+},
+{
+"text": "captures",
+"start": 413.04,
+"end": 413.26
+},
+{
+"text": "d",
+"start": 413.26,
+"end": 413.46
+},
+{
+"text": "'écran",
+"start": 413.46,
+"end": 413.74
+},
+{
+"text": "et",
+"start": 413.74,
+"end": 413.9
+},
+{
+"text": "les",
+"start": 413.9,
+"end": 414.1
+},
+{
+"text": "conditions",
+"start": 414.1,
+"end": 414.42
+},
+{
+"text": "convenues.",
+"start": 414.42,
+"end": 415.1
+},
+{
+"text": "Lorsque",
+"start": 415.1,
+"end": 415.98
+},
+{
+"text": "c",
+"start": 415.98,
+"end": 416.1
+},
+{
+"text": "'est",
+"start": 416.1,
+"end": 416.18
+},
+{
+"text": "possible,",
+"start": 416.18,
+"end": 416.68
+},
+{
+"text": "utilise",
+"start": 417.1,
+"end": 417.28
+},
+{
+"text": "un",
+"start": 417.28,
+"end": 417.44
+},
+{
+"text": "moyen",
+"start": 417.44,
+"end": 417.7
+},
+{
+"text": "de",
+"start": 417.7,
+"end": 417.96
+},
+{
+"text": "paiement",
+"start": 417.96,
+"end": 418.24
+},
+{
+"text": "qui",
+"start": 418.24,
+"end": 418.44
+},
+{
+"text": "offre",
+"start": 418.44,
+"end": 418.58
+},
+{
+"text": "une",
+"start": 418.58,
+"end": 418.76
+},
+{
+"text": "protection",
+"start": 418.76,
+"end": 419.24
+},
+{
+"text": "et",
+"start": 419.24,
+"end": 419.46
+},
+{
+"text": "respecte",
+"start": 419.46,
+"end": 419.94
+},
+{
+"text": "les",
+"start": 419.94,
+"end": 420.16
+},
+{
+"text": "procédures",
+"start": 420.16,
+"end": 420.46
+},
+{
+"text": "de",
+"start": 420.46,
+"end": 420.64
+},
+{
+"text": "la",
+"start": 420.64,
+"end": 420.8
+},
+{
+"text": "plateforme",
+"start": 420.8,
+"end": 421.46
+},
+{
+"text": "ou",
+"start": 421.46,
+"end": 421.74
+},
+{
+"text": "de",
+"start": 421.74,
+"end": 421.86
+},
+{
+"text": "l",
+"start": 421.86,
+"end": 421.96
+},
+{
+"text": "'intermédiaire",
+"start": 421.96,
+"end": 422.48
+},
+{
+"text": "utilisé.",
+"start": 422.48,
+"end": 423.16
+},
+{
+"text": "Evite",
+"start": 423.38,
+"end": 423.56
+},
+{
+"text": "de",
+"start": 423.56,
+"end": 423.8
+},
+{
+"text": "transférer",
+"start": 423.8,
+"end": 424.24
+},
+{
+"text": "tout",
+"start": 424.24,
+"end": 424.44
+},
+{
+"text": "ton",
+"start": 424.44,
+"end": 424.66
+},
+{
+"text": "capital",
+"start": 424.66,
+"end": 425.02
+},
+{
+"text": "à",
+"start": 425.02,
+"end": 425.16
+},
+{
+"text": "un",
+"start": 425.16,
+"end": 425.34
+},
+{
+"text": "fournisseur",
+"start": 425.34,
+"end": 425.92
+},
+{
+"text": "que",
+"start": 425.92,
+"end": 426.06
+},
+{
+"text": "tu",
+"start": 426.06,
+"end": 426.18
+},
+{
+"text": "n",
+"start": 426.18,
+"end": 426.26
+},
+{
+"text": "'as",
+"start": 426.26,
+"end": 426.28
+},
+{
+"text": "jamais",
+"start": 426.28,
+"end": 426.56
+},
+{
+"text": "testé.",
+"start": 426.56,
+"end": 427.14
+},
+{
+"text": "Avance",
+"start": 427.3,
+"end": 427.48
+},
+{
+"text": "par",
+"start": 427.48,
+"end": 427.72
+},
+{
+"text": "étape,",
+"start": 427.72,
+"end": 428.22
+},
+{
+"text": "vérification,",
+"start": 428.4,
+"end": 429.14
+},
+{
+"text": "échantillon,",
+"start": 429.52,
+"end": 430.08
+},
+{
+"text": "petite",
+"start": 430.46,
+"end": 430.64
+},
+{
+"text": "commande,",
+"start": 430.64,
+"end": 431.28
+},
+{
+"text": "puis",
+"start": 431.44,
+"end": 431.56
+},
+{
+"text": "commande",
+"start": 431.56,
+"end": 431.86
+},
+{
+"text": "plus",
+"start": 431.86,
+"end": 432.12
+},
+{
+"text": "importante",
+"start": 432.12,
+"end": 432.5
+},
+{
+"text": "si",
+"start": 432.5,
+"end": 432.7
+},
+{
+"text": "les",
+"start": 432.7,
+"end": 432.9
+},
+{
+"text": "premières",
+"start": 432.9,
+"end": 433.2
+},
+{
+"text": "étapes",
+"start": 433.2,
+"end": 433.42
+},
+{
+"text": "se",
+"start": 433.42,
+"end": 433.66
+},
+{
+"text": "passent",
+"start": 433.66,
+"end": 433.8
+},
+{
+"text": "bien.",
+"start": 433.8,
+"end": 434.02
+},
+{
+"text": "La",
+"start": 434.36,
+"end": 434.58
+},
+{
+"text": "confiance",
+"start": 434.58,
+"end": 435.08
+},
+{
+"text": "se",
+"start": 435.08,
+"end": 435.48
+},
+{
+"text": "construit",
+"start": 435.48,
+"end": 435.9
+},
+{
+"text": "progressivement.",
+"start": 435.9,
+"end": 436.66
+},
+{
+"text": "Elle",
+"start": 436.9,
+"end": 437.04
+},
+{
+"text": "ne",
+"start": 437.04,
+"end": 437.22
+},
+{
+"text": "se",
+"start": 437.22,
+"end": 437.4
+},
+{
+"text": "décrète",
+"start": 437.4,
+"end": 437.66
+},
+{
+"text": "pas",
+"start": 437.66,
+"end": 437.86
+},
+{
+"text": "parce",
+"start": 437.86,
+"end": 438.08
+},
+{
+"text": "qu",
+"start": 438.08,
+"end": 438.16
+},
+{
+"text": "'un",
+"start": 438.16,
+"end": 438.26
+},
+{
+"text": "fournisseur",
+"start": 438.26,
+"end": 438.76
+},
+{
+"text": "t",
+"start": 438.76,
+"end": 438.86
+},
+{
+"text": "'a",
+"start": 438.86,
+"end": 438.94
+},
+{
+"text": "envoyé",
+"start": 438.94,
+"end": 439.3
+},
+{
+"text": "trois",
+"start": 439.3,
+"end": 439.52
+},
+{
+"text": "belles",
+"start": 439.52,
+"end": 439.78
+},
+{
+"text": "photos.",
+"start": 439.78,
+"end": 440.02
+},
+{
+"text": "Ne",
+"start": 441.4,
+"end": 441.5
+},
+{
+"text": "pas",
+"start": 441.5,
+"end": 441.72
+},
+{
+"text": "calculer",
+"start": 441.72,
+"end": 442.08
+},
+{
+"text": "la",
+"start": 442.08,
+"end": 442.26
+},
+{
+"text": "rentabilité",
+"start": 442.26,
+"end": 443.16
+},
+{
+"text": "avant",
+"start": 443.16,
+"end": 443.52
+},
+{
+"text": "de",
+"start": 443.52,
+"end": 443.76
+},
+{
+"text": "commander.",
+"start": 443.76,
+"end": 444.04
+},
+{
+"text": "Le",
+"start": 444.04,
+"end": 444.56
+},
+{
+"text": "dernier",
+"start": 444.56,
+"end": 444.88
+},
+{
+"text": "obstacle",
+"start": 444.88,
+"end": 445.28
+},
+{
+"text": "et",
+"start": 445.28,
+"end": 445.42
+},
+{
+"text": "un",
+"start": 445.42,
+"end": 445.52
+},
+{
+"text": "des",
+"start": 445.52,
+"end": 445.66
+},
+{
+"text": "plus",
+"start": 445.66,
+"end": 445.84
+},
+{
+"text": "fréquents,",
+"start": 445.84,
+"end": 446.48
+},
+{
+"text": "c",
+"start": 446.72,
+"end": 446.74
+},
+{
+"text": "'est",
+"start": 446.74,
+"end": 446.78
+},
+{
+"text": "de",
+"start": 446.78,
+"end": 446.98
+},
+{
+"text": "commander",
+"start": 446.98,
+"end": 447.24
+},
+{
+"text": "sans",
+"start": 447.24,
+"end": 447.46
+},
+{
+"text": "connaître",
+"start": 447.46,
+"end": 447.84
+},
+{
+"text": "sa",
+"start": 447.84,
+"end": 448.04
+},
+{
+"text": "marge",
+"start": 448.04,
+"end": 448.38
+},
+{
+"text": "réelle.",
+"start": 448.38,
+"end": 448.92
+},
+{
+"text": "Certaines",
+"start": 449.18,
+"end": 449.54
+},
+{
+"text": "personnes",
+"start": 449.54,
+"end": 449.84
+},
+{
+"text": "choisissent",
+"start": 449.84,
+"end": 450.26
+},
+{
+"text": "un",
+"start": 450.26,
+"end": 450.48
+},
+{
+"text": "produit",
+"start": 450.48,
+"end": 450.7
+},
+{
+"text": "parce",
+"start": 450.7,
+"end": 450.98
+},
+{
+"text": "qu",
+"start": 450.98,
+"end": 451.12
+},
+{
+"text": "'il",
+"start": 451.12,
+"end": 451.14
+},
+{
+"text": "est",
+"start": 451.14,
+"end": 451.28
+},
+{
+"text": "tendance",
+"start": 451.28,
+"end": 451.82
+},
+{
+"text": "ou",
+"start": 451.82,
+"end": 452.02
+},
+{
+"text": "peu",
+"start": 452.02,
+"end": 452.26
+},
+{
+"text": "coûteux.",
+"start": 452.26,
+"end": 452.76
+},
+{
+"text": "Mais",
+"start": 452.92,
+"end": 453.02
+},
+{
+"text": "ne",
+"start": 453.02,
+"end": 453.22
+},
+{
+"text": "vérifie",
+"start": 453.22,
+"end": 453.64
+},
+{
+"text": "pas",
+"start": 453.64,
+"end": 453.82
+},
+{
+"text": "si",
+"start": 453.82,
+"end": 453.98
+},
+{
+"text": "les",
+"start": 453.98,
+"end": 454.22
+},
+{
+"text": "clients",
+"start": 454.22,
+"end": 454.38
+},
+{
+"text": "de",
+"start": 454.38,
+"end": 454.5
+},
+{
+"text": "leur",
+"start": 454.5,
+"end": 454.62
+},
+{
+"text": "marché",
+"start": 454.62,
+"end": 454.86
+},
+{
+"text": "sont",
+"start": 454.86,
+"end": 455.1
+},
+{
+"text": "prêts",
+"start": 455.1,
+"end": 455.28
+},
+{
+"text": "à",
+"start": 455.28,
+"end": 455.42
+},
+{
+"text": "payer",
+"start": 455.42,
+"end": 455.6
+},
+{
+"text": "le",
+"start": 455.6,
+"end": 455.8
+},
+{
+"text": "prix",
+"start": 455.8,
+"end": 455.96
+},
+{
+"text": "nécessaire",
+"start": 455.96,
+"end": 456.46
+},
+{
+"text": "pour",
+"start": 456.46,
+"end": 456.7
+},
+{
+"text": "être",
+"start": 456.7,
+"end": 456.98
+},
+{
+"text": "rentable.",
+"start": 456.98,
+"end": 457.54
+},
+{
+"text": "Avant",
+"start": 457.84,
+"end": 458.04
+},
+{
+"text": "de",
+"start": 458.04,
+"end": 458.26
+},
+{
+"text": "commander,",
+"start": 458.26,
+"end": 458.58
+},
+{
+"text": "pose",
+"start": 458.8,
+"end": 458.88
+},
+{
+"text": "-toi",
+"start": 458.88,
+"end": 459.02
+},
+{
+"text": "quatre",
+"start": 459.02,
+"end": 459.28
+},
+{
+"text": "questions.",
+"start": 459.28,
+"end": 459.72
+},
+{
+"text": "Combien",
+"start": 460.12,
+"end": 460.32
+},
+{
+"text": "me",
+"start": 460.32,
+"end": 460.54
+},
+{
+"text": "coûte",
+"start": 460.54,
+"end": 460.78
+},
+{
+"text": "réellement",
+"start": 460.78,
+"end": 461.22
+},
+{
+"text": "chaque",
+"start": 461.22,
+"end": 461.42
+},
+{
+"text": "unité",
+"start": 461.42,
+"end": 462.02
+},
+{
+"text": "?",
+"start": 462.02,
+"end": 462.14
+},
+{
+"text": "À",
+"start": 462.14,
+"end": 462.34
+},
+{
+"text": "quel",
+"start": 462.34,
+"end": 462.48
+},
+{
+"text": "prix",
+"start": 462.48,
+"end": 462.76
+},
+{
+"text": "puis",
+"start": 462.76,
+"end": 462.96
+},
+{
+"text": "-je",
+"start": 462.96,
+"end": 463.02
+},
+{
+"text": "la",
+"start": 463.02,
+"end": 463.24
+},
+{
+"text": "vendre",
+"start": 463.24,
+"end": 463.74
+},
+{
+"text": "?",
+"start": 463.74,
+"end": 463.88
+},
+{
+"text": "Combien",
+"start": 463.88,
+"end": 464.56
+},
+{
+"text": "me",
+"start": 464.56,
+"end": 464.8
+},
+{
+"text": "coûte",
+"start": 464.8,
+"end": 464.98
+},
+{
+"text": "la",
+"start": 464.98,
+"end": 465.24
+},
+{
+"text": "publicité",
+"start": 465.24,
+"end": 465.96
+},
+{
+"text": "et",
+"start": 465.96,
+"end": 466.16
+},
+{
+"text": "la",
+"start": 466.16,
+"end": 466.34
+},
+{
+"text": "livraison",
+"start": 466.34,
+"end": 466.76
+},
+{
+"text": "?",
+"start": 466.76,
+"end": 467.06
+},
+{
+"text": "Et",
+"start": 467.06,
+"end": 467.28
+},
+{
+"text": "que",
+"start": 467.28,
+"end": 467.42
+},
+{
+"text": "se",
+"start": 467.42,
+"end": 467.54
+},
+{
+"text": "passe",
+"start": 467.54,
+"end": 467.72
+},
+{
+"text": "-t",
+"start": 467.72,
+"end": 467.86
+},
+{
+"text": "-il",
+"start": 467.86,
+"end": 468.22
+},
+{
+"text": "si",
+"start": 468.22,
+"end": 468.44
+},
+{
+"text": "une",
+"start": 468.44,
+"end": 468.54
+},
+{
+"text": "partie",
+"start": 468.54,
+"end": 468.72
+},
+{
+"text": "du",
+"start": 468.72,
+"end": 468.9
+},
+{
+"text": "stock",
+"start": 468.9,
+"end": 469.04
+},
+{
+"text": "ne",
+"start": 469.04,
+"end": 469.22
+},
+{
+"text": "se",
+"start": 469.22,
+"end": 469.36
+},
+{
+"text": "vend",
+"start": 469.36,
+"end": 469.44
+},
+{
+"text": "pas",
+"start": 469.44,
+"end": 469.66
+},
+{
+"text": "?",
+"start": 469.66,
+"end": 469.96
+},
+{
+"text": "Exemple,",
+"start": 469.96,
+"end": 470.6
+},
+{
+"text": "le",
+"start": 470.74,
+"end": 470.94
+},
+{
+"text": "produit",
+"start": 470.94,
+"end": 471.2
+},
+{
+"text": "coûte",
+"start": 471.2,
+"end": 471.42
+},
+{
+"text": "trois",
+"start": 471.42,
+"end": 471.64
+},
+{
+"text": "dollars.",
+"start": 471.64,
+"end": 471.98
+},
+{
+"text": "Les",
+"start": 471.98,
+"end": 472.48
+},
+{
+"text": "frais",
+"start": 472.48,
+"end": 472.74
+},
+{
+"text": "supplémentaires",
+"start": 472.74,
+"end": 473.3
+},
+{
+"text": "représentent",
+"start": 473.3,
+"end": 473.74
+},
+{
+"text": "deux",
+"start": 473.74,
+"end": 473.94
+},
+{
+"text": "dollars",
+"start": 473.94,
+"end": 474.2
+},
+{
+"text": "et",
+"start": 474.2,
+"end": 474.52
+},
+{
+"text": "la",
+"start": 474.52,
+"end": 474.7
+},
+{
+"text": "publicité",
+"start": 474.7,
+"end": 475.08
+},
+{
+"text": "coûte",
+"start": 475.08,
+"end": 475.28
+},
+{
+"text": "un",
+"start": 475.28,
+"end": 475.42
+},
+{
+"text": "dollar",
+"start": 475.42,
+"end": 475.58
+},
+{
+"text": "par",
+"start": 475.58,
+"end": 475.8
+},
+{
+"text": "vente.",
+"start": 475.8,
+"end": 476.18
+},
+{
+"text": "Ton",
+"start": 476.38,
+"end": 476.5
+},
+{
+"text": "coût",
+"start": 476.5,
+"end": 476.72
+},
+{
+"text": "atteint",
+"start": 476.72,
+"end": 476.92
+},
+{
+"text": "déjà",
+"start": 476.92,
+"end": 477.22
+},
+{
+"text": "six",
+"start": 477.22,
+"end": 477.4
+},
+{
+"text": "dollars.",
+"start": 477.4,
+"end": 477.7
+},
+{
+"text": "Si",
+"start": 478.02,
+"end": 478.18
+},
+{
+"text": "tu",
+"start": 478.18,
+"end": 478.36
+},
+{
+"text": "le",
+"start": 478.36,
+"end": 478.5
+},
+{
+"text": "vends",
+"start": 478.5,
+"end": 478.6
+},
+{
+"text": "huit",
+"start": 478.6,
+"end": 478.84
+},
+{
+"text": "dollars,",
+"start": 478.84,
+"end": 479.18
+},
+{
+"text": "il",
+"start": 479.54,
+"end": 479.64
+},
+{
+"text": "ne",
+"start": 479.64,
+"end": 479.78
+},
+{
+"text": "te",
+"start": 479.78,
+"end": 479.9
+},
+{
+"text": "reste",
+"start": 479.9,
+"end": 480.14
+},
+{
+"text": "que",
+"start": 480.14,
+"end": 480.44
+},
+{
+"text": "deux",
+"start": 480.44,
+"end": 480.66
+},
+{
+"text": "dollars",
+"start": 480.66,
+"end": 480.94
+},
+{
+"text": "avant",
+"start": 480.94,
+"end": 481.12
+},
+{
+"text": "même",
+"start": 481.12,
+"end": 481.32
+},
+{
+"text": "de",
+"start": 481.32,
+"end": 481.54
+},
+{
+"text": "prendre",
+"start": 481.54,
+"end": 481.66
+},
+{
+"text": "en",
+"start": 481.66,
+"end": 481.88
+},
+{
+"text": "compte",
+"start": 481.88,
+"end": 482.02
+},
+{
+"text": "les",
+"start": 482.02,
+"end": 482.24
+},
+{
+"text": "retours",
+"start": 482.24,
+"end": 482.46
+},
+{
+"text": "ou",
+"start": 482.46,
+"end": 482.62
+},
+{
+"text": "les",
+"start": 482.62,
+"end": 482.82
+},
+{
+"text": "produits",
+"start": 482.82,
+"end": 482.98
+},
+{
+"text": "défectueux.",
+"start": 482.98,
+"end": 483.74
+},
+{
+"text": "Un",
+"start": 483.88,
+"end": 484.04
+},
+{
+"text": "produit",
+"start": 484.04,
+"end": 484.24
+},
+{
+"text": "peut",
+"start": 484.24,
+"end": 484.44
+},
+{
+"text": "donc",
+"start": 484.44,
+"end": 484.56
+},
+{
+"text": "être",
+"start": 484.56,
+"end": 484.74
+},
+{
+"text": "populaire",
+"start": 484.74,
+"end": 485.2
+},
+{
+"text": "et",
+"start": 485.2,
+"end": 485.32
+},
+{
+"text": "ne",
+"start": 485.32,
+"end": 485.44
+},
+{
+"text": "pas",
+"start": 485.44,
+"end": 485.58
+},
+{
+"text": "être",
+"start": 485.58,
+"end": 485.78
+},
+{
+"text": "rentable.",
+"start": 485.78,
+"end": 486.28
+},
+{
+"text": "La",
+"start": 486.62,
+"end": 486.72
+},
+{
+"text": "vraie",
+"start": 486.72,
+"end": 487.0
+},
+{
+"text": "question",
+"start": 487.0,
+"end": 487.26
+},
+{
+"text": "n",
+"start": 487.26,
+"end": 487.44
+},
+{
+"text": "'est",
+"start": 487.44,
+"end": 487.5
+},
+{
+"text": "pas",
+"start": 487.5,
+"end": 487.68
+},
+{
+"text": "seulement",
+"start": 487.68,
+"end": 488.16
+},
+{
+"text": "est",
+"start": 488.34,
+"end": 488.5
+},
+{
+"text": "-ce",
+"start": 488.5,
+"end": 488.56
+},
+{
+"text": "que",
+"start": 488.56,
+"end": 488.64
+},
+{
+"text": "ce",
+"start": 488.64,
+"end": 488.78
+},
+{
+"text": "produit",
+"start": 488.78,
+"end": 489.04
+},
+{
+"text": "peut",
+"start": 489.04,
+"end": 489.26
+},
+{
+"text": "se",
+"start": 489.26,
+"end": 489.4
+},
+{
+"text": "vendre",
+"start": 489.4,
+"end": 489.9
+},
+{
+"text": "Est",
+"start": 490.16,
+"end": 490.54
+},
+{
+"text": "-ce",
+"start": 490.54,
+"end": 490.64
+},
+{
+"text": "que",
+"start": 490.64,
+"end": 490.72
+},
+{
+"text": "je",
+"start": 490.72,
+"end": 490.9
+},
+{
+"text": "peux",
+"start": 490.9,
+"end": 491.1
+},
+{
+"text": "le",
+"start": 491.1,
+"end": 491.32
+},
+{
+"text": "vendre",
+"start": 491.32,
+"end": 491.62
+},
+{
+"text": "avec",
+"start": 491.62,
+"end": 491.84
+},
+{
+"text": "une",
+"start": 491.84,
+"end": 492.06
+},
+{
+"text": "marge",
+"start": 492.06,
+"end": 492.36
+},
+{
+"text": "suffisante",
+"start": 492.36,
+"end": 492.98
+},
+{
+"text": "après",
+"start": 492.98,
+"end": 493.24
+},
+{
+"text": "tous",
+"start": 493.24,
+"end": 493.44
+},
+{
+"text": "les",
+"start": 493.44,
+"end": 493.68
+},
+{
+"text": "frais",
+"start": 493.68,
+"end": 494.14
+},
+{
+"text": "»",
+"start": 494.44,
+"end": 494.7
+},
+{
+"text": "Commander",
+"start": 494.7,
+"end": 494.98
+},
+{
+"text": "en",
+"start": 494.98,
+"end": 495.18
+},
+{
+"text": "Chine",
+"start": 495.18,
+"end": 495.36
+},
+{
+"text": "peut",
+"start": 495.36,
+"end": 495.54
+},
+{
+"text": "offrir",
+"start": 495.54,
+"end": 495.84
+},
+{
+"text": "de",
+"start": 495.84,
+"end": 496.06
+},
+{
+"text": "belles",
+"start": 496.06,
+"end": 496.28
+},
+{
+"text": "opportunités,",
+"start": 496.28,
+"end": 497.08
+},
+{
+"text": "mais",
+"start": 497.3,
+"end": 497.42
+},
+{
+"text": "cela",
+"start": 497.42,
+"end": 497.64
+},
+{
+"text": "demande",
+"start": 497.64,
+"end": 497.92
+},
+{
+"text": "de",
+"start": 497.92,
+"end": 498.12
+},
+{
+"text": "la",
+"start": 498.12,
+"end": 498.24
+},
+{
+"text": "méthode.",
+"start": 498.24,
+"end": 498.8
+},
+{
+"text": "Le",
+"start": 499.02,
+"end": 499.06
+},
+{
+"text": "but",
+"start": 499.06,
+"end": 499.2
+},
+{
+"text": "n",
+"start": 499.2,
+"end": 499.34
+},
+{
+"text": "'est",
+"start": 499.34,
+"end": 499.4
+},
+{
+"text": "pas",
+"start": 499.4,
+"end": 499.56
+},
+{
+"text": "de",
+"start": 499.56,
+"end": 499.76
+},
+{
+"text": "supprimer",
+"start": 499.76,
+"end": 500.06
+},
+{
+"text": "tous",
+"start": 500.06,
+"end": 500.2
+},
+{
+"text": "les",
+"start": 500.2,
+"end": 500.34
+},
+{
+"text": "risques.",
+"start": 500.34,
+"end": 500.9
+},
+{
+"text": "Le",
+"start": 501.04,
+"end": 501.18
+},
+{
+"text": "but",
+"start": 501.18,
+"end": 501.34
+},
+{
+"text": "est",
+"start": 501.34,
+"end": 501.48
+},
+{
+"text": "de",
+"start": 501.48,
+"end": 501.6
+},
+{
+"text": "réduire",
+"start": 501.6,
+"end": 501.86
+},
+{
+"text": "les",
+"start": 501.86,
+"end": 502.08
+},
+{
+"text": "erreurs",
+"start": 502.08,
+"end": 502.28
+},
+{
+"text": "évitables.",
+"start": 502.28,
+"end": 502.88
+},
+{
+"text": "Retiens",
+"start": 503.28,
+"end": 503.54
+},
+{
+"text": "surtout",
+"start": 503.54,
+"end": 503.98
+},
+{
+"text": "ces",
+"start": 503.98,
+"end": 504.2
+},
+{
+"text": "trois",
+"start": 504.2,
+"end": 504.34
+},
+{
+"text": "règles.",
+"start": 504.34,
+"end": 504.94
+},
+{
+"text": "Premièrement,",
+"start": 505.16,
+"end": 505.48
+},
+{
+"text": "teste",
+"start": 505.88,
+"end": 506.08
+},
+{
+"text": "toujours",
+"start": 506.08,
+"end": 506.44
+},
+{
+"text": "avant",
+"start": 506.44,
+"end": 506.62
+},
+{
+"text": "de",
+"start": 506.62,
+"end": 506.84
+},
+{
+"text": "commander",
+"start": 506.84,
+"end": 507.08
+},
+{
+"text": "en",
+"start": 507.08,
+"end": 507.3
+},
+{
+"text": "grande",
+"start": 507.3,
+"end": 507.42
+},
+{
+"text": "quantité.",
+"start": 507.42,
+"end": 507.88
+},
+{
+"text": "Un",
+"start": 508.16,
+"end": 508.32
+},
+{
+"text": "échantillon",
+"start": 508.32,
+"end": 508.88
+},
+{
+"text": "et",
+"start": 508.88,
+"end": 509.04
+},
+{
+"text": "une",
+"start": 509.04,
+"end": 509.2
+},
+{
+"text": "petite",
+"start": 509.2,
+"end": 509.46
+},
+{
+"text": "commande",
+"start": 509.46,
+"end": 509.78
+},
+{
+"text": "peuvent",
+"start": 509.78,
+"end": 509.96
+},
+{
+"text": "éviter",
+"start": 509.96,
+"end": 510.26
+},
+{
+"text": "une",
+"start": 510.26,
+"end": 510.46
+},
+{
+"text": "grosse",
+"start": 510.46,
+"end": 510.66
+},
+{
+"text": "perte.",
+"start": 510.66,
+"end": 511.2
+},
+{
+"text": "Deuxièmement,",
+"start": 511.52,
+"end": 511.96
+},
+{
+"text": "calcule",
+"start": 512.34,
+"end": 512.58
+},
+{
+"text": "le",
+"start": 512.58,
+"end": 512.8
+},
+{
+"text": "coût",
+"start": 512.8,
+"end": 512.98
+},
+{
+"text": "réel",
+"start": 512.98,
+"end": 513.24
+},
+{
+"text": "du",
+"start": 513.24,
+"end": 513.48
+},
+{
+"text": "produit.",
+"start": 513.48,
+"end": 513.7
+},
+{
+"text": "Le",
+"start": 514.08,
+"end": 514.2
+},
+{
+"text": "prix",
+"start": 514.2,
+"end": 514.36
+},
+{
+"text": "affiché",
+"start": 514.36,
+"end": 514.7
+},
+{
+"text": "par",
+"start": 514.7,
+"end": 514.86
+},
+{
+"text": "le",
+"start": 514.86,
+"end": 515.02
+},
+{
+"text": "fournisseur",
+"start": 515.02,
+"end": 515.44
+},
+{
+"text": "n",
+"start": 515.44,
+"end": 515.54
+},
+{
+"text": "'est",
+"start": 515.54,
+"end": 515.56
+},
+{
+"text": "qu",
+"start": 515.56,
+"end": 515.68
+},
+{
+"text": "'une",
+"start": 515.68,
+"end": 515.78
+},
+{
+"text": "partie",
+"start": 515.78,
+"end": 515.96
+},
+{
+"text": "de",
+"start": 515.96,
+"end": 516.12
+},
+{
+"text": "la",
+"start": 516.12,
+"end": 516.24
+},
+{
+"text": "dépense.",
+"start": 516.24,
+"end": 516.84
+},
+{
+"text": "Troisièmement,",
+"start": 517.28,
+"end": 517.72
+},
+{
+"text": "confirme",
+"start": 518.0,
+"end": 518.26
+},
+{
+"text": "tout",
+"start": 518.26,
+"end": 518.44
+},
+{
+"text": "par",
+"start": 518.44,
+"end": 518.68
+},
+{
+"text": "écrit",
+"start": 518.68,
+"end": 518.88
+},
+{
+"text": "avant",
+"start": 518.88,
+"end": 519.12
+},
+{
+"text": "de",
+"start": 519.12,
+"end": 519.34
+},
+{
+"text": "payer.",
+"start": 519.34,
+"end": 519.56
+},
+{
+"text": "La",
+"start": 519.8,
+"end": 520.06
+},
+{
+"text": "quantité,",
+"start": 520.06,
+"end": 520.62
+},
+{
+"text": "la",
+"start": 520.68,
+"end": 520.9
+},
+{
+"text": "qualité,",
+"start": 520.9,
+"end": 521.28
+},
+{
+"text": "les",
+"start": 521.46,
+"end": 521.66
+},
+{
+"text": "dimensions,",
+"start": 521.66,
+"end": 522.12
+},
+{
+"text": "la",
+"start": 522.38,
+"end": 522.54
+},
+{
+"text": "couleur,",
+"start": 522.54,
+"end": 522.82
+},
+{
+"text": "l",
+"start": 522.94,
+"end": 523.02
+},
+{
+"text": "'emballage,",
+"start": 523.02,
+"end": 523.54
+},
+{
+"text": "le",
+"start": 523.54,
+"end": 524.02
+},
+{
+"text": "délai",
+"start": 524.02,
+"end": 524.3
+},
+{
+"text": "et",
+"start": 524.3,
+"end": 524.44
+},
+{
+"text": "les",
+"start": 524.44,
+"end": 524.64
+},
+{
+"text": "conditions",
+"start": 524.64,
+"end": 524.92
+},
+{
+"text": "de",
+"start": 524.92,
+"end": 525.14
+},
+{
+"text": "livraison",
+"start": 525.14,
+"end": 525.58
+},
+{
+"text": "doivent",
+"start": 525.58,
+"end": 525.78
+},
+{
+"text": "être",
+"start": 525.78,
+"end": 526.1
+},
+{
+"text": "claires.",
+"start": 526.1,
+"end": 526.58
+},
+{
+"text": "Si",
+"start": 526.78,
+"end": 526.86
+},
+{
+"text": "tu",
+"start": 526.86,
+"end": 527.0
+},
+{
+"text": "veux",
+"start": 527.0,
+"end": 527.16
+},
+{
+"text": "continuer",
+"start": 527.16,
+"end": 527.58
+},
+{
+"text": "à",
+"start": 527.58,
+"end": 527.84
+},
+{
+"text": "apprendre",
+"start": 527.84,
+"end": 528.12
+},
+{
+"text": "comment",
+"start": 528.12,
+"end": 528.5
+},
+{
+"text": "commander",
+"start": 528.5,
+"end": 528.88
+},
+{
+"text": "en",
+"start": 528.88,
+"end": 529.16
+},
+{
+"text": "Chine,",
+"start": 529.16,
+"end": 529.68
+},
+{
+"text": "développer",
+"start": 530.0,
+"end": 530.34
+},
+{
+"text": "ton",
+"start": 530.34,
+"end": 530.52
+},
+{
+"text": "activité",
+"start": 530.52,
+"end": 531.06
+},
+{
+"text": "et",
+"start": 531.06,
+"end": 531.2
+},
+{
+"text": "éviter",
+"start": 531.2,
+"end": 531.46
+},
+{
+"text": "les",
+"start": 531.46,
+"end": 531.68
+},
+{
+"text": "erreurs",
+"start": 531.68,
+"end": 531.92
+},
+{
+"text": "coûteuses,",
+"start": 531.92,
+"end": 532.52
+},
+{
+"text": "rejoins",
+"start": 532.9,
+"end": 533.02
+},
+{
+"text": "ma",
+"start": 533.02,
+"end": 533.2
+},
+{
+"text": "chaîne.",
+"start": 533.2,
+"end": 533.44
+},
+{
+"text": "Le",
+"start": 533.84,
+"end": 533.98
+},
+{
+"text": "lien",
+"start": 533.98,
+"end": 534.14
+},
+{
+"text": "est",
+"start": 534.14,
+"end": 534.28
+},
+{
+"text": "dans",
+"start": 534.28,
+"end": 534.4
+},
+{
+"text": "ma",
+"start": 534.4,
+"end": 534.56
+},
+{
+"text": "bio.",
+"start": 534.56,
+"end": 534.74
+},
+{
+"text": "Je",
+"start": 535.1,
+"end": 535.26
+},
+{
+"text": "partagerai",
+"start": 535.26,
+"end": 535.7
+},
+{
+"text": "d",
+"start": 535.7,
+"end": 535.8
+},
+{
+"text": "'autres",
+"start": 535.8,
+"end": 535.98
+},
+{
+"text": "conseils",
+"start": 535.98,
+"end": 536.3
+},
+{
+"text": "simples",
+"start": 536.3,
+"end": 536.54
+},
+{
+"text": "et",
+"start": 536.54,
+"end": 536.74
+},
+{
+"text": "pratiques",
+"start": 536.74,
+"end": 537.06
+},
+{
+"text": "pour",
+"start": 537.06,
+"end": 537.24
+},
+{
+"text": "t",
+"start": 537.24,
+"end": 537.3
+},
+{
+"text": "'aider",
+"start": 537.3,
+"end": 537.56
+},
+{
+"text": "à",
+"start": 537.56,
+"end": 537.7
+},
+{
+"text": "avancer",
+"start": 537.7,
+"end": 537.98
+},
+{
+"text": "étape",
+"start": 537.98,
+"end": 538.24
+},
+{
+"text": "par",
+"start": 538.24,
+"end": 538.4
+},
+{
+"text": "étape,",
+"start": 538.4,
+"end": 539.0
+},
+{
+"text": "même",
+"start": 539.1,
+"end": 539.2
+},
+{
+"text": "si",
+"start": 539.2,
+"end": 539.34
+},
+{
+"text": "tu",
+"start": 539.34,
+"end": 539.48
+},
+{
+"text": "commences",
+"start": 539.48,
+"end": 539.78
+},
+{
+"text": "avec",
+"start": 539.78,
+"end": 539.98
+},
+{
+"text": "un",
+"start": 539.98,
+"end": 540.08
+},
+{
+"text": "petit",
+"start": 540.08,
+"end": 540.16
+},
+{
+"text": "budget.",
+"start": 540.16,
+"end": 540.46
+},
+{
+"text": "Et",
+"start": 540.82,
+"end": 540.96
+},
+{
+"text": "n",
+"start": 540.96,
+"end": 541.06
+},
+{
+"text": "'oublie",
+"start": 541.06,
+"end": 541.3
+},
+{
+"text": "pas,",
+"start": 541.3,
+"end": 541.74
+},
+{
+"text": "en",
+"start": 542.02,
+"end": 542.22
+},
+{
+"text": "importation,",
+"start": 542.22,
+"end": 542.92
+},
+{
+"text": "ce",
+"start": 543.12,
+"end": 543.18
+},
+{
+"text": "n",
+"start": 543.18,
+"end": 543.32
+},
+{
+"text": "'est",
+"start": 543.32,
+"end": 543.4
+},
+{
+"text": "pas",
+"start": 543.4,
+"end": 543.6
+},
+{
+"text": "celui",
+"start": 543.6,
+"end": 543.76
+},
+{
+"text": "qui",
+"start": 543.76,
+"end": 544.04
+},
+{
+"text": "commande",
+"start": 544.04,
+"end": 544.3
+},
+{
+"text": "le",
+"start": 544.3,
+"end": 544.4
+},
+{
+"text": "plus",
+"start": 544.4,
+"end": 544.54
+},
+{
+"text": "qui",
+"start": 544.54,
+"end": 544.74
+},
+{
+"text": "réussit,",
+"start": 544.74,
+"end": 545.18
+},
+{
+"text": "c",
+"start": 545.48,
+"end": 545.58
+},
+{
+"text": "'est",
+"start": 545.58,
+"end": 545.66
+},
+{
+"text": "celui",
+"start": 545.66,
+"end": 545.86
+},
+{
+"text": "qui",
+"start": 545.86,
+"end": 546.08
+},
+{
+"text": "vérifie",
+"start": 546.08,
+"end": 546.46
+},
+{
+"text": "le",
+"start": 546.46,
+"end": 546.64
+},
+{
+"text": "mieux.",
+"start": 546.64,
+"end": 546.76
+}
+]
+}
